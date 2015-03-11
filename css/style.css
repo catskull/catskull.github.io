@@ -7,6 +7,27 @@ body{
   cursor:url('http://i.imgur.com/H6PDKW4.png'),auto;
 }
 
+.icon {
+  max-width: 10em;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+}
+
+.nav-index {
+  text-align: center;
+}
+
+#post-nav {
+  text-align: center;
+  padding-bottom: 13px;
+}
+
 a:link {
   color: black;
 }
