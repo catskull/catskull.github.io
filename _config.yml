@@ -1,23 +1,26 @@
-# Site settings
-title: David DeGraw's homepage
-email: bro@catskull.net
-description: > # this means to ignore newlines until "baseurl:"
-  This is the personal blog of David DeGraw. Rails developer.
-  Electrical Engineering student. Hacker.
-baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://catskull.net" # the base hostname & protocol for your site
-twitter_username: davidwdegraw
-github_username:  catskull
-timezone: America/Denver
+# Dependencies
+markdown:            kramdown
+highlighter:         pygments
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-      author: "David DeGraw"
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
+# Setup
+title:               Catskull.net
+tagline:             'The blog of David DeGraw'
+description:         'Catskull.net: The personal blog of David DeGraw, documenting my finds as a web developer and electrical engineering student.'
+url:                 http://catskull.net
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              David DeGraw
+  url:               https://twitter.com/davidwdegraw
+  email:             bro@catskull.net
+
+# Custom vars
+version:             1.0.0

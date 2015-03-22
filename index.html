@@ -1,14 +1,38 @@
 ---
-layout: page
-title: This is the test title to see how overflowing works.
+layout: default
+title: Home
 ---
 
-<p>Lorem ipsum dolor sit amet, nullam a vel. Dui a, lacus erat nunc dui lacus nunc, interdum sem sed ullamcorper non, nunc amet. In orci eleifend morbi sodales. Lacinia semper lectus consectetuer aliquet, ac magna erat, mauris viverra dolor cum, curabitur enim volutpat enim, etiam faucibus et interdum suscipit arcu. Malesuada nunc hac in pretium, massa varius ante lobortis suspendisse, nam luctus feugiat. Volutpat vitae, aut cursus turpis vestibulum praesent eleifend tellus, at bibendum.
-</p>
-<p>
-Enim vestibulum et eu lacus hendrerit in, sed eros ut hac dui ac arcu, sem massa libero erat massa nam dui. Condimentum ullamcorper phasellus aliquam vel vel nunc, luctus ut vel ornare, fusce consectetuer a urna orci mattis eu, neque donec rutrum id feugiat orci. Tristique elit eleifend condimentum cras nullam vel, luctus sodales tristique phasellus lacus, eros phasellus libero suspendisse sapien ut at. A tincidunt ultricies, massa sed morbi mauris, ut vel eros sagittis dolor, ante ligula, nec montes suspendisse consectetuer. Proin nec nonummy nec at, mauris libero justo orci, sapien malesuada aliquet ornare eu.
-Curabitur lacus sit sem nunc sit amet. Suspendisse elementum ridiculus blandit donec sed, nulla tempus viverra justo, enim magna etiam morbi consectetuer orci, nunc id tristique neque, praesent lorem nulla varius vestibulum turpis. Cras vel id, quam sit eu, at elementum optio, nec at sit, phasellus vestibulum. Odio eget ad odio, nonummy lectus accumsan, id justo fames lectus, eu eget tristique, amet hendrerit quisque lacus hymenaeos nec. Luctus semper sociis dolor elit molestie lacus, arcu lacus urna in scelerisque suspendisse, arcu orci mollis lorem amet.
-</p>
-<p>
-Tortor congue. Est vitae nibh nulla arcu turpis. Suspendisse architecto turpis, morbi arcu euismod torquent ipsum lorem, nisl wisi sodales, pharetra blandit diam, suspendisse eu elit lacus arcu. Lacus scelerisque dolor, mauris sed augue, tellus nec vulputate dis nulla erat. Convallis accumsan malesuada imperdiet feugiat nunc enim. Ipsum morbi habitasse aenean proin vehicula, ullamcorper quam etiam, lobortis dui ligula. Velit nulla, vulputate vivamus ut volutpat aliquam, metus fringilla ac, iaculis erat feugiat. Sagittis eu, eu odio blandit feugiat. Ipsum donec, donec lacus egestas, donec risus placerat. Nisl sit risus est vel magna sed, vestibulum montes enim in metus sit viverra, feugiat suspendisse congue, fermentum sed sed imperdiet elit eu magnis. Ultricies lacus justo ut leo orci, gravida augue est nunc commodi eu pretium, sed ante eget nullam eget vestibulum ut, tortor arcu, odio quis est ipsum libero mauris at. Odio lectus in, pede tempor est cras porta dictum sapien.
-</p>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+
