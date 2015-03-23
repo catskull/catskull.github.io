@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Catskull.net</title>
+ <link href="http://catskull.net/atom.xml" rel="self"/>
+ <link href="http://catskull.net/"/>
+ <updated>2015-03-22T18:51:41-06:00</updated>
+ <id>http://catskull.net</id>
+ <author>
+   <name>David DeGraw</name>
+   <email>bro@catskull.net</email>
+ </author>
+
+ 
+ <entry>
+   <title>Welcome to my new blog</title>
+   <link href="http://catskull.net/general/2015/03/10/welcome-to-the-new-blog/"/>
+   <updated>2015-03-10T00:00:00-06:00</updated>
+   <id>http://catskull.net/general/2015/03/10/welcome-to-the-new-blog</id>
+   <content type="html">&lt;p&gt;I’ve been blogging in various forms for at least the last 5 years. I started using blogspot, then switched to tumblr, then svbtle, and now I’m happy and proud to be switching fully to jekyll. I was attracted by the amount of control I have over my content, both in creation and display. Being able to write it using really whatever format I choose is awesome! In case you were wondering, I’m writing this in markdown. I don’t really plan on switching to anything else any time soon, but you never know. I’m excited to be able to easily embed code snippets (with syntax highlighting). That was kind of the breaking point for me with svbtle, &lt;em&gt;no&lt;/em&gt; code snippets whatsoever.&lt;/p&gt;
+
+&lt;p&gt;I will be keeping a work log of various projects I’m involved with both now and in the future. This may include ruby (rails), arduino, raspberry pi, verilog/fpga’s, and other various embedded systems.&lt;/p&gt;
+
+&lt;p&gt;Keep checking back as this should be updated frequently!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
