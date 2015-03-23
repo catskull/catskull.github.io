@@ -4,13 +4,38 @@
  <title>Catskull.net</title>
  <link href="http://catskull.net/atom.xml" rel="self"/>
  <link href="http://catskull.net/"/>
- <updated>2015-03-22T18:52:17-06:00</updated>
+ <updated>2015-03-22T19:48:36-06:00</updated>
  <id>http://catskull.net</id>
  <author>
    <name>David DeGraw</name>
    <email>bro@catskull.net</email>
  </author>
 
+ 
+ <entry>
+   <title>Slow Down, for Productivity's Sake</title>
+   <link href="http://catskull.net/general/programming/2015/03/22/slow-down-and-save-yourselves/"/>
+   <updated>2015-03-22T00:00:00-06:00</updated>
+   <id>http://catskull.net/general/programming/2015/03/22/slow-down-and-save-yourselves</id>
+   <content type="html">&lt;p&gt;Recently, my brother and I were working on a programming project. It was a pretty fun one too, so we were immediately sucked in. We started at about 4:30 PM and within probably an hour we had all the framework built out and the only thing left was the “hard part”. Fast forward to about 8 PM. We were stuck dead in our tracks on the “hard part”. Try as we might, there was just no way we could figure out a way to implement it.&lt;/p&gt;
+
+&lt;p&gt;Then, a thought occurred to me.&lt;/p&gt;
+
+&lt;p&gt;Working in the past full time professionally doing rails development I would often get distracted, even for stretches of 10 to 15 minutes. Whether it was watching a video on youtube, reading an article online, or just chatting with a coworker about something non work related, it would happen. I would estimate that for each hour I was at work, this would occur at least once. Often I would feel extremely guilty for being at work, getting paid, and not really working. I’m sure any manager out there reading this is currently looking up my previous employers to convince them to sue me. Just bear with me while I attempt to get my point across.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Attention_span&quot;&gt;wikipedia article&lt;/a&gt; on attention span suggests that the average healthy adult can focus on one thing for anywhere from 5 to 20 minutes. The argument could certainly be made that programming doesn’t involve just focusing on one thing, but rather many different thinks and multitasking. However, I tend to view any given project to be one whole thing one would focus their attention on (i.e., wether you’re digging the post holes or painting it, at the end of the day you’ve still &lt;em&gt;only&lt;/em&gt; been building a fence all day). The wikipedia article doesn’t go into details about what usually happens when an adult tries to focus on something &lt;em&gt;longer&lt;/em&gt; than their attention span, but I have some thoughts to share from my experience.&lt;/p&gt;
+
+&lt;p&gt;Consider that if I am focusing on my work for 100% of the time I am at work, I would also be 100% productive. However, the facts show that this is virtually impossible for any normal human adult. So let’s say, and this is an extreme estimation, that I am only focusing on my work for half the time I’m at work. In other words, hypothetically, I’m only 50% productive. So I get only 4 hours of work done in a given 8 hour period. Ideally, I’d be able to be 100% productive. But in reality, I’d get to work, be 100% effective for &lt;em&gt;maybe&lt;/em&gt; the first 3 hours, and by 11 AM I’d be completely burnt out and probably wouldn’t be able to work much more for the rest of the day. So I would get 3 hours of work done in an 8 hour period. Granted that my examples or exaggerated and extreme, but I think the point is still solid. &lt;em&gt;I’m better off working slowly.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let’s jump back to my brother and I scratching our heads with impossibility.&lt;/p&gt;
+
+&lt;p&gt;We had been focusing 100% of our attention on our project for about 3 and 1/2 hours. Or 1000% of our maximum attention span of 20 minutes. In order to proceed on the project, we shut the computer off, went to dinner, and didn’t think or talk about the project until the next day. In other words, &lt;em&gt;we were sick of our project&lt;/em&gt;. At that 8 PM mark if you would have given me the option to take a bullet to the foot and never have to think about the project again, or being forced to work on it for another 30 minutes, I would have seriously considered taking the bullet. Can you imagine if I’d been at work, getting paid, and had a manager bearing down on me to get the project finished &lt;em&gt;that day&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;But &lt;em&gt;why&lt;/em&gt;? Why were we to burned out? Remember, this was initially something we had found “fun”! Why would I prefer to get shot rather than working on something I considered entertaining? A possible theory was that the project just didn’t have enough “fun” in it to last that long. I would argue against that because upon resuming the project the next day, I again found it to be “fun”. I think really the only reason is that I just didn’t have the mental capacity to focus on a task for that long. &lt;em&gt;I needed to take a break.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ve all read time and again articles that say you should spend x amount of time doing something else for every y amount of time you’re working on the computer. “Stand for every 10 minutes of sitting down.” I tend to be a believer in those recommendations, for the most part. Of course, the implementation proves to be exponentially more difficult than the discovery. And I think really, at the end of the day, it’s all the same thing: &lt;strong&gt;SLOW DOWN&lt;/strong&gt;. Take a break. Relax. Go show a coworker a youtube video. Read an article unrelated to work. For heaven’s sake, go take a short walk outside. Because if you’re anything like I am, it will be for your own good. You will become more productive, reduce stress, drastically limit burnout, and be generally a happier and more effective person in general.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Welcome to my new blog</title>
