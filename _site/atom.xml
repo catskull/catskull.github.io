@@ -4,13 +4,46 @@
  <title>Catskull.net</title>
  <link href="http://catskull.net/atom.xml" rel="self"/>
  <link href="http://catskull.net/"/>
- <updated>2015-03-23T12:49:27-06:00</updated>
+ <updated>2015-04-09T17:24:32-06:00</updated>
  <id>http://catskull.net</id>
  <author>
    <name>David DeGraw</name>
    <email>bro@catskull.net</email>
  </author>
 
+ 
+ <entry>
+   <title>Building an Ambient Red Light For the Nursery</title>
+   <link href="http://catskull.net/baby/projects/2015/04/09/baby-nursery-red-light/"/>
+   <updated>2015-04-09T00:00:00-06:00</updated>
+   <id>http://catskull.net/baby/projects/2015/04/09/baby-nursery-red-light</id>
+   <content type="html">&lt;p&gt;15 MINUTE PROJECT!!!!&lt;/p&gt;
+
+&lt;p&gt;Synopsis: Our baby is due in like a month. Crazy. Anticipating the countless hours spent in the nursery in the middle of the night, I wanted some kind of light that would be a little bit easier on the eyes in the middle of the night. I remembered learning that red light travels at a longer wavelength than other colors, so that’s good to use at night because your eyes don’t adjust to it as much. Thanks to Radio Shack going out of business, I picked up a 5 ft roll of red leds for cheap. I figured, why don’t I just go ahead and make a nightlight? It was pretty simple.&lt;/p&gt;
+
+&lt;p&gt;Details: The led roll runs off of 12v DC. That’s a fairly common voltage, so I had an adapter laying around. I ordered some panel mount barrel connectors to fit the power adapter. I also ordered some handly little switches that have a power indicator led built into them. They are designed to be used in a car, so the led needs 12v also. You could use the switch for any voltage, but it must be 12v for the led to turn on. The last thing was just a cheap project box. All of these were bought off eBay for a total of around $10. Soldering it up was pretty straightforward, as was drilling the appropriate holes in the enclosure. I mounted the enclosure to the side of our changing table so I could run the led strip behind it to diffuse the bright leds a little bit. Have you ever had an led shining straight into your eye? Not fun, no matter what color it is. The only thing left was a little bit of hot glue to secure the led strip in place, and I was in business. Overall, I’m pretty happy with the result.&lt;/p&gt;
+
+&lt;p&gt;Difficulty: One poopy diaper.&lt;/p&gt;
+
+&lt;p&gt;Frustration: One stinky diaper.&lt;/p&gt;
+
+&lt;p&gt;Payoff: A sleeping little babe (and wife!)&lt;/p&gt;
+
+&lt;p&gt;Overall project: A lot easier than having a baby, that’s for sure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/baby/switch.jpg&quot; alt=&quot;The Switch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/baby/jack.jpg&quot; alt=&quot;The Jack&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/baby/wiring.jpg&quot; alt=&quot;The Wiring&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/baby/wires.jpg&quot; alt=&quot;The Wires&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/baby/mounted.jpg&quot; alt=&quot;The Mounting&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/baby/in_action.jpg&quot; alt=&quot;In Action&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Slow Down, for Productivity's Sake</title>
