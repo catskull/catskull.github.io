@@ -21,10 +21,11 @@ It works great!
 The one issue is that it appears that the *nix driver only overwrites the sectors of the of the memory that it needs to. Say you're flashing an 8 megabit rom, it will only overwrite the first 8 megabits of the memory. This is normal operation for memory writing. Deleting a file on your computer doesn't actually delete it, it just tells the system that space can now be safely overwritten. The issue comes from how nitro2k01's multi rom menu works. From my understanding it just looks for any other rom headers in the memory. But what happens if you flash a multi rom image that takes up all the memory, but then later decide that you don't want all those roms and flash a smaller rom, the other roms will still show up in the menu because they haven't actually been overwritten! If I'm not explaining this very well, just let met know. I will include pictures below as well for clarification.
 
 I worked up a solution to this that's extremely simple. If you're reformatting a drive on your computer and want to make sure none of the files can be recovered, you have to not only reformat the drive, but overwrite all data with 0's or something like that. Knowning that, I fired up my hex editor and wrote a file that's 32 mbit in size and contains only 0's. Then I wrote that to my cart. I booted it up to make sure everything was gone, and then re-wrote my multi rom. And just like that, all the old roms were gone, and only the new ones were there!
+After the fact, [Jordan Appleton-Joslin](http://jazz-disassemblies.blogspot.com/) recommended writing all 1's instead of 0's. Something to do with a detail that it's quicker for the rom to overwrite a 1 than it is to overwrite a 0. A little bit beyond my understanding. The download now links to a rom that contains only 1's. Thanks Jordan!
 
 To expand on this, it would be nice to contribute more to the *nix driver to include either support for writing to specific locations or for multi rom support out of the box. Unfortunately my C driver coding skills are nonexistent so that's not happening any time soon.
 
-[The blank rom can be downloaded here.](http://goo.gl/2gFbTT)
+[The blank rom can be downloaded here.](http://goo.gl/uxE5nU)
 
 ![Bad rom! I don't want all of those!](/public/ems/badrom.jpg)
 I only want the top two roms to show up in the menu.
