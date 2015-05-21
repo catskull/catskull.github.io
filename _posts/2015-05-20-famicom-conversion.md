@@ -11,8 +11,11 @@ Synopsys: In 1985 Nintendo released the Nintendo Entertainment System in North A
 Details: NES/Famicom games are distributed online as 'roms' which is just one file. There were several different hardware revisions of cartridge PCB's due to the limited way the NES could access them. In this project the game is fairly simple with only one rom chip and one ram chip. This makes the conversion easy since only one chip will have to be replaced. I popped the famicom game open (easier said than done!) and desoldered the ROM chip. Then I got the equivalent EPROM chip and flashed it with the English version of the game. Unfortunately the stander Mask ROM the cartridge uses isn't pin compatible with a standard EPROM so a few legs of the chip needed to be lifted and rerouted to other ports on the PCB. Luckily only about 3 pins need to be changed. Pop it in and solder it up and I was in business! It's been kind of a dream of mine to do this some day so I was pretty excited to see it worked. I can't wait to do more!
 
 Difficulty: Desoldering chips isn't super fun...
+
 Frustration: Skipping lunch
+
 Payoff: Years of waiting and wishing!
+
 Overall Project: A really nice learning experience
 
 ![PCB](/public/famicom/fami1.jpg)
