@@ -1,4 +1,10 @@
-***Disclaimer: Below is a wall of rambling and poorly worded text. Don't judge me TOO much...
+---
+layout: post
+title:  "Android Wear/Moto 360 Review"
+date:   2015-04-28
+categories: reviews
+---
+***Disclaimer: Below is a wall of rambling and poorly worded text. Don't judge me TOO much...***
 
 Just over a year ago, Google unveiled Android Wear, their version of Android specifically tailored for so-called "smart watches" or "wearables". Among the first devices announced was the Moto 360. As the name implies, it was extremely notable due to it's completely round display - something almost completely unheard of at the time (and even extremely uncommon today). Though the first two Android Wear devices launched on June 25, 2014 at Google's I/O, the much anticipated Moto 360 wouldn't be available until September 5. It seemed somewhat odd that the flagship smart watch wouldn't be the first to arrive. It was announced at that same I/O that "everyone [there] whould receive their own Moto 360......when they are available..." Why wouldn't Google just give everyone an LG G watch, since they were already available? The world may never know. That detail isn't really the point of this post though.
 
@@ -6,7 +12,7 @@ My initial reaction to the announcement was excitement. It came before the Apple
 
 The announcement video had some examples of people using it. There were a lot of people biking. That was my first problem, I don't bike. Like, ever. Still though, I could use it....driving? Yeah, I could use it driving, I reassured myself. They did things like open a garage by speaking to their watch using the familiar Google Now catchphrase "Ok, Google". I was and still am a huge user of Google Now so I found that very exciting. I could have Google Now on my wrist at all times! But how did they open the garage? Does Android Wear come with the ability to integrate with all existing garage door openers? (As a side note, I would go on to develop my own IoT garage door opener, though we never made an Android Wear app and I never had a garage.)
 
-{{{{INSERT VIDEO HERE}}}}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QrqZl2QIz0c" frameborder="0" allowfullscreen></iframe>
 
 Watching the video a second (or third, or fourth) time, my excitment began to wain. Literally every single one of the examples they used were people doing things that I _never_ did. Catching a plane, riding on a bus, giving kids a bath, surfing, _literally dancing to Chromeo while waiting in a long line_. Chromeo for heavens sake! Google either seriously over-estimated the average consumer, or they were genius in believing they could convince the average consumer that they were cool enough that they did all these things. And lets face it, if I were ever caught riding on a bus, I would be already staring at my phone! If by some miracle I was not, I _definately_ would not be comfortable replying to a text with my voice, out loud, on a crowded bus. Now way, Jose.
 
@@ -18,7 +24,7 @@ I think I remember telling myself I would be willing to try an Android Wear devi
 
 This progressed for about a year. The Apple Watch was announced to fanfair. I was impressed that people were so excited about it, given it's cost. It reinforced my suspision that a man will buy anything at any price as long as it's "cool" enough, and a woman will buy anything at any price as long as it's "cute" enough. Now that I think about it though, I don't actually know any women personally who own an Apple Watch. I guess Beyonce has a gold one that's literally not possible to buy, but she's not even a real person anyways right? After saying that I half expect Kanye to commondere my keyboard! I think I'm safe though...
 
-Interestingly enough, my first real interaction with wearable was indeed the Apple Watch. I just happened to be near an Apple store and had time to kill, so I wandered in to take a peek. I tapped the screen, twisted the wheel, pressed both buttons, and left having absolutely no idea what it actually did, or how someone would actually use it. It was definately cool though. In a way, it was remeniscint of the obelisk from Stanley Kubrick's 2001: A Space Oddesey, where I was a monkey and the Apple Watch was the mysterioius obelesk. I'd love to say that upon touching it for the first time I started screeching, or was enlightened into the next plane of existance, but I didn't and I wasn't. Then looking at the price tag and having a mini heart attack for even touching something so expensive, I felt alone and fearful. I actually found the display unit more interesting than the watch itself. {{{{INSERT POST ABOUT THE APPLE WATCH DISPLAY UNIT}}}}
+Interestingly enough, my first real interaction with wearable was indeed the Apple Watch. I just happened to be near an Apple store and had time to kill, so I wandered in to take a peek. I tapped the screen, twisted the wheel, pressed both buttons, and left having absolutely no idea what it actually did, or how someone would actually use it. It was definately cool though. In a way, it was remeniscint of the obelisk from Stanley Kubrick's 2001: A Space Oddesey, where I was a monkey and the Apple Watch was the mysterioius obelesk. I'd love to say that upon touching it for the first time I started screeching, or was enlightened into the next plane of existance, but I didn't and I wasn't. Then looking at the price tag and having a mini heart attack for even touching something so expensive, I felt alone and fearful. I actually found the display unit more interesting than the watch itself.
 
 That was before the Apple Watch was available for purchase.
 
