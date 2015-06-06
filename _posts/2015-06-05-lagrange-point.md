@@ -11,9 +11,11 @@ A few posts back I documented converting a Famicom game (Princess Tomato and the
 Lagrange Point was developed by Konami and released in Japan for the Nintendo Famicom on April 26, 1991 (two days before I was born!). It's a totally rad space opera rpg with some unique game mechanics that make it quite fun. It also had some audio features that I'll go into more detail about.
 
 The Famicom supported "expansion audio". That is, game cartridges were able to have their own sound chips to expand what the Famicom was normally capable of making. Several games took advantage of this, such as Castlevania 3. In fact several Konami games used that feature. Perhaps one of the most unique was Lagrange Point. It was one of two games to use the Konami VRC-7 sound chip. The VRC-7 was extremely unique because it was an FM synthesis module. I won't go into detail on what exactly FM sound synthesis is (mostly because I don't really know), but I can show you an example of what it sounds like. The Sega Genesis was perhaps the most famous home console that used an FM chip (one very similar to the VRC-7) for it's sound. Here's a video to show what it sounds like:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ISECbbAoBlw" frameborder="0" allowfullscreen></iframe>
 
 You can probably hear for yourself the difference a lot better than I can explain it to you. Now, imagine having that sound capability as well as the somewhat excellent sound capability the Famicom already had! Pure retro soundtrack goodness. I suggest you listen to Lagrange Point's soundtrack while reading the rest of this post (and while you are, think about how primitive the original Mario Bros. sounded compared to something like this):
+
 <iframe width="420" height="315" src="https://www.youtube.com/embed/drwX7MbB_IE" frameborder="0" allowfullscreen></iframe>
 
 Due to some complexities Lagrange Point has, it wasn't until very recently that it was fan translated into English. Huge thanks to excellent hacker group Aeon Genesis (the guys that originally translated Cave Story as well) for the awesome job they did! Check out the translation patch [here](http://agtp.romhack.net/project.php?id=lagrange).
