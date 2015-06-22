@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using Atom as an Arduino IDE"
+title:  "Ditching the Arduino IDE"
 date:   2015-06-21
 categories: tutorials, arduino
 ---
