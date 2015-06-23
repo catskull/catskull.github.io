@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Famicom English Conversion &middot; Catskull.net
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <img src="/public/davedegrawicon.png">
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/resume/">Resume</a>
+        
+      
+    
+
+  </nav>
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Catskull.net</a>
+            <small>The blog of David DeGraw</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Famicom English Conversion</h1>
+  <span class="post-date">20 May 2015</span>
+  <p>Mid-Week Summer Project!</p>
+
+<p>Synopsys: In 1985 Nintendo released the Nintendo Entertainment System in North America to huge commercial success. This was particularly impressive due to the fact that the home video game market was in a slump caused by a market flood of cheaply made games and systems. Part of the reason the NES was such a success was that Nintendo marketed the console as a complete “home entertainment system” that was so much more than just a video game console. It wasn’t really, but the marketing paid off. That’s why it looks more like a VCR than a video game system, and the first release was even bundled with a robot! Two years earlier, Nintendo had dome something very similar in Japan by releasing the Family Computer, or as it’s more commonly known the Famicom. The two systems were essentially identical internally but had vastly different designs aesthetically. One important difference was that games for the Famicom had a smaller 60 pin form factor as opposed to the NES’ wider 72 pin connectors. Interestingly enough, several early NES games were just the Famicom pcbs with a converter inside. There were 2 models of the NES produced as well as 2 models of the Famicom. What’s interesting is that the 2nd model of both the NES and the Famicom looked almost exactly alike, but with some pretty important changes internally. The 2nd model NES (the “toploader”) only had RF out (remember the old single wire coaxial cable for your TV?) That produced pretty poor video. The 2nd model Famicom however featured full composite (RCA) video which produced arguably the best video signal of any of the 1st generation Nintendo consoles. So, I bought one. It’s still possible to play NES games with a 72 to 60 pin converter. However Famicom games are readily available and even after importing they’re usually cheaper than the NES counterparts. The one issue is that all the text is in Japanese! Some games that don’t have much text (Mario Bros.) are easily playable, but some games have more text and are nearly impossible. That’s where this project comes in! I’ll be converting a Japanese Famicom cartridge to the English version.</p>
+
+<p>Details: NES/Famicom games are distributed online as ‘roms’ which is just one file. There were several different hardware revisions of cartridge PCB’s due to the limited way the NES could access them. In this project the game is fairly simple with only one rom chip and one ram chip. This makes the conversion easy since only one chip will have to be replaced. I popped the famicom game open (easier said than done!) and desoldered the ROM chip. Then I got the equivalent EPROM chip and flashed it with the English version of the game. Unfortunately the stander Mask ROM the cartridge uses isn’t pin compatible with a standard EPROM so a few legs of the chip needed to be lifted and rerouted to other ports on the PCB. Luckily only about 3 pins need to be changed. Pop it in and solder it up and I was in business! It’s been kind of a dream of mine to do this some day so I was pretty excited to see it worked. I can’t wait to do more!</p>
+
+<p>Difficulty: Desoldering chips isn’t super fun…</p>
+
+<p>Frustration: Skipping lunch</p>
+
+<p>Payoff: Years of waiting and wishing!</p>
+
+<p>Overall Project: A really nice learning experience</p>
+
+<p><img src="/public/famicom/fami1.jpg" alt="PCB" /></p>
+
+<p><img src="/public/famicom/fami2.jpg" alt="It Works!" /></p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="http://catskull.net/tutorials,/arduino/2015/06/21/arduino-ide-atom/">
+            Ditching the Arduino IDE
+            <small>21 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://catskull.net/reviews/2015/06/18/idol3/">
+            Alcatel Onetouch Idol 3 Review
+            <small>18 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://catskull.net/projects/2015/06/05/lagrange-point/">
+            Lagrange Point Famicom English Hack
+            <small>05 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<div class="comments">
+  <h2>Comments</h2>
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'catskull';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

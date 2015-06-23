@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Ditching the Arduino IDE &middot; Catskull.net
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <img src="/public/davedegrawicon.png">
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/resume/">Resume</a>
+        
+      
+    
+
+  </nav>
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Catskull.net</a>
+            <small>The blog of David DeGraw</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Ditching the Arduino IDE</h1>
+  <span class="post-date">21 Jun 2015</span>
+  <p>Recently, my good friend and crazy talented hacker Ultifinitus gave me some sweet hardware. Out of the goodness of his heart. What a nice guy! It consisted of an Arduino Mega and some other stuff that I’ll go more into in a later post. I haven’t done a ton of arduino stuff in the past, but I’ve done enough to know that the default Arduino IDE sucks. Those may be strong words I guess, it’s open source and cross platform and it works, but it just has a pretty poor text editor. I decided if I was going to do anything worthwhile with the hardware, I needed an environment I could be productive in. Specifically, I like using Github’s excellent editor, Atom. It’s open source, cross platform, and is a pretty great text editor! This post will serve as a reference for what I was able to get set up.</p>
+
+<p>Atom needs almost no customization out of the box. The only package to install is <a href="https://atom.io/packages/language-arduino">language-arduino</a> which “adds syntax highlighting and snippets to Arduino files in Atom”.</p>
+
+<p>The real meat and potatoes is <a href="http://inotool.org/">Ino</a>. This is a command line interface for building and uploading arduino code. It works pretty well. Install it with pip by executing <code>pip install ino</code>. (As a side note, I use python every day at work and a <em>still</em> fell a little gross every time I use pip. It’s like the inbred step brother of RubyGems and it makes me wish everything was written in Ruby.)</p>
+
+<p>Perhaps the reason I feel gross for using pip is that usually the packages I’m installing are a little gross. Don’t get me wrong, I commend the men and women who spend hours upon end doing the thankless task of contributing to open source projects, only to be berated with senseless issues and internet trolls. I guess if I have issues with some open source software I’m using I should just contribute and try to fix it, but one project at a time right? Ino has more good than bad all things considered.</p>
+
+<p>So once you’ve gotten ino installed, there’s very little you need to do in the way of setting it up. Navigate to the directory you want to keep your project. For me its <code>ddegraw/code/new_project</code> and execute an <code>ino init</code> command. This will create a src and a lib directory. src is where you’ll keep your code, and lib is useless. lib is <em>supposed</em> to be where you put libraries you want to use, but I (<a href="https://github.com/amperka/ino/issues/164">and some other people</a> couldn’t get that to work so I just stuck everything in the src directory. One important thing to note is that ino <em>will not</em> automatically scan your arduino libraries, so if you want to include anything you have to copy it over to the src directory.</p>
+
+<p>Inside the src folder there should be a sketch.ino created. This is where you can write the bulk of your code, consider it you “main”.</p>
+
+<p>Once you have all of that set up, you’re pretty much good to go. There are a few caveats that I’d like to mention however.</p>
+
+<p>First, you should create a ino.ini file in the root of your project. Inside, you can specify which serial port to use and which board you’re targeting. For example, I’m using a mega 2560 so mine looks like this:</p>
+
+<pre><code>[build]
+board-model = mega2560
+
+[upload]
+board-model = mega2560
+serial-port = /dev/tty.usbmodem1421
+
+[serial]
+serial-port = /dev/tty.usbmodem1421
+</code></pre>
+
+<p>Each one of the [] blocks defines settings for a command. I would like it if that wasn’t the case, and instead you just chose <em>one</em> board and <em>one</em> serial port. How likely is it that you’re wanting to build for a mega2560 but upload for an Uno <em>within the same project</em>? Fail. Whatever.</p>
+
+<p>I think you can also put those settings in ~/.inorc, but I haven’t tried that and don’t really care to. The only advantage of that would be that those settings would be used as your global defaults.</p>
+
+<p>To build, simply execute <code>ino build</code> from the root of your project. To upload, simply execute <code>ino upload</code> from the same place. Pretty simple. I made an alias to do both of those at the same time because more often than not that’s what I want to do.</p>
+
+<p>That’s really it as far as the environment is concerned. It works fairly well and is easily as featured as the Arduino IDE is.</p>
+
+<p>I would like to take a moment at the end to talk about a fork of Ino called Arturo. The creators of Ino no longer have time or motivation to maintain it. A quick look at the issues section of the GitHub repo will be a prime example of what open source hell looks like. <a href="https://github.com/scottdarch">Scott Dixon</a> offered to take over management of the repo, but the creators preferred him to fork it. In my opinion that is a poor decision on their end, but at the same time I can understand why they would chose that. It doesn’t look like he’s made too many changes yet, but he is a very good maintainer. Issues are clear, valid, and labeled. While he doesn’t have time to work on every little feature, he does keep the issues well under control. Unfortunately, I was not able to get it to work with my device, but I’ve opened an issue and would love to help contribute to make it better. I have opened a pull request for a seperate tiny issue and it will be exciting to see how he handles contributions!</p>
+
+<p>And lastly, it looks like there is <a href="http://hackaday.com/2014/04/20/sublime-text-as-an-arduino-ide/">something similar</a> that relies on Sublime Text. I have no desire to use or pay for Sublime Text though, but it may be worth checking out.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="http://catskull.net/reviews/2015/06/18/idol3/">
+            Alcatel Onetouch Idol 3 Review
+            <small>18 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://catskull.net/projects/2015/06/05/lagrange-point/">
+            Lagrange Point Famicom English Hack
+            <small>05 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://catskull.net/projects/2015/05/20/famicom-conversion/">
+            Famicom English Conversion
+            <small>20 May 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<div class="comments">
+  <h2>Comments</h2>
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'catskull';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>
