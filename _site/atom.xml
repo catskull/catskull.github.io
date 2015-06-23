@@ -4,7 +4,7 @@
  <title>Catskull.net</title>
  <link href="http://catskull.net/atom.xml" rel="self"/>
  <link href="http://catskull.net/"/>
- <updated>2015-06-22T20:29:19-06:00</updated>
+ <updated>2015-06-22T20:35:51-06:00</updated>
  <id>http://catskull.net</id>
  <author>
    <name>David DeGraw</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Ditching the Arduino IDE</title>
-   <link href="http://catskull.net/tutorials,/arduino/2015/06/21/arduino-ide-atom/"/>
+   <link href="http://catskull.net/arduino-ide-atom.html"/>
    <updated>2015-06-21T00:00:00-06:00</updated>
-   <id>http://catskull.net/tutorials,/arduino/2015/06/21/arduino-ide-atom</id>
+   <id>http://catskull.net/arduino-ide-atom</id>
    <content type="html">&lt;p&gt;Recently, my good friend and crazy talented hacker Ultifinitus gave me some sweet hardware. Out of the goodness of his heart. What a nice guy! It consisted of an Arduino Mega and some other stuff that I’ll go more into in a later post. I haven’t done a ton of arduino stuff in the past, but I’ve done enough to know that the default Arduino IDE sucks. Those may be strong words I guess, it’s open source and cross platform and it works, but it just has a pretty poor text editor. I decided if I was going to do anything worthwhile with the hardware, I needed an environment I could be productive in. Specifically, I like using Github’s excellent editor, Atom. It’s open source, cross platform, and is a pretty great text editor! This post will serve as a reference for what I was able to get set up.&lt;/p&gt;
 
 &lt;p&gt;Atom needs almost no customization out of the box. The only package to install is &lt;a href=&quot;https://atom.io/packages/language-arduino&quot;&gt;language-arduino&lt;/a&gt; which “adds syntax highlighting and snippets to Arduino files in Atom”.&lt;/p&gt;
@@ -60,9 +60,9 @@ serial-port = /dev/tty.usbmodem1421
  
  <entry>
    <title>Alcatel Onetouch Idol 3 Review</title>
-   <link href="http://catskull.net/reviews/2015/06/18/idol3/"/>
+   <link href="http://catskull.net/idol3.html"/>
    <updated>2015-06-18T00:00:00-06:00</updated>
-   <id>http://catskull.net/reviews/2015/06/18/idol3</id>
+   <id>http://catskull.net/idol3</id>
    <content type="html">&lt;p&gt;My Nexus 5 had an update this morning. From Android 5.1 to 5.1.1. I couldn’t tell you what it changed. I hope it fixed the memory leak that’s been plauging me for a while now. I doubt it did. Honestly I don’t really care any more. It’s been a great phone. I bought it almost two years ago and it’s done everything I wanted it to and more. My needs haven’t really changed since I’ve owned it, but the market for cost effective off-contract phones has. Dramatically.&lt;/p&gt;
 
 &lt;p&gt;In June of 2014, almost a year to the date of this writing, Google announced their new “Android One” initiative. The long story is that manufacturers can build low cost devices for emerging markets and turn over the software to Google (kind of makes me wish Google would do the same for all devices, but that’s another story). The short story is that Google is currently completely dominating that market with their Android system, and with that comes the influx of new customers for their services and more faces to throw ads at. It’s a win-win. Look at the fact that the Moto G, a $149 off-contract phone is &lt;a href=&quot;http://www.androidcentral.com/moto-g-motorolas-most-successful-smartphone-ever&quot;&gt;Motorola’s best selling phone of all time.&lt;/a&gt; At first that may not seem to impressive, but remember another phone Moto made at one point: the Razr. How many people did you know that owned Razrs? I knew dozens. How many people do you know that own Moto G’s? I know maybe one person. So where are all those device sales coming from? Emerging markets.&lt;/p&gt;
@@ -119,9 +119,9 @@ serial-port = /dev/tty.usbmodem1421
  
  <entry>
    <title>Lagrange Point Famicom English Hack</title>
-   <link href="http://catskull.net/projects/2015/06/05/lagrange-point/"/>
+   <link href="http://catskull.net/lagrange-point.html"/>
    <updated>2015-06-05T00:00:00-06:00</updated>
-   <id>http://catskull.net/projects/2015/06/05/lagrange-point</id>
+   <id>http://catskull.net/lagrange-point</id>
    <content type="html">&lt;p&gt;A few posts back I documented converting a Famicom game (Princess Tomato and the Salad Kingdom) to use the English translation. Since that went so well, I finally had the courage to try the game I really wanted to do: Lagrange Point. I think it’s fair for me to do a little background on this incredible game.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/famicom/lagrangefront.jpg&quot; alt=&quot;The coolest game ever?&quot; /&gt;&lt;/p&gt;
@@ -167,9 +167,9 @@ serial-port = /dev/tty.usbmodem1421
  
  <entry>
    <title>Famicom English Conversion</title>
-   <link href="http://catskull.net/projects/2015/05/20/famicom-conversion/"/>
+   <link href="http://catskull.net/famicom-conversion.html"/>
    <updated>2015-05-20T00:00:00-06:00</updated>
-   <id>http://catskull.net/projects/2015/05/20/famicom-conversion</id>
+   <id>http://catskull.net/famicom-conversion</id>
    <content type="html">&lt;p&gt;Mid-Week Summer Project!&lt;/p&gt;
 
 &lt;p&gt;Synopsys: In 1985 Nintendo released the Nintendo Entertainment System in North America to huge commercial success. This was particularly impressive due to the fact that the home video game market was in a slump caused by a market flood of cheaply made games and systems. Part of the reason the NES was such a success was that Nintendo marketed the console as a complete “home entertainment system” that was so much more than just a video game console. It wasn’t really, but the marketing paid off. That’s why it looks more like a VCR than a video game system, and the first release was even bundled with a robot! Two years earlier, Nintendo had dome something very similar in Japan by releasing the Family Computer, or as it’s more commonly known the Famicom. The two systems were essentially identical internally but had vastly different designs aesthetically. One important difference was that games for the Famicom had a smaller 60 pin form factor as opposed to the NES’ wider 72 pin connectors. Interestingly enough, several early NES games were just the Famicom pcbs with a converter inside. There were 2 models of the NES produced as well as 2 models of the Famicom. What’s interesting is that the 2nd model of both the NES and the Famicom looked almost exactly alike, but with some pretty important changes internally. The 2nd model NES (the “toploader”) only had RF out (remember the old single wire coaxial cable for your TV?) That produced pretty poor video. The 2nd model Famicom however featured full composite (RCA) video which produced arguably the best video signal of any of the 1st generation Nintendo consoles. So, I bought one. It’s still possible to play NES games with a 72 to 60 pin converter. However Famicom games are readily available and even after importing they’re usually cheaper than the NES counterparts. The one issue is that all the text is in Japanese! Some games that don’t have much text (Mario Bros.) are easily playable, but some games have more text and are nearly impossible. That’s where this project comes in! I’ll be converting a Japanese Famicom cartridge to the English version.&lt;/p&gt;
@@ -192,9 +192,9 @@ serial-port = /dev/tty.usbmodem1421
  
  <entry>
    <title>Android Wear/Moto 360 Review</title>
-   <link href="http://catskull.net/reviews/2015/04/28/android-wear-moto-360-review/"/>
+   <link href="http://catskull.net/android-wear-moto-360-review.html"/>
    <updated>2015-04-28T00:00:00-06:00</updated>
-   <id>http://catskull.net/reviews/2015/04/28/android-wear-moto-360-review</id>
+   <id>http://catskull.net/android-wear-moto-360-review</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Disclaimer: Below is a wall of rambling and poorly worded text. Don’t judge me TOO much…&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Just over a year ago, Google unveiled Android Wear, their version of Android specifically tailored for so-called “smart watches” or “wearables”. Among the first devices announced was the Moto 360. As the name implies, it was extremely notable due to it’s completely round display - something almost completely unheard of at the time (and even extremely uncommon today). Though the first two Android Wear devices launched on June 25, 2014 at Google’s I/O, the much anticipated Moto 360 wouldn’t be available until September 5. It seemed somewhat odd that the flagship smart watch wouldn’t be the first to arrive. It was announced at that same I/O that “everyone [there] whould receive their own Moto 360……when they are available…” Why wouldn’t Google just give everyone an LG G watch, since they were already available? The world may never know. That detail isn’t really the point of this post though.&lt;/p&gt;
@@ -264,9 +264,9 @@ Image courtesy of my friend C. Simmons Campbell. Check out his work &lt;a href=&
  
  <entry>
    <title>The Interview: My Technical Interview That's Almost as Funny as a Seth Rogan Movie</title>
-   <link href="http://catskull.net/general/2015/04/16/how-to-fail-a-job-interview/"/>
+   <link href="http://catskull.net/how-to-fail-a-job-interview.html"/>
    <updated>2015-04-16T00:00:00-06:00</updated>
-   <id>http://catskull.net/general/2015/04/16/how-to-fail-a-job-interview</id>
+   <id>http://catskull.net/how-to-fail-a-job-interview</id>
    <content type="html">&lt;p&gt;I’ve been mulling over whether it would be productive to write this experience down or not. I ultimately came to the conclusion that it would &lt;em&gt;not&lt;/em&gt; be productive. However, I am currently cramming for finals and cannot make myself study any more. So I figure writing this would be more productive than just refreshing my email over and over for the next two hours. Full disclosure: I don’t really have any valuable tips to give someone in a technical interview. Hopefully at least I can be an example of what not to do.&lt;/p&gt;
 
 &lt;p&gt;It was Feb. 2013. I had just returned home from a two-year mission for The Church of Jesus Christ of Latter-Day Saints (Mormon). The only reason this is important is because I basically hadn’t touched a computer in two years. At least not in a programming/technical way. Not that I was very technical before that.&lt;/p&gt;
@@ -327,9 +327,9 @@ Image courtesy of my friend C. Simmons Campbell. Check out his work &lt;a href=&
  
  <entry>
    <title>How To: Completely Erase the ROM of an EMS 64m USB Gameboy Cart</title>
-   <link href="http://catskull.net/gameboy/hack/2015/04/14/erase-an-ems-64-usb-gameboy-cart/"/>
+   <link href="http://catskull.net/erase-an-ems-64-usb-gameboy-cart.html"/>
    <updated>2015-04-14T00:00:00-06:00</updated>
-   <id>http://catskull.net/gameboy/hack/2015/04/14/erase-an-ems-64-usb-gameboy-cart</id>
+   <id>http://catskull.net/erase-an-ems-64-usb-gameboy-cart</id>
    <content type="html">&lt;h3 id=&quot;disclaimer-i-am-not-an-expert-in-gameboy-hardware-to-any-extent-so-take-this-with-a-grain-of-salt&quot;&gt;Disclaimer: I am not an expert in Gameboy hardware to any extent, so take this with a grain of salt.&lt;/h3&gt;
 
 &lt;p&gt;Update 1: I neglected to mention there is an app for Android that will allow you to flash the cart using a USB OTG cable. I haven’t used that app, but it may be easier for some people than a command line unix utility. It looks like it only supports reading/writing savs though? Find it &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.shiftfypixlz.aread.emsflasher&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -372,9 +372,9 @@ The payoff, after re flashing the multi rom image, only to two that I want are t
  
  <entry>
    <title>Building an Ambient Red Light For the Nursery</title>
-   <link href="http://catskull.net/baby/projects/2015/04/09/baby-nursery-red-light/"/>
+   <link href="http://catskull.net/baby-nursery-red-light.html"/>
    <updated>2015-04-09T00:00:00-06:00</updated>
-   <id>http://catskull.net/baby/projects/2015/04/09/baby-nursery-red-light</id>
+   <id>http://catskull.net/baby-nursery-red-light</id>
    <content type="html">&lt;p&gt;15 MINUTE PROJECT!!!!&lt;/p&gt;
 
 &lt;p&gt;Synopsis: Our baby is due in like a month. Crazy. Anticipating the countless hours spent in the nursery in the middle of the night, I wanted some kind of light that would be a little bit easier on the eyes in the middle of the night. I remembered learning that red light travels at a longer wavelength than other colors, so that’s good to use at night because your eyes don’t adjust to it as much. Thanks to Radio Shack going out of business, I picked up a 5 ft roll of red leds for cheap. I figured, why don’t I just go ahead and make a nightlight? It was pretty simple.&lt;/p&gt;
@@ -405,9 +405,9 @@ The payoff, after re flashing the multi rom image, only to two that I want are t
  
  <entry>
    <title>Slow Down, for Productivity's Sake</title>
-   <link href="http://catskull.net/general/programming/2015/03/22/slow-down-and-save-yourselves/"/>
+   <link href="http://catskull.net/slow-down-and-save-yourselves.html"/>
    <updated>2015-03-22T00:00:00-06:00</updated>
-   <id>http://catskull.net/general/programming/2015/03/22/slow-down-and-save-yourselves</id>
+   <id>http://catskull.net/slow-down-and-save-yourselves</id>
    <content type="html">&lt;p&gt;Recently, my brother and I were working on a programming project. It was a pretty fun one too, so we were immediately sucked in. We started at about 4:30 PM and within probably an hour we had all the framework built out and the only thing left was the “hard part”. Fast forward to about 8 PM. We were stuck dead in our tracks on the “hard part”. Try as we might, there was just no way we could figure out a way to implement it.&lt;/p&gt;
 
 &lt;p&gt;Then, a thought occurred to me.&lt;/p&gt;
@@ -430,9 +430,9 @@ The payoff, after re flashing the multi rom image, only to two that I want are t
  
  <entry>
    <title>Welcome to my new blog</title>
-   <link href="http://catskull.net/general/2015/03/10/welcome-to-the-new-blog/"/>
+   <link href="http://catskull.net/welcome-to-the-new-blog.html"/>
    <updated>2015-03-10T00:00:00-06:00</updated>
-   <id>http://catskull.net/general/2015/03/10/welcome-to-the-new-blog</id>
+   <id>http://catskull.net/welcome-to-the-new-blog</id>
    <content type="html">&lt;p&gt;I’ve been blogging in various forms for at least the last 5 years. I started using blogspot, then switched to tumblr, then svbtle, and now I’m happy and proud to be switching fully to jekyll. I was attracted by the amount of control I have over my content, both in creation and display. Being able to write it using really whatever format I choose is awesome! In case you were wondering, I’m writing this in markdown. I don’t really plan on switching to anything else any time soon, but you never know. I’m excited to be able to easily embed code snippets (with syntax highlighting). That was kind of the breaking point for me with svbtle, &lt;em&gt;no&lt;/em&gt; code snippets whatsoever.&lt;/p&gt;
 
 &lt;p&gt;I will be keeping a work log of various projects I’m involved with both now and in the future. This may include ruby (rails), arduino, raspberry pi, verilog/fpga’s, and other various embedded systems.&lt;/p&gt;
