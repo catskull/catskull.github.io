@@ -1,0 +1,28 @@
+#gallery {
+  max-width: 600px;
+}
+
+#gallery_nav {
+  max-width: 600px;
+  margin-top: -66px;
+}
+
+#gallery_nav  p{
+  max-width: 100%;
+  font-size: 100px;
+  display: inline;
+  cursor: default;
+
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+#gallery_nav_right {
+  float: right;
+  margin-top: 0;
+}
