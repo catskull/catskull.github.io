@@ -1,10 +1,16 @@
-#gallery {
+.gallery {
   max-width: 600px;
+  text-align: center;
+}
+
+.gallery img {
+  margin-bottom: 0;
 }
 
 #gallery_nav {
   max-width: 600px;
-  margin-top: -66px;
+  margin-top: -100px;
+  text-align: initial;
 }
 
 #gallery_nav  p{
@@ -22,7 +28,15 @@
   user-select: none;
 }
 
+#gallery_nav p:hover {
+  color: grey;
+}
+
 #gallery_nav_right {
   float: right;
-  margin-top: 0;
+}
+
+#gallery_pos_text {
+  margin: 0 auto;
+  padding-top: 20px;
 }
