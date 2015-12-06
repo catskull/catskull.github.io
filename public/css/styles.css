@@ -7,6 +7,11 @@
   margin-bottom: 0;
 }
 
+#gallery_subtitle {
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
 #gallery_nav {
   max-width: 600px;
   margin-top: -100px;
@@ -16,6 +21,7 @@
 #gallery_nav  p{
   max-width: 100%;
   font-size: 100px;
+  margin-bottom: 0;
   display: inline;
   cursor: default;
 
