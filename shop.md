@@ -1,8 +1,19 @@
 ---
 layout: page
 title: Shop
+description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
 ---
 #Arduinoboy Shield
+
+<div class="gallery">
+	<img src="{{ site.baseurl }}public/gallery/1.jpg" alt="Arduinoboy front" id="gallery_image" onclick="cycle(1); return false;">
+	<p id="gallery_subtitle">Arduinoboy front</p>
+	<p id="gallery_pos_text">1/12</p>
+	<div id="gallery_nav">
+		<p id="gallery_nav_left" onclick="cycle(0); return false;">←</p>
+		<p id="gallery_nav_right" onclick="cycle(1); return false;">→</p>
+	</div>
+</div>
 
 <table>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -42,7 +53,7 @@ For assembled Arduinoboys, I will test it to ensure functionality before I ship 
 
 I will ship to the address entered on the PayPal checkout page, so please double check to make sure it's correct.
 
-The Arduinoboy sold are clones of the Arduino Uno. I have tested them and can verify they work. That being said, they're cheap Chinese knockoffs and you get what you pay for. I'm selling them here as a convenience to you, but I'd really recommend you buy an official Arduino. That way, some of the money will go back to the Arduino guys. You will need a different driver than the official Arduino Uno uses. You can download the needed files here: I will pre flash your arduino with the arduinoboy code as a convenience to you, but it's important to know that you're not paying for the Arduinoboy software. The arduino comes with a ~1.5ft USB cable.
+The Arduinoboy sold are clones of the Arduino Uno. I have tested them and can verify they work. That being said, they're cheap Chinese knockoffs and you get what you pay for. I'm selling them here as a convenience to you, but I'd really recommend you buy an official Arduino. That way, some of the money will go back to the Arduino guys. You will need a different driver than the official Arduino Uno uses. [You can download the needed files here.](https://drive.google.com/file/d/0BzxqUIMB8O1na1ZLZzFXZGxCbm8/view) I will pre flash your arduino with the arduinoboy code as a convenience to you, but it's important to know that you're not paying for the Arduinoboy software. The arduino comes with a ~1.5ft USB cable.
 
 You'll need a good link cable to use this. I have tested these and they seem to be great: [http://www.ebay.com/itm/400690419424](http://www.ebay.com/itm/400690419424)
 
