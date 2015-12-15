@@ -37,7 +37,9 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </form>
 </table>
 
-Details:
+### [Assembly Instructions (pdf)]({{ site.baseurl }}public/arduinoboy-assembly.pdf)
+
+## Details:
 
 Unassembled kits ship within **5** business days.
 
