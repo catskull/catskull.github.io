@@ -7,6 +7,8 @@ categories: posts
 
 ### Disclaimer: I am no expert on this subject or game historian. If anything I say is inaccurate, please let me know in the comments.
 
+### [Click here to go straight to the logo generator](http://catskull.net/GB-Logo-Generator/)
+
 [A while ago I wrote about completely wiping the memory of an EMS 64m USB Gameboy cartridge.]({{ site.baseurl }}erase-an-ems-64-usb-gameboy-cart.html) In doing that, I observed something interesting: if the rom was filled with all 1's (0xFF), the Nintendo logo that scrolls down on boot would be all black, like if there was no cartridge inserted at all. If the rom as filled with all 0'x (0x00), the Nintendo logo was completely blank and only the ® symbol scrolled down.
 
 In case you don't know what I'm talking about, here's an image that represents what happens when a Gameboy is booted (turned on). Or at least what's supposed to happen.
@@ -75,6 +77,8 @@ The next major hurdle was kind of unnecessary in the long run, but I wanted this
 The last step was just cleaning up the code a bit and adding a few nice features like clear everything, invert everything, or load your own hex data so you don't have to draw it. We also load the Nintendo logo by default so you can see exactly what the space you're working with looks like.
 
 All in all it was a fun little project to both do a bit of reverse engineering, research, and polishing my javascript skills by doing weird things that people don't usually do in javascript. It was also fun to work with my brother on it. I'm sure the code isn't anything spectacular, but it's all open source and [available on GitHub.](https://github.com/catskull/GB-Logo-Generator)
+
+### [Check out the logo utility here!](http://catskull.net/GB-Logo-Generator/)
 
 Thanks for reading!
 
