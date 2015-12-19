@@ -34,7 +34,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
-<input type="image" src="/public/button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="display:block;margin:0 auto;">
+<input type="image" src="http://i.imgur.com/e67N9Be.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 </table>
