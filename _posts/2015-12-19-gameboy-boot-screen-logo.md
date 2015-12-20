@@ -58,15 +58,15 @@ Now I knew where the data was stored, I needed to figure out how it was laid out
 
 I observed that the data 0x01 was repeated 4 times, and that the top left chunk of the logo also had a sequence that repeated four times. After that, I changed that first 4 byte chunk to something like 0x02020202 and tried again. The image looked similar, but the dots were shifted to the left one pixel. Then I tried something like 0x03030303 and as expected, there were both of the previous dots.
 
-I quickly discovered that the total logo was comprised of 48 bytes of data. The as you can see though, the logo bytes don't go straight across the top, rather, they form a larger square. Talking about it can only help so much, so here's an image I made that represents how the pixel data is laid out:
+I quickly discovered that the total logo was comprised of 48 bytes of data. As you can see though, the logo bytes don't go straight across the top, rather, they form a larger square. Talking about it can only help so much, so here's an image I made that represents how the pixel data is laid out:
 
 ![logo data layout](http://i.imgur.com/BikSgOo.png)
 
-Following this guide, it's easy to make your own bitmap logo! Say for the top left byte you want only the top left pixel enabled. For that byte of data you would simply have 0x80. But say you wanted the top left pixel as well as the bottom right pixel? Simply bitwise OR 0x80 with 0x01 and you get 0x01. Similarly, if you OR 0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01 you get 0xFF! It's pretty simple right?
+Following this guide, it's easy to make your own bitmap logo! Say for the top left byte you want only the top left pixel enabled. For that byte of data you would simply have 0x80. But say you wanted the top left pixel as well as the bottom right pixel? Simply bitwise OR 0x80 with 0x01 and you get 0x81. Similarly, if you OR 0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01 you get 0xFF! It's pretty simple right?
 
-Now that I knew exactly how the logo data was laid out and could make my own boot logos, I wanted a way to be able to draw them easier. My brother had recently been complaining to me that web technologies were "too confusing" for him to figure out, so I thought a little web page that let your draw a logo would be a great project for us to work on so he could get more comfortable with web programming. I'm no master myself, so it was good practice for me too!
+Now that I knew exactly how the logo data was laid out and could make my own boot logos, I wanted a way to be able to draw them easier. My brother had recently been complaining to me that web technologies were "too confusing" for him to figure out, so I thought a little web page that lets your draw a logo would be a great project for us to work on so he could get more comfortable with web programming. I'm no master myself, so it was good practice for me too!
 
-I made an HTML table that was 48 cells wide and 8 cells high. In other words, cell for each pixel in the logo. I also made the cells nice and square. Next was some crude javascript to toggle the cells fill color between black and white when clicked. After that, I made it so you could click and drag and essentially "paint" the table cells.
+I made an HTML table that was 48 cells wide and 8 cells high. In other words, a cell for each pixel in the logo. I also made the cells nice and square. Next was some crude javascript to toggle the cells fill color between black and white when clicked. After that, I made it so you could click and drag and essentially "paint" the table cells.
 
 The next step was a bit of uncharted waters for me. I needed to convert the "painted" table to hex data. I wrote a little function that looked at all cells from top left to bottom right and if their background color was black, I OR'ed the hex data for that cell to get the bytes of data I needed.
 
