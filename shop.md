@@ -15,8 +15,6 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 	</div>
 </div>
 
-## Holiday shoppers: If you want this by Christmas, order by December 19. Any orders placed after that will not ship until the New Year.
-
 <table>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
