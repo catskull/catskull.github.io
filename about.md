@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-##My name is David DeGraw
+## My name is David DeGraw
 
 ![me](/public/me.jpg)
 
