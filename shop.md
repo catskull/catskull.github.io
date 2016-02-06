@@ -3,7 +3,7 @@ layout: page
 title: Shop
 description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
 ---
-#Arduinoboy Shield
+# Arduinoboy Shield
 
 <div class="gallery">
 	<img src="{{ site.baseurl }}public/gallery/1.jpg" alt="Arduinoboy front" id="gallery_image" onclick="cycle(1); return false;">
