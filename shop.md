@@ -55,6 +55,8 @@ For assembled Arduinoboys, I will test it to ensure functionality before I ship 
 
 I will ship to the address entered on the PayPal checkout page, so please double check to make sure it's correct.
 
+There are known issues with Arduino Duemilanove 168 and Arduino Mega 2560. Please use an Arduino UNO with this kit.
+
 The Arduinos I sell are clones of the Arduino Uno. I have tested them and can verify they work. That being said, they're cheap Chinese knockoffs and you get what you pay for. I'm selling them here as a convenience to you, but I'd really recommend you buy an official Arduino. That way, some of the money will go back to the Arduino guys. You will need a different driver than the official Arduino Uno uses. [You can download the needed files here.](https://drive.google.com/file/d/0BzxqUIMB8O1na1ZLZzFXZGxCbm8/view) I will pre flash your arduino with the arduinoboy code as a convenience to you, but it's important to know that you're not paying for the Arduinoboy software. The arduino comes with a ~1.5ft USB cable.
 
 You'll need a good link cable to use this. I have tested these and they seem to be great: [http://www.ebay.com/itm/400690419424](http://www.ebay.com/itm/400690419424)
