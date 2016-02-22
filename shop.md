@@ -35,7 +35,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 	</form>
 </table>
 
-## 3/13/2015: Sold out! Expect the next batch to be available within the next two weeks!
+## 2/13/2016: Sold out! Expect the next batch to be available within the next two weeks!
 
 ### [Assembly Instructions (pdf)]({{ site.baseurl }}public/arduinoboy-assembly.pdf)
 
