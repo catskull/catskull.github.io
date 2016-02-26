@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Shop
+layout: store
+title: Arduinoboy
 description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
 ---
 # Arduinoboy Shield
