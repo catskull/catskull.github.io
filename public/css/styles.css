@@ -46,3 +46,22 @@
   margin: 0 auto;
   padding-top: 20px;
 }
+
+.tile {
+  width: 12em;
+  padding-left: 15px;
+  text-align: center;
+  float: left;
+}
+
+.tile img {
+  margin-bottom: 2px;
+}
+
+.tile a {
+  color: inherit;
+}
+
+.tile p {
+  /*color: pink;*/
+}
