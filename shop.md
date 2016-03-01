@@ -16,23 +16,25 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </div>
 
 <table>
-	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-	<input type="hidden" name="cmd" value="_s-xclick">
-	<input type="hidden" name="hosted_button_id" value="KL5CHQHBNR868">
-	<table>
-	<tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
-		<option value="Kit Only">Kit Only $16.00 USD</option>
-		<option value="Kit Only (w/ PS2 jack)">Kit Only (w/ PS2 jack) $17.00 USD</option>
-		<option value="Kit + Arduino">Kit + Arduino $21.00 USD</option>
-		<option value="Kit (w/ PS2 jack) + Arduino">Kit (w/ PS2 jack) + Arduino $22.00 USD</option>
-		<option value="Assembled Kit">Assembled Kit $26.00 USD</option>
-		<option value="Assembled Kit (w/ PS2 jack)">Assembled Kit (w/ PS2 jack) $27.00 USD</option>
-		<option value="Assembled Kit + Arduino">Assembled Kit + Arduino $31.00 USD</option>
-		<option value="Assembled Kit (w/ PS2 jack) + Arduino">Assembled Kit (w/ PS2 jack) + Arduino $32.00 USD</option>
-	</select> </td></tr>
-	</table>
-	<img src="http://i.imgur.com/LCdTZjY.png" alt="Catskull's Arduinoboys are sold out!">
-	</form>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="KL5CHQHBNR868">
+<table>
+<tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
+	<option value="Kit Only">Kit Only $16.00 USD</option>
+	<option value="Kit Only (w/ PS2 jack)">Kit Only (w/ PS2 jack) $17.00 USD</option>
+	<option value="Kit + Arduino">Kit + Arduino $21.00 USD</option>
+	<option value="Kit (w/ PS2 jack) + Arduino">Kit (w/ PS2 jack) + Arduino $22.00 USD</option>
+	<option value="Assembled Kit">Assembled Kit $26.00 USD</option>
+	<option value="Assembled Kit (w/ PS2 jack)">Assembled Kit (w/ PS2 jack) $27.00 USD</option>
+	<option value="Assembled Kit + Arduino">Assembled Kit + Arduino $31.00 USD</option>
+	<option value="Assembled Kit (w/ PS2 jack) + Arduino">Assembled Kit (w/ PS2 jack) + Arduino $32.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="http://i.imgur.com/e67N9Be.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 </table>
 
 ## 2/13/2016: Sold out! Expect the next batch to be available within the next two weeks!
