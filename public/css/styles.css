@@ -48,7 +48,7 @@
 }
 
 .tile {
-  width: 12em;
+  width: 18em;
   padding-left: 15px;
   text-align: center;
   float: left;
@@ -64,4 +64,12 @@
 
 .tile p {
   /*color: pink;*/
+}
+
+.cart-button {
+  float: right;
+}
+
+.cart-button input {
+  width: 10em;
 }
