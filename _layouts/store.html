@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="sidebar-overlay">
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/shop" title="Store Home">shop.catskull.net</a>
+            <small>The Shop of David W. DeGraw</small>
+            <div class="cart-button">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="business" value="QJSAL93VF3AGE">
+                <input type="hidden" name="display" value="1">
+                <input type="image" src="http://i.imgur.com/hYoJaPV.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+    <script src="{{ site.baseurl }}public/js/scripts.js"></script>
+  </body>
+</html>

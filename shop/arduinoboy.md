@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Shop
+layout: store
+title: Arduinoboy
 description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
 ---
 # Arduinoboy Shield
@@ -16,9 +16,9 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </div>
 
 <table>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="KL5CHQHBNR868">
+<input type="hidden" name="hosted_button_id" value="X4H2EPR2AN5Q4">
 <table>
 <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
 	<option value="Kit Only">Kit Only $16.00 USD</option>
@@ -30,7 +30,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
-<input type="image" src="http://i.imgur.com/e67N9Be.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="image" src="https://i.imgur.com/F8q9q3g.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 </table>
