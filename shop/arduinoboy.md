@@ -35,6 +35,8 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </form>
 </table>
 
+### Now with optional PS/2 keyboard jack!
+
 ### [Assembly Instructions (pdf)]({{ site.baseurl }}public/arduinoboy-assembly.pdf)
 
 ## Details:
