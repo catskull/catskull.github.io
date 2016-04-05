@@ -1,6 +1,6 @@
 # How I Compute
 
-I've been fascinated with Richard Stallman for approximately the last decade. He maintains a pretty interesting page about how he does his computing. It's just a little interesting because he's painted himself into a corner. That's besides the point of this post.
+I've been fascinated with Richard Stallman for approximately the last decade. He maintains a [pretty interesting page](https://stallman.org/stallman-computing.html) about how he does his computing. It's just a little interesting because he's painted himself into a corner. That's besides the point of this post.
 
 I thought it would be fun to document how I do my computing. I think I have pretty unique use cases, and maybe others could get some ideas from me.
 
@@ -24,3 +24,7 @@ As for software I use on the Macbooks, my text editor of choice is Atom. I used 
 ![Media Center PC](http://i.imgur.com/TB3cyk1.png)
 
 I also have a PC set up in my living room connected to my TV. It's the only method of media playback we have. It has a blu-ray drive installed, but frankly playing blu-ray on a PC is a "bag of hurt". The $20 case I have actually looks pretty good in the tv stand, most people can't immediately identify it as a PC. Some still don't understand that it's a computer even after I point it out. I have a Logitech wireless media keyboard with a built in trackpad, it's great. On the PC I run Windows 7 because I occasionally play games on it as well. However, 99% of the time is spent in Chrome playing videos from Youtube, Hulu, and other sites. It's totally a great setup! My wife uses Youtube for workout videos. We can play baby einstein on Youtube for our son. It's just nice to have access to all content without any setbacks. The one thing it can't do is any kind of screen casting, but, c'mon. Who actually does that anyways? And I'm talking about in their home, not in a board room or something. I'll admit occasionally it would be nice to quickly throw up a youtube video or picture, but it's just not that big of a deal.
+
+That pretty much wraps up all the computers I use on a regular basis. I have various other computing devices that are used on a less frequent basis (several Gameboys, Famicom, Sega Genesis, Commodore 64, PSP's, and some SBCs). I think I have just enough computers in my life to make life easier. Sometimes they are distracting, but overall they work really well and I'm able to get what I want done. That's mostly thanks to OSX and Chrome OS though. I'm sure if I used my Windows PC for productivity I'd end up fighting it a lot more. I'm a big fan of a well-oiled machine, and all of my computers do exactly what I want them to. I'm sure Richard Stallman would scoff at me, but that's okay.
+
+Thanks for reading!
