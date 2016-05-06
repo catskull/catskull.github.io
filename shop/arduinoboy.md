@@ -65,3 +65,5 @@ The Arduinos I sell are clones of the Arduino Uno. I have tested them and can ve
 You'll need a good link cable to use this. I have tested these and they seem to be great: [http://www.ebay.com/itm/400690419424](http://www.ebay.com/itm/400690419424)
 
 By purchasing from me, you are agreeing to these terms and conditions.
+
+<script src="{{ site.baseurl }}public/js/scripts.js"></script>
