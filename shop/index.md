@@ -11,6 +11,13 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
 </div>
 
 <div class="tile">
+	<a href="/shop/32kcart">
+		<img src="/public/32kcart/1.jpg"/>
+		<p>32k Gameboy Cart</p>
+	</a>
+</div>
+
+<div class="tile">
 	<a href="/shop/linkport">
 		<img src="https://i.imgur.com/iPtaiDp.png"/>
 		<p>GBA Link Port</p>
