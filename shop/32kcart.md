@@ -15,6 +15,8 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 	</div>
 </div>
 
+## Carts go on sale in:
+
 <div class="countdown"></div>
 
 <table>
