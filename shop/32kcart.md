@@ -6,8 +6,8 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 # 32k Gameboy Flash Cart
 
 <div class="gallery">
-	<img src="{{ site.baseurl }}public/gallery/1.jpg" alt="Arduinoboy front" id="gallery_image" onclick="cycle(1); return false;">
-	<p id="gallery_subtitle">Arduinoboy front</p>
+	<img src="{{ site.baseurl }}public/32kcart/1.jpg" alt="32k Gameboy Flash Cart" id="gallery_image" onclick="cycle(1); return false;">
+	<p id="gallery_subtitle">32k Gameboy Flash Cart</p>
 	<p id="gallery_pos_text">1/12</p>
 	<div id="gallery_nav">
 		<p id="gallery_nav_left" onclick="cycle(0); return false;">←</p>
@@ -76,6 +76,7 @@ By purchasing from me, you are agreeing to these terms and conditions and acknow
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="/public/js/flipclock.min.js"></script>
+<script src="{{ site.baseurl }}public/js/32kcartgallery.js"></script>
 <script type="text/javascript">
 	var current = (new Date().getTime())/1000;
 	var end = (new Date('May 9, 2016 18:00:00 UTC').getTime())/1000;
