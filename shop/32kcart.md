@@ -8,7 +8,7 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 <div class="gallery">
 	<img src="{{ site.baseurl }}public/32kcart/1.jpg" alt="32k Gameboy Flash Cart" id="gallery_image" onclick="cycle(1); return false;">
 	<p id="gallery_subtitle">32k Gameboy Flash Cart</p>
-	<p id="gallery_pos_text">1/12</p>
+	<p id="gallery_pos_text">1/4</p>
 	<div id="gallery_nav">
 		<p id="gallery_nav_left" onclick="cycle(0); return false;">←</p>
 		<p id="gallery_nav_right" onclick="cycle(1); return false;">→</p>
