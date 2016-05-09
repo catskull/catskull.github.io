@@ -15,10 +15,6 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 	</div>
 </div>
 
-## Carts go on sale in:
-
-<div class="countdown"></div>
-
 <table>
 	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 	<input type="hidden" name="cmd" value="_s-xclick">
@@ -46,7 +42,7 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 		<option value="Stepgirl">Step Girl</option>
 	</select> </td></tr>
 	</table>
-	<!-- <input type="image" src="http://i.imgur.com/F8q9q3g.png" border="0" name="submit"> -->
+	<input type="image" src="http://i.imgur.com/F8q9q3g.png" border="0" name="submit">
 	</form>
 </table>
 
@@ -75,16 +71,4 @@ I will ship to the address entered on the PayPal checkout page, so please double
 By purchasing from me, you are agreeing to these terms and conditions and acknowledging that you have read this page.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="/public/js/flipclock.min.js"></script>
 <script src="{{ site.baseurl }}public/js/32kcartgallery.js"></script>
-<script type="text/javascript">
-	var current = (new Date().getTime())/1000;
-	var end = (new Date('May 9, 2016 18:00:00 UTC').getTime())/1000;
-	var offset = new Date().getTimezoneOffset() * 60;
-	var clocktime = (end - current + offset);
-
-	var clock = $('.countdown').FlipClock(clocktime, {
-		clockFace: 'DailyCounter',
-		countdown: true
-	});
-</script>
