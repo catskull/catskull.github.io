@@ -1,6 +1,7 @@
 .gallery {
   max-width: 600px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .gallery img {
@@ -51,7 +52,8 @@
   width: 18em;
   padding-left: 15px;
   text-align: center;
-  float: left;
+  /*float: left;*/
+  display: inline-block;
 }
 
 .tile img {
@@ -71,10 +73,35 @@
 }
 
 .cart-button input {
-  width: 10em;
+  width: 5rem;
 }
 
 .countdown {
   padding-top: 20px;
   max-width: 100%
+}
+
+table {
+  max-width: 50%;
+}
+
+/*.container {
+  max-width: 28rem;
+}*/
+
+select {
+  font-size: 0.8rem;
+  background-color: #fff;
+}
+
+@media (min-width: 56em) {
+  select {
+    font-size: 1rem;
+    background-color: #fff;
+  }
+}
+
+.comments {
+  padding-top: 1rem;
+  border-top-style: dashed;
 }

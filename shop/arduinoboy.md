@@ -19,7 +19,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="X4H2EPR2AN5Q4">
-<table>
+<table class="checkout-table">
 <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
 	<option value="Kit Only">Kit Only $16.00 USD</option>
 	<option value="Kit Only (w/ PS2 jack)">Kit Only (w/ PS2 jack) $17.00 USD</option>
