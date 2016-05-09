@@ -15,6 +15,8 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 	</div>
 </div>
 
+## Carts go on sale at 6 PM MST (1:00 AM UTC)
+
 <table>
 	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 	<input type="hidden" name="cmd" value="_s-xclick">
@@ -42,7 +44,7 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 		<option value="Stepgirl">Step Girl</option>
 	</select> </td></tr>
 	</table>
-	<input type="image" src="http://i.imgur.com/F8q9q3g.png" border="0" name="submit">
+	<!-- <input type="image" src="http://i.imgur.com/F8q9q3g.png" border="0" name="submit"> -->
 	</form>
 </table>
 
