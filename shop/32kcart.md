@@ -15,6 +15,8 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 	</div>
 </div>
 
+## $10
+
 <table>
 	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 	<input type="hidden" name="cmd" value="_s-xclick">
