@@ -40,6 +40,7 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 		<option value="Shitwave">Shitwave</option>
 		<option value="Sound Demo">Sound Demo</option>
 		<option value="Stepgirl">Step Girl</option>
+		<option value="Custom ROM">Custom ROM</option>
 	</select> </td></tr>
 	</table>
 	<input type="image" src="http://i.imgur.com/F8q9q3g.png" border="0" name="submit">
