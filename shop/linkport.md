@@ -6,10 +6,10 @@ description: Buy replacement link port connectors for Nintendo Gameboy Color and
 # GBA/GBC Link Port
 
 <div class="gallery">
-	<img src="https://i.imgur.com/iPtaiDp.png" alt="Arduinoboy front">
+	<img src="https://i.imgur.com/iPtaiDp.png" alt="GCA/GBC/MGB link port">
 </div>
 
-## $2.00
+## $1.00
 
 <table>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
