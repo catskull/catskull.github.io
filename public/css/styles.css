@@ -105,3 +105,18 @@ select {
   padding-top: 1rem;
   border-top-style: dashed;
 }
+
+::selection {
+  background: #ffeb99; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffeb99; /* Gecko Browsers */
+}
+
+img::selection {
+  background: none;
+}
+
+img::-moz-selection {
+  background: none;
+}
