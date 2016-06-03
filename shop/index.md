@@ -19,7 +19,7 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
 
 <div class="tile">
 	<a href="/shop/linkport">
-		<img src="https://i.imgur.com/iPtaiDp.png"/>
+		<img src="/public/images/gbalink.png"/>
 		<p>GBA Link Port</p>
 	</a>
 </div>
