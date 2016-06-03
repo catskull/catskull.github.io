@@ -81,10 +81,6 @@
   max-width: 100%
 }
 
-table {
-  max-width: 50%;
-}
-
 /*.container {
   max-width: 28rem;
 }*/
@@ -94,11 +90,8 @@ select {
   background-color: #fff;
 }
 
-@media (min-width: 56em) {
-  select {
-    font-size: 1rem;
-    background-color: #fff;
-  }
+table {
+  max-width: 100%;
 }
 
 .comments {
@@ -119,4 +112,27 @@ img::selection {
 
 img::-moz-selection {
   background: none;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 56em) {
+  select {
+    font-size: 1rem;
+    background-color: #fff;
+  }
+
+  table {
+    max-width: 75%;
+  }
+
+  input[type=text] {
+    font-size: 1rem;
+  }
+
 }
