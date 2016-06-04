@@ -6,8 +6,8 @@ description: The shop page where I sell a Commodore 64 cartridge
 # min64
 
 <div class="gallery">
-	<img src="{{ site.baseurl }}public/32kcart/1.jpg" alt="32k Gameboy Flash Cart" id="gallery_image" onclick="cycle(1); return false;">
-	<p id="gallery_subtitle">32k Gameboy Flash Cart</p>
+	<img src="{{ site.baseurl }}public/images/min64/1.jpg" alt="min64 Flash Cart with Socket" id="gallery_image" onclick="cycle(1); return false;">
+	<p id="gallery_subtitle">min64 Flash Cart with Socket</p>
 	<p id="gallery_pos_text">1/4</p>
 	<div id="gallery_nav">
 		<p id="gallery_nav_left" onclick="cycle(0); return false;">←</p>
@@ -33,7 +33,6 @@ Price includes a gold plated PCB and a 2764 ROM. A DIP 28 socket is available fo
   <input type="hidden" name="currency_code" value="USD">
   <input type="image" src="/public/images/addtocart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
   </form>
-
 </table>
 
 ## Details:
@@ -55,4 +54,4 @@ I will ship to the address entered on the PayPal checkout page, so please double
 By purchasing from me, you are agreeing to these terms and conditions and acknowledging that you have read this page.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="{{ site.baseurl }}public/js/32kcartgallery.js"></script>
+<script src="{{ site.baseurl }}public/js/min64gallery.js"></script>
