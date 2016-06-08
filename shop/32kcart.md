@@ -45,7 +45,8 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 		<option value="Custom ROM">Custom ROM</option>
 	</select> </td></tr>
 	</table>
-	<input type="image" src="/public/images/addtocart.png" border="0" name="submit">
+	<!-- <input type="image" src="/public/images/addtocart.png" border="0" name="submit"> -->
+	<img src="/public/images/soldout.png"/>
 	</form>
 </table>
 
