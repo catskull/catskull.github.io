@@ -45,8 +45,7 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 		<option value="Custom ROM">Custom ROM</option>
 	</select> </td></tr>
 	</table>
-	<!-- <input type="image" src="/public/images/addtocart.png" border="0" name="submit"> -->
-	<img src="/public/images/soldout.png"/>
+	<input type="image" src="/public/images/addtocart.png" border="0" name="submit">
 	</form>
 </table>
 
@@ -58,6 +57,8 @@ Carts ship within **5** business days.
 
 Shipping is flat rate $3 in the US.
 
+Update 6/13/2016: All boards are now gold finished! This should increase reliability long term!
+
 These carts are dead simple, only capable of handling roms up to 32k in size. There is no mapper, no SRAM, no battery, no RTC. Just a rom. It cannot play Pokemon or LSDJ so please don't ask me.
 
 You can send me a custom rom and I'll make sure it works before I send it to you! No commercial roms please.
@@ -67,8 +68,6 @@ The price includes an aftermarket Gameboy cartridge shell. The quality is not as
 No cartridge label is included.
 
 Rom is re-flashable with most cart flashers. If you don't have a flasher but would like your cart re-flashed in the future, you can ship it back to me and provide me return postage and I'll re-flash it for you. Or you could just buy another cart, since it's probably cheaper than shipping it back and forth.
-
-All boards are HASL coated. What that means is that they're more susceptible to corrosion than OEM games. For most people, that will not cause any issues, but if you're worried about it I suggest you do not buy a cart.
 
 I will ship to the address entered on the PayPal checkout page, so please double check to make sure it's correct.
 
