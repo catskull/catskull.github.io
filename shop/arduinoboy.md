@@ -15,6 +15,8 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 	</div>
 </div>
 
+### Update 6/14/2016: These kits are currently on back order. They should be in stock within a week. Any orders placed will not ship until they arrive!
+
 <table>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -32,8 +34,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
-<input type="image" src="/public/images/addtocart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<input type="image" src="/public/images/backorder.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 </form>
 </table>
 
