@@ -15,7 +15,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 	</div>
 </div>
 
-### Update 6/14/2016: These kits are currently on back order. They should be in stock within a week. Any orders placed will not ship until they arrive!
+### Update 6/21/2016: Back in stock! There's an error with the silkscreen on the latest batch. The text which specifies what modes the LEDs reflect is not there. Functionality remains the same, but it's just hard to know what mode you're in. I'm writing text next to each one with silver sharpie. If you don't want me to do that, please let me know before ordering!
 
 <table>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -34,7 +34,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
-<input type="image" src="/public/images/backorder.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="image" src="/public/images/addtocart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 </form>
 </table>
 
