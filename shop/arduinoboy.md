@@ -17,6 +17,8 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 
 ### Update 6/21/2016: Back in stock! There's an error with the silkscreen on the latest batch. The text which specifies what modes the LEDs reflect is not there. Functionality remains the same, but it's just hard to know what mode you're in. I'm writing text next to each one with silver sharpie. If you don't want me to do that, please let me know before ordering!
 
+### Update 7/9/2016: Prices for assembled kits have increased by $3. Unassembled kits remain the same. I hand assemble and test each unit, and I'm finding I have less and less free time these days. The free time I do have I'd like to spend with my family. So, to make it worth it to me to assemble these, the prices have increased. I apologize, and I hope you can understand where I'm coming from! Please contact me if you have any questions.
+
 <table>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -27,10 +29,10 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 	<option value="Kit Only (w/ PS2 jack)">Kit Only (w/ PS2 jack) $17.00 USD</option>
 	<option value="Kit + Arduino">Kit + Arduino $21.00 USD</option>
 	<option value="Kit (w/ PS2 jack) + Arduino">Kit (w/ PS2 jack) + Arduino $22.00 USD</option>
-	<option value="Assembled Kit">Assembled Kit $26.00 USD</option>
-	<option value="Assembled Kit (w/ PS2 jack)">Assembled Kit (w/ PS2 jack) $27.00 USD</option>
-	<option value="Assembled Kit + Arduino">Assembled Kit + Arduino $31.00 USD</option>
-	<option value="Assembled Kit (w/ PS2 jack) + Arduino">Assembled Kit (w/ PS2 jack) + Arduino $32.00 USD</option>
+	<option value="Assembled Kit">Assembled Kit $29.00 USD</option>
+	<option value="Assembled Kit (w/ PS2 jack)">Assembled Kit (w/ PS2 jack) $31.00 USD</option>
+	<option value="Assembled Kit + Arduino">Assembled Kit + Arduino $35.00 USD</option>
+	<option value="Assembled Kit (w/ PS2 jack) + Arduino">Assembled Kit (w/ PS2 jack) + Arduino $36.00 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
