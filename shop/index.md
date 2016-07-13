@@ -25,6 +25,13 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
 </div>
 
 <div class="tile">
+	<a href="/shop/arduinoboyquickstart">
+		<img src="/public/images/aboyquickstart/1.png"/>
+		<p>Arduinoboy Quickstart Bundle</p>
+	</a>
+</div>
+
+<div class="tile">
 	<a href="/shop/linkport">
 		<img src="/public/images/gbalink.png"/>
 		<p>GBA Link Port</p>
