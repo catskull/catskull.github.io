@@ -15,10 +15,6 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 	</div>
 </div>
 
-### Update 6/21/2016: Back in stock! There's an error with the silkscreen on the latest batch. The text which specifies what modes the LEDs reflect is not there. Functionality remains the same, but it's just hard to know what mode you're in. I'm writing text next to each one with silver sharpie. If you don't want me to do that, please let me know before ordering!
-
-### Update 7/9/2016: Prices for assembled kits have increased by $3. Unassembled kits remain the same. I hand assemble and test each unit, and I'm finding I have less and less free time these days. The free time I do have I'd like to spend with my family, or to bring new items to the shop. So, to make it worth it to me to assemble these, the prices have increased. I apologize, and I hope you can understand where I'm coming from! Please contact me if you have any questions.
-
 <table>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
