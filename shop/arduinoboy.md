@@ -36,8 +36,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 </form>
 </table>
 
-
-### Now with optional PS/2 keyboard jack!
+### PS/2 Mode is now integrated into the regular LSDJ keyboard mode. Because of this, the mode button has moved to another pin. I've also eliminated one resistor, so assembly should be easier than ever! You can download the code [here](https://github.com/catskull/Arduinoboy/archive/dual-mode-keyboard.zip).
 
 ### [Assembly Instructions (pdf)]({{ site.baseurl }}public/arduinoboy-assembly.pdf)
 
