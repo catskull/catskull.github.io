@@ -1,3 +1,7 @@
+html {
+  -webkit-font-smoothing: antialiased !important;
+}
+
 .gallery {
   max-width: 600px;
   text-align: center;
