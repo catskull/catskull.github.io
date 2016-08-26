@@ -1,31 +1,25 @@
----
-layout: page
-title: Resume
----
-<div class="title">
-  <pre>
- ___________________________________________________________________ 
+___________________________________________________________________
 |     ___            _     _      ___       ___                     |
 |    /   \__ ___   _(_) __| |    /   \___  / _ \_ __ __ ___      __ |
 |   / /\ / _` \ \ / / |/ _` |   / /\ / _ \/ /_\/ '__/ _` \ \ /\ / / |
 |  / /_// (_| |\ V /| | (_| |  / /_//  __/ /_\\| | | (_| |\ V  V /  |
-| /___,&rsquo; \__,_| \_/ |_|\__,_| /___,' \___\____/|_|  \__,_| \_/\_/   |
+| /___,’ \__,_| \_/ |_|\__,_| /___,' \___\____/|_|  \__,_| \_/\_/   |
 |===================================================================|
 |    catskull.net ~ github.com/catskull ~ david.degraw@gmail.com    |
 |===================================================================|
 |           _____  _____  _______  _________  ___________           |
 |          / __/ |/_/ _ \/ __/ _ \/  _/ __/ |/ / ___/ __/           |
-|         / _/_&gt;  &lt;/ ___/ _// , _// // _//    / /__/ _/             |
+|         / _/_>  </ ___/ _// , _// // _//    / /__/ _/             |
 |        /___/_/|_/_/  /___/_/|_/___/___/_/|_/\___/___/             |
 |___________________________________________________________________|
 |                                                                   |
-|      Simplifile &bull; Front End Developer Intern &bull; Since Nov. 2015    |
+|      Simplifile • Front End Developer Intern • Since Nov. 2015    |
 |         - Wrote front end code using Angular.js.                  |
 |         - Worked with design team to implement a                  |
 |            consistent user experience.                            |
 |         - Maintained legacy Java server pages (JSP).              |
 |                                                                   |
-|      DIGI International &bull; Student Engineer &bull; May - Nov. 2015      |
+|      DIGI International • Student Engineer • May - Nov. 2015      |
 |         - Wrote test scripts to ensure reliability                |
 |            of xbee firmware.                                      |
 |         - Researched and implemented libraries for                |
@@ -33,7 +27,7 @@ title: Resume
 |         - Improved Windows workstation installation               |
 |            batch scripts.                                         |
 |                                                                   |
-|       Custom Bit &bull; Full-Stack Developer &bull; Jan. 2014 - 2015        |
+|       Custom Bit • Full-Stack Developer • Jan. 2014 - 2015        |
 |          - Multi-tasked and managed numerous issues               |
 |            on multiple project concurrently.                      |
 |          - Researched and integrated the eBay trading             |
@@ -48,9 +42,9 @@ title: Resume
 |   /_/ /___/\___/_//_/_/|_/\____/____/\____/\___/___/___/___/      |
 |___________________________________________________________________|
 |                                                                   |
-|         Javascript &bull; Angular &bull; Git &bull; Ruby (Rails) &bull; Python        |
+|         Javascript • Angular • Git • Ruby (Rails) • Python        |
 |                                                                   |
-|              Arduino &bull; Eagle CAD &bull; Markdown &bull; Jekyll              |
+|              Arduino • Eagle CAD • Markdown • Jekyll              |
 |                                                                   |
 |===================================================================|
 |           _______  __  __________ ______________  _  __           |
@@ -60,11 +54,8 @@ title: Resume
 |___________________________________________________________________|
 |                                                                   |
 |     Bachelor of Science: Technology and Engineering Education     |
-|             Brigham Young University &bull; Expected 2018              |
+|             Brigham Young University • Expected 2018              |
 |                                                                   |
 |                Diploma - Computer Science Letter                  |
-|                  Pine View High School &bull; 2009                     |
+|                  Pine View High School • 2009                     |
 |___________________________________________________________________|
-</pre>
-  <a href="/public/resume.txt" target="_blank">Download a .txt</a>
-</div>
