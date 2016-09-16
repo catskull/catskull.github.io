@@ -2,6 +2,10 @@ html {
   -webkit-font-smoothing: antialiased !important;
 }
 
+p {
+  word-wrap: break-word;
+}
+
 .gallery {
   max-width: 600px;
   text-align: center;
