@@ -118,6 +118,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #c0c0c0;
   letter-spacing: 0;
 }
+.masthead-title img {
+  margin-bottom: 0;
+  border-radius: 0;
+}
 
 @media (max-width: 48em) {
   .masthead-title {
@@ -127,6 +131,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .masthead-title small {
     display: none;
+  }
+  .masthead-title img {
+    padding-left: 2.5em;
   }
 }
 
