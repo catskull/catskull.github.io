@@ -12,11 +12,11 @@ If anything on this list is incorrect, please let me know in the comments. I've 
 iPhone Pros:
 
  - Break free of google voice but still send texts from my computer (iMessage)
- - No more worrying about google killling google voice/hangouts/whatever
+ - No more worrying about google killing google voice/hangouts/whatever
  - iMessage is actually really good
  - Consistency
  - Knowing I'll be supported for at least 4 years
- - Higher quality apps overall (debateable)
+ - Higher quality apps overall (debatable)
  - Built in f.lux (night shift)
  - Ad blockers
  - Larger ecosystem of accessories
@@ -34,6 +34,6 @@ iPhone Cons:
  - No removing stock apps. I'll be stuck with apple email and inbox
  - No emulators
  - Can't send texts with my chromebook
- - Generally more expensive (debateable)
+ - Generally more expensive (debatable)
  - Getting more locked into the Apple ecosystem. I'm locked into Google right now though so I'm not sure if that actually matters.
  - Doesn't work as well with devices not in the ecosystem (pebble time)
