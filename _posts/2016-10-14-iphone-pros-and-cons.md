@@ -18,7 +18,7 @@ iPhone Pros:
  - Knowing I'll be supported for at least 4 years
  - Higher quality apps overall (debatable)
  - Built in f.lux (night shift)
- - Ad blockers
+ - Ad blockers (apparently this only works in Safari, not Chrome)
  - Larger ecosystem of accessories
  - Good (consistent) camera
  - Better customer service. If I break the screen I can go to an apple store.
@@ -30,9 +30,9 @@ iPhone Cons:
  - Siri is a joke (compared to Google Voice which I use a lot, mostly for navigation)
  - <s>You can't make Google Maps the default navigation app</s> You can delete Apple Maps and use voice navigation once in it.
  - No third party web engines
- - No sideloading apps or my own apps
+ - <s>No sideloading apps or my own apps</s> Apparently you can sideload as many apps as you want if you use xcode on your computer. Not as easy as downloading an apk, but the possibility is still there.
  - <s>No removing stock apps. I'll be stuck with apple email and inbox</s> This is not true in the latest version of iOS. Nearly all apple apps are removable.
- - No emulators
+ - No emulators (there may be some emulators but you have to go through alternate routes to get them installed)
  - Can't send texts with my chromebook
  - Generally more expensive (debatable)
  - Getting more locked into the Apple ecosystem. I'm locked into Google right now though so I'm not sure if that actually matters.
