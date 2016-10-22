@@ -31,5 +31,7 @@ This is a bundle designed to help beginners get off the ground. It includes:
  - A GBC style link cable
 
  All you need is a MIDI keyboard and you're ready to rock!
+ 
+I hand assemble each kit, so please allow up to 10 days for assembly. If you're in a rush, just get in contact with me and I'm sure we can work something out!
 
 I will ship to the address entered on the PayPal checkout page, so please double check to make sure it's correct. I also use the PayPal email for communications so please make sure it's valid and you check it.
