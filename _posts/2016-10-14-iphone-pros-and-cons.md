@@ -11,7 +11,7 @@ If anything on this list is incorrect, please let me know in the comments. I've 
 
 iPhone Pros:
 
- - Break free of google voice but still send texts from my computer (iMessage)
+ - Break free of Google Voice but still send texts from my computer (iMessage)
  - No more worrying about google killing google voice/hangouts/whatever
  - iMessage is actually really good
  - Consistency
@@ -27,7 +27,7 @@ iPhone Pros:
 
 iPhone Cons:
 
- - Siri is a joke (compared to Google Voice which I use a lot, mostly for navigation)
+ - Siri is a joke (compared to Google Now/Assistant which I use a lot, mostly for navigation). Update: according to recent videos, it's not that much worse. Biggest downside is that siri won't use Google Maps for navigation.
  - <s>You can't make Google Maps the default navigation app</s> You can delete Apple Maps and use voice navigation once in it.
  - No third party web engines
  - <s>No sideloading apps or my own apps</s> Apparently you can sideload as many apps as you want if you use xcode on your computer. Not as easy as downloading an apk, but the possibility is still there.
