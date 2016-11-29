@@ -31,3 +31,5 @@ PCBWay is the last fab house I'll talk about, and it's also my favorite. They ar
 As a final disclaimer, they do offer incentive for you to make social media posts about their service by giving you credit. I'm not sure if I'll even get anything for this post, but I will submit it to them. All these thoughts are my own, and I've presented my honest opinion and experience with the three companies.
 
 If you have any questions, or would like to learn more, leave a comment or email me! I'm always willing to help people out. Even if most of this post went over your head, but you're interested in the subject, I could write more posts answering questions you may have!
+
+[Download the PCBWay CAM job file](http://catskull.net/public/files/pcbway.cam)
