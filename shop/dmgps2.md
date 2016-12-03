@@ -7,7 +7,7 @@ description: The shop page where I sell a PS/2 keyboard adapter for Nintendo Gam
 
 <div class="gallery">
 	<img src="{{ site.baseurl }}public/images/ps2/1.jpg" alt="DMG PS/2 Keyboard Adapter" id="gallery_image" onclick="cycle(1); return false;">
-  <iframe id="video" width="640" height="426" src="https://www.youtube.com/embed/8VxoWhAUYBU?enablejsapi=1" frameborder="0" allowfullscreen style="display:none;"></iframe>
+  <iframe id="video" width="640" height="426" src="https://www.youtube.com/embed/8VxoWhAUYBU?enablejsapi=1" frameborder="0" allowfullscreen style="display:none; max-width:100%;"></iframe>
 	<p id="gallery_subtitle">DMG PS/2 Keyboard Adapter</p>
 	<p id="gallery_pos_text">1/7</p>
 	<div id="gallery_nav">
