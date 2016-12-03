@@ -36,6 +36,8 @@ Shipping is flat rate $3 in the US.
 
 This is a super simple PS/2 keyboard adapter for your DMG! The PCB goes straight into the lower half of the link port. Simply plug the adapter into your Gameboy, and your keyboard into the adapter, and you're ready to rock out with LSDJ's keyboard sync mode! The PCB is gold plated, so it should hold up quite well over time. Check out the pictures and video for more info!
 
+This only works with the original brick DMG Gameboy! It will not work with any other model. If there is interest in a GBP/GBC/GBA model, I can easily make those!
+
 I will ship to the address entered on the PayPal checkout page, so please double check to make sure it's correct.
 
 By purchasing from me, you are agreeing to these terms and conditions and acknowledging that you have read this page.
