@@ -18,9 +18,9 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
 </div>
 
 <div class="tile">
-	<a href="/shop/min64">
-		<img src="/public/images/min64/1.jpg"/>
-		<p>min64</p>
+	<a href="/shop/dmgps2">
+		<img src="/public/images/ps2/1.jpg"/>
+		<p>DMG PS/2 Keyboard Adapter</p>
 	</a>
 </div>
 
@@ -35,6 +35,13 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
 	<a href="/shop/linkport">
 		<img src="/public/images/gbalink.png"/>
 		<p>GBA Link Port</p>
+	</a>
+</div>
+
+<div class="tile">
+	<a href="/shop/min64">
+		<img src="/public/images/min64/1.jpg"/>
+		<p>min64</p>
 	</a>
 </div>
 
