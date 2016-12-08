@@ -17,10 +17,13 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
 	</a>
 </div>
 
-<div class="tile">
+<div class="tile product-callout">
 	<a href="/shop/dmgps2">
 		<img src="/public/images/ps2/4.jpg"/>
 		<p>DMG PS/2 Keyboard Adapter</p>
+		<div class="after">
+			<p>New!</p>
+		</div>
 	</a>
 </div>
 

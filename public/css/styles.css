@@ -145,3 +145,26 @@ input[type=text] {
   }
 
 }
+
+.product-callout {
+    position: relative;
+}
+
+.product-callout .after {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    text-align: left;
+    background-color: #FCF200;
+    border-radius: 0 0 7px 0;
+    border-style: none solid solid none;
+    border-width: 2px;
+    border-color: #515151;
+}
+
+.product-callout .after p {
+    color: #515151;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 0;
+}
