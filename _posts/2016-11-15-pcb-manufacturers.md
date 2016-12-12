@@ -5,6 +5,7 @@ date:   2016-11-15
 categories: posts
 ---
 
+**Disclaimer: PCBWay gave me a $25 credit for this post. All thoughts and opinions are my own. They did not influence my opinions in any way.
 
 Since getting into printed circuit boards (PCBs) about two years ago, I've had boards made at three different companies: OSHPark, Dirty PCBs, and PCBWay. I think all are very good options for beginners, so this blog post will be discussing the pros and cons of them. Hopefully it will aid budding hardware hackers in their quest to get boards made! It should be noted that all three of these services are considered "PCB prototype" services. Meaning, if you want to make 100,000 boards, you may be better off going somewhere else.
 
