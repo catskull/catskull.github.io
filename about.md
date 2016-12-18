@@ -11,4 +11,4 @@ I'm a web developer and student. I enjoy technology, electronics, and spending t
 
 This site is built with [Jekyll](http://jekyllrb.com/), hosted on [Github Pages](https://pages.github.com/) and uses the [Laynon](http://lanyon.getpoole.com/) theme. The archive page is based on [Reyhan Dhuny](reyhan.org)'s site. Check out the full source [here](https://github.com/catskull/catskull.github.io)!
 
-You can find me on [twitter](http://twitter.com/davidwdegraw), [github](http://github.com/catskull), or email me directly at <bro@catskull.net>.
+You can find me on [twitter](https://twitter.com/xxcatskullxx), [github](http://github.com/catskull), or email me directly at <bro@catskull.net>.
