@@ -32,7 +32,7 @@ This is a bundle designed to help beginners get off the ground. It includes:
 
  All you need is a MIDI keyboard and you're ready to rock!
  
-**The cable included will work with the Game Boy Color, Game Boy Pocket, and Game Boy Advance. If you want to use this with the original Game Boy (DMG-01), you will need a dual ended link cable. This is the one I use: http://www.ebay.com/itm/400690419424**
+The cable included will work with the Game Boy Color, Game Boy Pocket, and Game Boy Advance. If you want to use this with the original Game Boy (DMG-01), you will need a dual ended link cable. This is the one I use: [http://www.ebay.com/itm/400690419424](http://www.ebay.com/itm/400690419424)
  
 I hand assemble each kit, so please allow up to 10 days for assembly. If you're in a rush, just get in contact with me and I'm sure we can work something out!
 
