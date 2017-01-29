@@ -18,9 +18,9 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
 </div>
 
 <div class="tile product-callout">
-	<a href="/shop/dmgps2">
-		<img src="/public/images/ps2/4.jpg"/>
-		<p>DMG PS/2 Keyboard Adapter</p>
+	<a href="/shop/mbc5cart">
+		<img src="/public/images/mbc5/1.jpg"/>
+		<p>MBC5 Cart</p>
 		<div class="after">
 			<p>New!</p>
 		</div>
@@ -31,6 +31,13 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
 	<a href="/shop/arduinoboyquickstart">
 		<img src="/public/images/aboyquickstart/1.png"/>
 		<p>Arduinoboy Quickstart Bundle</p>
+	</a>
+</div>
+
+<div class="tile">
+	<a href="/shop/dmgps2">
+		<img src="/public/images/ps2/4.jpg"/>
+		<p>DMG PS/2 Keyboard Adapter</p>
 	</a>
 </div>
 

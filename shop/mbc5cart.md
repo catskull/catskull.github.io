@@ -6,7 +6,7 @@ description: An LSDJ compatible MBC5 Gameboy cartridge for chiptune chipmusic pr
 # MBC5 Cart
 
 <div class="gallery">
-	<img src="/public/images/gbalink.png" alt="GCA/GBC/MGB link port">
+	<img src="/public/images/mbc5/1.jpg" alt="GCA/GBC/MGB link port">
 </div>
 
 ## $20.00
@@ -30,9 +30,11 @@ Carts ship within **5** business days.
 
 Shipping is flat rate $3 in the US.
 
-This is an MBC5 compatible Gameboy cartridge! It will work with almost all Gameboy games, including LSDJ. Because of limited save ram available, only one LSDJ song can be saved on the cart. This is intended as an entry-level LSDJ cart so you can get a grip with the software before spending more money on a more full-featured cart. It will also work great with the [Arduinoboy](/shop/arduinoboy)!
+This is an MBC5 compatible Gameboy cartridge! It will work with almost all Gameboy games, including LSDJ. **Because of limited save ram available, only one LSDJ song can be saved on the cart.** This is intended as an entry-level LSDJ cart so you can get a grip with the software before spending more money on a more full-featured cart. It will also work great with the [Arduinoboy](/shop/arduinoboy)!
 
 Enter the name of the ROM you'd like to have flashed on the cart in the text box before adding it to your cart. If I can't find the ROM, I'll contact you via your PayPal email address. If you'd like LSDJ on the cart, I'll ask to see proof of your LSDJ license.
 
-They come in a red shell and a cartridge case is included. No cartridge label is included.
+They come in a red shell and a cartridge case is included.
+
+No cartridge label is included.
 
