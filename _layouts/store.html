@@ -16,31 +16,23 @@
             <a href="/shop" title="Home">
               <img src="/public/images/logos/1.png" alt="catskull.net The blog of David W. DeGraw">
             </a>
-            <div class="cart-button">
-              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                <input type="hidden" name="cmd" value="_cart">
-                <input type="hidden" name="business" value="QJSAL93VF3AGE">
-                <input type="hidden" name="display" value="1">
-                <input type="image" src="/public/images/viewcart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
-            </div>
           </div>
         </div>
       </div>
 
       <div class="container content post">
-        <h3>Check out the new <a href="https://www.facebook.com/catskullelectronics" target="_blank">Catskull Electronics Facebook page</a> for news, product sneak peaks, and other cool stuff!</h3>
-      </div>
-
-      <div class="container content post">
-        {{ content }}
+        <h3>The shop has moved to <a href="http://catskullelectronics.com">catskullelectronics.com</a>. You will be redirected in 5 seconds!</h3>
       </div>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
+      var url = window.location.href.split('/shop')[1];
+      window.setTimeout(function () {
+        location.href = "http://catskullelectronics.com" + url;
+      }, 5000);
+
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
