@@ -5,7 +5,7 @@ title: About
 
 ## My name is David DeGraw
 
-![me](/public/me.jpg)
+<img src="/public/me.jpg" alt="me">
 
 I'm a web developer and student. I enjoy technology, electronics, and spending time with my wife. We live in Provo, Utah. We had our first child (a son) in May 2015 and couldn't be more excited! I'm always looking for interesting things to do and learn about, so please feel free to contact me!
 
