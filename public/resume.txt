@@ -1,4 +1,4 @@
-___________________________________________________________________
+ ___________________________________________________________________
 |     ___            _     _      ___       ___                     |
 |    /   \__ ___   _(_) __| |    /   \___  / _ \_ __ __ ___      __ |
 |   / /\ / _` \ \ / / |/ _` |   / /\ / _ \/ /_\/ '__/ _` \ \ /\ / / |
@@ -13,23 +13,22 @@ ___________________________________________________________________
 |        /___/_/|_/_/  /___/_/|_/___/___/_/|_/\___/___/             |
 |___________________________________________________________________|
 |                                                                   |
+|      SimpleNexus • Full-Stack Developer • Since March 2017        |
+|         - Launched a new front-end using Vue.js                   |
+|         - Developed internal procedures for ensuring              |
+|             code quality and maintainability                      |
+|         - Architected a new API using GraphQL                     |
+|             and Ruby on Rails                                     |
+|                                                                   |
 |      Simplifile • Front End Developer Intern • Since Nov. 2015    |
 |         - Wrote front end code using Angular.js                   |
 |         - Worked with design team to implement a                  |
-|            consistent user experience                             |
-|         - Maintained legacy Java server pages (JSP)               |
-|                                                                   |
-|      DIGI International • Student Engineer • May - Nov. 2015      |
-|         - Wrote test scripts to ensure reliability                |
-|            of xbee firmware                                       |
-|         - Researched and implemented libraries for                |
-|            xbee development boards                                |
-|         - Improved Windows workstation installation               |
-|            batch scripts                                          |
+|             consistent user experience                            |
+|         - Maintained legacy Java server pages (JSP)               |                                       |
 |                                                                   |
 |      Custom Bit • Full-Stack Developer • Jan. 2014 - 2015         |
-|         - Multi-tasked and managed numerous issues                |
-|            on multiple project concurrently                       |
+|         - Developed web apps using Ruby on Rails                  |
+|             and Angular                                           |
 |         - Researched and integrated the eBay trading              |
 |             trading API into a Rails eCommerce app                |
 |         - Documented an internally developed API for              |
@@ -42,7 +41,7 @@ ___________________________________________________________________
 |   /_/ /___/\___/_//_/_/|_/\____/____/\____/\___/___/___/___/      |
 |___________________________________________________________________|
 |                                                                   |
-|         Javascript • Angular • Git • Ruby (Rails) • Python        |
+|          Vue.js • Angular • Git • Ruby (Rails) • GraphQL          |
 |                                                                   |
 |              Arduino • Eagle CAD • Markdown • Jekyll              |
 |                                                                   |
