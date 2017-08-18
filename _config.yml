@@ -13,7 +13,7 @@ title:               Catskull.net
 tagline:             'The blog of David DeGraw'
 description:         'Catskull.net: The personal blog of David DeGraw, documenting my finds as a web developer and electrical engineering student.'
 url:                 https://catskull.net
-baseurl:             "/"
+baseurl:             '/'
 paginate:            5
 
 # About/contact
@@ -25,4 +25,6 @@ author:
 # Custom vars
 version:             1.0.0
 
-gems: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
