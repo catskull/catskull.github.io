@@ -6,7 +6,7 @@ description: The shop page where I sell a 32k Gameboy Flash cart
 # 32k Gameboy Flash Cart
 
 <div class="gallery">
-	<img src="{{ site.baseurl }}public/32kcart/1.jpg" alt="32k Gameboy Flash Cart" id="gallery_image" onclick="cycle(1); return false;">
+	<img src="/public/32kcart/1.jpg" alt="32k Gameboy Flash Cart" id="gallery_image" onclick="cycle(1); return false;">
 	<p id="gallery_subtitle">32k Gameboy Flash Cart</p>
 	<p id="gallery_pos_text">1/4</p>
 	<div id="gallery_nav">
@@ -74,4 +74,4 @@ I will ship to the address entered on the PayPal checkout page, so please double
 By purchasing from me, you are agreeing to these terms and conditions and acknowledging that you have read this page.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="{{ site.baseurl }}public/js/32kcartgallery.js"></script>
+<script src="/public/js/32kcartgallery.js"></script>

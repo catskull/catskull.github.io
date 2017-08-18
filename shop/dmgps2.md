@@ -6,7 +6,7 @@ description: The shop page where I sell a PS/2 keyboard adapter for Nintendo Gam
 # DMG PS/2 Keyboard Adapter
 
 <div class="gallery">
-	<img src="{{ site.baseurl }}public/images/ps2/1.jpg" alt="DMG PS/2 Keyboard Adapter" id="gallery_image" onclick="cycle(1); return false;">
+	<img src="/public/images/ps2/1.jpg" alt="DMG PS/2 Keyboard Adapter" id="gallery_image" onclick="cycle(1); return false;">
   <iframe id="video" width="640" height="426" src="https://www.youtube.com/embed/8VxoWhAUYBU?enablejsapi=1" frameborder="0" allowfullscreen style="display:none; max-width:100%;"></iframe>
 	<p id="gallery_subtitle">DMG PS/2 Keyboard Adapter</p>
 	<p id="gallery_pos_text">1/7</p>
@@ -43,4 +43,4 @@ I will ship to the address entered on the PayPal checkout page, so please double
 By purchasing from me, you are agreeing to these terms and conditions and acknowledging that you have read this page.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="{{ site.baseurl }}public/js/ps2gallery.js"></script>
+<script src="/public/js/ps2gallery.js"></script>

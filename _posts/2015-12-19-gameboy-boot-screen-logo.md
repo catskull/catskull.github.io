@@ -9,7 +9,7 @@ categories: posts
 
 ### [Click here to go straight to the logo generator](http://catskull.net/GB-Logo-Generator/)
 
-[A while ago I wrote about completely wiping the memory of an EMS 64m USB Gameboy cartridge.]({{ site.baseurl }}erase-an-ems-64-usb-gameboy-cart.html) In doing that, I observed something interesting: if the rom was filled with all 1's (0xFF), the Nintendo logo that scrolls down on boot would be all black, like if there was no cartridge inserted at all. If the rom as filled with all 0'x (0x00), the Nintendo logo was completely blank and only the ® symbol scrolled down.
+[A while ago I wrote about completely wiping the memory of an EMS 64m USB Gameboy cartridge.](/erase-an-ems-64-usb-gameboy-cart.html) In doing that, I observed something interesting: if the rom was filled with all 1's (0xFF), the Nintendo logo that scrolls down on boot would be all black, like if there was no cartridge inserted at all. If the rom as filled with all 0'x (0x00), the Nintendo logo was completely blank and only the ® symbol scrolled down.
 
 In case you don't know what I'm talking about, here's an image that represents what happens when a Gameboy is booted (turned on). Or at least what's supposed to happen.
 

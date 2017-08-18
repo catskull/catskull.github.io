@@ -6,7 +6,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 # Arduinoboy Shield
 
 <div class="gallery">
-	<img src="{{ site.baseurl }}public/gallery/1.jpg" alt="Arduinoboy front" id="gallery_image" onclick="cycle(1); return false;">
+	<img src="/public/gallery/1.jpg" alt="Arduinoboy front" id="gallery_image" onclick="cycle(1); return false;">
 	<p id="gallery_subtitle">Arduinoboy front</p>
 	<p id="gallery_pos_text">1/12</p>
 	<div id="gallery_nav">
@@ -38,7 +38,7 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 
 ### PS/2 Mode is now integrated into the regular LSDJ keyboard mode. Because of this, the mode button has moved to another pin. I've also eliminated one resistor, so assembly should be easier than ever! You can download the code [here](https://github.com/catskull/Arduinoboy/archive/dual-mode-keyboard.zip).
 
-### [Assembly Instructions (pdf)]({{ site.baseurl }}public/arduinoboy-assembly.pdf)
+### [Assembly Instructions (pdf)](/public/arduinoboy-assembly.pdf)
 
 ## Details:
 
@@ -64,4 +64,4 @@ You'll need a good link cable to use this. I have tested these and they seem to 
 
 By purchasing from me, you are agreeing to these terms and conditions.
 
-<script src="{{ site.baseurl }}public/js/scripts.js"></script>
+<script src="/public/js/scripts.js"></script>
