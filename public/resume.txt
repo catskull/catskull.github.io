@@ -1,4 +1,4 @@
- ___________________________________________________________________
+ ___________________________________________________________________ 
 |     ___            _     _      ___       ___                     |
 |    /   \__ ___   _(_) __| |    /   \___  / _ \_ __ __ ___      __ |
 |   / /\ / _` \ \ / / |/ _` |   / /\ / _ \/ /_\/ '__/ _` \ \ /\ / / |
@@ -14,17 +14,19 @@
 |___________________________________________________________________|
 |                                                                   |
 |      SimpleNexus • Full-Stack Developer • Since March 2017        |
-|         - Launched a new front-end using Vue.js                   |
-|         - Developed internal procedures for ensuring              |
-|             code quality and maintainability                      |
+|         - Launched and owned a new front-end using Vue.js         |
+|         - Developed a new product that contributed to a 3x        |
+|             increase in gross monthly revenue                     |
 |         - Architected a new API using GraphQL                     |
 |             and Ruby on Rails                                     |
+|         - Recruited, managed, and championed 8 interns            |
+|             accross 3 development teams                           |
 |                                                                   |
-|      Simplifile • Front End Developer Intern • Since Nov. 2015    |
+|      Simplifile • Front End Developer • 2015 - 2017               |
 |         - Wrote front end code using Angular.js                   |
 |         - Worked with design team to implement a                  |
 |             consistent user experience                            |
-|         - Maintained legacy Java server pages (JSP)               |                                       |
+|         - Maintained legacy Java server pages (JSP)               |
 |                                                                   |
 |      Custom Bit • Full-Stack Developer • Jan. 2014 - 2015         |
 |         - Developed web apps using Ruby on Rails                  |
@@ -46,15 +48,25 @@
 |              Arduino • Eagle CAD • Markdown • Jekyll              |
 |                                                                   |
 |===================================================================|
-|           _______  __  __________ ______________  _  __           |
-|          / __/ _ \/ / / / ___/ _ /_  __/  _/ __ \/ |/ /           |
-|         / _// // / /_/ / /__/ __ |/ / _/ // /_/ /    /            |
-|        /___/____/\____/\___/_/ |_/_/ /___/\____/_/|_/             |
+|       _________  ____  __     ________ _______  ___________       |
+|      / ___/ __ \/ __ \/ /    /_  __/ // /  _/ |/ / ___/ __/       |
+|     / /__/ /_/ / /_/ / /__    / / / _  // //    / (_ /\ \         |
+|     \___/\____/\____/____/   /_/ /_//_/___/_/|_/\___/___/         |
 |___________________________________________________________________|
 |                                                                   |
-|     Bachelor of Science: Technology and Engineering Education     |
-|             Brigham Young University • Expected 2018              |
+|                             Education                             |
+|  Brigham Young University - Technology and Engineering Education  |
 |                                                                   |
-|                Diploma - Computer Science Letter                  |
-|                  Pine View High School • 2009                     |
+|                             Organizer                             |
+|                        Utah Vue.js Meetup                         |
+|                                                                   |
+|                           Presentations                           |
+|   Profitable, Small-Scale Open Source Hardware - OpenWest 2017    |
+|             Data Binding using v-model - Vue.js Meetup            |
+|        Intro to Surface Mount Techonology - OpenWest 2018         |
+|                                                                   |
+|                              Business                             |
+|     Founder of Catskull Electronics. Design and sell hardware     |
+| to aid chiptune musicians in creating their music. Just a hobby,  |
+|         but has done ~30k revenue in the last 12 months.          |
 |___________________________________________________________________|
