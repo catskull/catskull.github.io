@@ -2,7 +2,7 @@
 layout: post
 title:  "Your Idea is Worthless"
 date:   2016-12-29
-categories: posts
+categories: old
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "A note on iOS 12.2 input types"
 date:   2019-04-17
-categories: posts
+categories: post
 ---
 
 Recently a bug came in for a web product I support. On certain fields, we want to show a specific keyboard (like the number pad for number inputs). Mobile Safari has always been a bit frustrating to deal with in this regard. As far as I know, before iOS version 12.2 (released March 25, 2019), the only way to control which keyboard Safari would show was to use the `pattern` attribute with a regular expression like this: `pattern="\d*"`. In other mobile browsers, the `type` attribute worked, but never in Safari.

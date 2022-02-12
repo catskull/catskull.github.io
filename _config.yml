@@ -1,30 +1,25 @@
-# Dependencies
-markdown:            kramdown
-highlighter:         rouge
+title: catskull.net
+author: catskull
+url: https://catskull.net
+baseurl: "/"
+description: > # description of the site (multiple lines allowed)
+  mostly harmless
 
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:title.html
-# relative_permalinks: true
+permalink: /:title.html
 
-# Setup
-title:               Catskull.net
-tagline:             'The blog of David DeGraw'
-description:         'Catskull.net: The personal blog of David DeGraw, documenting my finds as a web developer and electrical engineering student.'
-url:                 http://catskull.net
-baseurl:             '/'
-paginate:            5
+# favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
 
-# About/contact
-author:
-  name:              David DeGraw
-  url:               https://twitter.com/davidwdegraw
-  email:             bro@catskull.net
+remote-theme: riggraz/no-style-please
 
-# Custom vars
-version:             1.0.0
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: "back" # customize text for homepage link in post layout
+  date_format: "%-m/%-d/%Y" # customize how date is formatted
+  show_description: true # show blog description in home page
+
+sass:
+  style: :compressed
 
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag

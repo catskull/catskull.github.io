@@ -2,7 +2,7 @@
 layout: post
 title:  "Status Update"
 date:   2016-09-19
-categories: posts
+categories: hidden
 ---
 
 Well, it's been 5 months since my last post. I was doing so well with my one post per month goal and then the summer hit me hard.

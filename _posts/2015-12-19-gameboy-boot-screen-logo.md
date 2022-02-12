@@ -2,7 +2,7 @@
 layout: post
 title:  "Reverse Engineering the Gameboy Boot Screen"
 date:   2015-12-19
-categories: posts
+categories: old
 ---
 
 ### Disclaimer: I am no expert on this subject or game historian. If anything I say is inaccurate, please let me know in the comments.

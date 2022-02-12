@@ -2,7 +2,7 @@
 layout: post
 title:  "Summer Recap"
 date:   2015-09-05
-categories: general
+categories: hidden
 ---
 
 School is back in session, so I thought I'd take a minute to recap this last summer. I've blogged about a lot of my projects, but not everything.

@@ -2,7 +2,7 @@
 layout: post
 title:  "How I Compute"
 date:   2016-04-04
-categories: posts
+categories: hidden
 ---
 
 I've been fascinated with Richard Stallman for approximately the last decade. He maintains a [pretty interesting page](https://stallman.org/stallman-computing.html) about how he does his computing. It's just a little interesting because he's painted himself into a corner. That's besides the point of this post.

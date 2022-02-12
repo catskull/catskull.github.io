@@ -2,7 +2,7 @@
 layout: post
 title:  "How To: Completely Erase the ROM of an EMS 64m USB Gameboy Cart"
 date:   2015-04-14
-categories: gameboy hack
+categories: old
 ---
 ###Disclaimer: I am not an expert in Gameboy hardware to any extent, so take this with a grain of salt.
 
@@ -31,7 +31,7 @@ After the fact, [Jordan Appleton-Joslin](http://jazz-disassemblies.blogspot.com/
 
 To expand on this, it would be nice to contribute more to the *nix driver to include either support for writing to specific locations or for multi rom support out of the box. Unfortunately my C driver coding skills are nonexistent so that's not happening any time soon.
 
-[The blank rom can be downloaded here.](http://goo.gl/uxE5nU)
+[The blank rom can be downloaded here.](/public/blank.gb)
 
 ![Bad rom! I don't want all of those!](/public/ems/badrom.jpg)
 I only want the top two roms to show up in the menu.

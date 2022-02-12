@@ -2,7 +2,7 @@
 layout: post
 title:  "iPhone Pros and Cons"
 date:   2016-10-14
-categories: posts
+categories: hidden
 ---
 
 A coworker recently asked me how I liked my Oneplus 3. I had to answer honestly and say I didn't like it that much. I think Android in general is just not appealing to me anymore, and Google is not committed to anything so it's hard to buy into their phones. The conversation shifted to the possibility of moving to an iPhone, so I thought I'd make a pros and cons list of an iPhone. This is specific to my uses, but I hope others will find it interesting as well.

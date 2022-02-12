@@ -2,7 +2,7 @@
 layout: post
 title:  "Qualtrics 'Opportunity'"
 date:   2017-03-16
-categories: posts
+categories: hidden
 ---
 
 Early this afternoon I received an email out of the blue from a Qualtrics recruiter. This came as a surprise to me, not only because it was unsolicited, but because the last time I interacted with Qualtrics their smarmy cuss of a recruiter wouldn't even look at my resume because I hadn't taken a very specific computer science class. It's also very uncommon for me to get hit up by recruiters, since I'm not that big of a deal, and I also don't have a linkedIn profile. Keeping with the company's apparent love for the "brogramming" culture, the email was equal parts hysterical, sad, and insulting. Going against my better judgment, I decided to post the full content of the email with comments explaining how I felt about it.

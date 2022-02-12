@@ -2,7 +2,7 @@
 layout: post
 title:  "The Chrome Web Store Feels 5 Years Old"
 date:   2015-11-05
-categories: posts
+categories: old
 ---
 
 I initially wanted to write this post about my experience building a simple Google Chrome extension, [EmotiClean](https://chrome.google.com/webstore/detail/emoticlean/eocdedidpfdncgnfadiknoncllmeohcd), and with putting it on the Chrome Web Store. However, my initial excitement from building it wore off quickly as I had to use the outdated interface of the web store, specifically the developer dashboard. In this post I will try to outline and articulate my frustrations and attempt to provide better solutions. I might even add a few "dream features" at the end. Let's get started.

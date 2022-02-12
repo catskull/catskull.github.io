@@ -2,7 +2,7 @@
 layout: post
 title:  "Building an Ambient Red Light For the Nursery"
 date:   2015-04-09
-categories: baby projects
+categories: old
 ---
 15 MINUTE PROJECT!!!!
 
