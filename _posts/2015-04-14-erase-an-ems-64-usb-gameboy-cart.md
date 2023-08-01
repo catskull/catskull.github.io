@@ -4,7 +4,7 @@ title:  "How To: Completely Erase the ROM of an EMS 64m USB Gameboy Cart"
 date:   2015-04-14
 categories: old
 ---
-###Disclaimer: I am not an expert in Gameboy hardware to any extent, so take this with a grain of salt.
+### Disclaimer: I am not an expert in Gameboy hardware to any extent, so take this with a grain of salt.
 
 Update 1: I neglected to mention there is an app for Android that will allow you to flash the cart using a USB OTG cable. I haven't used that app, but it may be easier for some people than a command line unix utility. It looks like it only supports reading/writing savs though? Find it [here](https://play.google.com/store/apps/details?id=com.shiftfypixlz.aread.emsflasher).
 
