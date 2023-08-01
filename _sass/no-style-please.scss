@@ -3,6 +3,21 @@
     src: url('/assets/font/Drewtype.ttf');
 }
 
+@font-face {
+    font-family: "Berkeley Mono";
+    src: url('/assets/font/BerkeleyMonoVariable-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: "Berkely Mono";
+    src: url('/assets/font/BerkeleyMonoVariable-Italic.woff2');
+    font-weight: normal;
+    font-style: italic;
+  }
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   filter: invert(1);
@@ -30,7 +45,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: 'drewtype', monospace;
+  font-family: 'Berkeley Mono', 'drewtype', monospace;
   font-size: 20px;
   line-height: 1.4;
   margin: 0;
@@ -75,6 +90,8 @@ table, th, td {
 code {
   color: white;
   background: black;
+  font-family: 'drewtype';
+  padding: 0 0.2rem;
 }
 
 div.highlighter-rouge code {
