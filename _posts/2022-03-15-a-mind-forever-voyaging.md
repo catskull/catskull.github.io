@@ -5,6 +5,12 @@ date:   2022-03-15
 categories: post
 ---
 
+Update Aug. 1 2023
+<br>
+I contacted Steve Mertzkey via email recieved confirmation he wrote this short story:
+<br>
+"Hi -- Yes, I wrote the short story in the AMFV package."
+
 Below is a transcription of a short story that was included in the retail box for [_A Mind Forever Voyaging_](https://en.wikipedia.org/wiki/A_Mind_Forever_Voyaging), an interactive fiction released by Infocom in 1985. The game is unique from most other interactive fictions in that there is no real puzzle solving, instead the player is tasked with simply observing the environment around them. You control PRISM, an artificial intelligence developed to simulate the future, observe, and report back. I have never personally played much of the game, but I've been fascinated by the concept for quite some time. The text of this short story is surprisingly uncommon online, so I thought I'd post it here if nothing else for my own archive and reference.
 
 ---
