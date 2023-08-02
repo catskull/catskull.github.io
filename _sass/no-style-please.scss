@@ -46,7 +46,7 @@ html { height: 100%; }
 body {
   color: black;
   font-family: 'Berkeley Mono', 'drewtype', monospace;
-  font-size: 20px;
+  font-size: clamp(0.8rem, 2vw, 1rem);
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
