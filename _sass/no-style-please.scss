@@ -21,7 +21,7 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   filter: invert(1);
-  img, iframe {
+  img, iframe, progress, button, dialog, input, a, mark, meter, progress {
     filter: invert(1);
 
     &.ioda { filter: invert(0); }
