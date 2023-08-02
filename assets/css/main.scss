@@ -1,6 +1,12 @@
 ---
 ---
 
+.typo {
+	text-decoration-style: wavy;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
 .post-header {
   display: flex;
   justify-content: space-between;
