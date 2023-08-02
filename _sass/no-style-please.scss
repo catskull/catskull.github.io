@@ -6,7 +6,7 @@
 @font-face {
     font-family: "Berkeley Mono";
     src: url('/assets/font/BerkeleyMonoVariable-Regular.woff2');
-    font-weight: normal;
+    font-weight: 100 150;
     font-style: normal;
   }
 
@@ -14,7 +14,7 @@
 @font-face {
     font-family: "Berkely Mono";
     src: url('/assets/font/BerkeleyMonoVariable-Italic.woff2');
-    font-weight: normal;
+    font-weight: 100 150;
     font-style: italic;
   }
 
@@ -29,6 +29,7 @@ body {
   color: black;
   font-family: 'Berkeley Mono', 'drewtype', monospace;
   font-size: clamp(0.8rem, 2vw, 1rem);
+  font-weight: 100;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
@@ -36,6 +37,8 @@ body {
 }
 
 .post-meta { text-align: right; }
+
+h3, h4, h5, h6 { font-weight: 500; }
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
 
