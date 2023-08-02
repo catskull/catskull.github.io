@@ -7,7 +7,7 @@ description: > # description of the site (multiple lines allowed)
 
 permalink: /:title.html
 
-# favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+favicon: "favicon.png" # name+extension of favicon (which must be put on the root folder)
 
 remote-theme: riggraz/no-style-please
 
