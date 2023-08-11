@@ -2,7 +2,7 @@
 layout: post
 title:  "10 Minute Project: Passive Mixer"
 date:   2015-10-11
-categories: old
+category: old
 ---
 
 The other night, I was making a cover of a song on a Gameboy. Usually the way I do that is by listen to a few measures of a song, then programming it into the gameboy. It ends up being super annoying though because I have to repeatedly plug and unplug my headphones into my computer and gameboy. I've tried things like having the headphones plugged into the gameboy and only having one earphone in while listening to the source music over my computers speakers, but that just doesn't really work. It sucks for composing and I end up missing a ton of little nuances in the source song.

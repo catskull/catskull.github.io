@@ -2,7 +2,7 @@
 layout: post
 title:  "Bluetooth Arduinoboy"
 date:   2016-03-02
-categories: old
+category: old
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WFhn3Nysnh0" frameborder="0" allowfullscreen></iframe>

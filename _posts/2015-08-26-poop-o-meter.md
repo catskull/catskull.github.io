@@ -2,7 +2,7 @@
 layout: post
 title:  "Poop-O-Meter: Smart Diapers"
 date:   2015-08-26
-categories: old
+category: old
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1zstJ1oCEuI" frameborder="0" allowfullscreen></iframe>
 

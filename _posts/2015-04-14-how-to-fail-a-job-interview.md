@@ -2,7 +2,7 @@
 layout: post
 title:  "The Interview: My Technical Interview That's Almost as Funny as a Seth Rogan Movie"
 date:   2015-04-16
-categories: hidden
+category: hidden
 ---
 I've been mulling over whether it would be productive to write this experience down or not. I ultimately came to the conclusion that it would _not_ be productive. However, I am currently cramming for finals and cannot make myself study any more. So I figure writing this would be more productive than just refreshing my email over and over for the next two hours. Full disclosure: I don't really have any valuable tips to give someone in a technical interview. Hopefully at least I can be an example of what not to do.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Ditching the Arduino IDE"
 date:   2015-06-21
-categories: hidden
+category: hidden
 ---
 
 Recently, my good friend and crazy talented hacker Ultifinitus gave me some sweet hardware. Out of the goodness of his heart. What a nice guy! It consisted of an Arduino Mega and some other stuff that I'll go more into in a later post. I haven't done a ton of arduino stuff in the past, but I've done enough to know that the default Arduino IDE sucks. Those may be strong words I guess, it's open source and cross platform and it works, but it just has a pretty poor text editor. I decided if I was going to do anything worthwhile with the hardware, I needed an environment I could be productive in. Specifically, I like using Github's excellent editor, Atom. It's open source, cross platform, and is a pretty great text editor! This post will serve as a reference for what I was able to get set up.

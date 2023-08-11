@@ -2,7 +2,7 @@
 layout: post
 title:  "The Time I Quit"
 date:   2016-02-12
-categories: hidden
+category: hidden
 ---
 
 In my last post, I focused on all of my successes in 2016. Lest anyone think I'm perfect, I thought it would be fun to write a post about a time I quit a job.

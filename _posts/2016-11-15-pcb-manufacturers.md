@@ -2,7 +2,7 @@
 layout: post
 title:  "PCB Manufacturing Review"
 date:   2016-11-15
-categories: hidden
+category: hidden
 ---
 
 **Disclaimer: PCBWay gave me a $25 credit for this post. All thoughts and opinions are my own. They did not influence my opinions in any way.**

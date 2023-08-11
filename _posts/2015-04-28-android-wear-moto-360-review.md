@@ -2,7 +2,7 @@
 layout: post
 title:  "Android Wear/Moto 360 Review"
 date:   2015-04-28
-categories: hidden
+category: hidden
 ---
 ***Disclaimer: Below is a wall of rambling and poorly worded text. Don't judge me TOO much...***
 

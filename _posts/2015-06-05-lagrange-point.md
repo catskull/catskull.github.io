@@ -2,7 +2,7 @@
 layout: post
 title:  "Lagrange Point Famicom English Hack"
 date:   2015-06-05
-categories: old
+category: old
 ---
 A few posts back I documented converting a Famicom game (Princess Tomato and the Salad Kingdom) to use the English translation. Since that went so well, I finally had the courage to try the game I really wanted to do: Lagrange Point. I think it's fair for me to do a little background on this incredible game.
 

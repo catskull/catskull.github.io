@@ -2,7 +2,7 @@
 layout: post
 title:  "How To: Completely Erase the ROM of an EMS 64m USB Gameboy Cart"
 date:   2015-04-14
-categories: old
+category: old
 ---
 ### Disclaimer: I am not an expert in Gameboy hardware to any extent, so take this with a grain of salt.
 
