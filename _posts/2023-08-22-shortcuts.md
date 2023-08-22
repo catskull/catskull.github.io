@@ -11,7 +11,7 @@ I love [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios). While
   * OCR/image text extraction
   * [Open pages in safari, execute custom javascript, read content from the page](https://support.apple.com/guide/shortcuts/intro-to-the-run-javascript-on-webpage-action-apd218e2187d/ios)
   * Control literally any part of any apple app or service
-  * [Live iOS Home Screen with a custom app icon](https://support.apple.com/guide/shortcuts/add-a-shortcut-to-the-home-screen-apd735880972/ios)
+  * [Live on iOS Home Screen with a custom app icon](https://support.apple.com/guide/shortcuts/add-a-shortcut-to-the-home-screen-apd735880972/ios)
   * Live on MacOS toolbar, right click menu, etc
   * “[Import Questions](https://support.apple.com/guide/shortcuts/add-import-questions-to-shared-shortcuts-apdf330fd3a0/6.0/ios/16.0)” (ex. api key)
 
