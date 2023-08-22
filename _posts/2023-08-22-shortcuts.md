@@ -6,8 +6,6 @@ category: post
 tags: []
 ---
 
-Apple Shortcuts are cool
-
 I love [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios). While a bit obtuse to navigate, I find it very rewarding to explore all the options Shortcuts has to offer. Here’s a little list of kind of wild things Shortcuts can do:
 
   * OCR/image text extraction
