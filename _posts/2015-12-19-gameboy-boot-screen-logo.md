@@ -5,23 +5,21 @@ date:   2015-12-19
 category: old
 ---
 
-### Disclaimer: I am no expert on this subject or game historian. If anything I say is inaccurate, please let me know in the comments.
-
 ### [Click here to go straight to the logo generator](http://catskull.net/GB-Logo-Generator/)
 
 [A while ago I wrote about completely wiping the memory of an EMS 64m USB Gameboy cartridge.](/erase-an-ems-64-usb-gameboy-cart.html) In doing that, I observed something interesting: if the rom was filled with all 1's (0xFF), the Nintendo logo that scrolls down on boot would be all black, like if there was no cartridge inserted at all. If the rom as filled with all 0'x (0x00), the Nintendo logo was completely blank and only the ® symbol scrolled down.
 
 In case you don't know what I'm talking about, here's an image that represents what happens when a Gameboy is booted (turned on). Or at least what's supposed to happen.
 
-![boot](http://i.imgur.com/V3qm8z5.gif)
+![boot](/public/images/gblogo/boot.gif)
 
 If you ever owned a Gameboy, you'll know that sometimes the logo is "scrambled" up. Sometimes Nintendo is still legible, sometimes it's total garbage. And you'll know that unless the logo is perfect, the Gameboy will just sit at that screen so you have to pull the cartridge out and blow in it or something and then try again.
 
-So what's going on here? Why is a Nintendo logo even shown? Surely you know that you're playing a Nintendo Gameboy right? Well the explanation is somewhat fascinating (to me at least).
+So what's going on here? Why is a Nintendo logo even shown? Surely you know that you're playing a Nintendo Gameboy right? Well the explanation is somewhat fascinating.
 
 Let's go back to a few years prior to the Gameboy coming out and look at the Famicom/NES. In Japan at least (and other countries), the Famicom had problems with both piracy and unlicensed developers producing games. Here in the US the most famous was probably the Tengen games. Interestingly enough Tengen was really just Atari making games for the NES. Their cartridges were very distinct. Check one out:
 
-![tengen tetris](http://i.imgur.com/bEw8t6u.png)
+![tengen tetris](/public/images/gblogo/tengen.png)
 
 (As a side note, it's interesting to point out that Tetris was originally released as an unlicensed game for the NES, and later Nintendo released their own unique version as an official first-party title. Tetris would go on to become a staple of any Nintendo system and was a launch title for the Gameboy.)
 
@@ -42,7 +40,7 @@ Interestingly, since the data is read twice, some unlicensed developers exploite
 
 Now that we understand how the logo check works, let's figure out why I saw the black bar logo with all 1's in the ROM, and the blank logo with all 0's.
 
-I wasn't too sure where to begin. The first problem is that most emulators don't show the logo screen since they don't implement the Gameboy boot ROM. I could flash my EMS card with each attempt, but that would take forever. It was also kind of an obscure thing to want, nobody cares about the logo screen right? Well fortunately for me, the excellent emulator BGB has many development tools baked in, including support for a boot ROM! Getting everything together actually wasn't too bad, but I've included a download to a folder that contains everything ready to go for you [here](https://drive.google.com/file/d/0B2JWZbiqagfDcW1ENzducVFUd1E/view?usp=sharing).
+I wasn't too sure where to begin. The first problem is that most emulators don't show the logo screen since they don't implement the Gameboy boot ROM. I could flash my EMS card with each attempt, but that would take forever. It was also kind of an obscure thing to want, nobody cares about the logo screen right? Well fortunately for me, the excellent emulator BGB has many development tools baked in, including support for a boot ROM!
 
 The next step was figuring out exactly how the logo data was laid out, as well as where it was in the ROM.
 
@@ -50,17 +48,17 @@ Every Gameboy ROM has a header section. It contains information about the game, 
 
 I'm a genius though and didn't think to do basic Googling before starting, so I just started by doing a basic manual binary search. I started with a ROM of 32k 1's. Black logo. Then I erased half the ROM. Black logo. Then I erased half the ROM. Black logo. I did that until I had pinpointed exactly where the logo data was contained in the ROM. Then, I had a ROM with all 0's but replaced the section for the logo with 1's. Just what I expected, a black logo!
 
-![blank logo rom](http://i.imgur.com/cIvdPyC.png)
+![blank logo rom](/public/images/gblogo/black.png)
 
 Now I knew where the data was stored, I needed to figure out how it was laid out. I changed the first 4 byte chunk of the logo from 0xFFFFFFFF to 0x01010101. Here's what I saw:
 
-![boot logo with a byte out of it](http://i.imgur.com/2Y9WRki.png)
+![boot logo with a byte out of it](/public/images/gblogo/dots.png)
 
 I observed that the data 0x01 was repeated 4 times, and that the top left chunk of the logo also had a sequence that repeated four times. After that, I changed that first 4 byte chunk to something like 0x02020202 and tried again. The image looked similar, but the dots were shifted to the left one pixel. Then I tried something like 0x03030303 and as expected, there were both of the previous dots.
 
 I quickly discovered that the total logo was comprised of 48 bytes of data. As you can see though, the logo bytes don't go straight across the top, rather, they form a larger square. Talking about it can only help so much, so here's an image I made that represents how the pixel data is laid out:
 
-![logo data layout](http://i.imgur.com/BikSgOo.png)
+![logo data layout](/public/images/gblogo/map.png)
 
 Following this guide, it's easy to make your own bitmap logo! Say for the top left byte you want only the top left pixel enabled. For that byte of data you would simply have 0x80. But say you wanted the top left pixel as well as the bottom right pixel? Simply bitwise OR 0x80 with 0x01 and you get 0x81. Similarly, if you OR 0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01 you get 0xFF! It's pretty simple right?
 
@@ -82,4 +80,4 @@ All in all it was a fun little project to both do a bit of reverse engineering, 
 
 Thanks for reading!
 
-![thank you!](http://i.imgur.com/ZlDAY0E.gif)
+![thank you!](/public/images/gblogo/thankyou.gif)
