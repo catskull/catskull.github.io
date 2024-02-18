@@ -1,6 +1,11 @@
 ---
 ---
 
+.final {
+  &:before { content: 'THE ' }
+  &:after { content: attr(data-content) 'END' }
+}
+
 .typo {
 	text-decoration-style: wavy;
 	text-decoration: underline;
