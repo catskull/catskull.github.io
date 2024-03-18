@@ -1,8 +1,3 @@
-@font-face  {
-    font-family: "drewtype";
-    src: url('/assets/font/Drewtype.ttf');
-}
-
 @font-face {
     font-family: "Berkeley Mono";
     src: url('/assets/font/BerkeleyMonoVariable-Regular.woff2');
@@ -27,7 +22,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: 'Berkeley Mono', 'drewtype', monospace;
+  font-family: 'Berkeley Mono', monospace;
   font-size: clamp(0.8rem, 2vw, 1rem);
   font-weight: 100;
   line-height: 1.4;
@@ -50,6 +45,8 @@ li { margin: 0.4rem 0; }
 
 ul { list-style-type: square; }
 
+a:visited { color: inherit; }
+
 *:target { background: yellow; }
 
 .w {
@@ -59,7 +56,6 @@ ul { list-style-type: square; }
 }
 
 hr {
-  font-family: "drewtype";
   text-align: center;
   border: 0;
 
@@ -77,9 +73,13 @@ table, th, td {
 
 code {
   color: white;
-  background: black;
-  font-family: 'drewtype';
-  padding: 0 0.2rem;
+  background: hsl(120, 2%, 9%);
+  padding: 0.1rem 0.2rem;
+  font-size: 0.8rem;
+}
+
+.highlight {
+  padding: 0 2rem 0 1rem;
 }
 
 div.highlighter-rouge code {
@@ -87,6 +87,7 @@ div.highlighter-rouge code {
   overflow-x: auto;
   white-space: pre-wrap;
   padding: 1rem;
+  border-left: 1px solid white;
 }
 
 blockquote {
@@ -108,14 +109,18 @@ img {
     background: hsl(120, 2%, 9%);
     color: rgb(215, 215, 216);
   }
+
   blockquote {
     border: thin solid rgb(215, 215, 216);
   }
+
   a {
     color: hsl(206.7, 100%, 70%);
   }
 
   a:visited {
-    color: #a166ff;
+    color: inherit;
   }
+
+
 }

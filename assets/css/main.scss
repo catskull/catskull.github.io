@@ -2,8 +2,8 @@
 ---
 
 .final {
-  &:before { content: 'THE ' }
-  &:after { content: attr(data-content) 'END' }
+  &:before { content: 'END ' }
+  &:after { content: attr(data-content) 'TRANSMISSION' }
 }
 
 .typo {
@@ -33,6 +33,17 @@
       margin-bottom: 0.5em;
     }
   }
+}
+
+.index-list {
+  list-style-type: none;
+  border-left: 2px solid;
+  text-indent: 8px;
+  margin-bottom: 2rem;
+}
+
+.index-list-title {
+  margin: -5px 0;
 }
 
 @import "no-style-please";
