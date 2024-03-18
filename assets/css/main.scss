@@ -28,7 +28,7 @@
   }
 }
 
-.index-list {
+.index-list-item {
   list-style-type: none;
   border-left: 2px solid;
   margin-bottom: 2rem;
@@ -53,6 +53,10 @@
     h1 {
       margin-bottom: 0.5em;
     }
+  }
+
+  #index-list {
+    padding-left: 0;
   }
 
   blockquote {

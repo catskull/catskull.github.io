@@ -3,10 +3,10 @@ layout: home
 ---
 <h2>blog</h2>
 
-<ul>
+<ul id="index-list">
 {% for post in site.posts %}
   {% if post.category contains "post" %}
-    <li class="index-list">
+    <li class="index-list-item">
       <time datetime="post.date">{{ post.date | date: site.theme_config.date_format }}</time>
       <h3 class="index-list-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
     </li>
