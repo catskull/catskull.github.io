@@ -24,6 +24,8 @@ title: 👍 Likes - A social network in a single HTML tag
 
 <h2 style="font-family:sans-serif;">How?</h2>
 
+<p>Just stick this HTML anywhere:</p>
+
 <div style="background: #f0f3f3; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #330099; font-weight: bold">&lt;img</span> <span style="color: #330099">style=</span><span style="color: #CC3300">'cursor: pointer;'</span>
   <span style="color: #330099">src=</span><span style="color: #CC3300">'https://likes.catskull.net/'</span>
   <span style="color: #330099">onclick=</span><span style="color: #CC3300">"fetch('https://likes.catskull.net/', {method:'POST'}).then(()=&gt;this.src='https://likes.catskull.net/'.split('?')[0]+'?t='+Date.now())"</span>
