@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<a href="/">{{ site.theme_config.back_home_text }}</a>
+
+<header>
+  <h1 style="font-family:sans-serif;margin-bottom:0;">👍 Likes</h1>
+  <def>A social network in a single HTML tag</def>
+</header>
+
+<blockquote>
+  <p>"Everything is made up and the points don't matter."</p>
+  <p style="font-style:initial;padding-left:2rem;">- Drew Carey, <i>Who's Line Is it Anyway?</i></p>
+</blockquote>
+
+<h2 style="font-family:sans-serif;">Just click like:</h2>
+<img style='cursor: pointer;'
+  src='https://likes.catskull.net'
+  onclick="fetch('https://likes.catskull.net', {method:'POST'}).then(()=>this.src='https://likes.catskull.net'.split('?')[0]+'?t='+Date.now())"
+  onmouseover="this.src='data:image/svg+xml;base64,CiAgCQkJPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSI2NCI+CiAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ3aGl0ZSI+PC9yZWN0PgogIAkJCSAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn5GNIExpa2UhPC90ZXh0PgogIAkJCTwvc3ZnPgogIAkJ'"
+  onmouseout="this.src='https://likes.catskull.net?t=0'"
+>
+
+<h2 style="font-family:sans-serif;">How?</h2>
+
+<div style="background: #f0f3f3; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #330099; font-weight: bold">&lt;img</span> <span style="color: #330099">style=</span><span style="color: #CC3300">'cursor: pointer;'</span>
+  <span style="color: #330099">src=</span><span style="color: #CC3300">'https://likes.catskull.net/'</span>
+  <span style="color: #330099">onclick=</span><span style="color: #CC3300">"fetch('https://likes.catskull.net/', {method:'POST'}).then(()=&gt;this.src='https://likes.catskull.net/'.split('?')[0]+'?t='+Date.now())"</span>
+  <span style="color: #330099">onmouseover=</span><span style="color: #CC3300">"this.src='data:image/svg+xml;base64,CiAgCQkJPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSI1NiI+CiAgCQkJICA8dGV4dCBpZD0ibGlrZXNUZXh0IiB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPvCfkY0gTGlrZTwvdGV4dD4KICAJCQk8L3N2Zz4KICAJCQ=='"</span>
+  <span style="color: #330099">onmouseout=</span><span style="color: #CC3300">"this.src='https://likes.catskull.net/?t=0'"</span>
+<span style="color: #330099; font-weight: bold">&gt;</span>
+</pre></div>
+
+<h2 style="font-family:sans-serif;">WTF</h2>
+
+<p>Any <code class="language-plaintext highlighter-rouge">GET</code> request to <code class="language-plaintext highlighter-rouge">https://likes.catskull.net</code> will return an SVG with the number of likes for the URL in the <code class="language-plaintext highlighter-rouge">Referer</code><a href="https://en.wikipedia.org/wiki/HTTP_referer">[sic]</a> header. This page is rendered if no URL is present.</p>
+
+<p>Any <code class="language-plaintext highlighter-rouge">POST</code> request to <code class="language-plaintext highlighter-rouge">https://likes.catskull.net</code> will increment the number of likes for the <code class="language-plaintext highlighter-rouge">Referer</code> URL and return an SVG with the new number of likes.</p>
+
+<h2 style="font-family:sans-serif;">Why?</h2>
+
+<p>I recently played <a href="https://en.wikipedia.org/wiki/Death_Stranding">Death Stranding</a> and was really inspired by the social mechanism where you’re encouraged to like everything from a car to a toadstool someone left on top of a mountain. You can also like things rapidily, though it does eventually limit you.</p>
+
+<p>I’m very passionate about the <a href="https://en.wikipedia.org/wiki/IndieWeb">indie web</a>. Giant megacorpoerations want us to pretend that magic internet points mean something. As static site pirates we often loose out on the magic internet points and sometimes I miss them! I built this so I can have all of the points.</p>
+
+<h2 style="font-family: sans-serif;">No, <em>how?</em></h2>
+
+<p><a href="https://developers.cloudflare.com/workers/">Cloudflare Workers</a> + <a href="https://developers.cloudflare.com/d1/">D1</a></p>
+
+<p>When the image is requested, the worker increments the like count and generates the SVG. I like this approach because it loads immediately and doesn’t need any event listeners. It is completely self contained in a few lines of HTML.</p>
+
+<p>There’s an <code class="language-plaintext highlighter-rouge">onclick</code> handler that does a <code class="language-plaintext highlighter-rouge">fetch</code> to <code class="language-plaintext highlighter-rouge">https://likes.catskull.net</code> and then updates the <code class="language-plaintext highlighter-rouge">src</code> with a timestamp to make it refresh.</p>
+
+<p>An <code class="language-plaintext highlighter-rouge">onmouseover</code> and <code class="language-plaintext highlighter-rouge">onmouseout</code> event swap out the like count SVG for a base64 encoded SVG “👍 Like!”. Not totally necessary but I think it’s fun!</p>
+
+<p>Additional components could easily be created and I encourage you to make your own!</p>
+
+<p><a href="https://github.com/catskull/likes">It's all open source, MIT License.</a></p>
+
+<p>100% Spyware free. No analytics, no tracking. This page has Cloudflare analytics but the workers do not log or store individual requests. The URL embedding the page is stored in a private Cloudflare D1 database and isn't published anywhere. But isnt the point to let people know you're using it?</p>
+
+<p>Thanks for stopping by and don't forget to leave a like! 😅</p>
+<img style='cursor: pointer;'
+  src='https://likes.catskull.net'
+  onclick="fetch('https://likes.catskull.net', {method:'POST'}).then(()=>this.src='https://likes.catskull.net'.split('?')[0]+'?t='+Date.now())"
+  onmouseover="this.src='data:image/svg+xml;base64,CiAgCQkJPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSI2NCI+CiAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ3aGl0ZSI+PC9yZWN0PgogIAkJCSAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn5GNIExpa2UhPC90ZXh0PgogIAkJCTwvc3ZnPgogIAkJ'"
+  onmouseout="this.src='https://likes.catskull.net?t=0'"
+>
