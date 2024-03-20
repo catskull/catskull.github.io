@@ -2,8 +2,8 @@
 ---
 
 .final {
-  &:before { content: 'END ' }
-  &:after { content: attr(data-content) 'TRANSMISSION' }
+  &:before { content: 'LI' }
+  &:after { content: attr(data-content) 'KE?' }
 }
 
 .typo {
