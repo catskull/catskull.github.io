@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 👍 Likes - A social network in a single HTML tag
+title: 👍 Likes - A decentralized social network in a single HTML tag
 ---
 <a href="/">{{ site.theme_config.back_home_text }}</a>
 
 <header>
   <h1 style="font-family:sans-serif;margin-bottom:0;">👍 Likes</h1>
-  <def>A social network in a single HTML tag</def>
+  <def>A decentralized social network in a single HTML tag</def>
 </header>
 
 <blockquote>
@@ -44,7 +44,7 @@ title: 👍 Likes - A social network in a single HTML tag
 
 <p>I recently played <a href="https://en.wikipedia.org/wiki/Death_Stranding">Death Stranding</a> and was really inspired by the social mechanism where you’re encouraged to like everything from a car to a toadstool someone left on top of a mountain. You can also like things rapidily, though it does eventually limit you.</p>
 
-<p>I’m very passionate about the <a href="https://en.wikipedia.org/wiki/IndieWeb">indie web</a>. Giant mega corporations want us to pretend that magic internet points mean something. As static site pirates we often lose out on the magic internet points and sometimes I miss them! I built this so I can have all of the points.</p>
+<p>I’m very passionate about the <a href="https://en.wikipedia.org/wiki/IndieWeb">indie web</a>. <a href="https://en.wikipedia.org/wiki/Privacy_concerns_with_Facebook">Giant</a> <a href="https://en.wikipedia.org/wiki/Facebook#Criticisms_and_controversies">mega</a> <a href="https://en.wikipedia.org/wiki/Privacy_concerns_with_Google">corporations</a> <a href="https://en.wikipedia.org/wiki/Censorship_by_TikTok">want us to pretend</a> <a href="https://en.wikipedia.org/wiki/Instagram#Scientific_studies">that magic internet points mean something</a>. As static site pirates we often lose out on the magic internet points and sometimes I miss them! I built this so I can have all of the points.</p>
 
 <h2 style="font-family: sans-serif;">No, <em>how?</em></h2>
 
@@ -62,10 +62,14 @@ title: 👍 Likes - A social network in a single HTML tag
 
 <p>100% Spyware free. No analytics, no tracking. This page has Cloudflare analytics but the workers do not log or store individual requests. The URL embedding the page is stored in a private Cloudflare D1 database and isn't published anywhere. But isnt the point to let people know you're using it?</p>
 
-<p>Thanks for stopping by and don't forget to leave a like! 😅</p>
+<p>Additionally, it is inherintly decentralized by design. All data is public and additional hosts can be implemented with no discernable difference in quality of service or user experience.</p>
+
+<p>👋 Thanks for stopping by and don't forget to leave a like!</p>
 <img style='cursor: pointer;'
   src='https://likes.catskull.net'
   onclick="fetch('https://likes.catskull.net', {method:'POST'}).then(()=>this.src='https://likes.catskull.net'.split('?')[0]+'?t='+Date.now())"
   onmouseover="this.src='data:image/svg+xml;base64,CiAgCQkJPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSI2NCI+CiAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ3aGl0ZSI+PC9yZWN0PgogIAkJCSAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn5GNIExpa2UhPC90ZXh0PgogIAkJCTwvc3ZnPgogIAkJ'"
   onmouseout="this.src='https://likes.catskull.net?t=0'"
 >
+
+<p><small>PS - Likes start at 1 because I give everyone their first like 🙂</small></p>
