@@ -1,5 +1,27 @@
 media: public/media
 content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: '_posts'
+    view:
+      fields: [ title, category, date ]
+    fields:
+      - name: category
+        label: Category
+        type: select
+        options:
+          values: [ old, hidden, post ]
+          default: post
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
   - name: projects
     label: Projects
     type: collection
@@ -27,28 +49,6 @@ content:
       - name: image
         label: image
         type: image
-  - name: posts
-    label: Posts
-    type: collection
-    path: '_posts'
-    view:
-      fields: [ title, category, date ]
-    fields:
-      - name: category
-        label: Category
-        type: select
-        options:
-          values: [ old, hidden, post ]
-          default: post
-      - name: date
-        label: Date
-        type: date
-      - name: title
-        label: Title
-        type: string
-      - name: body
-        label: Body
-        type: rich-text
   - name: config
     label: Jekyll config
     path: _config.yml
