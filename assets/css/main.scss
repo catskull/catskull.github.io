@@ -52,6 +52,23 @@ sup a {
   text-decoration: none;
 }
 
+.projects-section {
+  // outline: 1px solid black;
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+  svg {
+    padding-right: 2px;
+  }
+  .status-tag {
+    display: flex;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .highlight {
     padding: 0;
@@ -70,6 +87,19 @@ sup a {
 
   blockquote {
     margin: 1rem 0;
+  }
+}
+
+.blinking {
+  animation: 2s blink ease infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
   }
 }
 
