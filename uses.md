@@ -9,13 +9,27 @@ title: uses - catskull.net
 Things that I use.
 
 ### catskull.net
- - [Github Pages](https://pages.github.com)
- - [Jekyll](https://jekyllrb.com)
- - [Theme](https://github.com/riggraz/no-style-please)
- - [Porkbun](https://porkbun.com)
+- [Cloudflare](https://www.cloudflare.com)
+  - Analytics
+  - Cache
+  - [D1](https://developers.cloudflare.com/d1/)
+  - DNS
+  - [Workers](https://developers.cloudflare.com/workers/)
+- [Github Pages](https://pages.github.com)
+- [Jekyll](https://jekyllrb.com)
+- [Porkbun](https://porkbun.com)
+- [no-style-please](https://github.com/riggraz/no-style-please) (theme)
 
 ### development
- - [Sublime Text](https://www.sublimetext.com/index2)
- - [iTerm2](https://iterm2.com)
- - [Homebrew](https://brew.sh)
- - [GitHub Desktop](https://desktop.github.com)
+- [GitHub Desktop](https://desktop.github.com)
+- [Homebrew](https://brew.sh)<sup>[*](#disclaimers)</sup>
+- [Sublime Text](https://www.sublimetext.com/index2)
+- [iTerm2](https://iterm2.com)
+- [ruby-install](https://github.com/postmodern/ruby-install)/[chruby](https://github.com/postmodern/chruby)
+- [volta](https://volta.sh)<sup>[*](#disclaimers)</sup>
+
+<footer>
+  <small id="disclaimers">
+    * Investigating alternatives.
+  </small>
+</footer>

@@ -43,6 +43,15 @@
   padding: 0 2rem 0 1rem;
 }
 
+ul ul {
+  list-style-type: initial;
+  padding-inline-start: 1rem;
+}
+
+sup a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
   .highlight {
     padding: 0;
