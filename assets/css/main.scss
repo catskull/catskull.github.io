@@ -79,20 +79,19 @@ sup a {
   );
   padding: 5%;
   box-sizing: border-box;
+  margin-top: 1rem;
 }
 .img-frame img {
-  display: block;
-  max-width: 100%;
   height: auto;
   margin: auto;
   border-style: solid;
-  filter: saturate(10%) contrast(200%);
+  filter: saturate(0) contrast(200%);
   transition: filter 0.5s ease;
   border-color: hsl(120, 2%, 9%);
 }
 
 .img-frame img:hover {
-  filter: unset;
+  filter: saturate(150%);
 }
 
 @media screen and (max-width: 600px) {
