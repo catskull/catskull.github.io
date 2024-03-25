@@ -92,7 +92,7 @@ sup a {
 }
 
 .img-frame img:hover {
-  filter: saturate(150%);
+  filter: saturate(150%) contrast(100%);
 }
 
 @media screen and (max-width: 600px) {

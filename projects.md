@@ -26,5 +26,5 @@ title: projects - catskull.net
 {% endfor %}
 
 <footer style="float: right;">
-  <a href="{{ link }}">{{ site.theme_config.back_home_text }}</a>
+  <a href="/">{{ site.theme_config.back_home_text }}</a>
 </footer>
