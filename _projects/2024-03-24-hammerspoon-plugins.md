@@ -1,0 +1,9 @@
+---
+title: Hammerspoon Plugins
+era: 2020-2021
+status: defunct
+meta: Plugins to show music, cpu temp, and bounce a window around like a DVD
+  screensaver
+hyperlink: https://github.com/catskull/BouncingWindow.spoon
+published: false
+---
