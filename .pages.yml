@@ -39,7 +39,7 @@ content:
         label: Status
         type: select
         options:
-          values: [ active, defunct, unknown ]
+          values: [ active, defunct, unknown, completed ]
       - name: meta
         label: Meta
         type: text
