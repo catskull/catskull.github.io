@@ -23,5 +23,8 @@ title: projects - catskull.net
 		<img src="{{ p.image }}">
 	</div>
 </section>
-<hr>
 {% endfor %}
+
+<footer style="float: right;">
+  <a href="{{ link }}">{{ site.theme_config.back_home_text }}</a>
+</footer>
