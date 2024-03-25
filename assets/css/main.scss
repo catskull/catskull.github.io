@@ -69,6 +69,32 @@ sup a {
   }
 }
 
+.img-frame {
+  background-image: repeating-linear-gradient(
+    45deg,       /* angle of the lines */
+    rgb(100,100,100) 0,      /* start color (black) */
+    rgb(100,100,100) 1px,    /* end color (black) and width of the line */
+    transparent 0px, /* start of transparent space after the line */
+    transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
+  );
+  padding: 5%;
+  box-sizing: border-box;
+}
+.img-frame img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border-style: solid;
+  filter: saturate(10%) contrast(200%);
+  transition: filter 0.5s ease;
+  border-color: hsl(120, 2%, 9%);
+}
+
+.img-frame img:hover {
+  filter: unset;
+}
+
 @media screen and (max-width: 600px) {
   .highlight {
     padding: 0;
@@ -100,6 +126,18 @@ sup a {
   }
   85% {
     opacity: 1;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .img-frame {
+    background-image: repeating-linear-gradient(
+      45deg,       /* angle of the lines */
+      rgb(150,150,150) 0,      /* start color (black) */
+      rgb(150,150,150) 1px,    /* end color (black) and width of the line */
+      transparent 0px, /* start of transparent space after the line */
+      transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
+    );
   }
 }
 

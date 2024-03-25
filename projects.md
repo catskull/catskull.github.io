@@ -6,7 +6,7 @@ title: projects - catskull.net
 
 # projects
 
-{% for p in site.projects %}
+{% for p in site.projects reversed %}
 <section class="projects-section">
 	<h2>{{ p.title }}</h2>
 	<a href="{{ p.hyperlink }}">{{ p.hyperlink }}</a>
@@ -19,8 +19,9 @@ title: projects - catskull.net
     {{ p.status }}
 	</p>
 	<p>{{ p.meta }}</p>
-
-
-	<img src="{{ p.image }}">
+	<div class="img-frame">
+		<img src="{{ p.image }}">
+	</div>
 </section>
+<hr>
 {% endfor %}
