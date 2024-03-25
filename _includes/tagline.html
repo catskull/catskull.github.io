@@ -1,0 +1,44 @@
+{% assign num_items = 18 %}
+{% assign random_index = site.time | date: '%s' | modulo: num_items %}
+
+{% case random_index %}
+  {% when 0 %}
+    <del>mostly</del> harmless
+  {% when 1 %}
+    the inventor of World Peace™
+  {% when 2 %}
+    ur mom wuz here
+  {% when 3 %}
+    the 13th floor
+  {% when 4 %}
+    be here now
+  {% when 5 %}
+    <time>{{ site.time | date: '%s' }}</time>
+  {% when 6 %}
+    418 I'm a teapot
+  {% when 7 %}
+    site.tagline
+  {% when 8 %}
+    1997 Webmaster Summit Audience Choice Winner
+  {% when 9 %}
+    <small>hello</small>
+  {% when 10 %}
+    ꧁༺ 𝓵𝓲𝓿𝓮 𝓵𝓪𝓾𝓰𝓱 𝓵𝓸𝓿𝓮 ༻꧂
+  {% when 11 %}
+    ⧹(⦁ᴗ⦁)⧸
+  {% when 12 %}
+    suɐᴉlɐɹʇsnɐ ollǝɥ
+  {% when 13 %}
+    <progress></progress>
+  {% when 14 %}
+    <code>console.log('error');</code>
+  {% when 15 %}
+    Did you know? <code class="typo">'undefined' is not a function</code>
+  {% when 16 %}
+    <input type="button" value="Do not click this button" onclick="if (window.confirm('I have a bad feeling about this. Continue?')) document.body.remove(); document.head.remove();" />
+  {% when 17 %}
+    any way the wind blows
+  {% when 18 %}
+    <a href="https://www.youtube.com/watch?v=BZlRt05RY9Y" alt="easter egg video">you are lucky</a>
+
+{% endcase %}
