@@ -95,25 +95,14 @@ sup a {
   filter: saturate(150%) contrast(100%);
 }
 
-@media screen and (max-width: 600px) {
-  .highlight {
-    padding: 0;
-  }
+code {
+  line-height: initial;
+}
 
-  .post-header {
-    flex-direction: column-reverse;
-    h1 {
-      margin-bottom: 0.5em;
-    }
-  }
-
-  #index-list {
-    padding-left: 0;
-  }
-
-  blockquote {
-    margin: 1rem 0;
-  }
+aside {
+  float: left;
+  max-width: 60%;
+  margin-right: 2rem;
 }
 
 .blinking {
@@ -140,5 +129,33 @@ sup a {
     );
   }
 }
+
+@media screen and (max-width: 600px) {
+  .highlight {
+    padding: 0;
+  }
+
+  .post-header {
+    flex-direction: column-reverse;
+    h1 {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  #index-list {
+    padding-left: 0;
+  }
+
+  blockquote {
+    margin: 1rem 0;
+  }
+
+  aside {
+    float: none;
+    max-width: 100%;
+    margin: 0 0 2rem 0;
+  }
+}
+
 
 @import "no-style-please";
