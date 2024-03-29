@@ -21,12 +21,28 @@ Things that I use.
 - [no-style-please](https://github.com/riggraz/no-style-please) (theme)
 
 ### development
+- [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/)
+- [chruby](https://github.com/postmodern/chruby)/[ruby-install](https://github.com/postmodern/ruby-install)
 - [GitHub Desktop](https://desktop.github.com)
 - [Homebrew](https://brew.sh)<sup>[*](#disclaimers)</sup>
-- [Sublime Text](https://www.sublimetext.com/index2)
 - [iTerm2](https://iterm2.com)
-- [ruby-install](https://github.com/postmodern/ruby-install)/[chruby](https://github.com/postmodern/chruby)
+- [Sublime Text](https://www.sublimetext.com/index2)
 - [volta](https://volta.sh)<sup>[*](#disclaimers)</sup>
+
+### equipment
+- [8BitDo Retro Mechanical Keyboard (NES)](https://www.8bitdo.com/retro-mechanical-keyboard/)
+- 14" M3 Max
+- a Lava Lamp
+- Behringer UMC404HD
+- Fosi Audio TB10D Stereo Amplifier
+- Fosi Audio TP-02 Subwoofer Amplifier
+- Klipsch RP-160M
+- [Logitech MX Master 3S (White)](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html)
+- Studio Display
+
+### personal
+- [github](https://github.com/catskull)
+- [youtube](https://www.youtube.com/channel/UCHZOwvEh9FAG95RO3PWhe5g)
 
 <footer>
   <small id="disclaimers">
