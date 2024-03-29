@@ -13,7 +13,7 @@ title: projects - catskull.net
 	<p class="era-tag">{{ p.era }} (circa)</p>
 	<p class="status-tag {{ p.status }}">
 	<svg height="8px" width="8px" {% if p.status == 'active' %}class="blinking"{% endif %}>
-	  <circle cx="4px" cy="4px" r="2.8px" fill="{% if p.status == 'active' or p.status == 'completed'%}green{% elsif p.status == 'defunct' %}red{% else %}yellow{% endif %}" />
+	  <circle cx="4px" cy="4px" r="2.8px" fill="{% if p.status == 'active' or p.status == 'completed'%}green{% elsif p.status == 'defunct' %}red{% else %}orange{% endif %}" />
 	  Sorry, your browser does not support inline SVG.
 	</svg>
     {{ p.status }}
