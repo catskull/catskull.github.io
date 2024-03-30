@@ -57,7 +57,32 @@ sup a {
 
   h2 {
     margin: 0;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a[href^="#"]:before {
+      content: "#";
+      display: inline-block;
+      font-size: .7em;
+      line-height: 1;
+      margin-left: -.8em;
+      text-decoration: none;
+      visibility: hidden;
+      width: .8em;
+    }
+
+    a[href^="#"]:hover:before {
+      visibility: visible;
+    }
   }
+
   p {
     margin: 0;
   }

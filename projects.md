@@ -8,7 +8,7 @@ title: projects - catskull.net
 
 {% for p in site.projects reversed %}
 <section class="projects-section" id="{{ p.title | slugify }}">
-	<h2><a href="#{{ p.title | slugify }}">#</a> {{ p.title }}</h2>
+	<h2><a href="#{{ p.title | slugify }}">{{ p.title }}</a></h2>
 	<a href="{{ p.hyperlink }}">{{ p.hyperlink }}</a>
 	<p class="era-tag">{{ p.era }} (circa)</p>
 	<p class="status-tag {{ p.status }}">
