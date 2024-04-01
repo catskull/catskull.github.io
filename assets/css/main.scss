@@ -120,6 +120,35 @@ sup a {
   filter: saturate(150%) contrast(100%);
 }
 
+.img-frame figcaption {
+  background: white;
+  border-style: solid;
+  border-color: hsl(120, 2%, 9%);
+  text-align: left;
+  width: calc(100% - 10px);
+  padding: 5px;
+  font-size: small;
+  border-bottom: 0;
+}
+
+.img-icon {
+  float: right;
+}
+
+.img-frame-center {
+  margin: 0;
+  padding: 2rem 4rem;
+}
+
+.ascii-table {
+  border-left:none !important;
+  font-size:70%;
+  padding:0 !important;
+  white-space:pre !important;
+  color: unset;
+  background: unset;
+}
+
 code {
   line-height: 13px;
 }
@@ -128,6 +157,22 @@ aside {
   float: left;
   max-width: 60%;
   margin-right: 2rem;
+
+  figure {
+    margin: 0;
+  }
+}
+
+figure {
+  img {
+    border-style: solid;
+    border-color: hsl(120, 2%, 9%);
+  }
+}
+
+.right {
+  float: right;
+  margin: 0;
 }
 
 .blinking {
@@ -152,6 +197,10 @@ aside {
       transparent 0px, /* start of transparent space after the line */
       transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
     );
+
+    figcaption {
+      color: hsl(120, 2%, 9%);
+    }
   }
 }
 
@@ -178,7 +227,16 @@ aside {
   aside {
     float: none;
     max-width: 100%;
-    margin: 0 0 2rem 0;
+    margin: 0;
+
+    figure {
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .right {
+    margin-bottom: 1rem;
   }
 }
 
