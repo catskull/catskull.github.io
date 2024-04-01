@@ -184,6 +184,8 @@ One night in early February 2024, Tim Cook ran into Gaben picking up a Sega Satu
 
 ---
 
+Footnotes
+
 [^1]: [Apple CEO Tim Cook announced a "two-year transition plan" to Apple silicon on June 22, 2020.](https://en.wikipedia.org/wiki/Mac_transition_to_Apple_silicon)
 [^2]: [IRIS GL was a proprietary graphics API created by Silicon Graphics (SGI) in the early 1980s.](https://en.wikipedia.org/wiki/IRIS_GL)
 [^3]: [OpenGL is the evolution of SGI's proprietary graphics API IRIS GL, open-sourced and standardized in the early 1990s.](https://en.wikipedia.org/wiki/OpenGL#History)
