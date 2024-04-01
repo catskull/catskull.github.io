@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: hidden
 date: 2024-03-25
 title: History & Overview of Graphics APIs on Apple MacOS
 ---
