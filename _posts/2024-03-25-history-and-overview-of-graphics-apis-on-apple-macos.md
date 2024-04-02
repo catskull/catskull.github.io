@@ -115,7 +115,7 @@ Gabe walked out of Bill's office and went to tell the two smartest engineers he'
 </figure>
 </aside>
 
-In August of 1995, Gabe remembered they had ported Doom to Windows and he sent the files back to John Carmack. It was released as technically the first DirectX game. After it came out, Bill totally tried to pretend he loved Doom. He made a bunch of commercials starring himself, talking about how good he was at Doom[^6]. Already chafed, Gabe overheard someone talking about how Bill didn't even know what Initial D was and decided that was the last straw. One of Gabe's friends had recently quit Microsoft after years of that kind of BS to work at id Software on Quake and kept emailing Gabe pictures of cool cars to make him jealous. It worked. Gabe called up his buddy Mike and said, "You ready to blow this joint?" "I'm in," Mike replied.
+In August of 1995, Gabe remembered they had ported Doom to Windows and he sent the files back to John Carmack. It was released as _technically_ the first DirectX game. After it came out, Bill totally tried to pretend he loved Doom. He made a bunch of commercials starring himself, talking about how good he was at Doom[^6]. Already chafed, Gabe overheard someone talking about how Bill didn't even know what Initial D was and decided that was the last straw. One of Gabe's friends had recently quit Microsoft after years of that kind of BS to work at id Software on Quake and kept emailing Gabe pictures of cool cars to make him jealous. It worked. Gabe called up his buddy Mike and said, "You ready to blow this joint?" "I'm in," Mike replied.
 
 They named their new company Valve[^7].
 
