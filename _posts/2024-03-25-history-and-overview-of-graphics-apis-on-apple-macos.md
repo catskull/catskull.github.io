@@ -93,14 +93,14 @@ Below I've created a chart depicting the rough timeline of computer graphics API
 
 In the beginning, there was Silicon Graphics (SGI). They developed the first graphics-specific API as IRIS GL in 1982[^2]. Despite dominance in the PC space, large competitors such as IBM apparently skipped their geometry classes. Instead of innovating on their own, industry partners eventually pressured SGI to open source a version of their IRIS GL as OpenGL 1.0 in 1992[^3].
 
+One afternoon in 1994, Bill Gates rolled out of bed, jumped in his imported 1983 Toyota AE86, and thought to himself, "If I can't own computer graphics, I don’t want to be alive." Windows was getting ready to launch, and he didn’t have anything for gaming. Luckily, unbeknownst to him, a couple of really smart Microsoft engineers were casually working in their free time on some graphics stuff for gaming. It was pretty chill; they named their work the "Manhattan Project" because they wanted to drop a nuke on the stranglehold Japanese companies had on video games. The project was released in 1995 as "Windows Game SDK" [^4]. Everything was great until Bill Gates showed up at the '95 Game Developers Conference in his '86, and Hideo Kojima ran up to say how much he loved the car (being a huge fan of the anime). But it turns out Bill Gates didn’t even watch Initial D - HE JUST SAW THE CAR ON A CALENDAR IN THE OFFICE - so everyone in the industry thought Microsoft was pretty lame for a while. Until one night, Bill Gates called John Carmack at like 3am or something and literally begged him to let Microsoft port Doom to Windows. Finally, after (I swear) an hour, John just said 'fine' and hung up.
+
 <aside class="img-frame">
 <figure>
   <figcaption>Bill Gates with his AE86<span class="img-icon">┅</span></figcaption>
   <img src="/public/media/posts/billgrates/initd.jpeg" alt="Bill Gates with his AE86">
 </figure>
 </aside>
-
-One afternoon in 1994, Bill Gates rolled out of bed, jumped in his imported 1983 Toyota AE86, and thought to himself, "If I can't own computer graphics, I don’t want to be alive." Windows was getting ready to launch, and he didn’t have anything for gaming. Luckily, unbeknownst to him, a couple of really smart Microsoft engineers were casually working in their free time on some graphics stuff for gaming. It was pretty chill; they named their work the "Manhattan Project" because they wanted to drop a nuke on the stranglehold Japanese companies had on video games. The project was released in 1995 as "Windows Game SDK" [^4]. Everything was great until Bill Gates showed up at the '95 Game Developers Conference in his '86, and Hideo Kojima ran up to say how much he loved the car (being a huge fan of the anime). But it turns out Bill Gates didn’t even watch Initial D - HE JUST SAW THE CAR ON A CALENDAR IN THE OFFICE - so everyone in the industry thought Microsoft was pretty lame for a while. Until one night, Bill Gates called John Carmack at like 3am or something and literally begged him to let Microsoft port Doom to Windows. Finally, after (I swear) an hour, John just said 'fine' and hung up.
 
 Here's where the story gets really crazy.
 
