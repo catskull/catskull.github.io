@@ -24,10 +24,10 @@ Things that I use.
 - [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/)
 - [chruby](https://github.com/postmodern/chruby)/[ruby-install](https://github.com/postmodern/ruby-install)
 - [GitHub Desktop](https://desktop.github.com)
-- [Homebrew](https://brew.sh)<sup>[*](#disclaimers)</sup>
+- [Homebrew](https://brew.sh)[^a]
 - [iTerm2](https://iterm2.com)
 - [Sublime Text](https://www.sublimetext.com/index2)
-- [volta](https://volta.sh)<sup>[*](#disclaimers)</sup>
+- [volta](https://volta.sh)[^a]
 
 ### equipment
 - [8BitDo Retro Mechanical Keyboard (NES)](https://www.8bitdo.com/retro-mechanical-keyboard/)
@@ -43,9 +43,8 @@ Things that I use.
 ### personal
 - [github](https://github.com/catskull)
 - [youtube](https://www.youtube.com/channel/UCHZOwvEh9FAG95RO3PWhe5g)
+- [wikipedia](https://en.wikipedia.org/wiki/User:Catskull)
 
-<footer>
-  <small id="disclaimers">
-    * Investigating alternatives.
-  </small>
-</footer>
+
+#### footnotes
+[^a]: Investigating alternatives.
