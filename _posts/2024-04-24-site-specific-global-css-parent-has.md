@@ -57,3 +57,5 @@ Another tip to select sneaky unlabeled ad content is by using automation/accessi
 > AI Use Disclaimer:
 <br>
 I researched and wrote this post. ChatGPT 4 assisted in formatting, correcting, and validating code and grammar.
+
+[Discuss on Hacker News↗](https://news.ycombinator.com/item?id=40159280)
