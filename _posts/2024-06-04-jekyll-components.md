@@ -10,7 +10,9 @@ I thought it might be fun to turn the site into a more traditional news blog for
 
 {% include figure.html src="/public/media/posts/jekyllcomponents/meme.png" alt="And yet, one must imagine the blogger happy." caption="And yet, one must imagine the blogger happy." %}
 
-One thing I'm super hip on is [modern semantic HTML]({% link _posts/2023-08-01-html.md %}). One of the super hip things about modern semantic HTML is the [`<figure>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) tag. What is a figure and what does it do? Look at the image above! The MDN docs describe it nicely:
+One thing I'm super hip on is [modern semantic HTML]({% link _posts/2023-08-01-html.md %}). Semantic HTML makes everyone's lives easier in ways that pay dividends. For example, [Safari Reader mode](https://support.apple.com/guide/safari/hide-ads-when-reading-sfri32632/mac) displays semantic HTML in a more coherent way by default, with no CSS required on your part. Indeed, I look towards a future where documents on the web are distributed without opinions on how the user might want to consume the document. For example, if a user is blind.
+
+One of the super hip things about modern semantic HTML is the [`<figure>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) tag. What is a figure and what does it do? Look at the image above! The MDN docs describe it nicely:
 
 > The `<figure>` HTML element represents self-contained content, potentially with an optional caption, which is specified using the `<figcaption>` element. The figure, its caption, and its contents are referenced as a single unit.
 
@@ -37,9 +39,9 @@ _your-post.md_
 ```
 {% include figure.html src="/meme.png" alt="Alt text is mandatory for accessibility." caption="Optional." %}
 ```
-{% endraw %}
 
 You can even use variables like `caption="{{page.title}}"`. Note that within the template, variables are accessed via `include.`.
+{% endraw %}
 
 That's it! Super simple and make the markdown a lot cleaner, in my opinion.
 
