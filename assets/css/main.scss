@@ -162,7 +162,8 @@ sup a {
 }
 
 code {
-  line-height: 13px;
+  line-height: 1.3em;
+  tab-size: 4;
   font-family: 'Berkeley Mono', monospace;
 }
 
@@ -180,6 +181,11 @@ figure {
   img {
     border-style: solid;
     border-color: hsl(120, 2%, 9%);
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: smaller;
   }
 }
 
