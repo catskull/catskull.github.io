@@ -40,7 +40,7 @@ _your-post.md_
 {% include figure.html src="/meme.png" alt="Alt text is mandatory for accessibility." caption="Optional." %}
 ```
 
-You can even use variables like `caption="{{page.title}}"`. Note that within the template, variables are accessed via `include.`.
+You can even use variables like `caption=page.title`. Note that within the template, variables are accessed via `include.caption`.
 {% endraw %}
 
 That's it! Super simple and make the markdown a lot cleaner, in my opinion.
