@@ -32,3 +32,7 @@ ln -s ~/iCloud/dotfiles/.config .config
 ```
 
 Then you can make a bash script if you're cool or a blog post if you're me!
+
+PS -
+
+Sam says to make sure your iCloud Drive is e2e encypted (sup NSA call me 🤙) by going into system settings and turning on "advanced data protection"
