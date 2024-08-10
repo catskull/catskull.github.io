@@ -9,8 +9,6 @@ permalink: /:title.html
 
 favicon: "favicon.png" # name+extension of favicon (which must be put on the root folder)
 
-remote-theme: riggraz/no-style-please
-
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: "back" # customize text for homepage link in post layout

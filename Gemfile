@@ -1,8 +1,9 @@
-# frozen_string_literal: true
+# Gemfile
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "kramdown-parser-gfm"
+gem "jekyll", "~> 4.2"
 
-gemspec
-gem "webrick", "~> 1.7"
+gem "jekyll-feed", "~> 0.17.0"
+
+gem "jekyll-seo-tag", "~> 2.8"
