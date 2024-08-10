@@ -1,15 +1,182 @@
 ---
 ---
+@font-face {
+  font-family: "Berkeley Mono";
+  src: url('/assets/font/BerkeleyMonoVariable-Regular.woff2');
+  font-weight: 100 150;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Berkeley Mono";
+  src: url('/assets/font/BerkeleyMonoVariable-Italic.woff2');
+  font-weight: 100 150;
+  font-style: italic;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: black;
+  font-family: 'Berkeley Mono', monospace;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-weight: 100;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 100%;
+  overflow-wrap: break-word;
+}
+
+.post-meta {
+  text-align: right;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 3rem;
+}
+
+hr {
+  margin: 2rem 0;
+  text-align: center;
+  border: 0;
+
+  &:before {
+    content: '/////';
+  }
+
+  &:after {
+    content: attr(data-content) '/////';
+  }
+}
+
+p {
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+ul {
+  list-style-type: '- ';
+}
+
+a:visited {
+  color: inherit;
+}
+
+*:target {
+  background: yellow;
+  color: black;
+}
+
+.w {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: thin solid black;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+code {
+  color: white;
+  background: hsl(120, 2%, 9%);
+  padding: 0.1rem 0.2rem;
+  font-size: 0.8rem;
+  line-height: 1.3em;
+  tab-size: 4;
+  font-family: 'Berkeley Mono', monospace;
+}
+
+div.highlighter-rouge code {
+  display: block;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  padding: 1rem;
+  border-left: 1px solid white;
+}
+
+blockquote {
+  font-style: italic;
+  border: thin solid black;
+  padding: 1rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: hsl(120, 2%, 9%);
+    color: rgb(215, 215, 216);
+  }
+
+  blockquote {
+    border: thin solid rgb(215, 215, 216);
+  }
+
+  a {
+    color: hsl(206.7, 100%, 70%);
+  }
+
+  a:visited {
+    color: inherit;
+  }
+
+  .img-frame {
+    background-image: repeating-linear-gradient(
+      45deg,       /* angle of the lines */
+      rgb(150,150,150) 0,      /* start color (black) */
+      rgb(150,150,150) 1px,    /* end color (black) and width of the line */
+      transparent 0px, /* start of transparent space after the line */
+      transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
+    );
+
+    figcaption {
+      color: hsl(120, 2%, 9%);
+    }
+  }
+}
 
 .final {
-  &:before { content: 'LI' }
-  &:after { content: attr(data-content) 'KE?' }
+  &:before {
+    content: 'LI';
+  }
+
+  &:after {
+    content: attr(data-content) 'KE?';
+  }
 }
 
 .typo {
-	text-decoration-style: wavy;
-	text-decoration: underline;
-	text-decoration-color: red;
+  text-decoration-style: wavy;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .post-header {
@@ -23,8 +190,8 @@
   }
 
   h1 {
-  	border-bottom: solid 2px;
-  	padding-right: 1rem;
+    border-bottom: solid 2px;
+    padding-right: 1rem;
   }
 }
 
@@ -98,9 +265,11 @@ sup a {
   p {
     margin: 0;
   }
+
   svg {
     padding-right: 2px;
   }
+
   .status-tag {
     display: flex;
     align-items: center;
@@ -119,6 +288,7 @@ sup a {
   box-sizing: border-box;
   margin-top: 1rem;
 }
+
 .img-frame img {
   height: auto;
   margin: auto;
@@ -153,18 +323,12 @@ sup a {
 }
 
 .ascii-table {
-  border-left:none !important;
-  font-size:70%;
-  padding:0 !important;
-  white-space:pre !important;
+  border-left: none !important;
+  font-size: 70%;
+  padding: 0 !important;
+  white-space: pre !important;
   color: unset;
   background: unset;
-}
-
-code {
-  line-height: 1.3em;
-  tab-size: 4;
-  font-family: 'Berkeley Mono', monospace;
 }
 
 aside {
@@ -202,24 +366,9 @@ figure {
   from, to {
     opacity: 0;
   }
+
   85% {
     opacity: 1;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .img-frame {
-    background-image: repeating-linear-gradient(
-      45deg,       /* angle of the lines */
-      rgb(150,150,150) 0,      /* start color (black) */
-      rgb(150,150,150) 1px,    /* end color (black) and width of the line */
-      transparent 0px, /* start of transparent space after the line */
-      transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
-    );
-
-    figcaption {
-      color: hsl(120, 2%, 9%);
-    }
   }
 }
 
@@ -230,6 +379,7 @@ figure {
 
   .post-header {
     flex-direction: column-reverse;
+
     h1 {
       margin-bottom: 0.5em;
     }
@@ -258,6 +408,3 @@ figure {
     margin-bottom: 1rem;
   }
 }
-
-
-@import "no-style-please";
