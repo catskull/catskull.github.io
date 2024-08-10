@@ -5,46 +5,39 @@ title: uses - catskull.net
 <a href="/">{{ site.theme_config.back_home_text }}</a>
 
 # uses
+Updated Aug. 10, 2024
 
 Things that I use.
 
-### catskull.net
-- [Cloudflare](https://www.cloudflare.com)
-  - Analytics
-  - Cache
-  - [D1](https://developers.cloudflare.com/d1/)
-  - DNS
-  - [Workers](https://developers.cloudflare.com/workers/)
-- [Github Pages](https://pages.github.com)
-- [Jekyll](https://jekyllrb.com)
-- [Porkbun](https://porkbun.com)
-- [no-style-please](https://github.com/riggraz/no-style-please) (theme)
-
-### development
-- [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/)
-- [chruby](https://github.com/postmodern/chruby)/[ruby-install](https://github.com/postmodern/ruby-install)
-- [GitHub Desktop](https://desktop.github.com)
-- [Homebrew](https://brew.sh)[^a]
-- [iTerm2](https://iterm2.com)
-- [Sublime Text](https://www.sublimetext.com/index2)
-- [volta](https://volta.sh)[^a]
-
-### equipment
-- [8BitDo Retro Mechanical Keyboard (NES)](https://www.8bitdo.com/retro-mechanical-keyboard/)
-- 14" M3 Max
-- a Lava Lamp
-- Behringer UMC404HD
-- Fosi Audio TB10D Stereo Amplifier
-- Fosi Audio TP-02 Subwoofer Amplifier
-- Klipsch RP-160M
-- [Logitech MX Master 3S (White)](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html)
-- Studio Display
-
-### personal
-- [github](https://github.com/catskull)
-- [youtube](https://www.youtube.com/channel/UCHZOwvEh9FAG95RO3PWhe5g)
-- [wikipedia](https://en.wikipedia.org/wiki/User:Catskull)
-
-
-#### footnotes
-[^a]: Investigating alternatives.
+<pre style="line-height: initial;">
+┌───────────────────┐ ┌────────────────────┐
+│ Catskull.net      ├─► Development        │
+├───────────────────┤ ├────────────────────┤
+│ <a href="https://www.cloudflare.com">Cloudflare</a>        │ │ <a href="https://berkeleygraphics.com/typefaces/berkeley-mono/">Berkeley Mono</a>      │
+│  * Analytics      │ │ <a href="https://github.com/postmodern/chruby">chruby</a>/<a href="https://github.com/postmodern/ruby-install">ruby-install</a>│
+│  * Cache          │ │ <a href="https://desktop.github.com/">Github Desktop</a>     │
+│  * D1             │ │ <a href="https://iterm2.com/">iTerm2</a>             │
+│  * DNS            │ │ <a href="https://www.sublimetext.com/index2">Sublime Text</a>       │
+│  * <a href="https://developers.cloudflare.com/workers/">Workers</a>        │ │ <a href="https://volta.sh/">volta</a>              │
+│ <a href="https://pages.github.com/">Github Pages</a>      │ └┬───────────────────┘
+│ <a href="https://jekyllrb.com/">Jekyll</a>            │ ┌▼───────────────────┐
+│ <a href="https://porkbun.com/">Porkbun</a>           │ │ Personal           │
+│ <a href="https://github.com/riggraz/no-style-please">no-style-please</a>   │ ├────────────────────┤
+└───────────────────┘ │ <a href="https://github.com/catskull">GitHub</a>             │
+┌───────────────────┐ │ <a href="https://www.youtube.com/channel/UCHZOwvEh9FAG95RO3PWhe5g">YouTube</a>            │
+│        hi         ◄─┤ <a href="https://en.wikipedia.org/wiki/User:Catskull">Wikipedia</a>          │
+└┬──────────────────┘ └────────────────────┘
+┌▼─────────────────────────────────────────┐
+│ Equipment                                │
+├──────────────────────────────────────────┤
+│ <a href="https://www.8bitdo.com/retro-mechanical-keyboard/">8BitDo Retro Mechanical Keyboard</a>         │
+│ 14" M3 Max                               │
+│ Lava Lamp                                │
+│ Behringer UMC404HD                       │
+│ Fosi Audio TB10D Stereo Amplifier        │
+│ Fosi Audio TP-02 Subwoofer Amplifier     │
+│ Klipsch RP-160M                          │
+│ <a href="https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html">Logitech MX Master 3S (White)</a>            │
+│ Studio Display                           │
+└──────────────────────────────────────────┘
+</pre>
