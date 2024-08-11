@@ -1,0 +1,25 @@
+<nav>
+  <ul>
+    <li>
+      {% if page.name == "index.html" %}
+        <mark>home</mark>
+      {% else %}
+        <a href="/">home</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if page.name == "uses.md" %}
+        <mark>uses</mark>
+      {% else %}
+       <a href="/uses">uses</a>
+      {% endif %}
+    </li>
+    <li>
+    	{% if page.name == "projects.md" %}
+    		<mark>projects</mark>
+  		{% else %}
+  			<a href="/projects">projects</a>
+  		{% endif %}
+    </li>
+  </ul>
+</nav>

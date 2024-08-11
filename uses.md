@@ -2,7 +2,7 @@
 layout: default
 title: uses - catskull.net
 ---
-<a href="/">{{ site.theme_config.back_home_text }}</a>
+{% include topnav.html %}
 
 # uses
 Updated Aug. 10, 2024

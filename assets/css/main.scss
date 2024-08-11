@@ -37,6 +37,14 @@ body {
   text-align: right;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
 h3, h4, h5, h6 {
   font-weight: 500;
 }

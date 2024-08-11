@@ -2,7 +2,7 @@
 layout: default
 title: projects - catskull.net
 ---
-<a href="/">{{ site.theme_config.back_home_text }}</a>
+{% include topnav.html %}
 
 # projects
 
