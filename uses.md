@@ -39,5 +39,7 @@ Things that I use.
 │ Klipsch RP-160M                          │
 │ <a target="_blank" href="https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html">Logitech MX Master 3S (White)</a>            │
 │ Studio Display                           │
+│ <a target="_blank" href="https://grovemade.com/product/wood-desk-shelf">Grovemade Desk Shelf (L, Solid Walnut)</a>   │
+│ <a target="_blank" href="https://youtu.be/8F27yxAW_fY?si=FFVIu1zP6_GfpCHR">OWC Express 1M2</a>                          │
 └──────────────────────────────────────────┘
 </pre>
