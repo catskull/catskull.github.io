@@ -13,7 +13,7 @@ These are various quotes, adages, laws, idioms, sayings, and other things that I
   <blockquote cite="{{quote.cite}}">
     <p>{{quote.quote}}</p>
   </blockquote>
-  <p>{{quote.author}}, <cite><a target="_blank" href="{{quote.cite}}">{{quote.source}}↗</a></cite></p>
+  <p>{{quote.author}}{% if quote.cite and quote.source %}, <cite><a target="_blank" href="{{quote.cite}}">{{quote.source}}↗</a></cite>{% endif %}</p>
   {% endfor %}
 </section>
 
