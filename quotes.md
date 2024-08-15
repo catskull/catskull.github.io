@@ -11,9 +11,8 @@ These are various quotes, adages, laws, idioms, sayings, and other things that I
 <section id="quotes">
   {% for quote in site.data.quotes %}
   <blockquote cite="{{quote.cite}}">
-    <p>{{quote.quote}}</p>
+    <p>{{ quote.quote | newline_to_br }}</p>
   </blockquote>
   <p>{{quote.author}}{% if quote.cite and quote.source %}, <cite><a target="_blank" href="{{quote.cite}}">{{quote.source}}↗</a></cite>{% endif %}</p>
   {% endfor %}
 </section>
-
