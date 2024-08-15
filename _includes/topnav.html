@@ -8,6 +8,13 @@
       {% endif %}
     </li>
     <li>
+      {% if page.name == "about.md" %}
+        <mark>about</mark>
+      {% else %}
+        <a href="/about">about</a>
+      {% endif %}
+    </li>
+    <li>
       {% if page.name == "uses.md" %}
         <mark>uses</mark>
       {% else %}
