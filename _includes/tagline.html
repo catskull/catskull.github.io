@@ -1,4 +1,4 @@
-{% assign num_items = 19 %}
+{% assign num_items = 21%}
 {% assign random_index = site.time | date: '%s' | modulo: num_items %}
 
 {% case random_index %}
@@ -40,5 +40,10 @@
     any way the wind blows
   {% when 18 %}
     <a href="https://www.youtube.com/watch?v=BZlRt05RY9Y" alt="easter egg video">you are lucky</a>
+  {% when 19 %}
+    <marquee>/\//\\\/ /\//\\/\ /\///\/\ /\//\\/\\ /\\/\//\\ /\///\/ /\ /\\//\/\ /\\//\/\ //\\//\/ /\\//\\/\/ /\\/\///\ /\///\/\</marquee>
+  {% when 20 %}
+    𝙝𝙞 𝙢𝙤𝙢
+
 
 {% endcase %}
