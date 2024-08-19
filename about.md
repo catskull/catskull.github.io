@@ -98,4 +98,5 @@ title: about - catskull.net
                            │  and junk drawer. It's my personal home │
                            │ page.                                   │
                            └─────────────────────────────────────────┘
+<img id="portrait" src="public/images/portrait.webp"/>
 </pre>
