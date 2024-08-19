@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+
 title: HTML 'components' with Jekyll and Liquid
 tags: [web, jekyll, html, liquid, programming]
 ---

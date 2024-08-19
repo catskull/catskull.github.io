@@ -2,7 +2,7 @@
 layout: post
 title: "Apple Shortcuts are cool"
 date: 2023-08-22
-category: post
+
 tags: []
 ---
 

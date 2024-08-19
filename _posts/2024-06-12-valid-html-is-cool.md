@@ -2,7 +2,7 @@
 title: Now served with valid HTML
 tags: [programming, web development, html]
 date: 2024-06-12 16:47:14 -0600
-category: post
+
 layout: post
 ---
 

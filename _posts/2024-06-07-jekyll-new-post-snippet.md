@@ -2,7 +2,7 @@
 title: Jekyll post generator snippet (with timestamps!)
 tags: [web, programming, web development, jekyll, ssg, ruby]
 date: 2024-06-07 18:10:17 -0600
-category: post
+
 layout: post
 ---
 I love jekyll but I hate making new posts and I can't be bothered to figure out a real solution so I made this script.

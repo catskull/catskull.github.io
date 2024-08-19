@@ -2,7 +2,7 @@
 title: Business Cards
 tags: [self promotion, design, art]
 date: 2024-07-15 15:37:07 -0600
-category: post
+
 layout: post
 ---
 3.5" x 2.0" with some bleeeeed

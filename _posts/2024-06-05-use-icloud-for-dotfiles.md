@@ -1,7 +1,7 @@
 ---
 title: Should you use iCloud Drive to store your dotfiles?
 tags: [programming, apple, bash, zsh, ssh]
-category: post
+
 layout: post
 ---
 

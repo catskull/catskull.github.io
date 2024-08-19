@@ -2,7 +2,7 @@
 layout: post
 title:  "A Mind Forever Voyaging"
 date:   2022-03-15
-category: post
+
 ---
 
 Update Aug. 1 2023

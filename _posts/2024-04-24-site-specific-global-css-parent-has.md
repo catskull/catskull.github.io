@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+
 date: 2024-04-24
 title: Use :has() to scope CSS
 tags: [web, css, programming]

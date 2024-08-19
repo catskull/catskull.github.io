@@ -3,7 +3,7 @@ title: Social Media Platform Analysis 2024
 tags: [humor, meta]
 date: 2024-08-15 13:58:18 -0600
 layout: post
-category: post
+
 ---
 **Twitter** - bizarro land ads, self-loathing, self-deprecating. Whoops I meant X.
 

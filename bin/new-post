@@ -15,7 +15,7 @@ def create_post_file()
     title: newpost
     tags: []
     date: #{DateTime.now.strftime('%Y-%m-%d %H:%M:%S %z')}
-    category: post
+    
     layout: post
     ---
   CONTENT
