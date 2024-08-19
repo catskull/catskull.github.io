@@ -33,10 +33,6 @@ body {
   overflow-wrap: break-word;
 }
 
-.post-meta {
-  text-align: right;
-}
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -188,9 +184,6 @@ img {
 }
 
 .post-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: normal;
   margin-top: 1rem;
 
   h1, .post-meta {
@@ -237,6 +230,25 @@ ul ul {
 
 sup a {
   text-decoration: none;
+}
+
+.post-tags {
+  display: inline-flex; /* or use display: flex */
+  flex-wrap: wrap; /* Allows tags to wrap to the next line if there's not enough space */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding-right: 0.5rem;
+    margin: 0;
+    font-size: 0.7rem;
+    color: dimgrey;
+    cursor: context-menu;
+  }
+  li:hover {
+    color: unset;
+  }
 }
 
 .projects-section {
