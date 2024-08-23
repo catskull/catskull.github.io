@@ -4,4 +4,4 @@ title: quotes - catskull.net
 ---
 {% include topnav.html %}
 <page-replies/>
-<script src="/public/replies.js"></script>
+<script src="https://replies.catskull.net/replies.js"></script>
