@@ -1,0 +1,86 @@
+---
+layout: default
+title: about - catskull.net
+---
+{% include topnav.html %}
+
+<div class="grid">
+  <div style="min-width: 14rem;width: 16rem;height: fit-content;">
+    <img id="portrait" src="public/images/portrait.webp"/>
+    <table class="monospace">
+      <thead>
+        <tr>
+          <th><mark>Interests</mark></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              {% assign interests = site.data.about.interests | sort %}
+              {% for interest in interests %}
+              <li>{{ interest }}</li>
+              {% endfor %}
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="min-width: 20rem;width: 22rem;">
+    {% for section in site.data.about %}
+      {% unless section[0] == "interests" %}
+        <table class="monospace">
+          <thead>
+            <!-- First, determine the maximum length of any row -->
+            {% assign max_length = 0 %}
+            {% for row in section[1] %}
+              {% if row.size > max_length %}
+                {% assign max_length = row.size %}
+              {% endif %}
+            {% endfor %}
+            <tr>
+              <th colspan="{{ max_length }}"><mark>{{section[0]}}</mark></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in section[1] %}
+            <tr>
+              {% assign row_size = row.size %}
+              {% assign missing_cells = max_length | minus: row_size %}
+              {% for data in row %}
+              <td {% if forloop.last and missing_cells > 0  %} colspan="{{ missing_cells | plus: 1 }}"{% endif %}>
+                <div class="label">{{ data[0] }}</div>
+                <div class="content">{{ data[1] }}</div>
+              </td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% endunless %}
+    {% endfor %}
+    <table class="monospace">
+      <thead>
+        <tr>
+          <th><mark>Bio</mark></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+<p>
+I am a creative technologist and product developer. My greatest career accomplishment has been leading internship programs, working closely with early-career engineers to help them navigate the transition into full-time work. I have great coworkers and managers to thank for my success, and together we’ve built startups that have collectively sold for over $1.5 billion. I’m happiest when I’m deep in the product-development cycle, and I’ve been able to use my skills and perspective to deliver products that help consumers navigate the most complicated financial processes of their lives—home and auto purchases. I founded a hardware company, fully bootstrapped, and grew it to $80k in yearly revenue while working full-time at a startup. This led me to work with artists, musicians, and technologists across the world. I love building products to solve customers’ problems.
+</p><p>
+My greatest fulfillment comes from my wife of 13 years and our four children. We live in Southern Utah and love spending time together. Each of my kids has a unique personality and brings a lot of extra insight into life.
+</p><p>
+I am always researching everything. As a kid, I dreamed of having a Game Boy full of books. In my teens, I wanted a “Hitchhiker’s Guide to the Galaxy” to carry around as a reference. Now I have an iPhone with Wikipedia on it, and I read it. Surprisingly, I’m not very interested in reading most books, but I like reading about books—and anything else—on Wikipedia. The more I learn, the more similar things become. What I really appreciate is people. Perspectives. I am so fascinated that my earnestness is often misinterpreted as judgment. People have an infinite capacity to adapt and find happiness. Ultimately, I’m on a personal journey to live my life to the fullest extent possible. Self-awareness and authenticity help me get the most out of life.
+</p><p>
+This website is somewhere in between a journal, project log, portfolio, exhibit, utility, reference, tech demo, and junk drawer. It’s my personal home page.
+</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

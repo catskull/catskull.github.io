@@ -1,5 +1,7 @@
 ---
 ---
+@import 'monospace.scss';
+
 @font-face {
   font-family: "Berkeley Mono";
   src: url('/assets/font/BerkeleyMonoVariable-Regular.woff2');
@@ -446,13 +448,4 @@ section#quotes {
   > p {
     margin: 0.5rem 0 2rem 0;
   }
-}
-
-#portrait {
-  position: relative;
-  top: -22em;
-  border: 1.6px solid;
-  left: 3.3px;
-  margin: 0;
-  width: 15.5em;
 }

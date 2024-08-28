@@ -1,0 +1,66 @@
+.grid {
+  $line-height: 1.2rem;
+  $border-width: 2px;
+  $padding-small: calc($line-height / 2);
+  $content-line-height: 1.3rem;
+
+  --grid-cells: 0;
+  display: flex;
+  gap: 1ch;
+
+  #portrait {
+    position: relative;
+    top: $padding-small;
+    width: calc(100% - 4px);
+    border: $border-width solid black;
+    margin-bottom: calc($line-height * 2);
+  }
+
+  table.monospace {
+    position: relative;
+    top: $padding-small;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: calc($line-height * 2);
+
+    th, td {
+      border: $border-width solid black;
+    }
+
+    th {
+      padding: $padding-small calc(1ch - $border-width / 2) calc($padding-small - $border-width);
+      line-height: $line-height;
+      vertical-align: top;
+      text-align: left;
+      font-weight: unset;
+    }
+
+    td {
+      padding: 0 0 0 0.5rem;
+      line-height: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 0;
+    }
+  }
+
+  .label {
+    font-weight: bolder;
+    font-size: 10px;
+    position: relative;
+    left: -6px;
+    top: -2px;
+  }
+
+  .content, p {
+    position: relative;
+    top: -3px;
+    line-height: $content-line-height;
+  }
+}
