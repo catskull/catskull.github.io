@@ -12,7 +12,7 @@
     position: relative;
     top: $padding-small;
     width: calc(100% - 4px);
-    border: $border-width solid black;
+    border: $border-width solid;
     margin-bottom: calc($line-height * 2);
   }
 
@@ -24,7 +24,7 @@
     margin-bottom: calc($line-height * 2);
 
     th, td {
-      border: $border-width solid black;
+      border: $border-width solid;
     }
 
     th {
