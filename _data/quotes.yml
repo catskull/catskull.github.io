@@ -1,20 +1,8 @@
-- quote: "Truth is stranger than fiction, but it is because Fiction is obliged to stick to possibilities; Truth isn't."
-  author: "Mark Twain"
-  cite: "https://www.goodreads.com/quotes/4650-truth-is-stranger-than-fiction-but-it-is-because-fiction"
-  source: "Following the Equator: A Journey Around the World"
-
-- quote: Be here now.
-  author: Ram Dass
-  source: "Be Here Now"
-  cite: https://www.goodreads.com/quotes/92477-be-here-now
-
-- quote: It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of light, it was the season of darkness, it was the spring of hope, it was the winter of despair.
-  author: Charles Dickens
-  source: "A Tale of Two Cities"
-  cite: https://www.goodreads.com/quotes/341391-it-was-the-best-of-times-it-was-the-worst
-
-- quote: The best time to get a job is when you don't need one.
-  author: me
+- quote: |
+    Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit - all of these will be cherished and emulated as soon as they can be avoided. It’s the sound of failure: so much modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar sound is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them.
+  author: Brian Eno
+  source: A Year With Swollen Appendices
+  cite: https://www.goodreads.com/quotes/649039-whatever-you-now-find-weird-ugly-uncomfortable-and-nasty-about
 
 - quote: |
     Tis better to have loved and lost.
@@ -23,8 +11,20 @@
   source: In Memoriam
   cite: https://www.goodreads.com/quotes/1946-tis-better-to-have-loved-and-lost-than-never-to
 
-- quote: |
-    Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit - all of these will be cherished and emulated as soon as they can be avoided. It’s the sound of failure: so much modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar sound is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them.
-  author: Brian Eno
-  source: A Year With Swollen Appendices
-  cite: https://www.goodreads.com/quotes/649039-whatever-you-now-find-weird-ugly-uncomfortable-and-nasty-about
+- quote: The best time to get a job is when you don't need one.
+  author: me
+
+- quote: It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of light, it was the season of darkness, it was the spring of hope, it was the winter of despair.
+  author: Charles Dickens
+  source: "A Tale of Two Cities"
+  cite: https://www.goodreads.com/quotes/341391-it-was-the-best-of-times-it-was-the-worst
+
+- quote: Be here now.
+  author: Ram Dass
+  source: "Be Here Now"
+  cite: https://www.goodreads.com/quotes/92477-be-here-now
+
+- quote: "Truth is stranger than fiction, but it is because Fiction is obliged to stick to possibilities; Truth isn't."
+  author: "Mark Twain"
+  cite: "https://www.goodreads.com/quotes/4650-truth-is-stranger-than-fiction-but-it-is-because-fiction"
+  source: "Following the Equator: A Journey Around the World"
