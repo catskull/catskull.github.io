@@ -168,7 +168,7 @@ img {
     }
   }
 
-  #portrait {
+  #portrait * {
     opacity: 0.5;
   }
 }
@@ -448,4 +448,9 @@ section#quotes {
   > p {
     margin: 0.5rem 0 2rem 0;
   }
+}
+
+#portrait * {
+  width: 100%;
+  display: block;
 }
