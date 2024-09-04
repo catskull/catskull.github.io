@@ -93,7 +93,7 @@
 }
 
 .grid-uses {
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(2, 190px);
   table.monospace {
     margin-bottom: 0;
