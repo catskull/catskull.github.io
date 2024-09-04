@@ -1,24 +1,25 @@
-Personal:
-  -
-    F/N: Dave
-    L/N: DeGraw
-    M/I: W
-  -
-    Location: Earth
-    Status: Living
-  -
-    Designation: Lord/Colonel
-    YOB: 1991
-  - 
-    Your: Mom
+tables:
+  Personal:
+    -
+      F/N: Dave
+      L/N: DeGraw
+      M/I: W
+    -
+      Location: Earth
+      Status: Living
+    -
+      Designation: Lord/Colonel
+      YOB: 1991
+    - 
+      Your: Mom
 
-'Catskull.net':
-  -
-    Online: 2013
-    PV/M: 1.5k
-    Meaning: "?"
+  'Catskull.net':
+    -
+      Online: 2013
+      PV/M: 1.5k
+      Meaning: "?"
 
-Favorites:
+  Favorites:
   -
     Hot Sauce: Frank's Red Hot
     TOD: "4:44"
@@ -48,77 +49,93 @@ Favorites:
     Console: Dreamcast
     Pen: Rotring 600
 
-interests:
- - Apple Inc.
- - Art
- - ASCII
- - Audio
- - Caustics
- - Chipmusic
- - Childhood
- - Citizenship
- - Cleaning
- - Comedy
- - Community
- - Computer Programming
- - Consciousness
- - Cooking
- - Cooperation
- - Cyber Security
- - Data Compression
- - Design
- - Drumming
- - Earthbound/Mother
- - Economics
- - Education
- - Electronics
- - Engineering
- - Fatherhood
- - Family
- - Film
- - Friendship
- - Geography
- - Gundam
- - Home Improvement
- - Home Networking
- - Human Civilization
- - Hypertext
- - Interior Design
- - Interests
- - KGLW
- - Landscape Photography
- - Lava Lamps
- - Leadership
- - Maintinence
- - Manufacuring
- - MIDI
- - Music
- - Nature
- - Nintendo
- - Optimization
- - People
- - Personal Finance
- - Philosophy
- - Psychophysics
- - Psychedelic Art
- - Quantum Theory
- - Religious Studies
- - Retro Computers
- - Science Fiction
- - Self Improvement
- - Southern Utah
- - Streaming
- - Street Food
- - Theology
- - Theory of Mind
- - Tie-dye
- - Toyota
- - Video Collages
- - Video Games
- - Vinyl Records
- - Visuals/Light
- - Web Design
- - Wikipedia
- - Windows 98
- - World History
- - Drum & Bass
+lists:
+  Interests:
+   - Apple Inc.
+   - Art
+   - ASCII
+   - Audio
+   - Caustics
+   - Chipmusic
+   - Childhood
+   - Citizenship
+   - Cleaning
+   - Comedy
+   - Community
+   - Computer Programming
+   - Consciousness
+   - Cooking
+   - Cooperation
+   - Cyber Security
+   - Data Compression
+   - Design
+   - Drumming
+   - Earthbound/Mother
+   - Economics
+   - Education
+   - Electronics
+   - Engineering
+   - Fatherhood
+   - Family
+   - Film
+   - Friendship
+   - Geography
+   - Gundam
+   - Home Improvement
+   - Home Networking
+   - Human Civilization
+   - Hypertext
+   - Interior Design
+   - Interests
+   - KGLW
+   - Landscape Photography
+   - Lava Lamps
+   - Leadership
+   - Maintinence
+   - Manufacuring
+   - MIDI
+   - Music
+   - Nature
+   - Nintendo
+   - Optimization
+   - People
+   - Personal Finance
+   - Philosophy
+   - Psychophysics
+   - Psychedelic Art
+   - Quantum Theory
+   - Religious Studies
+   - Retro Computers
+   - Science Fiction
+   - Self Improvement
+   - Southern Utah
+   - Streaming
+   - Street Food
+   - Theology
+   - Theory of Mind
+   - Tie-dye
+   - Toyota
+   - Video Collages
+   - Video Games
+   - Vinyl Records
+   - Visuals/Light
+   - Web Design
+   - Wikipedia
+   - Windows 98
+   - World History
+   - Drum & Bass
+
+  Friends:
+    - name: Sam 🇺🇸
+      url: https://samwarnick.com
+    - name: Sam 🇬🇧
+      url: https://wray.pro/about/
+    - name: Carter 🇺🇸
+      url: https://carter.works
+    - name: Fox 🇺🇸
+      url: https://foxinghour.com
+    - name: Jam 🇦🇺
+      url: http://jamatar.com
+    - name: KeFF 🇫🇮 (site logo)
+    - name: dr!p 🇺🇸
+      url: https://dripontheinter.net

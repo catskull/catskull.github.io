@@ -12,52 +12,71 @@ title: about - catskull.net
         <img src="public/images/portrait.webp"/>
       </video>
     </div>
+    {% for list in site.data.about.lists %}
+      <table class="monospace">
+        <thead>
+          <tr>
+            <th>{{ list[0] }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                {% if list[1][0].name %}
+                  {% assign items = list[1] | sort: 'name' %}
+                {% else %}
+                  {% assign items = list[1] | sort %}
+                {% endif %}
+                {% for item in items %}
+                  <li>
+                  {% if item.url %}
+                    <a href="{{item.url}}" target="_blank">
+                      {{ item.name }}
+                    </a>
+                  {% elsif item.name %}
+                    {{ item.name }}
+                  {% else %}
+                    {{ item }}
+                  {% endif %}
+                  </li>
+                {% endfor %}
+                {% if list[0] == 'Friends' %}
+                  <li><a href="mailto:bro@catskull.net?subject=I want to be your friend.&body=My name is [NAME] and I want to be your friend.%0AHere is my website: [INSERT LINK HERE].%0AWe will be good friends because: [we both like tacos].">
+                    You?
+                  </a></li>
+                {% endif %}
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    {% endfor %}
+  </div>
+  <div style="min-width: 20rem;width: 22rem;">
+    {% for section in site.data.about.tables %}
     <table class="monospace">
       <thead>
+        {% assign max_length = 12 %}
         <tr>
-          <th>Interests</th>
+          <th colspan="{{ max_length }}">{{section[0]}}</th>
         </tr>
       </thead>
       <tbody>
+        {% for row in section[1] %}
         <tr>
-          <td>
-            <ul>
-              {% assign interests = site.data.about.interests | sort %}
-              {% for interest in interests %}
-              <li>{{ interest }}</li>
-              {% endfor %}
-            </ul>
+          {% assign row_size = row.size %}
+          {% assign colspan = max_length | divided_by: row_size %}
+          {% for data in row %}
+          <td colspan="{{ colspan }}">
+            <div class="label">{{ data[0] }}</div>
+            <div class="content">{{ data[1] }}</div>
           </td>
+          {% endfor %}
         </tr>
+        {% endfor %}
       </tbody>
     </table>
-  </div>
-  <div style="min-width: 20rem;width: 22rem;">
-    {% for section in site.data.about %}
-      {% unless section[0] == "interests" %}
-        <table class="monospace">
-          <thead>
-            {% assign max_length = 12 %}
-            <tr>
-              <th colspan="{{ max_length }}">{{section[0]}}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for row in section[1] %}
-            <tr>
-              {% assign row_size = row.size %}
-              {% assign colspan = max_length | divided_by: row_size %}
-              {% for data in row %}
-              <td colspan="{{ colspan }}">
-                <div class="label">{{ data[0] }}</div>
-                <div class="content">{{ data[1] }}</div>
-              </td>
-              {% endfor %}
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      {% endunless %}
     {% endfor %}
     <table class="monospace">
       <thead>
