@@ -38,6 +38,7 @@
     - name: Wikipedia
       url: https://en.wikipedia.org/wiki/User:Catskull
 - name: Equipment
+  double: true
   children:
     - name: 8BitDo Retro Mechanical Keyboard
       url: https://www.8bitdo.com/retro-mechanical-keyboard/
@@ -54,3 +55,7 @@
       url: https://grovemade.com/product/wood-desk-shelf
     - name: OWC Express 1M2
       url: https://youtu.be/8F27yxAW_fY?si=FFVIu1zP6_GfpCHR
+- name: Diagram
+  double: true
+  src: https://raw.githubusercontent.com/catskull/diagrams/main/diagrams/hifi.drawio.svg
+  url: https://github.com/catskull/diagrams

@@ -27,6 +27,10 @@
       border: $border-width solid;
     }
 
+    td:has(a img) {
+      padding: 0;
+    }
+
     th {
       padding: $padding-small calc(1ch - $border-width / 2) calc($padding-small - $border-width);
       line-height: $line-height;
@@ -52,7 +56,7 @@
     .banner {
       padding: 6.7vh auto;
       font-size: 1.3rem;
-      height: 18vh;
+      height: 85px;
       overflow: hidden;
       cursor: pointer;
     }
