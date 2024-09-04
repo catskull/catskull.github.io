@@ -15,7 +15,7 @@ title: about - catskull.net
     <table class="monospace">
       <thead>
         <tr>
-          <th><mark>Interests</mark></th>
+          <th>Interests</th>
         </tr>
       </thead>
       <tbody>
@@ -37,24 +37,18 @@ title: about - catskull.net
       {% unless section[0] == "interests" %}
         <table class="monospace">
           <thead>
-            <!-- First, determine the maximum length of any row -->
-            {% assign max_length = 0 %}
-            {% for row in section[1] %}
-              {% if row.size > max_length %}
-                {% assign max_length = row.size %}
-              {% endif %}
-            {% endfor %}
+            {% assign max_length = 12 %}
             <tr>
-              <th colspan="{{ max_length }}"><mark>{{section[0]}}</mark></th>
+              <th colspan="{{ max_length }}">{{section[0]}}</th>
             </tr>
           </thead>
           <tbody>
             {% for row in section[1] %}
             <tr>
               {% assign row_size = row.size %}
-              {% assign missing_cells = max_length | minus: row_size %}
+              {% assign colspan = max_length | divided_by: row_size %}
               {% for data in row %}
-              <td {% if forloop.last and missing_cells > 0  %} colspan="{{ missing_cells | plus: 1 }}"{% endif %}>
+              <td colspan="{{ colspan }}">
                 <div class="label">{{ data[0] }}</div>
                 <div class="content">{{ data[1] }}</div>
               </td>
@@ -68,7 +62,7 @@ title: about - catskull.net
     <table class="monospace">
       <thead>
         <tr>
-          <th><mark>Bio</mark></th>
+          <th>Bio</th>
         </tr>
       </thead>
       <tbody>

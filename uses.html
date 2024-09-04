@@ -1,0 +1,54 @@
+---
+layout: default
+title: uses - catskull.net
+---
+{% include topnav.html %}
+
+{{ page.last_modified_at }}
+
+Updated Aug. 30, 2024
+
+Things that I use.
+
+<div class="grid grid-uses">
+	{% for item in site.data.uses %}
+	  <div {% if item.name == 'Equipment' %}style="grid-column: 1 / -1;"{% endif %}>
+	    <table class="monospace">
+	      {% if item.children %}
+	      <thead>
+	        <tr>
+	          <th>{{ item.name }}</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td>
+	            <ul>
+								{% assign uses = item.children | sort: "name" %}
+	              {% for use in uses %}
+								<li>{% if use.url %}<a href="{{use.url}}" target='_blank'>{% endif %}{{ use.name }}{% if use.url %}</a>{% endif %}</li>
+									{% if use.children %}
+									<ul>
+										{% for child in use.children %}
+										<li>{% if child.url %}<a href="{{child.url}}" target='_blank'>{% endif %}{{ child.name }}{% if child.url %}</a>{% endif %}</li>
+										{% endfor %}
+									</ul>
+									{% endif %}
+	              {% endfor %}
+	            </ul>
+	          </td>
+	        </tr>
+	      </tbody>
+	      {% else %}
+	      	<tbody>
+	      		<tr><td>
+	      			<div class="banner" onclick="document.body.style.backgroundImage = 'url(/public/images/Zonenplatte_Cosinus.png)'">
+	      				<ul><li>{{ item.name }}</li></ul>
+	      			</div>
+	      		</td></tr>
+      		</tbody>
+	      {% endif %}
+	    </table>
+	  </div>
+	{% endfor %}
+</div>

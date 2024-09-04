@@ -1,0 +1,56 @@
+- name: Catskull.net
+  children:
+    - name: Cloudflare
+      url: https://cloudflare.com
+      children:
+        - name: Analytics
+        - name: Cache
+        - name: D1
+        - name: DNS
+        - name: Workers
+    - name: GitHub Pages
+      url: https://pages.github.com
+    - name: Jekyll
+      url: https://jekyllrb.com
+- name: Development
+  children:
+    - name: Berkeley Mono
+      url: https://berkeleygraphics.com/typefaces/berkeley-mono/
+    - name: chruby
+      url: https://github.com/postmodern/chruby
+    - name: ruby-install
+      url: https://github.com/postmodern/ruby-install
+    - name: GitHub Desktop
+      url: https://desktop.github.com/
+    - name: iTerm2
+      url: https://iterm2.com/
+    - name: Sublime Text
+      url: https://www.sublimetext.com/index2
+    - name: volta
+      url: https://volta.sh/
+- name: Hi
+- name: Personal
+  children:
+    - name: GitHub
+      url: https://github.com/catskull
+    - name: YouTube
+      url: https://www.youtube.com/channel/UCHZOwvEh9FAG95RO3PWhe5g
+    - name: Wikipedia
+      url: https://en.wikipedia.org/wiki/User:Catskull
+- name: Equipment
+  children:
+    - name: 8BitDo Retro Mechanical Keyboard
+      url: https://www.8bitdo.com/retro-mechanical-keyboard/
+    - name: 14" M3 Max
+    - name: Lava Lamp
+    - name: Behringer UMC404HD
+    - name: Fosi Audio TB10D Stereo Amplifier
+    - name: Fosi Audio TP-02 Subwoofer Amplifier
+    - name: Klipsch RP-160M
+    - name: Logitech MX Master 3S (White)
+      url: https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html
+    - name: Studio Display
+    - name: Grovemade Desk Shelf (L, Solid Walnut)
+      url: https://grovemade.com/product/wood-desk-shelf
+    - name: OWC Express 1M2
+      url: https://youtu.be/8F27yxAW_fY?si=FFVIu1zP6_GfpCHR
