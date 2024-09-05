@@ -37,6 +37,8 @@
       url: https://www.youtube.com/channel/UCHZOwvEh9FAG95RO3PWhe5g
     - name: Wikipedia
       url: https://en.wikipedia.org/wiki/User:Catskull
+    - name: Mastodon
+      url: https://mastodon.social/@dareelcatskull
 - name: Equipment
   double: true
   children:
