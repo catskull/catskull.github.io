@@ -51,7 +51,7 @@ jobs:
       - name: Move rss-component index.js to /public/js/components
         run: |
           mkdir -p public/js/components
-          cp rss-component/index.js public/js/components/rss-reader.js
+          cp rss-component/index.js public/js/components/rss-feed.js
 
       - name: Setup Pages
         id: pages
