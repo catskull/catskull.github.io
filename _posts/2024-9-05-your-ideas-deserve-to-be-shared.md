@@ -1,5 +1,5 @@
 ---
-title: Your Ideas Deserve to be Shared
+title: Your Ideas Deserve to Be Shared
 tags: [meta, you, ideas, philosophy]
 date: 2024-09-05 14:28:21 -0600
 layout: post
