@@ -171,7 +171,7 @@ img {
     }
   }
 
-  #portrait * {
+  #portrait video {
     opacity: 0.5;
   }
 }
@@ -453,7 +453,23 @@ section#quotes {
   }
 }
 
-#portrait * {
+#portrait video {
   width: 100%;
   display: block;
+}
+
+#live-tag {
+  cursor: help;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 4px 0;
+  color: initial;
+  padding: 0 3px;
+  span {
+    filter: invert(1);
+  }
 }

@@ -11,6 +11,13 @@ title: about - catskull.net
         <source src="public/images/portrait.webm" type="video/webm">
         <img src="public/images/portrait.webp"/>
       </video>
+      <div title="*not actually live." id="live-tag">
+        <svg height="12px" width="12px" class="blinking">
+          <circle cx="6px" cy="6px" r="6px" fill="red" />
+    Sorry, your browser does not support inline SVG.
+        </svg>
+        <span>Live</span>
+      </div>
     </div>
     {% for list in site.data.about.lists %}
       <table class="monospace">
