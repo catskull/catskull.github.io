@@ -46,12 +46,22 @@ jobs:
           repository: catskull/rss-component
           ref: main
           path: rss-component
-
-      # Move the index.js file to the desired location in the Jekyll site
       - name: Move rss-component index.js to /public/js/components
         run: |
           mkdir -p public/js/components
           cp rss-component/index.js public/js/components/rss-feed.js
+
+      # replies component
+      - name: Checkout replies repository
+        uses: actions/checkout@v4
+        with:
+          repository: catskull/replies
+          ref: main
+          path: replies
+      - name: Move replies/components/replies.js to /public/js/components
+        run: |
+          mkdir -p public/js/components
+          cp replies/components/replies.js public/js/components/replies.js
 
       - name: Setup Pages
         id: pages
