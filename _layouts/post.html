@@ -39,6 +39,12 @@ layout: default
   onmouseover="this.src='data:image/svg+xml;base64,CiAgCQkJPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSI1NiI+CiAgCQkJICA8dGV4dCBpZD0ibGlrZXNUZXh0IiB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPvCfkY0gTGlrZTwvdGV4dD4KICAJCQk8L3N2Zz4KICAJCQ=='"
   onmouseout="this.src='https://likes.catskull.net/?t=0'"
 >
+<page-replies open/>
+{% if jekyll.environment == "production" %}
+<script src="https://catskull.net/public/js/components/replies.js"></script>
+{% else %}
+<script src="http://localhost:8000/replies.js"></script>
+{% endif %}
 <footer style="float: right;">
   <a href="{{ link }}">{{ site.theme_config.back_home_text }}</a>
   <a href="/feed.xml">RSS</a>
