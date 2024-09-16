@@ -1,3 +1,11 @@
+- title: Replies
+  era: 2024
+  status: active
+  meta: 'Email based web comments in 2 lines of code'
+  hyperlink: https://catskull.net/replies.html
+  image: /public/media/projects/replies.webp
+  published: true
+  date: 2024-09-16
 - title: "adblock.css"
   era: 2024
   status: active
