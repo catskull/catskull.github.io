@@ -1,0 +1,97 @@
+- title: "adblock.css"
+  era: 2024
+  status: active
+  meta: 'Safari user agent stylesheet to block annoying stuff'
+  hyperlink: https://github.com/catskull/adblock.css
+  image: /public/media/projects/adblockdotcss.png
+  published: true
+  date: 2024-07-29
+- title: Gizzhead.org
+  era: "2023"
+  status: active
+  meta: Relaunched 2024 as a King Gizzard & The Lizard Wizard fan blog
+  hyperlink: https://gizzhead.org
+  image: /public/media/projects/gizzheaddotorg2024.jpg
+  published: true
+  date: 2024-06-05
+- title: "Likes"
+  era: 2024
+  status: active
+  meta: 'A decentralized social network in a single HTML tag'
+  hyperlink: https://catskull.net/likes
+  image: /public/media/projects/likes.gif
+  published: true
+  date: 2024-03-24
+- title: "Oaisys Prizem"
+  era: 2022
+  status: unknown
+  meta: 'Meet the real you'
+  hyperlink: https://prizem.group
+  image: /public/media/projects/oaisys.png
+  published: true
+  date: 2022-03-25
+- title: Catskull Electronics
+  era: 2015-2022
+  status: completed
+  meta: Boutique electronics web shop
+  hyperlink: https://catskullelectronics.com
+  image: /public/media/projects/catskull-electronics.jpg
+  published: true
+- title: StatusDash
+  era: "2021"
+  status: defunct
+  meta: Watch all the status pages at the same time. I got the idea after seeing a
+    bunch of status page links on a company wiki page.
+  hyperlink: https://stoic-bartik-5f76cd.netlify.app
+  image: /public/media/projects/statusdash.jpg
+  published: true
+- title: Hammerspoon Plugins
+  era: 2020-2021
+  status: completed
+  meta: Plugins to show music, cpu temp, and bounce a window around like a DVD
+    screensaver
+  hyperlink: https://github.com/catskull/BouncingWindow.spoon
+  image: /public/media/projects/hammerspoon.gif
+  published: true
+- title: Catskull Records
+  era: 2017-2020
+  status: defunct
+  meta: Chipmusic netlabel
+  hyperlink: https://catskullrecords.com
+  image: /public/media/projects/catskull-records.jpg
+  published: true
+- title: Open Source Cart Flasher
+  era: "2020"
+  status: defunct
+  meta: Open source flash cartridge reader/writer with webUSB based GUI
+  hyperlink: https://github.com/catskull/OSCF
+  image: /public/media/projects/oscf.jpg
+  published: true
+- title: USB MIDI Interface
+  era: "2018"
+  status: completed
+  meta: USB MIDI Interface + (virtual) thru based on Teensy LC/3.2
+  hyperlink: https://github.com/catskull/USBMIDIInterface
+  image: /public/media/projects/usbmidiinterface.jpeg
+  published: true
+- title: EmotiClean
+  era: "2015"
+  status: completed
+  meta: Chrome extension to replace bad words with emoji
+  hyperlink: https://github.com/catskull/EmotiClean
+  image: /public/media/projects/emoticlean.png
+  published: true
+- title: Poop-o-meter
+  era: "2015"
+  status: completed
+  meta: Functional smart diaper system
+  hyperlink: https://www.youtube.com/watch?v=1zstJ1oCEuI
+  image: /public/media/projects/poopometer.jpg
+  published: true
+- title: Playstation 1 Emulator Console
+  era: "2014"
+  status: completed
+  meta: Modded a single-board computer into a PS1 console for emulators
+  hyperlink: https://www.youtube.com/watch?v=OzNxo41OlG8
+  image: /public/media/projects/ps1console.jpg
+  published: true

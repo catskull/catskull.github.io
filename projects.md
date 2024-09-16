@@ -6,7 +6,8 @@ title: projects - catskull.net
 
 # projects
 
-{% for p in site.projects reversed %}
+{% assign sorted_projects = site.data.projects | sort: 'date' %}
+{% for p in sorted_projects reversed %}
 <section class="projects-section" id="{{ p.title | slugify }}">
 	<h2><a href="#{{ p.title | slugify }}">{{ p.title }}</a></h2>
 	<a href="{{ p.hyperlink }}">{{ p.hyperlink }}</a>
