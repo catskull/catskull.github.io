@@ -24,6 +24,10 @@ html {
   height: 100%;
 }
 
+a {
+    cursor: url('/assets/Pointer98.webp'), pointer;
+}
+
 body {
   color: black;
   font-family: 'Berkeley Mono', monospace;
