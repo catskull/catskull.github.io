@@ -1,5 +1,11 @@
 <figure>
+	{% if include.link %}
+		<a href="{{ include.link }}" target="_blank">
+	{% endif %}
 	<img src="{{include.src}}" alt="{{include.alt}}">
+	{% if include.link %}
+		</a>
+	{% endif %}
 	{% if include.caption %}
 		<figcaption>{{include.caption}}</figcaption>
 	{% endif %}
