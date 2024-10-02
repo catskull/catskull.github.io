@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "syntax_map": {
+            "text.html.basic": "Liquid",
+            "text.html.markdown": "Liquid"
+        },
+      "ensure_newline_at_eof_on_save": true
+    }
+}
