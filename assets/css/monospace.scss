@@ -40,7 +40,7 @@
     }
 
     td {
-      padding: 0 0 0 0.5rem;
+      padding: 0 0.5rem;
       line-height: 1rem;
     }
 
@@ -93,6 +93,17 @@
     position: relative;
     top: -3px;
     line-height: $content-line-height;
+  }
+
+  .mini {
+    word-spacing: -4px;
+    text-align: justify;
+    letter-spacing: -1px;
+  }
+
+  .list-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
   }
 }
 

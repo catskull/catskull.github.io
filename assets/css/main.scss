@@ -478,3 +478,10 @@ section#quotes {
     filter: invert(1);
   }
 }
+
+.dot-leader {
+  border-bottom-style: dotted;
+  border-bottom-width: 0.3ch;
+  margin: 3px 5px;
+}
+
