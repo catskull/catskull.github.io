@@ -43,9 +43,9 @@ jobs:
       - name: Checkout rss-component repository
         uses: actions/checkout@v4
         with:
-          repository: catskull/rss-component
+          repository: bullpen-dev/rss-feed
           ref: main
-          path: rss-component
+          path: rss-feed
       - name: Move rss-component index.js to /public/js/components
         run: |
           mkdir -p public/js/components
