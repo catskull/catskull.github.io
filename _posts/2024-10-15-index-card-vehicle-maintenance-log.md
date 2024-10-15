@@ -61,3 +61,7 @@ Download:
 [Back.pdf](/public/media/posts/35ML/back.pdf)
 
 [^1]: Initially I mistook it for the 70 series with it's distinctive vertical split hatch, but apparently 80 series had that in Australia, where the video is filmed. Upon review it occurs to me that my vehicle is identical to that in the video except with the US style horizontal split hatch/tailgate which I prefer anyways.
+
+Footnotes:
+
+{% include figure.html src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Toyota_Land_Cruiser_rear_20071004.jpg/640px-Toyota_Land_Cruiser_rear_20071004.jpg" alt="A photo of a red 80 Series Land Cruiser with the Austrailian-style 'swing-out' doors." caption="Look at this photograph." %}
