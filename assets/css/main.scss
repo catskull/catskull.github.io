@@ -327,13 +327,13 @@ sup a {
   height: auto;
   margin: auto;
   border-style: solid;
-  filter: saturate(0) contrast(200%);
-  transition: filter 0.5s ease;
+  filter: saturate(0) contrast(10);
+  transition: filter .3s;
   border-color: hsl(120, 2%, 9%);
 }
 
 .img-frame img:hover {
-  filter: saturate(150%) contrast(100%);
+  filter: saturate(2);
 }
 
 .img-frame figcaption {
@@ -345,6 +345,17 @@ sup a {
   padding: 5px;
   font-size: small;
   border-bottom: 0;
+}
+
+.img-frame.right {
+  max-width: 60%;
+  float: right;
+}
+
+.img-frame.left {
+  max-width: 60%;
+  float: left;
+  margin: 0 2ch 0 0;
 }
 
 .img-icon {
@@ -438,8 +449,10 @@ figure {
     }
   }
 
-  .right {
-    margin-bottom: 1rem;
+  .img-frame {
+    max-width: 100% !important;
+    float: initial !important;
+    margin: 0 !important;
   }
 }
 

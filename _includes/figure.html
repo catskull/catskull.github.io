@@ -3,15 +3,15 @@ cerpy perste
 {% include figure.html src="public/media/posts/frick/you.jpeg" alt="describe it to a blind person" caption="Something witty for blind and visuals alike" %}
 {% endcomment %}
 
-<figure>
+<figure class="img-frame {%if include.right%}right{%elsif include.left%}left{%endif%}">
+	{% if include.caption %}
+		<figcaption>{{include.caption}}</figcaption>
+	{% endif %}
 	{% if include.link %}
 		<a href="{{ include.link }}" target="_blank">
 	{% endif %}
 	<img src="{{include.src}}" alt="{{include.alt}}">
 	{% if include.link %}
 		</a>
-	{% endif %}
-	{% if include.caption %}
-		<figcaption>{{include.caption}}</figcaption>
 	{% endif %}
 </figure>
