@@ -330,6 +330,7 @@ sup a {
   filter: saturate(0) contrast(10);
   transition: filter .3s;
   border-color: hsl(120, 2%, 9%);
+  width: 100%;
 }
 
 .img-frame img:hover {

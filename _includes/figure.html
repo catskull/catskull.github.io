@@ -1,11 +1,11 @@
 {% comment %}
 cerpy perste
-{% include figure.html src="public/media/posts/frick/you.jpeg" alt="describe it to a blind person" caption="Something witty for blind and visuals alike" %}
+{% include figure.html src="public/media/posts/frick/you.jpeg" alt="describe it to a blind person" caption="Something witty for blind and visuals alike" right=1 %}
 {% endcomment %}
 
 <figure class="img-frame {%if include.right%}right{%elsif include.left%}left{%endif%}">
 	{% if include.caption %}
-		<figcaption>{{include.caption}}</figcaption>
+		<figcaption>{{include.caption}}<span class="img-icon">┅</span></figcaption>
 	{% endif %}
 	{% if include.link %}
 		<a href="{{ include.link }}" target="_blank">

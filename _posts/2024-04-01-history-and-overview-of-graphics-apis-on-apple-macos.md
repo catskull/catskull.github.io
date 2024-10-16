@@ -191,7 +191,7 @@ Turns out, a company calling themselves "The Brewnwill Workshop" out of Toronto 
 <aside class="img-frame">
 <figure>
   <figcaption>Bill Gates posing as a Gamer<span class="img-icon">┅</span></figcaption>
-  <img src="/public/media/posts/billgrates/dewm.jpeg" alt="Bill Gates posing as a Gamer">
+  <img src="/public/media/posts/billgrates/dewm.png" alt="Bill Gates posing as a Gamer">
 </figure>
 </aside>
 

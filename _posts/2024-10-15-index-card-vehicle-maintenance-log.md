@@ -6,12 +6,7 @@ layout: post
 ---
 I daily drive an 1994 Toyota Land Cruiser, which I love.
 
-<aside class="img-frame">
-<figure>
-  <figcaption>Taiichi Ohno, 1912-1990<span class="img-icon">┅</span></figcaption>
-  <img style="width:100%;" src="/public/media/posts/35ML/Taiichi_Ohno.webp" alt="Taiichi Ohno portrait">
-</figure>
-</aside>
+{% include figure.html src="/public/media/posts/35ML/Taiichi_Ohno.webp" caption="Taiichi Ohno, 1912-1990" alt="Taiichi Ohno portrait" right=1 %}
 
 However, this is a "vintage" vehicle. It's a great vehicle but like all vehicle it requires regular maintenance, and being the non-original owner, a lot of that regular maintenance now falls on me. What I'm trying to say is that I'm so deep into a state of denial that I'm convincing myself this is my dream car and I'm not pouring my money into a black hole, but into a symbol of Toyota engineering prowess. The late [Taiichi Ohno](https://en.wikipedia.org/wiki/Taiichi_Ohno), an industrial engineer at Toyota, invented the [kanban system](https://en.wikipedia.org/wiki/Kanban), which I also love.
 
@@ -21,21 +16,13 @@ The next day after my biweekly counseling appointment I decided to take the roun
 
 Why the Land Cruiser? To me it's a testament to engineering. These Toyota engineers, drunk on their own unlimited power, designed and manufactured a vehicle so unbelievably reliable that they never die. So much so that extremist [militant groups](https://en.wikipedia.org/wiki/Toyota_Land_Cruiser#Use_by_militant_groups_and_military_forces) and [peaceful organizations](https://www.youtube.com/watch?v=_Z_V5ggUo2Y) alike rely on them for transportation when you're so far out that recovery is not an option.
 
-<aside class="right img-frame">
-<figure>
-  <figcaption>𝑇𝑂𝑌𝑂𝑇𝐴<span class="img-icon">┅</span></figcaption>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1990-1992_Toyota_Land_Cruiser_%28FJ80R%29_GXL_wagon_%282011-10-25%29.jpg/640px-1990-1992_Toyota_Land_Cruiser_%28FJ80R%29_GXL_wagon_%282011-10-25%29.jpg" alt="a 1992 Toyota Land Cruiser (FJ80R) GXL wagon photograph">
-</figure>
-</aside>
+{% include figure.html src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1990-1992_Toyota_Land_Cruiser_%28FJ80R%29_GXL_wagon_%282011-10-25%29.jpg/640px-1990-1992_Toyota_Land_Cruiser_%28FJ80R%29_GXL_wagon_%282011-10-25%29.jpg" caption="𝑇𝑂𝑌𝑂𝑇𝐴" alt="a 1992 Toyota Land Cruiser (FJ80R) GXL wagon photograph" right=1 %}
 
 The 80 series was introduced in 1990 as a "station wagon" - a seven-seater with full-time four-wheel drive. You can take the family to the tip of Pike's Peak and then roll into the drive-in for dinner. My 1994 is equipped with a (recently re-manufactured) 4.5L 1FZ-FE 6-cylinder gasoline engine. It's a heavy vehicle but I do 0-70 MPH apparently faster than any of the currently produced vehicles, judging by my fellow motorists' collective inability to merge onto the freeway at speeds greater than 55 MPH.
 
 It's truly changed the way I view Southern Utah. I've lived here my entire life and I've seen this place from views I never thought existed. I'm a full-time tourist in my home town and I constantly patrol to admire the natural beauty and monitor expansion progress as I cast my gaze a decade into the future and see the metropolis that will be built in the fields. I don't condemn that expansion. The area has changed drastically. I think for the better.
 
-<figure class="img-frame img-frame-center">
-  <figcaption>nice view dude<span class="img-icon">┅</span></figcaption>
-  <img src="/public/media/posts/35ML/niceviewdude.jpeg" alt="My 1994 Toyota Land Cruiser caked in mud atop a majestic peak with an epic blue sky in the background.">
-</figure>
+{% include figure.html src="/public/media/posts/35ML/niceviewdude.jpeg" alt="My 1994 Toyota Land Cruiser caked in mud atop a majestic peak with an epic blue sky in the background." caption="C:/Users/Catskull/nice_view_dude.bmp" %}
 
 I've picked up hitchhikers in the Land Cruiser. Where do we sit on that safety-wise in 2024? I've enjoyed sharing a few anonymous moments discussing music, or anything but life's problems.
 
@@ -50,10 +37,11 @@ One time I was in a tow truck and the guy said to me:
 
 It's pretty much true.
 
-<figure class="img-frame img-frame-center">
-  <figcaption>My 1994 Toyota Land Cruiser<span class="img-icon">┅</span></figcaption>
-  <img src="/public/media/posts/35ML/GZZRD.jpeg" alt="My 1994 Toyota Land Cruiser">
-</figure>
+{% include figure.html
+  src="/public/media/posts/35ML/GZZRD.jpeg"
+  alt="My 1994 Toyota Land Cruiser"
+  caption="My 1994 Toyota Land Cruiser"
+%}
 
 Print the bad boys:
 
@@ -69,4 +57,9 @@ Download:
 
 Footnotes:
 
-{% include figure.html src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Toyota_Land_Cruiser_rear_20071004.jpg/640px-Toyota_Land_Cruiser_rear_20071004.jpg" alt="A photo of a red 80 Series Land Cruiser with the Austrailian-style 'swing-out' doors." caption="Look at this photograph." %}
+{% include figure.html
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Toyota_Land_Cruiser_rear_20071004.jpg/640px-Toyota_Land_Cruiser_rear_20071004.jpg"
+  alt="A photo of a red 80 Series Land Cruiser with the Austrailian-style swing-out doors."
+  caption="Figure 1"
+  right=true
+%}
