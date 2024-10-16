@@ -1,5 +1,5 @@
 ---
-title: Subdomain Redirects with Cloudlare Workers Routes
+title: Subdomain Redirects with Cloudflare Workers Routes
 tags: [html, programming, web, cloudflare, dns, '301']
 date: 2024-10-15 18:39:19 -060
 layout: post
