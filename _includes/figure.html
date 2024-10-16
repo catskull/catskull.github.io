@@ -17,9 +17,13 @@ cerpy perste:
 {% endif %}
 
 
-<figure class="img-frame {%if include.right%}right{%elsif include.left%}left{%endif%}">
+<figure
+	class="img-frame {%if include.right%}right{%elsif include.left%}left{%elsif include.full%}full{%endif%}"
+	onclick="this.classList.toggle('full');"
+	>
+	<div id="figure-container">
 	{% if href %}
-	<a href="{{ href }}" target="_blank">
+	<a href="{{ href }}" target="_blank" onclick="event.stopPropagation();">
 	{% endif %}
 	{% if include.caption %}
 		<figcaption>{{include.caption}}<span class="img-icon">{{icon}}</span></figcaption>
@@ -28,4 +32,5 @@ cerpy perste:
 	{% if href %}
 	</a>
 	{% endif %}
+	</div>
 </figure>
