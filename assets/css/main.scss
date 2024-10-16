@@ -333,8 +333,8 @@ sup a {
   width: 100%;
 }
 
-.img-frame img:hover {
-  filter: saturate(2);
+.img-frame:hover img {
+    filter: saturate(2);
 }
 
 .img-frame figcaption {

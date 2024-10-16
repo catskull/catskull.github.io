@@ -1,17 +1,31 @@
 {% comment %}
-cerpy perste
-{% include figure.html src="public/media/posts/frick/you.jpeg" alt="describe it to a blind person" caption="Something witty for blind and visuals alike" right=1 %}
+cerpy perste:
+{% include figure.html
+	src="public/media/posts/frick/you.jpeg"
+	alt=""
+	caption=""
+	href=""
+	right=1 
+	left=1
+%}
 {% endcomment %}
+{% assign href = include.link | default: include.href | default: false %}
+{% if href %}
+  {% assign icon = "↗" %}
+{% else %}
+  {% assign icon = "┅" %}
+{% endif %}
+
 
 <figure class="img-frame {%if include.right%}right{%elsif include.left%}left{%endif%}">
-	{% if include.caption %}
-		<figcaption>{{include.caption}}<span class="img-icon">┅</span></figcaption>
+	{% if href %}
+	<a href="{{ href }}" target="_blank">
 	{% endif %}
-	{% if include.link %}
-		<a href="{{ include.link }}" target="_blank">
+	{% if include.caption %}
+		<figcaption>{{include.caption}}<span class="img-icon">{{icon}}</span></figcaption>
 	{% endif %}
 	<img src="{{include.src}}" alt="{{include.alt}}">
-	{% if include.link %}
-		</a>
+	{% if href %}
+	</a>
 	{% endif %}
 </figure>
