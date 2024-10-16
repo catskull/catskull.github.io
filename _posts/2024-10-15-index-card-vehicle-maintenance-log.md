@@ -57,9 +57,9 @@ It's pretty much true.
 
 Print the bad boys:
 
-<object type="application/pdf" data="/public/media/posts/35ML/front.pdf" style="width:67%;aspect-ratio:5/3;"></object>
+<object type="application/pdf" data="/public/media/posts/35ML/front.pdf" style="width:67%;aspect-ratio:5/3;background-color: white;"></object>
 
-<object type="application/pdf" data="/public/media/posts/35ML/back.pdf" style="width:24%;aspect-ratio:3/5;"></object>
+<object type="application/pdf" data="/public/media/posts/35ML/back.pdf" style="width:24%;aspect-ratio:3/5;background-color: white;"></object>
 
 Download:
 [Front.pdf](/public/media/posts/35ML/front.pdf)
