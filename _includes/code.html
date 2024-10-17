@@ -1,0 +1,33 @@
+{%comment%}
+{% capture compiled_preview %}
+comment
+```bash
+da code before it's jacked up
+```
+endcomment
+da jacked up code
+{% endcapture %}
+{% include code.html
+  content=compiled_preview
+  filename="balls.mov"
+%}
+{%endcomment%}
+
+<figure
+	class="code-frame img-frame {%if include.right%}right{%elsif include.left%}left{%elsif include.full%}full{%endif%}"
+	style="margin:0;"
+	>
+	<div id="figure-container">
+		{% if include.filename %}
+			<figcaption style="width: initial;">
+				{{include.filename}}
+				<span class="code-icon">
+					</>
+				</span>
+			</figcaption>
+		{% endif %}
+		<div class="github-code">
+			{{include.content}}
+		</div>
+	</div>
+</figure>

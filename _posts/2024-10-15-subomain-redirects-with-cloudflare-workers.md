@@ -8,13 +8,24 @@ I needed a way to redirect `charm.catskull.net` to an absolute URL path such as 
 
 Instead, I set up a quick [Cloudflare Worker](https://developers.cloudflare.com/workers/){:target="_blank"} to return a [301](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301){:target="_blank"} redirect to the URL I wanted. The code is simple, I edited this in their browser-based code editor:
 
-```javascript
+{% capture compiled_preview %}
+{% comment %}
 export default {
   async fetch(request, env, ctx) {
     return Response.redirect('https://bullpen.dev', 301);
   },
 };
-```
+{% endcomment %}
+<div class="highlight highlight-source-js"><pre><span class="pl-k">export</span> <span class="pl-k">default</span> <span class="pl-kos">{</span>
+  <span class="pl-k">async</span> <span class="pl-en">fetch</span><span class="pl-kos">(</span><span class="pl-s1">request</span><span class="pl-kos">,</span> <span class="pl-s1">env</span><span class="pl-kos">,</span> <span class="pl-s1">ctx</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">return</span> <span class="pl-v">Response</span><span class="pl-kos">.</span><span class="pl-en">redirect</span><span class="pl-kos">(</span><span class="pl-s">'https://bullpen.dev'</span><span class="pl-kos">,</span> <span class="pl-c1">301</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+  <span class="pl-kos">}</span><span class="pl-kos">,</span>
+<span class="pl-kos">}</span><span class="pl-kos">;</span></pre></div>
+{% endcapture %}
+{% include code.html
+  content=compiled_preview
+  filename="/worker.js"
+%}
 
 Next, we'll set up a [Route](https://developers.cloudflare.com/workers/configuration/routing/routes/){:target="_blank"} for our Worker. If you don't want to use a custom domain, then you don't need to worry about this. I'm going to assume your domain's DNS records are already with Cloudflare.
 

@@ -20,28 +20,61 @@ I can hardly believe in the year 2024 we finally have a nice way to add a captio
 
 As an HTML zealot, I must strive to use the most perfect HTML structure I can. So when I started building a new blog from the ground up, I just had to use it! The problem - I like to write my posts in markdown and I don't really want to have a bunch of repeated html every time I want to use a figure.
 
-For a while now, I've wondered how I could make HTML "components" in Jekyll. Turns out,  you totally can!
+For a while now, I've wondered how I could make HTML "components" in Jekyll. Turns out, you totally can!
 
-_\_includes/figure.html_:
-{% raw %}
-```
+{% capture compiled_preview %}
+{%comment%}
+```liquid
 <figure>
-	<img src="{{include.src}}" alt="{{include.alt}}">
-	{% if include.caption %}
-		<figcaption>{{include.caption}}</figcaption>
-	{% endif %}
+  <img src="{{include.src}}" alt="{{include.alt}}">
+  {% if include.caption %}
+    <figcaption>{{include.caption}}</figcaption>
+  {% endif %}
 </figure>
 ```
-{% endraw %}
+{%endcomment%}
+{%raw%}
+<div class="highlight highlight-text-html-liquid"><pre>&lt;<span class="pl-ent">figure</span>&gt;
+  &lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>{{<span class="pl-smi">include</span>.<span class="pl-smi">src</span>}}<span class="pl-pds">"</span></span> <span class="pl-e">alt</span>=<span class="pl-s"><span class="pl-pds">"</span>{{<span class="pl-smi">include</span>.<span class="pl-smi">alt</span>}}<span class="pl-pds">"</span></span>&gt;
+  {% <span class="pl-k">if</span> <span class="pl-smi">include</span>.<span class="pl-smi">caption</span> %}
+    &lt;<span class="pl-ent">figcaption</span>&gt;{{<span class="pl-smi">include</span>.<span class="pl-smi">caption</span>}}&lt;/<span class="pl-ent">figcaption</span>&gt;
+  {% <span class="pl-k">endif</span> %}
+&lt;/<span class="pl-ent">figure</span>&gt;</pre></div>
+{%endraw%}
+{% endcapture %}
+{% include code.html
+  content=compiled_preview
+  filename="./_includes/figure.html"
+%}
 
-_your-post.md_
-{% raw %}
+<hr>
+
+{% capture compiled_preview %}
+{%comment%}
 ```
-{% include figure.html src="/meme.png" alt="Alt text is mandatory for accessibility." caption="Optional." %}
+{% include
+	figure.html
+	src="/meme.png"
+	alt="Alt text is mandatory for accessibility."
+	caption="Optional."
+%}
 ```
+{%endcomment%}
+{%raw%}
+<div class="highlight highlight-text-html-liquid"><pre>{% <span class="pl-ent">include</span>
+  <span class="pl-smi">figure</span>.<span class="pl-smi">html</span>
+  <span class="pl-smi">src</span>=<span class="pl-s">"/meme.png"</span>
+  <span class="pl-smi">alt</span>=<span class="pl-s">"Alt text is mandatory for accessibility."</span>
+  <span class="pl-smi">caption</span>=<span class="pl-s">"Optional."</span>
+%}</pre></div>
+{%endraw%}
+{% endcapture %}
+{% include code.html
+  content=compiled_preview
+  filename="./_posts/new-post.md"
+%}
 
 You can even use variables like `caption=page.title`. Note that within the template, variables are accessed via `include.caption`.
-{% endraw %}
 
 That's it! Super simple and make the markdown a lot cleaner, in my opinion.
 
@@ -49,12 +82,19 @@ PS -
 
 If you want to display some liquid syntax and not process it, you can use this:
 
-{% raw %}
-```
-{% raw %}
-	{{ liquid }}
-{ % endraw %}
-```
-{% endraw %}
 
-Remove the extra space.
+{% capture compiled_preview %}
+{%comment%}
+```liquid
+ {{ liquid }}
+```
+{%endcomment%}
+{%raw%}
+<div class="highlight highlight-text-html-liquid"><pre>{% <span class="pl-ent">raw</span> %}<span class="pl-s"></span>
+<span class="pl-s"> {{ liquid }}</span>
+<span class="pl-s">{% end-DELETEME-raw %}</span></pre></div>
+{%endraw%}
+{% endcapture %}
+{% include code.html
+  content=compiled_preview
+%}

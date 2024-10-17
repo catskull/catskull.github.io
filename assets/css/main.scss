@@ -1,6 +1,7 @@
 ---
 ---
 @import 'monospace.scss';
+@import 'highlight.css';
 
 @font-face {
   font-family: "Berkeley Mono";
@@ -29,7 +30,9 @@ a {
 }
 
 body {
-  color: black;
+  --main-color: black;
+  --main-bg-color: white;
+  color: var(--main-color);
   font-family: 'Berkeley Mono', monospace;
   font-size: clamp(0.8rem, 2vw, 1rem);
   font-weight: 100;
@@ -110,24 +113,6 @@ table, th, td {
   padding: 0.4rem;
 }
 
-code {
-  color: white;
-  background: hsl(120, 2%, 9%);
-  padding: 0.1rem 0.2rem;
-  font-size: 0.8rem;
-  line-height: 1.3em;
-  tab-size: 4;
-  font-family: 'Berkeley Mono', monospace;
-}
-
-div.highlighter-rouge code {
-  display: block;
-  overflow-x: auto;
-  white-space: pre-wrap;
-  padding: 1rem;
-  border-left: 1px solid white;
-}
-
 blockquote {
   font-style: italic;
   border: thin solid black;
@@ -146,8 +131,10 @@ img {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: hsl(120, 2%, 9%);
-    color: rgb(215, 215, 216);
+    --main-bg-color: hsl(120, 2%, 9%);
+    --main-color: rgb(215, 215, 216);
+    background: var(--main-bg-color);
+    color: var(--main-color);
   }
 
   blockquote {
@@ -226,7 +213,7 @@ sup {
 }
 
 .highlight {
-  padding: 0 2rem 0 1rem;
+  padding: 0;
 }
 
 .footnotes {
@@ -433,10 +420,6 @@ figure {
 }
 
 @media screen and (max-width: 600px) {
-  .highlight {
-    padding: 0;
-  }
-
   .post-header {
     flex-direction: column-reverse;
 
