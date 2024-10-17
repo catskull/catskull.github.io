@@ -86,17 +86,22 @@ code {
 .code-frame {
     cursor: unset !important;
 
+    --box-shadow: rgba(0, 0, 0, 0.3);
     #figure-container {
       background: var(--main-bg-color) !important;
       * { border-color: var(--main-color) !important; }
+      transition: box-shadow .3s ease;
+      box-shadow: 1ch 1ch var(--box-shadow);
+    }
 
-      box-shadow: 1ch 1ch rgba(0, 0, 0, 0.5);
-      
-      @media (prefers-color-scheme: dark) {
-        box-shadow: 1ch 1ch rgba(255, 255, 255, 0.5);
-        figcaption {
-          background: var(--main-color);
-        }
+    #figure-container:hover {
+      box-shadow: .5ch .5ch var(--box-shadow);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      --box-shadow: rgba(255, 255, 255, 0.3);
+      figcaption {
+        background: var(--main-color);
       }
     }
 
