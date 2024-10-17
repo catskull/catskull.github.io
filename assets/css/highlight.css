@@ -90,8 +90,11 @@ code {
       background: var(--main-bg-color) !important;
       * { border-color: var(--main-color) !important; }
 
-      figcaption {
-        @media (prefers-color-scheme: dark) {
+      box-shadow: 1ch 1ch rgba(0, 0, 0, 0.5);
+      
+      @media (prefers-color-scheme: dark) {
+        box-shadow: 1ch 1ch rgba(255, 255, 255, 0.5);
+        figcaption {
           background: var(--main-color);
         }
       }
