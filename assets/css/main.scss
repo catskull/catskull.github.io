@@ -503,6 +503,13 @@ body:has(figure.full) {
 #figure-container {
   margin: 0 auto;
 }
-@media (orientation: landscape) { #figure-container { max-width:75vh; } }
+@media (orientation: landscape) {
+  #figure-container {
+    max-width:75vh;
+    img {
+      max-height: 80cqh;
+    }
+  }
+}
 @media (orientation: portrait) { #figure-container { max-width:75vw; } }
 
