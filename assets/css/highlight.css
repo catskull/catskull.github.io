@@ -96,6 +96,10 @@ code {
 
     #figure-container:hover {
       box-shadow: .5ch .5ch var(--box-shadow);
+      a {
+        text-decoration: underline;
+        cursor: inherit;
+      }
     }
 
     @media (prefers-color-scheme: dark) {

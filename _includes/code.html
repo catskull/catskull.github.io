@@ -12,8 +12,22 @@ da jacked up code
   filename="balls.mov"
 %}
 {%endcomment%}
-
+{%if include.copy%}
+<script>
+const copyToClipboard = (el) => {
+  const rawText = el.getElementsByTagName('pre')[0].textContent
+  const link = el.getElementsByTagName('a')[0]
+  const originalText = link.innerText
+  if (rawText.length && link) {
+    navigator.clipboard.writeText(rawText)
+    link.innerText = "Copied!"
+    setTimeout(()=>{link.innerText = originalText},2000)
+  }
+}
+</script>
+{%endif%}
 <figure
+	{%if include.copy%}onclick="copyToClipboard(this)"{%endif%}
 	class="code-frame img-frame {%if include.right%}right{%elsif include.left%}left{%elsif include.full%}full{%endif%}"
 	style="margin:0;"
 	>
@@ -22,7 +36,11 @@ da jacked up code
 			<figcaption style="width: initial;">
 				{{include.filename}}
 				<span class="code-icon">
-					</>
+					{% if include.copy %}
+						<a>Click to copy</a>
+					{% else %}
+						&lt;/&gt;
+					{% endif %}
 				</span>
 			</figcaption>
 		{% endif %}
