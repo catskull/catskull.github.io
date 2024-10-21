@@ -37,7 +37,12 @@ const copyToClipboard = (el) => {
 				{{include.filename}}
 				<span class="code-icon">
 					{% if include.copy %}
-						<a>Click to copy</a>
+						<a>
+							<noscript>
+								You need JS to 
+							</noscript>
+							Click to copy
+						</a>
 					{% else %}
 						&lt;/&gt;
 					{% endif %}
