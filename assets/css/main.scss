@@ -21,12 +21,16 @@
   color-scheme: light dark;
 }
 
-html {
-  height: 100%;
+* {
+  cursor: url('/assets/Cursor79.webp'), auto;
 }
 
-a {
-    cursor: url('/assets/Pointer98.webp'), pointer;
+a, button, [role="button"], [type="button"], [type="submit"], input[type="button"], input[type="submit"], input[type="reset"], label {
+  cursor: url('/assets/Pointer98.webp'), pointer;
+}
+
+html {
+  height: 100%;
 }
 
 body {
@@ -43,7 +47,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  cursor: url('/assets/Cursor79.webp'), auto;
 }
 
 nav ul {
@@ -513,3 +516,7 @@ body:has(figure.full) {
 }
 @media (orientation: portrait) { #figure-container { max-width:75vw; } }
 
+page-likes a {
+  color: LinkText;
+  text-decoration: underline;
+}

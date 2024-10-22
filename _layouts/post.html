@@ -32,19 +32,13 @@ layout: default
     </section>
 </article>
 <hr class="final">
-<img style='cursor:pointer;height:24px;'
-  referrerpolicy='no-referrer-when-downgrade'
-  src='https://likes.catskull.net'
-  onclick="fetch('https://likes.catskull.net', {method:'POST',referrerPolicy:'no-referrer-when-downgrade'}).then(()=>this.src='https://likes.catskull.net'.split('?')[0]+'?t='+Date.now())"
-  onmouseover="this.src='data:image/svg+xml;base64,CiAgCQkJPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSI1NiI+CiAgCQkJICA8dGV4dCBpZD0ibGlrZXNUZXh0IiB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPvCfkY0gTGlrZTwvdGV4dD4KICAJCQk8L3N2Zz4KICAJCQ=='"
-  onmouseout="this.src='https://likes.catskull.net/?t=0'"
->
-<page-replies open/>
-{% if jekyll.environment == "production" %}
+<div style="text-align:center;">
+  <page-likes></page-likes>
+</div>
+<page-replies open></page-replies>
 <script src="https://catskull.net/public/js/components/replies.js"></script>
-{% else %}
-<script src="http://localhost:8000/replies.js"></script>
-{% endif %}
+<script src="https://catskull.net/public/js/components/likes.js"></script>
+
 <footer style="float: right;">
   <a href="{{ link }}">{{ site.theme_config.back_home_text }}</a>
   <a href="/feed.xml">RSS</a>
