@@ -63,12 +63,12 @@ jobs:
           mkdir -p public/js/components
           cp replies/components/replies.js public/js/components/replies.js
 
-      # replies component
+      # likes component
       - name: Checkout likes repository
         uses: actions/checkout@v4
         with:
           repository: catskull/likes
-          ref: master
+          ref: main
           path: likes
       - name: Move likes/components/likes.js to /public/js/components
         run: |
