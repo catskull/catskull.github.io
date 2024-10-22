@@ -1,13 +1,9 @@
 ---
-layout: default
+layout: post
 title: 👍 Likes - A decentralized social network in a single HTML tag
+tags: [html, programming, web, cloudflare, replies, likes]
+date: 2024-03-20 18:39:19 -060
 ---
-<a href="/">{{ site.title }}</a>
-
-<header>
-  <h1 style="font-family:sans-serif;margin-bottom:0;">👍 Likes</h1>
-  <def>A decentralized social network in a single HTML tag</def>
-</header>
 
 <blockquote>
   <p>"Everything is made up and the points don't matter."</p>
@@ -25,8 +21,6 @@ title: 👍 Likes - A decentralized social network in a single HTML tag
 
 <h2 style="font-family:sans-serif;">How?</h2>
 
-
-
 {% capture compiled_preview %}
 {%comment%}
 ```html
@@ -36,7 +30,7 @@ title: 👍 Likes - A decentralized social network in a single HTML tag
   onclick="fetch('https://likes.catskull.net',{method:'POST',referrerPolicy:'no-referrer-when-downgrade'}).then(()=>this.src='https://likes.catskull.net'.split('?')[0]+'?t='+Date.now())" 
   onmouseover="this.src='data:image/svg+xml;base64,CiAgCQkJPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSI2NCI+CiAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ3aGl0ZSI+PC9yZWN0PgogIAkJCSAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn5GNIExpa2UhPC90ZXh0PgogIAkJCTwvc3ZnPgogIAkJ'"
   onmouseout="this.src='https://likes.catskull.net?t=0'"
->
+/>
 ```
 {%endcomment%}
 <div class="highlight highlight-text-html-basic"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">img</span> <span class="pl-c1">style</span>="<span class="pl-s">cursor:pointer;height:24px;</span>" 
@@ -45,7 +39,7 @@ title: 👍 Likes - A decentralized social network in a single HTML tag
   <span class="pl-c1">onclick</span>="<span class="pl-s">fetch('https://likes.catskull.net',{method:'POST',referrerPolicy:'no-referrer-when-downgrade'}).then(()=&gt;this.src='https://likes.catskull.net'.split('?')[0]+'?t='+Date.now())</span>" 
   <span class="pl-c1">onmouseover</span>="<span class="pl-s">this.src='data:image/svg+xml;base64,CiAgCQkJPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSI2NCI+CiAgICAgICAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ3aGl0ZSI+PC9yZWN0PgogIAkJCSAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn5GNIExpa2UhPC90ZXh0PgogIAkJCTwvc3ZnPgogIAkJ'</span>"
   <span class="pl-c1">onmouseout</span>="<span class="pl-s">this.src='https://likes.catskull.net?t=0'</span>"
-<span class="pl-kos">&gt;</span></pre></div>
+/&gt;</pre></div>
 {% endcapture %}
 {% include code.html
   content=compiled_preview
