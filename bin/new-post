@@ -2,20 +2,25 @@
 
 require 'date'
 
-def create_post_file()
+def create_post_file(title = "untitled")
+  # Use default title if the input is empty or only whitespace
+  title = title.strip.empty? ? "untitled" : title
+
+  # Sanitize and format the title for the filename
+  formatted_title = title.downcase.strip.gsub(" ", "-")
+  
   # Get the current date in YYYY-MM-DD format
   date = Date.today.strftime('%Y-%m-%d')
   
-  # Create the filename
-  filename = "./_posts/#{date}-title.md"
+  # Create the filename with the input title
+  filename = "./_posts/#{date}-#{formatted_title}.md"
   
-  # Define the content of the file
+  # Define the content of the file with a formatted title
   content = <<~CONTENT
     ---
-    title: newpost
+    title: #{title}
     tags: []
     date: #{DateTime.now.strftime('%Y-%m-%d %H:%M:%S %z')}
-    
     layout: post
     ---
   CONTENT
@@ -24,8 +29,7 @@ def create_post_file()
   File.write(filename, content)
   
   puts "File created at #{filename}"
-
-  system("subl", "./", filename)
 end
 
-create_post_file()
+# Use the first argument as the title, or default if not provided
+create_post_file(ARGV[0] || "")
