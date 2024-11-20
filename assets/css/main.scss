@@ -126,10 +126,11 @@ blockquote {
   }
 }
 
-img {
+img, video {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+  color: solid;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -361,6 +362,10 @@ sup a {
   max-width: 60%;
   float: left;
   margin: 0 2ch 0 0;
+}
+
+.img-frame img {
+  background: dodgerblue;
 }
 
 .img-icon {
