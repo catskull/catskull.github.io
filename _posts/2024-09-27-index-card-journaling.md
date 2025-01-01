@@ -105,8 +105,8 @@ layout: post
 
   #calendar {
 		position: absolute;
-		top: 0;
-		left: 226px;
+		top: 15px;
+		left: 250px;
 		page-break-inside: avoid;
 		width: 263px;
 		height: 415px;

@@ -60,8 +60,8 @@ layout: post
 
   #calendar {
 		position: absolute;
-		top: 76px;
-		left: 150px;
+		top: 91px;
+		left: 173px;
 		page-break-inside: avoid;
 		transform: rotate(90deg);
 		height: 263px;
