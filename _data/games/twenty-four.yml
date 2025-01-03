@@ -1,0 +1,288 @@
+- title: Castlevania
+  platform: Nintendo Entertainment System
+  developer: Konami
+  publisher: Nintendo
+  year: 1986
+  image: https://upload.wikimedia.org/wikipedia/en/5/50/Castlevania_nes_03.png
+  text: I'm a big fan of _Symphony of the Night_ but I've never bothered to play the original. It's a good platformer! The trick I've learned with playing these old games is to cheat. I use savestates and fast-forward and rewind at will. Dracula is too hard!
+  date: 1/3/24
+  wiki: https://en.wikipedia.org/wiki/Castlevania_(1986_video_game)
+
+- title: "Castlevania: Aria of Sorrow"
+  platform: Game Boy Advance
+  publisher: Konami
+  year: 2003
+  image: https://upload.wikimedia.org/wikipedia/en/4/4b/AriaofSorrowGameplay.jpg
+  date: 1/4/24
+  text: Shorter than expected. I meant to continue on to the Nintendo DS sequel but got distracted, apparently.
+  wiki: https://en.wikipedia.org/wiki/Castlevania:_Aria_of_Sorrow
+
+- title: Conquests of the Longbow
+  platform: DOS
+  developer: Sierra On-Line
+  publisher: Sierra On-Line
+  year: 1991
+  image: /public/media/posts/games/2024/longbow.jpg
+  date: 1/8/24
+  text: I'm a big fan of Sierra's VGA-era games. I've had this game on my radar for about the last 20 years but never had a chance to get it running. Luckilly ScummVM exists and works great on the GOG version of the game. You know at least some of that money is going to Ken Williams on a yacht somewhere! Has some interesting multi-solution puzzles that theoretically would increase the replay value. I mostly followed a walkthrough. I like Robin Hood and overall this game was worth the few hours it took to get through. Photo courtesy of AdventureGamers.com
+  wiki: https://en.wikipedia.org/wiki/Conquests_of_the_Longbow:_The_Legend_of_Robin_Hood
+
+- title: Quest for Glory 1 (VGA)
+  platform: DOS
+  year: 1992
+  developer: Sierra On-Line
+  publisher: Sierra On-Line
+  image: https://upload.wikimedia.org/wikipedia/en/a/ad/ScreenShotQuestForGlory1Game.jpg
+  date: 1/8/24
+  wiki: https://en.wikipedia.org/wiki/Quest_for_Glory:_So_You_Want_to_Be_a_Hero
+  text: "This is one of my all time favorite games. A VGA point-and-click adventure game with RPG elements. It has 3 classes: Fighter, Theif, and Wizard. Each class has a unique solution to each challenge, which for the fighter includes grinding and fighting your way through most things. I know the game fairly well but still get thrown off now and then."
+
+- title: Quest for Glory II Remake
+  wiki: https://en.wikipedia.org/wiki/AGD_Interactive#Quest_for_Glory_II_Remake
+  platform: PC (ScummVM)
+  developer: AGD Interactive
+  publisher: AGD Interactive
+  year: 2008
+  image: /public/media/posts/games/2024/qfg2.png
+  date: 1/9/24
+  text: Being a young fan of Quest for Glory, I was never able to make a single step of progress in it's sequel due to an insane maze-like design of the city. I assume ol' Kenny wanted to make sure each player had their manual and absolutely did not pirate the game. I stumbled on this project sometime in 2005 and eagerly followed it's development until it finally released in 2008. Revisiting in 2024, it didn't hold up _quite_ as well as I remembered, but it's still well worth playing. Screenshot courtesy of lutris.net 
+
+- title: "Mario & Luigi: Bowser's Inside Story"
+  wiki: https://en.wikipedia.org/wiki/Mario_&_Luigi:_Bowser's_Inside_Story
+  platform: Nintendo DS
+  developer: AlphaDream
+  publisher: Nintendo
+  year: 2009
+  image: /public/media/posts/games/2024/mandl.png
+  date: 1/11/24
+  text: I'm a big fan of the Mario & Luigi series and AlphaDream in general (RIP). In 2023 I'd been working my way through the series and had put this one down and came back to it. I opted for the original as opposed to the 3DS remake because I just love the DS aesthetic - even the unique audio profile of the DS is optimal for me and this game as an original soundtrack by the _legendary_ longtime series composer Yoko Shimomura. Truly some of her finest work. The game itself is fine but I prefer the prequel, Partners in Time. I still have a few more of the 3DS titles to work through but no promises for this year. I did get the new _Brothership_ game for Christmas and so far it holds up nicely. Photo courtesy of mariowiki.com
+
+- title: We Love Katamari Reroll
+  wiki: https://en.wikipedia.org/wiki/We_Love_Katamari
+  platform: Nintendo Switch
+  developer: MONKEYCRAFT
+  publisher: Bandai Namco
+  year: 2005
+  image: https://upload.wikimedia.org/wikipedia/en/a/aa/KatamariDamacybox.jpg
+  date: 1/30/24
+  text: Despite not actually playing one of the games until _Katamari Damacy Reroll_ came out in 2018, I've been a fan of this series since my eyes beheld the glory of the North American PS2 box art in a Game Crazy sometime after 2004. I _love_ this game. Playing a Katamari game gives me the satisfaction of setting up thousands of dominos in a careful pattern and watching them fall. Literally rolling through the carefully placed cities and hearing screams of horror and appendages shaking around lifelessly as your ball grows ever larger fills me with indescribable joy. The entire game can be cranked through in a few hours but it's roughly the audio-visual experience of a psychedelic trip. Even now, it's hard to remember _for sure_ if any of it was even real.
+
+- title: GoldenEye 007 (XBLA)
+  wiki: https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)
+  platform: Xbox 360 (xenia)
+  developer: Rare
+  publisher: N/A
+  year: leaked 2021
+  image: https://upload.wikimedia.org/wikipedia/en/d/d8/Goldeneyeemulated4lw.jpg
+  date: 2/9/24
+  text: This game rules. Did you know that Rare ported it to the Xbox 360 with updated graphics and proper dual analog controls? We don't know why but it never saw the light of day until it was leaked in 2021. I was able to get this running on my Steam Deck which was a huge hassle but completely worth it. I think this game is only getting better and better with each passing year. I had fun playing on 00 Agent and essentially memorizing each level. The game was an on-rails shooter for most of the development and I think the level design reflects that, which is not a bad thing. Why is headshotting Soviets with a silenced pistol so much fun?
+
+- title: Twilight Princess HD
+  wiki: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess#Wii_U_version
+  platform: Wii U
+  developer: Nintendo EPD, Tantalus Media
+  publisher: Nintendo
+  year: 2016
+  image: /public/media/posts/games/2024/tp.jpg
+  date: 3/8/24
+  text: I never played this game. The whole vibe was just not my thing, the wolf looked kind of dumb and the whole art direction was just kind of jacked up looking to me. I understand now how much the aesthetic was inspired by the Peter Jackson _The Lord of the Rings_ films, which I also have a newfound respect for. And you know what? Everything _does_ look jacked up. I think that is on purpose. This game is a like a fever dream. But it is _so fun_. I think it might be the best game of all time. It's a true sequel to Ocarina of Time. I truly got lost solving puzzles deep in a dungeon. It was very refreshing after getting a little too strong a dose of the _Breath of the Wild_ games. Very recommend. I've been meaning to play through Windwaker HD, but maybe I should go back to OoT first... Photo courtesy of someone on the internet https://ibb.co/album/mvmBP9
+
+- title: Songs of Conquest
+  wiki: https://en.wikipedia.org/wiki/Songs_of_Conquest
+  platform: Windows, macOS
+  developer: Lavapotion
+  publisher: Coffee Stain Publishing
+  year: 2024
+  image: https://upload.wikimedia.org/wikipedia/en/b/bc/Songs_of_Conquest%2C_Steam_Marketplace%2C_Arleon_Town%2C_Oct_2021.jpg
+  date: 5/27/24
+  text: I was consumed by this game. I convinced my friend's older brother to let me burn his copy of Heroes of Might & Magic III and I loved the hours I spent at the family computer, taking turns. Songs of Conquest has 4 factions, each with their own 4-level maps. Each map progressively gets more involved, and by the last map of each campaign I was spending several hours to navigate through successfully. I just noticed they released a DLC with a new faction but there's no campaign associated with it, so I'll skip that.
+
+- title: Kirby's Dream Land
+  wiki: https://en.wikipedia.org/wiki/Kirby%27s_Dream_Land
+  platform: Game Boy
+  developer: HAL Laboratory
+  publisher: Nintendo
+  year: 1992
+  image: /public/media/posts/games/2024/kirby.png
+  date: 5/28/24
+  text: This might be one of the first games I ever beat. We had this growing up and I can distinctly remember getting to the final stage on our Super Game Boy. That was probably age 5-6. It's not hard, it's not long, but it's a lot of fun. And the music is incredible. I played through on the Nintendo Switch online version, those have been a great way to share these memories with my kids.
+
+- title: "Star Trek: Voyager – Elite Force"
+  wiki: https://en.wikipedia.org/wiki/Star_Trek:_Voyager_–_Elite_Force
+  platform: PC
+  developer: Raven Software
+  publisher: Activision
+  image: https://upload.wikimedia.org/wikipedia/en/5/55/Elite_Force_screenshot.jpg
+  year: 2000
+  date: 6/10/24
+  text: I consider this to be a "golden-era" PC shooter. It's running the same forked idTech 3 engine Raven later used for the Star Wars Jedi games. Star Trek rules. Voyager rules too and I really don't care what anyone else thinks. This has some great original voice acting from all 9 members of the cast of the TV show. They even faithfully recreated the LCARS menu system! I also had fun joining a few multiplayer death matches and joining in the chaos.
+
+- title: "Star Wars: Shadows of the Empire"
+  wiki: https://en.wikipedia.org/wiki/Star_Wars:_Shadows_of_the_Empire_(video_game)
+  platform: Windows (DREAMM)
+  developer: LucasArts
+  publisher: LucasArts
+  year: 1996/97
+  image: /public/media/posts/games/2024/shadows.jpg
+  date: 6/17/24
+  text: _Shadows of the Empire_ was part of the immense marketing campaign for not only the Nintendo 64's first holiday season, but the generalized Star Wars hype machine in between the theatrical re-release of the original trilogy and the prequel trilogy. Needless to say, this game was _hyped_. Unfortunately, it plays like a cube of ice. The physics are insanely floaty and you'll fly off surfaces. The ship combat is kind of fun but also very janky. Yet despite all of this, this game is fun. It has enough variety packed in, and it's all just decent enough to not cause rage quitting before you lurch over each new milestone.
+
+- title: "Star Wars: Dark Forces"
+  wiki: https://en.wikipedia.org/wiki/Star_Wars:_Dark_Forces
+  year: 1995
+  platform: MS-DOS (DREAMM)
+  developer: LucasArts
+  publisher: LucasArts
+  image: https://upload.wikimedia.org/wikipedia/en/c/ce/Dark_Forces_Gameplay.png
+  date: 6/??/24
+  text: Aaron Giles' excellent DREAMM project allows me to play a lot of these awesome LucasArts on my Macbook. Most of which I've never played. Dark Forces is first on that list! This game RULES! Consider that DOOM was released during the development of this game, it's really incredible. The graphics and gameplay is very tight! At it's core, it's a first-person plat former though, which is a little frustrating at times. But as a general FPS? I'd probably say this is better than DOOM!
+
+- title: "Star Wars Jedi Knight: Dark Forces II"
+  wiki: https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Dark_Forces_II
+  year: 1997
+  platform: Windows (OpenJKDF2)
+  developer: LucasArts
+  publisher: LucasArts
+  image: https://upload.wikimedia.org/wikipedia/en/4/48/Darkforcings.jpg
+  date: 6/??/24
+  text: Like the predecessor, this is really a platformer at heart and I found most of the level design to be frustrating. It's too bad, the engine is good and it's fun to take out enemies. I just spent WAY TOO LONG getting turned around in each level. Included are full motion video cutscenes, which apparently included the first lightsaber footage filmed since 1983. But man, the cutscenes are horrific. The acting is so bad. Like, mega-yikes. I started playing the expansion, Mysteries of the Sith but rage quit almost immediately. I may go back to it!
+
+- title: "Star Wars Jedi Knight II: Jedi Outcast"
+  wiki: https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight_II:_Jedi_Outcast
+  year: 2002
+  platform: PC (OpenJO)
+  developer: Raven Software
+  publisher: LucasArts
+  image: https://upload.wikimedia.org/wikipedia/en/d/d5/Naaw_jediduell.jpg
+  date: 7/??/24
+  text: The two Jedi Knight games developed by Raven are _pretty good_. Again, they're really more 3D platformers than shooters, which isn't really that big of a problem except when the level design is confusing. I think I'm just bad at video games or something. Still, it's a solid experience set beautifully in the Star Wars universe. Lightsaber combat is fun.
+
+- title: "Star Wars Jedi Knight: Jedi Academy"
+  wiki: https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Jedi_Academy
+  year: 2003
+  platform: PC (OpenJK)
+  developer: Raven Software
+  publisher: LucasArts
+  image: /public/media/posts/games/2024/ja.jpg
+  date: 7/5/24
+  text: The fourth and final installment of the _Jedi Knight_ series, and the second developed by Raven. It's probably the best overall in the series. They dump you straight into the Jedi stuff instead of dangling it in front of you for half the game. It's the first game in the series where the protagonist is not Kyle Katarn, though he does make an appearance. I found that to be refreshing. I liked the game so much that I installed some mods to play through the campaign as a Jawa Sith named Darth Wootee, including full voice acting. It was a blast and hilarious.
+
+- title: "Star Wars Jedi: Fallen Order"
+  wiki: https://en.wikipedia.org/wiki/Star_Wars_Jedi:_Fallen_Order
+  year: 2019
+  platform: PC (CrossOver)
+  developer: Respawn Entertainment
+  publisher: Electronic Arts
+  image: https://upload.wikimedia.org/wikipedia/en/0/07/Star_Wars_Jedi_Fallen_Order_gameplay_screenshot.jpg
+  date: 7/9/24
+  text: Admittedly I do not play many modern games, let alone "AAA" games. Let's just say this felt like a big step forward after grinding through the _Jedi Knight_ games. I got super lost a ton. This was also my first "souls-like" and I enjoyed that.
+
+- title: Cave Story
+  wiki: https://en.wikipedia.org/wiki/Cave_Story
+  year: 2004
+  platform: All (doukutsu-rs)
+  developer: Studio Pixel
+  publisher: Studio Pixel
+  image: https://upload.wikimedia.org/wikipedia/en/0/06/Cave_Story_gameplay.gif
+  date: 8/20/24
+  text: I think this is the game I've beaten the most times out of any game. I love Cave Story. I put it on the list here, but I did not complete _hell_.
+
+- title: Haunted Castle Revisted
+  wiki: https://castlevania.fandom.com/wiki/Haunted_Castle_Revisited
+  year: 2024
+  platform: Nintendo Switch
+  developer: M2
+  publisher: Konami
+  image: /public/media/posts/games/2024/hcr.webp
+  date: 8/28/24
+  text: I am acquaintances with some of the folks at M2 who worked on this game, so I decided to check it out. It's kind of technically the second Castlevania game, released only in arcades, and the original version apparently is not fun. This is a total re-imagining of that game. The core level design is the same, but it's playable. I beat the game without too much trouble in about an hour. It's a good time!
+
+- title: Diablo
+  wiki: https://en.wikipedia.org/wiki/Diablo_(video_game)
+  year: 1997
+  platform: PC (DevolutionX)
+  developer: Blizzard North
+  publisher: Blizzard Entertainment
+  image: /public/media/posts/games/2024/diablo.png
+  date: 8/29/24
+  text: I've never been able to get into any Diablo game but the original. I like the extremely linear approach and simple gameplay. Each new floor represents a pretty substantial bump up in difficulty. I played through this one with my brothers using the excellent DevolutionX client with built-in P2P multiplayer!
+
+- title: Space Quest V
+  wiki: https://en.wikipedia.org/wiki/Space_Quest_V
+  year: 1993
+  platform: DOS (ScummVM)
+  developer: Dynamix
+  publisher: Sierra On-Line
+  image: /public/media/posts/games/2024/sq5.jpg
+  date: 11/18/24
+  text: This was another game we had on the family computer. I spent a lot of time on the first level of this game and never made it much further. I don't think I'd ever properly beat this game so I cranked through it. I like Space Quest in general a lot but man, the games are not very fun.
+
+- title: Space Quest 6
+  wiki: https://en.wikipedia.org/wiki/Space_Quest_6
+  year: 1995
+  platform: Windows (ScummVM)
+  developer: Sierra On-Line
+  publisher: Sierra On-Line
+  image: /public/media/posts/games/2024/sq6.png
+  date: 11/20/24
+  text: Space Quest 6 gets a lot of shade, but I actually enjoy it overall. I think the voice acting is top notch and the plot is at least as interesting as any of the other Space Quest games. The final sequence inside the body was actually quite entertaining - finding all the junk that's been swallowed and using it to defeat the enemies. I also took the time to set up a Roland SC-55 emulator and the soundtrack was really enjoyable. I also played through the demo, which is a little standalone mission mostly re-using content from the main game.
+
+- title: Kirby Super Star
+  wiki: https://en.wikipedia.org/wiki/Kirby_Super_Star
+  year: 1996
+  platform: SNES
+  developer: HAL Laboratory
+  publisher: Nintendo
+  image: https://upload.wikimedia.org/wikipedia/en/8/85/Kirby_Super_Star_gameplay_screenshot.png
+  date: 11/24/24
+  text: This was one of my favorite games growing up. The multiple-games-in-one approach was just so digestible to me as a kid. As mentioned above, we also had _Kirby's Dream Land_, so I found the first mission to be familiar and fun. As the dedicated little brother, I really appreciated the co-op features, which meant that I got to play too. Just before my kids went on Thanksgiving Break, I set up the SNES Classic on the family TV which ended up being a hit. I now have my own 4 year old who's enthusiasm for playing video games is unmatched by his abilities, so this became the go-to for us. We played the entire campaign. By the end I was cruising through but we did it. I've come to realize that playing video games isn't so much about playing the video games as it is playing with the kid. So when the kid decides after 3 minutes he's done, you're done. It's fun!
+
+- title: Kirby's Dream Land 2
+  wiki: https://en.wikipedia.org/wiki/Kirby%27s_Dream_Land_2
+  year: 1995
+  platform: Game Boy
+  developer: HAL Laboratory
+  publisher: Nintendo
+  image: https://upload.wikimedia.org/wikipedia/en/5/5d/Kirbydl2screen34.PNG
+  date: 12/11/24
+  text: This was a pretty common game to see around, but I never owned it so my experience was limited to shorter sessions borrowing friends' games on a field trip or at their house. I liked the animals and the abilities. However, coming back, especially after _Kirby Super Star_, I find the animals to be mostly convoluted. If there weren't abilities and simply the animals, I think it would be less overwhelming. But each animal having it's own abilities that are different doesn't vibe with me. It's too cumbersome to experiment and because each level has one "secret star" that usually needs some specific combination of animal and ability, I was left feeling anxious about getting rid of anything for fear I'd need it for the star. Once I gave up on the stars and just got whatever I thought looked cool, it was more fun. I think the game is designed to be replayed (endlessly), so I'm just not bored enough yet to do all the special stuff! It's a good game with a good soundtrack, but I like the basic gameplay of the first better.
+
+- title: Super Mario World
+  wiki: https://en.wikipedia.org/wiki/Super_Mario_World
+  year: 1990
+  platform: SNES
+  developer: Nintendo EAD
+  publisher: Nintendo
+  image: https://upload.wikimedia.org/wikipedia/en/f/f4/Supermarioworld.jpg
+  date: 12/17/24
+  text: Continuing the trend of playing any 2-player game on the SNES Classic, I decided to have a go at beating Super Mario World. Despite owning a Super Nintendo growing up, we somehow never owned this game. How is that even possible? I had a lot of fun playing through this and my 4 year old got surprisingly good at it! Yes, I still transferred my 1-Up's to him _en masse_, but it was fun taking turns! How much of my musical taste is shaped by this excellent soundtrack? To me, Super Mario World is _the_ video game. Where Super Mario 64 is so empty I'm filled with liminal dread, Super Mario World feels alive and vibrant with mysteries and secret passages all around.
+
+- title: Donkey Kong Country
+  wiki: https://en.wikipedia.org/wiki/Donkey_Kong_Country
+  year: 1994
+  platform: SNES
+  developer: Rare
+  publisher: Nintendo
+  image: https://upload.wikimedia.org/wikipedia/en/3/30/Donkey_Kong_Country_Shot_2.png
+  date: 12/21/24
+  text: Speaking of good soundtracks, I've actually had the opportunity to meet David Wise in person at MAGFest 2020. DKC is almost impossible to retrospect, so much of what it pioneered is now just built into video game history. I don't even think the pre-rendered graphics look comparatively that much better than something like _Super Mario World_ and especially not better than excellent art from _Kirby Super Star_. But the tag-team platforming, with huge leaps of faith on and off screen, blasting through barrels and riding other animals. It's just fun! I love collecting KONG on each level. The bizarre industrial-pirate-lizard theme is fascinating on it's own.
+
+- title: Kirby's Dream Course
+  wiki: https://en.wikipedia.org/wiki/Kirby%27s_Dream_Course
+  year: 1994
+  platform: SNES
+  developer: HAL Laboratory, Nintendo EAD
+  publisher: Nintendo
+  image: https://upload.wikimedia.org/wikipedia/en/e/e6/SNES_Kirby%27s_Dream_Course_%28Kirby_Bowl%29.png
+  date: 12/23/24
+  text: Presented as an isometric golf game, Kirby's Dream Course is easy to overlook. At it's core, it's really an isometric time-based puzzle/platformer. I like a lot of the golf video games I've played, and I liked this one too. You shoot Kirby around a course, bouncing precisely at 45-degree angles. Playing with save states, I took a lot of satisfaction out of learning each level exactly and going for perfection. And the two-player head-to-head is fun as well! My 9 year old beat me several times!
+
+- title: Super Mario Kart
+  wiki: https://en.wikipedia.org/wiki/Super_Mario_Kart
+  year: 1992
+  platform: SNES
+  developer: Nintendo EAD
+  publisher: Nintendo
+  image: https://upload.wikimedia.org/wikipedia/en/8/8e/Super_Mario_Kart_screen_shot.jpg
+  date: 12/23/24
+  text: How fun would it be to buy a bunch of go karts and build a bunch of tracks and race your friends all day? I love kart racing. Naturally, I love Super Mario Kart. I feel bad for the children who's first Mario Kart experience was a Wiimote in a plastic wheel. Super Mario Kart is where legends are made. At times your d-pad inputs feel like mere suggestions to whatever is going on on-screen. I'm pretty sure the computers cheat. But the whole experience is just so enjoyable! Soyo Oka really set a great standard for what a Super Nintendo game should sound like. Dedicating a whole half of the screen to a map in single player mode makes this a great second player game as well.
