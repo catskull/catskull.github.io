@@ -1,7 +1,7 @@
 ---
 ---
-@import 'monospace.scss';
-@import 'highlight.css';
+@use 'monospace.scss' as *;
+@use 'highlight.css' as *;
 
 @font-face {
   font-family: "Berkeley Mono";
