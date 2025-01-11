@@ -16,13 +16,13 @@ tables:
   'Catskull.net':
     -
       Online: 2013
-      PV/M: 1.6k
+      PV/M: 1.8k
       Meaning: "?"
 
   Favorites:
   -
     Hot Sauce: Frank's Red Hot
-    TOD: "4:44"
+    TOD: "3:59"
   -
     MPH: 30
     Year: 2000
@@ -30,7 +30,7 @@ tables:
   -
     Band: King Gizzard & The Lizard Wizard
   -
-    Movie: Good Burger
+    Movie: Lincoln
     Game: Cave Story
   -
     Beverage: Milk
@@ -47,7 +47,7 @@ tables:
     Anime: Patlabor
   -
     Console: Dreamcast
-    Pen: Rotring 600
+    Pen: Pilot Hi-Tec C Coleto 4-in-1
 
 lists:
   Interests:

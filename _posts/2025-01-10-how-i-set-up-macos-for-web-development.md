@@ -119,9 +119,8 @@ brew "libffi"           # ruby?
 brew "libyaml"          # ruby?
 brew "nano"             # me gusta nano
 brew "ruby-install"     # self explanatory
-brew "s3cmd"            # work
 brew "tree"             # makes pretty file trees in the terminal
-brew "volta"            # node
+brew "fnm"              # node
 brew "wget"             # ya
 brew "yazi"             # terminal file manager
 brew "yt-dlp"           # download archival videos from online hosting providers
@@ -187,9 +186,8 @@ mas "Numbers", id: 409203825
 <span class="pl-en">brew</span> <span class="pl-s">"libyaml"</span>          <span class="pl-c"># ruby?</span>
 <span class="pl-en">brew</span> <span class="pl-s">"nano"</span>             <span class="pl-c"># me gusta nano</span>
 <span class="pl-en">brew</span> <span class="pl-s">"ruby-install"</span>     <span class="pl-c"># self explanatory</span>
-<span class="pl-en">brew</span> <span class="pl-s">"s3cmd"</span>            <span class="pl-c"># work</span>
 <span class="pl-en">brew</span> <span class="pl-s">"tree"</span>             <span class="pl-c"># makes pretty file trees in the terminal</span>
-<span class="pl-en">brew</span> <span class="pl-s">"volta"</span>            <span class="pl-c"># node</span>
+<span class="pl-en">brew</span> <span class="pl-s">"fnm"</span>              <span class="pl-c"># node</span>
 <span class="pl-en">brew</span> <span class="pl-s">"wget"</span>             <span class="pl-c"># ya</span>
 <span class="pl-en">brew</span> <span class="pl-s">"yazi"</span>             <span class="pl-c"># terminal file manager</span>
 <span class="pl-en">brew</span> <span class="pl-s">"yt-dlp"</span>           <span class="pl-c"># download archival videos from online hosting providers</span>

@@ -12,23 +12,10 @@
       url: https://pages.github.com
     - name: Jekyll
       url: https://jekyllrb.com
-- name: Development
-  children:
-    - name: Berkeley Mono
-      url: https://berkeleygraphics.com/typefaces/berkeley-mono/
-    - name: chruby
-      url: https://github.com/postmodern/chruby
-    - name: ruby-install
-      url: https://github.com/postmodern/ruby-install
-    - name: GitHub Desktop
-      url: https://desktop.github.com/
-    - name: iTerm2
-      url: https://iterm2.com/
-    - name: Sublime Text
-      url: https://www.sublimetext.com/index2
-    - name: volta
-      url: https://volta.sh/
-- name: Hi
+    - name: Likes
+      url: https://catskull.net/likes.html
+    - name: Replies
+      url: https://catskull.net/replies.html
 - name: Personal
   children:
     - name: GitHub
@@ -39,6 +26,46 @@
       url: https://en.wikipedia.org/wiki/User:Catskull
     - name: Mastodon
       url: https://mastodon.social/@dareelcatskull
+- name: Development
+  children:
+    - name: Berkeley Mono
+      url: https://berkeleygraphics.com/typefaces/berkeley-mono/
+    - name: chruby
+      url: https://github.com/postmodern/chruby
+    - name: ruby-install
+      url: https://github.com/postmodern/ruby-install
+    - name: GitHub Desktop
+      url: https://desktop.github.com/
+    - name: Ghostty
+      url: https://ghostty.org
+    - name: Sublime Text
+      url: https://www.sublimetext.com/index2
+    - name: fnm
+      url: https://github.com/Schniz/fnm
+    - name: GNU Nano
+    - name: htop
+    - name: Mac Mouse Fix
+      url: https://macmousefix.com
+    - name: Trasmit
+      url: https://panic.com/transmit/
+- name: Creative
+  children:
+    - name: Final Cut Pro
+    - name: Logic Pro
+    - name: Affinity Suite
+      url: https://affinity.serif.com/en-us/
+    - name: Pages
+    - name: Keynote
+    - name: Crossover
+      url: https://www.codeweavers.com
+    - name: 86Box
+      url: https://86box.net
+    - name: OBS Studio
+      url: https://obsproject.com
+    - name: IINA
+      url: https://iina.io
+    - name: Playlistly
+      url: https://www.obdura.com/playlisty/
 - name: Equipment
   double: true
   children:
@@ -52,13 +79,18 @@
     - name: Klipsch RP-160M
     - name: Logitech MX Master 3S (White)
       url: https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html
-    - name: Studio Display
+    - name: Apple Studio Display
+    - name: Samsung SyncMaster 710ɴ
+    - name: LG 43UN700-B
+    - name: ViewSonic X100-4K
     - name: Grovemade Desk Shelf (L, Solid Walnut)
       url: https://grovemade.com/product/wood-desk-shelf
     - name: OWC Express 1M2
       url: https://youtu.be/8F27yxAW_fY?si=FFVIu1zP6_GfpCHR
     - name: 1994 Land Cruiser 80 Series
+    - name: Brother HL-L2370DW
 - name: Diagram
   double: true
   src: https://raw.githubusercontent.com/catskull/diagrams/main/diagrams/hifi.drawio.svg
   url: https://github.com/catskull/diagrams
+- name: Hi
