@@ -262,4 +262,4 @@ You can also disable hints for using homebrew with `export HOMEBREW_NO_ENV_HINTS
 
 I was really impressed with how smoothly my most recent wipe went. There seem to be inevitable macOS tweaks I have to do after a fresh setup, but I sort of like restarting that way. I should also mention that this setup would likely work pretty nicely across multiple machines.
 
-If you have any ideas on how I can improve this setup, please send me a Reply and I'll check it out.
+If you have any ideas on how I can improve this setup, <a href="mailto:reply@replies.catskull.net?subject=re:%20https://catskull.net/how-i-set-up-macos-for-web-development.html">please send me a Reply</a> and I'll check it out.
