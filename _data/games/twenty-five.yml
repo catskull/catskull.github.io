@@ -8,6 +8,16 @@
   date: 1/2/25
   wiki: https://en.wikipedia.org/wiki/Freelancer_(video_game)
 
+- title: "Half-Life: Uplink"
+  platform: PC (xash3d-fwgs)
+  developer: Valve
+  publisher: Sierra Studios
+  year: 1998
+  image: /public/media/posts/games/2025/uplink.jpg
+  text: I've never played any of the _Half-Life_ games. The only Valve game I know that I've played is _Portal_. I decided I'd find out what the fuss was about. Officially, there's no way to play the original _Half-Life_ on Mac without emulation. Fortunately, [MacSourcePorts](https://www.macsourceports.com/game/halflife) has a version available. It's using a project called [xash3d-fwgs](https://github.com/FWGS/xash3d-fwgs), an open-source implementation of the original _Half-Life_ engine (GoldSrc). Playing at 75hz on my little 4:3 SyncMaster LCD is quite engrossing and feels very authentic. It's probably not fully fair to put _Uplink_ on this list, but I'm doing it anyways. _Uplink_ is a HL demo that has a small standalone campaign. It used to be very obscure, but Valve included it in the Anniversary release of _Half-Life_ so everyone can play it. It really is a great little preview of the full game and is probably worth playing through before starting the campaign if nothing else as an extended tutorial as I found the difficulty to be a lot lower.
+  date: 1/23/25
+  wiki: https://www.halflifeuplink.com
+
 - title: 
   platform:  
   developer: 
