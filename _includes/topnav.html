@@ -38,5 +38,12 @@ catskull.net
   			<a href="/quotes">quotes</a>
   		{% endif %}
     </li>
+    <li>
+      {% if page.name == "notes.md" %}
+        <mark>notes</mark>
+      {% else %}
+        <a href="/notes">notes</a>
+      {% endif %}
+    </li>
   </ul>
 </nav>
