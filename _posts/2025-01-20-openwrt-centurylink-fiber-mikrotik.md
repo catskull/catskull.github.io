@@ -326,3 +326,9 @@ So far, I'm happy with my setup. I feel much better about my home network knowin
 %}
 
 If you found this useful, leave a Reply or a Like. I probably can't help you debug your specific setup, but I'm happy to answer follow-up questions, and others might have similar issues you do.
+
+Update -
+
+I've been running this for about a week now and it's great. I streamed setting up dns-over-https with NextDNS if you're interested in following along.
+
+{% include youtube.html embed="dE2wR9saPfA" title="Setting up dns-over-https (DoH) and DNSCrypt on OpenWrt" %}
