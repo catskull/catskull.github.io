@@ -1,3 +1,7 @@
+- note: "Set up encrypted DNS-over-HTTPS (DoH) on OpenWrt"
+  link: "https://openwrt.org/docs/guide-user/services/dns/dot_dnsmasq_dnsproxy"
+  date: 1/27/2025
+
 - note: "I heard you liked shortcuts so I sent you a shortcut from your shortcut so you can shortcut in your shortcuts"
   link: "https://www.icloud.com/shortcuts/829f9d7025d646bc8b77d529d0f22630"
   date: 1/27/2025
