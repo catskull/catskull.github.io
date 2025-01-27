@@ -13,7 +13,7 @@ Here's random links and my short thoughts about them. Mostly for my own referenc
   <article>
   	<time>{{note.date}}</time> 
 	  <p>{{note.note}}</p>
-	  <a href="{{note.link}}">{{note.link}}</a>
+	  {% include external_link.html href=note.link text=note.link %}
 	</article>
 	<hr>
   {% endfor %}
