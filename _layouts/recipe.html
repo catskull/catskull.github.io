@@ -9,8 +9,11 @@ layout: default
   <h1>{{ page.name }}</h1>
   <p>{{page.description}}</p>
 </header>
+<img src="/public/media/posts/recipes/{{page.path | split: "/" | last | split: "." | first}}.jpeg"/>
 
-<img src="/public/media/posts/recipes/{{page.path | split: "/" | last | split: "." | first}}.jpeg"
+<div style="text-align:center;">
+  <page-likes></page-likes>
+</div>
 
 <section class="ingredients">
   <h2>Ingredients</h2>
@@ -36,3 +39,8 @@ layout: default
     {% endfor %}
   </ol>
 </section>
+
+<page-replies open default="https://catskull.net/public/images/outlook_express-4.png"></page-replies>
+<script src="https://catskull.net/public/js/components/replies.js"></script>
+<script src="https://catskull.net/public/js/components/likes.js"></script>
+
