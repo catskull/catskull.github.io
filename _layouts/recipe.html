@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<header>
+	<nav>
+		<a href="/">catskull.net</a> / <a href="/recipes">recipes</a>/
+	</nav>
+  <h1>{{ page.name }}</h1>
+  <p>{{page.description}}</p>
+</header>
+
+<img src="/public/media/posts/recipes/{{page.path | split: "/" | last | split: "." | first}}.jpeg"
+
+<section class="ingredients">
+  <h2>Ingredients</h2>
+	<ul>
+	  {% for ingredient in page.ingredients %}
+	  	<li>
+	  		{%assign name = ingredient | first | first%}
+	  		{%assign amount = ingredient[name]["amounts"][0]%}
+	  		<b>{{amount["amount"]}} {{amount['unit']}}</b> {{name | replace: '_', ' '}}
+	  	</li>
+	  {% endfor %}
+	</ul>
+</section>
+
+<section class="steps">
+  <h2>Steps</h2>
+  {% if page.notes %}
+  	<p>NOTICE: {{ page.notes }}</p>
+  {% endif %}
+  <ol>
+    {% for step in page.steps %}
+      <li>{{ step.step }}</li>
+    {% endfor %}
+  </ol>
+</section>

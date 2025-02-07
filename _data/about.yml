@@ -16,7 +16,7 @@ tables:
   'Catskull.net':
     -
       Online: 2013
-      PV/M: 1.8k
+      PV/M: 1.9k
       Meaning: "?"
 
   Favorites:
@@ -37,14 +37,14 @@ tables:
     Campus: UCSC
     UVI: 2
   -
-    Appliance: Dishwasher
+    Appliance: Vacuum Cleaner
     Temp: 68°F
   -
     Other: Hot Showers
     Food: Tacos
   -
     Activity: Family Time
-    Anime: Patlabor
+    Anime: Macross Plus
   -
     Console: Dreamcast
     Pen: Pilot Hi-Tec C Coleto 4-in-1
@@ -141,6 +141,10 @@ lists:
    - Web Components
    - Nuclear Science
    - Musical Instruments
+   - Unix/Linux
+   - OpenWrt
+   - Free/Open Source Software
+   - Alpine Linux
 
   Friends:
     - name: Sam 🇺🇸

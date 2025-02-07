@@ -23,4 +23,11 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  - projects
+  recipes:
+    output: true
+
+defaults:
+  - scope:
+      type: recipes
+    values:
+      layout: recipe
