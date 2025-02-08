@@ -123,6 +123,13 @@ code {
     border: solid black;
     padding: 1ch;
 
+    pre {
+      code {
+        background-color: unset;
+        font-size: inherit;
+      }
+    }
+
 
     /*  stolen colors*/
     .pl-c {
