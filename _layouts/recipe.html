@@ -22,7 +22,10 @@ layout: default
 	  	<li>
 	  		{%assign name = ingredient | first | first%}
 	  		{%assign amount = ingredient[name]["amounts"][0]%}
-	  		<b>{{amount["amount"]}} {{amount['unit']}}</b> {{name | replace: '_', ' '}}
+	  		{%assign preparation = ingredient[name]["preparation"] | downcase%}
+	  		<b>{{amount["amount"]}} {{amount['unit']}}</b>
+	  		{{name | replace: '_', ' '}}
+	  		{%if preparation.size > 1%}({{preparation}}){%endif%}
 	  	</li>
 	  {% endfor %}
 	</ul>
