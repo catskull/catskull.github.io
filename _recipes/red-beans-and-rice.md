@@ -1,0 +1,128 @@
+---
+name: Red Beans and Rice
+description: >-
+  One time we went to Jazz-A Louisiana Kitchen in Lubbock, TX and it was so good that I cried and my brothers still make fun of me.
+notes: You MUST soak the beans for **one hour** _minimum_. Do not add salt while the beans are soaking or it will make the skins hard. The B̶ ̴E̸ ̶A̸ ̶N̵S̶.
+ingredients:
+  - dried_red_beans:
+      amounts:
+        - amount: 1
+          unit: lb
+      preparation: Soaked overnight
+  - vegetable_oil:
+      amounts:
+        - amount: 2
+          unit: tbsp
+  - onion:
+      amounts:
+        - amount: 1
+          unit: small
+      preparation: Diced
+  - green_bell_pepper:
+      amounts:
+        - amount: 1
+          unit: each
+      preparation: Diced
+  - celery:
+      amounts:
+        - amount: 2
+          unit: stalks
+      preparation: Diced
+  - garlic:
+      amounts:
+        - amount: 4
+          unit: cloves
+      preparation: Minced
+  - salt:
+      amounts:
+        - amount: 1
+          unit: tsp
+  - black_pepper:
+      amounts:
+        - amount: 0.5
+          unit: tsp
+  - cayenne_pepper:
+      amounts:
+        - amount: 0.5
+          unit: tsp
+      optional: true
+  - smoked_paprika:
+      amounts:
+        - amount: 1
+          unit: tsp
+  - dried_thyme:
+      amounts:
+        - amount: 1
+          unit: tsp
+  - bay_leaves:
+      amounts:
+        - amount: 2
+          unit: each
+  - cajun_seasoning:
+      amounts:
+        - amount: 1
+          unit: tsp
+  - andouille_sausage:
+      amounts:
+        - amount: 1
+          unit: lb
+      preparation: Sliced
+  - smoked_ham_hock:
+      amounts:
+        - amount: 1
+          unit: each
+      optional: true
+  - chicken_broth:
+      amounts:
+        - amount: 6
+          unit: cups
+  - worcestershire_sauce:
+      amounts:
+        - amount: 1
+          unit: tsp
+  - hot_sauce:
+      amounts:
+        - amount: 1
+          unit: tbsp
+  - green_onions:
+      amounts:
+        - amount: 2
+          unit: each
+      preparation: Chopped
+  - parsley:
+      amounts:
+        - amount: 0.5
+          unit: cups
+      preparation: Chopped
+  - white_rice:
+      amounts:
+        - amount: 2
+          unit: cups
+  - water:
+      amounts:
+        - amount: 4
+          unit: cups
+  - butter:
+      amounts:
+        - amount: 1
+          unit: tbsp
+      optional: true
+
+steps:
+  - step: Heat vegetable oil in a large pot over medium heat.
+  - step: Sauté onion, bell pepper, and celery for 5 minutes until softened.
+  - step: Add garlic and cook for 1 minute.
+  - step: Stir in salt, black pepper, cayenne, paprika, thyme, bay leaves, and Cajun seasoning.
+  - step: Add sliced sausage and cook for 5 minutes, letting it brown slightly.
+  - step: Add soaked beans, chicken broth, ham hock (if using), Worcestershire sauce, and hot sauce.
+  - step: Bring to a boil, then reduce heat to low and simmer for 1.5 to 2 hours, stirring occasionally.
+  - step: If beans become too thick, add more water.
+  - step: Mash some of the beans against the pot to thicken the texture.
+  - step: In a separate pot, bring 4 cups of water to a boil.
+  - step: Add white rice, salt, and butter (if using).
+  - step: Cover and simmer on low heat for 15 minutes, then fluff with a fork.
+  - step: Remove bay leaves and ham hock from the bean pot.
+  - step: Serve red beans over white rice.
+  - step: Garnish with green onions and parsley.
+  - step: Add extra hot sauce if desired.
+---
