@@ -8,6 +8,8 @@ layout: default
 	</nav>
   <h1>{{ page.name }}</h1>
   <p>{{page.description}}</p>
+  <p>serves: {{page.servings}}</p>
+  tags: [ {{page.tags | sort | join: ', '}} ]
 </header>
 <img src="/public/media/posts/recipes/{{page.path | split: "/" | last | split: "." | first}}.jpeg"/>
 
@@ -23,9 +25,12 @@ layout: default
 	  		{%assign name = ingredient | first | first%}
 	  		{%assign amount = ingredient[name]["amounts"][0]%}
 	  		{%assign preparation = ingredient[name]["preparation"] | downcase%}
+	  		{%assign note = ingredient[name]["note"]%}
 	  		<b>{{amount["amount"]}} {{amount['unit']}}</b>
-	  		{{name | replace: '_', ' '}}
-	  		{%if preparation.size > 1%}({{preparation}}){%endif%}
+	  		{{name | replace: '_', ' '}}{%if preparation.size > 1%}, {{preparation}}{%endif%}
+	  		{% if note %}
+	  			(<em>{{note}}</em>)
+  			{%endif%}
 	  	</li>
 	  {% endfor %}
 	</ul>

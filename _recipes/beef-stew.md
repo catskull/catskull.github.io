@@ -1,7 +1,9 @@
 ---
 name: Classic Beef Stew
 description: Hard to beat.
+servings: 4-6
 notes: Pressure cook for 20 minutes instead of simmering
+tags: [soup, 🇺🇸]
 ingredients:
   - beef_stew_meat:
       amounts:

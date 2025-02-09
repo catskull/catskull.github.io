@@ -1,7 +1,9 @@
 ---
 name: Red Beans and Rice
+servings: 4-6
 description: >-
   One time we went to Jazz-A Louisiana Kitchen in Lubbock, TX and it was so good that I cried and my brothers still make fun of me.
+tags: [entree, side, cajun]  
 notes: You MUST soak the beans for **one hour** _minimum_. Do not add salt while the beans are soaking or it will make the skins hard. The B̶ ̴E̸ ̶A̸ ̶N̵S̶
 ingredients:
   - dried_red_beans:

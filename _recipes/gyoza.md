@@ -1,12 +1,14 @@
 ---
 name: Gyoza
+servings: It's not a question of whether they will all be eaten, it's a question of how many you're willing to share.
 description: >-
   "If you call them pot stickers, I will kill you."
+tags: [entree, 🇯🇵]  
 ingredients:
   - ground_pork_or_chicken:
       amounts:
-        - amount: 500
-          unit: g
+        - amount: 1/2
+          unit: lb
   - cabbage:
       amounts:
         - amount: 2
@@ -52,18 +54,21 @@ ingredients:
       amounts:
         - amount: 2
           unit: tbsp
-  - dipping_sauce_soy_sauce:
+  - soy_sauce:
       amounts:
         - amount: 4
           unit: tbsp
-  - dipping_sauce_rice_vinegar:
+      note: For dipping sauce.
+  - rice_vinegar:
       amounts:
         - amount: 2
           unit: tbsp
-  - dipping_sauce_sesame_oil:
+      note: For dipping sauce.
+  - sesame_oil:
       amounts:
         - amount: 1
           unit: tsp
+      note: For dipping sauce.
   - chili_flakes_or_minced_garlic:
       optional: true
 steps:
