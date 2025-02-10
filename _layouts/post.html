@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-{% if page.category contains "old" %}
-  {% assign link = "/archive" %}
-{% else %}
-  {% assign link = "/" %}
-{% endif %}
 <header>
   <nav>
-    <a href="{{ link }}">{{ site.theme_config.back_home_text }}</a>
+    {% unless page.category contains "hidden" %}
+      <a href="/">{{ site.theme_config.back_home_text }}</a> / <a href="/archive">archive</a> /
+      {% assign link = "/archive" %}
+    {% else %}
+      <a href="/">{{ site.theme_config.back_home_text }}</a> /
+    {% endunless %}
   </nav>
 </header>
 
