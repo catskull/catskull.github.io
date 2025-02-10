@@ -3,12 +3,12 @@ layout: default
 ---
 <header>
   <nav>
-    {% unless page.category contains "hidden" %}
+    {% if page.category == "old" %}
       <a href="/">{{ site.theme_config.back_home_text }}</a> / <a href="/archive">archive</a> /
       {% assign link = "/archive" %}
     {% else %}
       <a href="/">{{ site.theme_config.back_home_text }}</a> /
-    {% endunless %}
+    {% endif %}
   </nav>
 </header>
 
