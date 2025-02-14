@@ -1,4 +1,5 @@
 {% assign num_items = 21%}
+{% assign num_items = 22%}
 {% assign random_index = site.time | date: '%s' | modulo: num_items %}
 
 {% case random_index %}
@@ -44,6 +45,8 @@
     <marquee>/\//\\\/ /\//\\/\ /\///\/\ /\//\\/\\ /\\/\//\\ /\///\/ /\ /\\//\/\ /\\//\/\ //\\//\/ /\\//\\/\/ /\\/\///\ /\///\/\</marquee>
   {% when 20 %}
     𝙝𝙞 𝙢𝙤𝙢
+  {% when 21 %}
+    <span style="font-family: 'Other Hand'">it aint easy bein cheesy</span>
 
 
 {% endcase %}

@@ -17,6 +17,11 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Other Hand";
+  src: url('/assets/font/OtherHand-Medium.woff2');
+}
+
 :root {
   color-scheme: light dark;
 }
