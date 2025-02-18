@@ -1,3 +1,12 @@
+- note: "OBS Sidechain settings:
+Ratio: 32:1
+Threshold: -40dB
+Attack: 250ms
+Release: 500ms
+Output Gain: 0dB (default)"
+  link: "https://wpguru.co.uk/2020/04/how-to-use-sidechain-compression-in-obs/"
+  date: 2/18/2025
+
 - note: "Holla @ 7b8a0e01-2cdc-4d3b-bd13-bdafa4575a10"
   link: "https://everyuuid.com/"
   date: 2/8/2025
