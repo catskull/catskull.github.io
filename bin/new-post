@@ -1,19 +1,26 @@
 #!/usr/bin/env ruby
-
 require 'date'
+require 'fileutils'
 
 def create_post_file(title = "untitled")
   # Use default title if the input is empty or only whitespace
   title = title.strip.empty? ? "untitled" : title
-
+  
   # Sanitize and format the title for the filename
-  formatted_title = title.downcase.strip.gsub(" ", "-")
+  formatted_title = title.downcase.strip.gsub(/[^a-z0-9\s]/, '').gsub(/\s+/, '-')
   
   # Get the current date in YYYY-MM-DD format
   date = Date.today.strftime('%Y-%m-%d')
   
   # Create the filename with the input title
   filename = "./_posts/#{date}-#{formatted_title}.md"
+  
+  # Create the corresponding images directory
+  images_dir = "./assets/images/posts/#{formatted_title}"
+  FileUtils.mkdir_p(images_dir)
+  
+  # Create a .keep file in the images directory
+  FileUtils.touch(File.join(images_dir, '.keep'))
   
   # Define the content of the file with a formatted title
   content = <<~CONTENT
@@ -24,11 +31,12 @@ def create_post_file(title = "untitled")
     layout: post
     ---
   CONTENT
-
+  
   # Write the content to the file
   File.write(filename, content)
   
   puts "File created at #{filename}"
+  puts "Images directory created at #{images_dir} with .keep file"
 end
 
 # Use the first argument as the title, or default if not provided
