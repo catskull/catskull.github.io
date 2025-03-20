@@ -45,6 +45,56 @@
   date: 1/26/25
   wiki: https://en.wikipedia.org/wiki/Half-Life:_Blue_Shift
 
+- title: Portal
+  platform: macOS (illegal source port)
+  developer: Valve
+  publisher: Valve
+  year: 2007
+  image: https://upload.wikimedia.org/wikipedia/en/9/9f/Portal_standalonebox.jpg
+  text: I played this around when it came out by saving my lunch money for a few months to buy an Xbox 360 and borrowed my friend's copy of _The Orange Box_. For whatever reason, I never got into any of the other games but _Portal_ was different. The entire GlaDOS narrative was just mind-blowingly cool to me then, and it still holds up! And then the credit song. I'm not going to lie, I sat in my office and sobbed. It's just such a fun game and a pleasant experience. GlaDOS feels like as much of antagonist to the test subject as the game itself is to me. Provocative yet irritatingly engaging. Good one for kids too!
+  date: 2/8/25
+  wiki: https://en.wikipedia.org/wiki/Portal_(video_game)
+
+- title: SteamWorld Dig 2
+  platform: macOS (Steam)
+  developer: Image & Form
+  publisher: Image & Form
+  year: 2017
+  image: https://upload.wikimedia.org/wikipedia/en/b/b8/SteamWorld_Dig_2_pre-release_Steam_header.jpg
+  text: I played the first _SteamWorld Dig_ game on my 3DS in 2015 after buying it as part of the first ([and only](https://nintendo.fandom.com/wiki/Humble_Nindie_Bundle)) "Humble Nindie Bundle". It's a game that on the surface seems to have almost no real appeal but if you commit to playing it for 5 minutes, I bet you'll play the whole thing. The gameplay is just _so fun_. It's hard to describe - like a dig dug metroidvania. Overall the graphics, sound, story, and music are mostly forgettable , aside from one surprising "glitch in the matrix" event. I really enjoyed this game and it's improved on the original in pretty much every way, so if you haven't played either you're safe to jump right into the sequel. Highly recommended!
+  date: 3/4/25
+  wiki: https://en.wikipedia.org/wiki/SteamWorld_Dig_2
+
+- title: SteamWorld Heist
+  platform: macOS
+  developer: Image & Form
+  publisher: Image & Form
+  year: 2015
+  image: https://upload.wikimedia.org/wikipedia/en/1/12/SteamWorld_Heist_logo.jpg
+  text: After I beat the original _SteamWorld Dig_ in 2015, I was excited to see the next game in the series. I was initially very turned off by _SteamWorld Heist_. It's a 2D turn-based strategy platformer. Image & Form really know how to innovate on some existing game styles, and they do it very well. It's mission based and the maps are somewhat randomly generated. Enough that if you die or give up, you get something that's not exactly the same the next time. It also means sometimes you just get a bad dice roll and things go south. The only real penalty is your money (gallons of water because they are robots that run on steam) and money isn't really that useful. The game will give you new gear and weapons to use and my strategy was to use the new weapons. It's class-based, so you recruit a team of specialists. Before each mission, you'll select 1, 2, 3, or 4 members of your team and load them out with gear and weapons. Team members are rewarded in experience points and will unlock new abilites that make your life easier. For this reason, you end up a bit with the Pokémon issue of only levelling up your favorite members of your party. It's not all bad, I found bundling an under-leveled team member in with more experienced members worked out just fine. And you can always go back and re-play old missions with new team members. I got pretty addicted and it was a little frustrating. I played through on the normal difficulty but had to drop down to easy for the sub-boss fight that was just insane.
+  date: 3/13/25
+  wiki: https://en.wikipedia.org/wiki/SteamWorld_Heist
+
+- title: The Lost Vikings
+  platform: SNES (OpenEmu experimental macOS ARM build)
+  developer: Silicon & Synapse
+  publisher: Interplay Productions
+  year: 1993
+  image: https://upload.wikimedia.org/wikipedia/en/7/74/The_Lost_Vikings_SNES_cover.jpg
+  text: Silicon & Synapse started in the late 80's as a contract studio to port other games. It's a solid business plan and one that is still pretty lucrative if you're good at your target platforms. _The Lost Vikings_ was their first original IP and is a real-time team-based puzzle-platformer. Kind of like Lemmings, but you have three Vikings. Each Viking has a set of unique abilities - one can jump and run, one can fight, one can block and use a shield as a parasail. There's fall damage like no tomorrow. Each level is basically a unique puzzle. The game is split into "worlds" and each world has a few levels. The music is so much better than it has any right to be, and this was pretty early in the SNES lifecycle as well. The gameplay is just fun! The levels are designed extremely well. I had to use the hint book a few times, and as always I make heavy use of save states. With those handicaps, it was an enjoyable experience.
+  date: 3/15/25
+  wiki: https://en.wikipedia.org/wiki/The_Lost_Vikings
+
+- title: The Lost Vikings 2
+  platform: SNES (OpenEmu experimental macOS ARM build)
+  developer: Blizzard Entertainment
+  publisher: Interplay Productions
+  year: 1997
+  image: https://upload.wikimedia.org/wikipedia/en/5/56/Lost_Vikings_2_Boxshot.jpg
+  text: So the first game was some random company and the second game was... _Blizzard_? As in _the_ Blizzard? Yes! Almost immediately after _The Lost Vikings_, they changed their name to _Blizzard Entertainment_. And then Warcraft, Warcraft II, and Diablo happened. Not to mention StarCraft a year later. Those are three of the absolute best and most popular games of the 90's. Blizzard was on fire! I assume The Lost Vikings 2 was in development/planning for a while and then Warcraft was such a huge surprise hit that it took a while for it to get the right people on the project and by the time they did, the N64 was already out and frankly Blizzard had better stuff to do. But apprently Interplay was happy to publish it to mediocre sales which is unfortunate, because this is a true sequel to an already great game. Difficulty and puzzle-wise, it picks right up where the first game left off. Each Viking how has some additional abilities (runner has jetpack boots and can swim, fighter has a robot arm to swing around, shield guy can... fart). They also added a werewolf and a dragon. The wolf can wall jump and melee attach. The dragon can fly and shoot fire balls. You still only play with 3 at a time, they just swap in and out at random. This one felt shorter than the first, but not too short. The final boss is quite a bit more spread out in this game. I should also mention that there is a PS1 port of this game that's exactly the same game gameplay-wise, but literally all the graphics and assets are different including full voice acting that's not bad! It wasn't developed by Blizzard so I opted for the SNES version, but this isn't a bad option at all!
+  date: 3/19/25
+  wiki: https://en.wikipedia.org/wiki/The_Lost_Vikings_2
+
 - title: 
   platform:  
   developer: 
