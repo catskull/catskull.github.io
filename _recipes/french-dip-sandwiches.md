@@ -3,7 +3,7 @@ name: French Dip Sandwiches
 description: Tender beef on toasted rolls with melted provolone and savory au jus for dipping.
 servings: 4
 notes: Can be made in slow cooker (8 hours) or pressure cooker (25 minutes)
-tags: [sandwich, beef, 🇺🇸]
+tags: [sandwich, beef, soup, 🇺🇸]
 ingredients:
   - beef:
       amounts:
