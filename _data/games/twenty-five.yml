@@ -95,6 +95,48 @@
   date: 3/19/25
   wiki: https://en.wikipedia.org/wiki/The_Lost_Vikings_2
 
+- title: "The Legend of Zelda: Link’s Awakening DX"
+  platform: Game Boy Color (OpenEmu experimental macOS ARM build)
+  developer: Nintendo R&D2
+  publisher: Nintendo
+  year: 1998 (1993)
+  image: https://upload.wikimedia.org/wikipedia/en/5/5c/The_Legend_of_Zelda_-_Link%27s_Awakening_DX_box_art.png
+  text: |
+   On September 20, 2019 I walked into a Bic Camera in Tokyo, Japan and bought a copy of "The Legend of Zelda: Link's Awakening" and a grey Switch Lite, both of which had been released that day. While I enjoy the remaster, I was disappointed by it's poor performance and overall felt the gameplay was lacking some of the charm that made the original and it's re-release so appealing. I'm sure it's likely due to a healthy dose of nostalgia. I remember playing, and enjoying, Link's Awakening as a kid growing up in the 90's. I owned a Game Boy but not this game, so I was relegated to quick play sessions at a friend's house. I appreciated multiple save files - usually there was a free space for me to save my game. I never made it very far, but the entire intro sequence was just so unassuming yet inviting to me. Later I remember borrowing the DX release from my older brother's friend and getting maybe half way before losing interest or having to give it back. I'm pretty sure Link's Awakening was my intro to the Zelda franchise. Later we'd own Ocerena of Time and Windwaker, but those are other stories. The game holds up pretty well. I played with the ["redux" romhack](https://www.romhacking.net/hacks/4672/) which just tweaks a few very minor inconveniences. Still, the copious amount of back tracking did get old. Thankfully, the game doesn't overstay it's welcome. By the final dungeon, I was pretty much done with the persistant menuing to get items equipped. But then, it ended! I beat it! I liked Link's Awakening then, and I like it now. As a kid it was just a game I could pick up and play even if I didn't know what to do. My kids agree, letting them take a turn for a few minutes hacking away at baddies and grass is easy and smooth.
+  date: 4/12/25
+  wiki: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening_DX
+
+- title: Prince of Persia
+  platform: PC (SDLPoP)
+  developer: Jordan Mechner / Broderbund
+  publisher: Broderbund
+  year: 1989
+  image: https://upload.wikimedia.org/wikipedia/commons/4/4d/Prince_of_Persia_1_-_MS-DOS_-_Gameplay.gif
+  text: Another entry in the "it was on the family computer growing up". I played this one a lot growing up. The completely unforgiving platforming, combined with the extremely forgiving and quick resets makes this a very good game to suck at. Indeed, my 4 year old took over half way through this one, including the combat. As always I made copious use of save states to get through each section flawlessly, but it really doesn't detract at all from the game. The platforming is _fun_. Really fun. The low quality rotoscoped animations have aged like fine wine and look even better today than ever. The platforming is somewhat slow and deliberate, as any "cinematic platformer" (as they'd later come to be called) should be. _Prince of Persia_ is an inviting and forgiving game to play for all ages and I'd highly recommend you give it a shot. It was also ported to pretty much every console around, and I'm sure those ports are all fine. Just give it a whirl!
+  date: 4/15/25
+  wiki: https://en.wikipedia.org/wiki/Prince_of_Persia_(1989_video_game)
+
+- title: Blackthorne
+  platform: SNES (OpenEmu)
+  developer: Blizzard Entertainment
+  publisher: Interplay Productions
+  year: 1994
+  image: https://upload.wikimedia.org/wikipedia/en/4/40/BlackthorneSNES.jpg
+  text: It's a bit difficult to try and make sense of the early Blizzard Entertainment timeline. After 1993's "The Lost Vikings", the gang followed up with a another fresh IP - Blackthorne. The story is mostly unimportant and forgettable, but I did pick up on the same root ideas that would clearly later influence both Warcraft and Diablo to some extent in both theme and art style. Diving straight into Blackthorne after TLV, it's clear to see how similar the games really are which is when I realized that The Lost Vikings is also _technically_ a "cinematic platformer" as well. Following on the major success of _Prince of Persia_, _Flashback_, and _Another World_, Blizzard fired up the Lost Vikings' engine and cranked out a cinematic platformer of their own. As always copious save states made the game quicker and more enjoyable. The game is broken into levels with a few different "areas" where the graphics will change. Progression usually looks like moving from the entrance to the exit, solving various platforming puzzles along the way such as finding key items or accessing hard to reach locations. The level design is really good, flows naturally and I rarely had to rely on a guide or walkthrough. A staple of the "cinematic platformer" genre is combat sequence breaks. Kind of like a 2D Time Crisis if you're played that arcade classic - take cover, shoot, take cover. The combat isn't anywhere as engaging or smooth as _Prince of Persia_, but shooting the gun is fun and you're treated with decent upgrades along the way to keep the gameplay fresh. Like the other Blizzard games on this list, it packs in just the right amount of content to feel like you had an opportunity to really nail the platforming without going on longer than it needs to.
+  date: 4/19/25
+  wiki: https://en.wikipedia.org/wiki/Blackthorne
+
+- title: Another World
+  platform: Sega CD (OpenEmu)
+  developer: Delphine Software
+  publisher: Delphine Software / Interplay
+  year: 1991
+  image: /public/media/posts/games/2025/anotherworld.jpg
+  text: |
+    "It was on the family computer growing up". I actually later personally bought the SNES port after that computer had fallen out of repair because I liked it. This game has captivated me for a long time. It came out in 1991 which was the year I was born and it was on our computer from the time I can remember. Playing this game with my Dad is one of my earliest and most distinct memories. Have you ever seen anything like this before, or since? I haven't really. Artist, programmer, and overall genius Éric Chahi previously worked on _Future Wars_ which I played through last year. Chahi implemented the game as a virtual machine with all vector graphics which is why it was ported so easily and mostly very well to pretty much every system. Are you getting the picture yet? If you make a game that runs on literally everything, you'll sell a lot more copies! After a Grammy-worthy opening cinematic, you're teleported to the bottom of a giant pool of water. As you swim to the surface, some form of alien tentacle begins to reach for your kicking legs. As you climb out just in time, you're greated with a bleak alien landscape. Something moves behind you. Welcome to Another World! The game almost plays like an interactive story book. The puzzles are challenging yet rewarding. I'm truly filled with a sense of wonder as I'm taken through the game's story, each new environment more unique and interesting than the last. This is worth spending a few minutes of your time with!
+  date: 4/19/25
+  wiki: https://en.wikipedia.org/wiki/Another_World_(video_game)
+
 - title: 
   platform:  
   developer: 
