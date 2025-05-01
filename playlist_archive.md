@@ -16,7 +16,8 @@ Non-exhaustive. See {% include external_link.html href="https://open.spotify.com
 {% for year in playlists %}
 <h2>{{year.name}}</h2>
 <ul>
-	{% for playlist in year.items %}
+	{% assign pls = year.items | sort: "slug" %}
+	{% for playlist in pls %}
 		<li>
 			<a href="{{playlist.url}}">Week {{playlist.title}}</a>
 		</li>
