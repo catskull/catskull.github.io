@@ -2,11 +2,9 @@
 layout: default
 ---
 {% assign id = page.path | split: "/" %}
-{% assign yearstring = id[1] %}
-{% assign weekstring = id[2] | split: "." | first %}
-{% assign year = yearstring | plus: 0 %}
-{% assign week = weekstring | plus: 0 %}
-{% assign songs = site.data.playlists[yearstring][weekstring] %}
+{% assign year = id[1] %}
+{% assign week = id[2] | split: "." | first %}
+{% assign songs = site.data.playlists[year][week] %}
 
 <header>
 	<nav>
