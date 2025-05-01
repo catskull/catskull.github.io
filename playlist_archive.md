@@ -1,7 +1,7 @@
 ---
 layout: default
 title: playlist archive - catskull.net
-permalink: /playlist/archive
+permalink: /playlist/archive/
 ---
 <header>
 	<nav>
