@@ -1,6 +1,6 @@
 ---
 layout: default
-title: quotes - catskull.net
+title: playlist - catskull.net
 ---
 {% include topnav.html %}
 
