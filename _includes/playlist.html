@@ -1,0 +1,29 @@
+{% capture apple_url %}https://music.apple.com/us/playlist/{{ include.apple }}{% endcapture %}
+{% capture spotify_url %}https://open.spotify.com/playlist/{{ include.spotify }}{% endcapture %}
+
+<table class="monospace">
+	<thead>
+		<tr>
+			<th>{{include.year}} / Week {{include.week}}</th>
+		</tr>
+	</thead>
+{% for song in include.songs %}
+	<tr>
+		<td>
+			{{ forloop.index }}. {{ song["Artist"] }} - "{{ song["Name"] }}"
+		</td>
+	</tr>
+{% endfor %}
+	<tfoot>
+		{% if include.notes.length %}
+		<tr>
+			<td><b>NOTE:</b> {{include.notes}}</td>
+		</tr>
+		{% endif %}
+		{% if include.apple or include.spotify %}
+		<tr>
+			<th>{% if include.apple %}{% include external_link.html href=apple_url text="Music" %}{% endif %}{% if include.apple and include.spotify %} | {% endif %}{% if include.spotify %}{% include external_link.html href=spotify_url text="Spotify" %}{% endif %}</th>
+		</tr>
+		{% endif %}
+	</tfoot>
+</table>

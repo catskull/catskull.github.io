@@ -25,9 +25,16 @@ plugins:
 collections:
   recipes:
     output: true
+  playlists:
+    output: true
+    permalink: /playlist/archive/:year-week-:name
 
 defaults:
   - scope:
       type: recipes
     values:
       layout: recipe
+  - scope:
+      type: playlists
+    values:
+      layout: playlist
