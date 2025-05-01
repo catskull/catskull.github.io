@@ -60,7 +60,8 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 1rem;
+  gap: 0 1rem;
+  flex-wrap: wrap;
 }
 
 strong, h2, h1, h3, h4, h5, h6 {
