@@ -9,7 +9,7 @@ permalink: /playlist/archive/master-list/
 	</nav>
 </header>
 
-[CSV](/playlist/archive/master-list.csv)
+[CSV](/playlist/archive/master-list.csv) (right-click "Save As...")
 
 {% assign index = 1 %}
 {% assign songs = "" | split: "" %}
