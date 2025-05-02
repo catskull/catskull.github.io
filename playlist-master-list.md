@@ -12,7 +12,6 @@ permalink: /playlist/archive/master-list/
 [CSV](/playlist/archive/master-list.csv) (right-click "Save As...")
 
 {% assign index = 1 %}
-{% assign songs = "" | split: "" %}
 
 <table class="monospace">
 	<thead>
@@ -22,21 +21,23 @@ permalink: /playlist/archive/master-list/
 	</thead>
 	<tbody>
 {% for year in site.data.playlists %}
-	{% assign size = site.data.playlists[year.first].size %}
-	{% for i in (1..size) %}
-		{% assign istring = i | append: "" %}
-		{% assign songs = site.data.playlists[year.first][istring] %}
-		{% for song in songs %}
-		<tr>
-			<td>
-				{{ index }}. {{ song["Artist"] }} - "{{ song["Name"] }}"
-			</td>
-		</tr>
-		{% assign index = index | plus: 1 %}
+	{% assign playlistids = "" | split: "" %}
+	{% assign playlists = site.data.playlists[year.first] %}
+	{% for playlist in playlists %}
+		{% assign playlistid = playlist.first | to_integer %}
+		{% assign playlistids = playlistids | push: playlistid | sort %}
+	{% endfor %}
+	{% for id in playlistids %}
+	{% assign idstring = id | append: "" %}
+		{% for song in site.data.playlists[year.first][idstring] %}
+			<tr>
+				<td>
+					{{ index }}. {{ song["Artist"] }} - "{{ song["Name"] }}"
+				</td>
+			</tr>
+			{% assign index = index | plus: 1 %}
 		{% endfor %}
 	{% endfor %}
 {% endfor %}
 	</tbody>
 </table>
-
-

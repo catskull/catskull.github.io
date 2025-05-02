@@ -3,13 +3,17 @@ layout: null
 permalink: /playlist/archive/master-list.csv
 ---
 Artist,Title,Album
-{% for year in site.data.playlists %}
-	{% assign size = site.data.playlists[year.first].size %}
-	{% for i in (1..size) %}
-		{% assign istring = i | append: "" %}
-		{% assign songs = site.data.playlists[year.first][istring] %}
-		{% for song in songs %}
+{%- for year in site.data.playlists -%}
+{%- assign playlistids = "" | split: "" -%}
+{%- assign playlists = site.data.playlists[year.first] -%}
+{%- for playlist in playlists -%}
+{%- assign playlistid = playlist.first | to_integer -%}
+{%- assign playlistids = playlistids | push: playlistid | sort -%}
+{%- endfor -%}
+{%- for id in playlistids -%}
+{%- assign idstring = id | append: "" -%}
+{% for song in site.data.playlists[year.first][idstring] %}
 "{{ song["Artist"] }}","{{ song["Name"] }}","{{ song["Album"] }}"
-		{% endfor %}
-	{% endfor %}
-{% endfor %}
+{%- endfor -%}
+{%- endfor -%}
+{%- endfor -%}
