@@ -1,7 +1,7 @@
 ---
 layout: default
 title: playlist archive - master list - catskull.net
-permalink: /playlist/archive/master-list
+permalink: /playlist/archive/master-list/
 ---
 <header>
 	<nav>
