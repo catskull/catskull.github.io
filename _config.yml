@@ -27,7 +27,7 @@ collections:
     output: true
   playlists:
     output: true
-    permalink: /playlist/archive/:year-week-:name
+    permalink: /playlist/archive/:path
 
 defaults:
   - scope:
