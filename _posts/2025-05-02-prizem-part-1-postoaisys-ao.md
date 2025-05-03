@@ -63,7 +63,8 @@ Indeed, it was that special form of "open source diplomacy" that would inform th
 
 "Where were you when you saw 'Oaisys' for the first time?". Many had never seen a form of technology really _anything_ like it. In fact, most people didn't even think of it as "technology" any more than speaking to another person is "technology". It was a person in a box. A person that could learn incredibly fast. And learn it did.
 
-<br>
+<hr>
+
 FOUND RESOURCES:
 
 win98bg.jpg
