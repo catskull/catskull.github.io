@@ -73,3 +73,8 @@ teaser.avi
 <video controls>
   <source src="/assets/images/posts/prizem-part-1-postoaisys-ao/teaser.webm" type="video/webm">
 </video>
+
+neural enhancer
+<video autoplay loop muted>
+  <source src="/assets/images/posts/prizem-part-1-postoaisys-ao/zoneplate.webm" type="video/webm">
+</video>
