@@ -8,7 +8,7 @@ layout: default
 (obsolete)
 
 <ul>
-{% assign posts = site.categories.old | where_exp:"p", "p.category != 'hidden'" %}
+{%- assign posts = site.archive | reverse -%}
 {% for post in posts %}
 	<li>
 	  <a href="{{ post.url }}">{{ post.date | date: "%-m/%-d/%Y" }} {{ post.title }}</a>

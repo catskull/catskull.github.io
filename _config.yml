@@ -28,6 +28,9 @@ collections:
   playlists:
     output: true
     permalink: /playlist/archive/:path
+  archive:
+    output: true
+    permalink: /:title:output_ext
 
 defaults:
   - scope:
