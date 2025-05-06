@@ -59,5 +59,12 @@ catskull.net
         <a href="/playlist">playlist</a>
       {% endif %}
     </li>
+    <li>
+      {% if page.name == "replies.md" %}
+        <mark>replies</mark>
+      {% else %}
+        <a href="/replies">replies</a>
+      {% endif %}
+    </li>
   </ul>
 </nav>
