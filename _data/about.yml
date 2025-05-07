@@ -16,7 +16,7 @@ tables:
   'Catskull.net':
     -
       Online: 2013
-      PV/M: 1.9k
+      PV/M: 2.23k
       Meaning: "?"
 
   Favorites:
@@ -145,6 +145,8 @@ lists:
    - OpenWrt
    - Free/Open Source Software
    - Alpine Linux
+   - Cloudgazing
+   - Dr. Dog
 
   Friends:
     - name: Sam 🇺🇸
