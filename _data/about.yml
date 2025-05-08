@@ -17,7 +17,7 @@ tables:
     -
       Online: 2013
       PV/M: 2.23k
-      Meaning: "?"
+      Button: "<img width='88px' height='31px' src='/assets/badge.gif'/>"
 
   Favorites:
   -
