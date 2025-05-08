@@ -17,7 +17,7 @@ tables:
     -
       Online: 2013
       PV/M: 2.23k
-      Button: "<img width='88px' height='31px' src='/assets/badge.gif'/>"
+      Meaning: "?"
 
   Favorites:
   -
@@ -50,6 +50,14 @@ tables:
     Pen: Pilot Hi-Tec C Coleto 4-in-1
 
 lists:
+  Buttons:
+    - |
+      <a href="https://damien.zone" title="damien dot zone"><img src="https://damien.zone/public/88x31_damien.png" alt="damien dot zone" style="image-rendering:pixelated;" /></a>
+    - |
+      <a href="https://macthemes.garden" title="Mac Themes Garden"><img src="https://macthemes.garden/buttons/88x31_macthemes.garden.png" alt="Mac Themes Garden" style="image-rendering:pixelated;" /></a>
+    - |
+      <a href="https://catskull.net" title="catskull.net | mostly harmless"><img width='88px' height='31px' src='/assets/badge.gif' alt="catskull.net"/></a>
+
   Interests:
    - Apple Inc.
    - Art

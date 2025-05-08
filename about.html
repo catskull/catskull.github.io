@@ -22,43 +22,6 @@ Updated Jan. 11, 2025
         <span>Live</span>
       </div>
     </div>
-    <table class="monospace">
-      <thead>
-        <tr>
-          <th><mark>Consulting Services</mark></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <ul style="list-style-type: none;padding: 0;">
-              <li>
-                <div class="list-container">
-                  <span>30-minute call</span>
-                  <span class="dot-leader"></span>
-                  <span>$100</span>
-                </div>
-              </li>
-              <li>
-                <div class="list-container">
-                  <span>your project</span>
-                  <span class="dot-leader"></span>
-                  <span>$???</span>
-                </div>
-              </li>
-                <p class="mini">
-                  I will get on a call with you and your team. Contact me with an agenda and if I'm interested I will respond.
-                </p>
-                <div style="text-align: center;">
-                  <a href="mailto:dave@bullpen.dev?cc=hello@bullpen.dev&subject=Re%3A%20Consulting%20Services">dave@bullpen.dev</a>
-                  <br>
-                  <a href="https://bullpen.dev" target="_blank">The Bullpen</a>
-                </div>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
     {% for list in site.data.about.lists %}
       <table class="monospace">
         <thead>
@@ -67,35 +30,43 @@ Updated Jan. 11, 2025
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>
-              <ul>
-                {% if list[1][0].name %}
-                  {% assign items = list[1] | sort: 'name' %}
-                {% else %}
-                  {% assign items = list[1] | sort %}
-                {% endif %}
-                {% for item in items %}
-                  <li>
-                  {% if item.url %}
-                    <a href="{{item.url}}" target="_blank">
-                      {{ item.name }}
-                    </a>
-                  {% elsif item.name %}
-                    {{ item.name }}
+          {% unless list[0] == 'Buttons' %}
+            <tr>
+              <td>
+                <ul>
+                  {% if list[1][0].name %}
+                    {% assign items = list[1] | sort: 'name' %}
                   {% else %}
-                    {{ item }}
+                    {% assign items = list[1] | sort %}
                   {% endif %}
-                  </li>
-                {% endfor %}
-                {% if list[0] == 'Friends' %}
-                  <li><a href="mailto:bro@catskull.net?subject=I want to be your friend.&body=My name is [NAME] and I want to be your friend.%0AHere is my website: [INSERT LINK HERE].%0AWe will be good friends because: [we both like tacos].">
-                    You?
-                  </a></li>
-                {% endif %}
-              </ul>
-            </td>
-          </tr>
+                  {% for item in items %}
+                    <li>
+                    {% if item.url %}
+                      <a href="{{item.url}}" target="_blank">
+                        {{ item.name }}
+                      </a>
+                    {% elsif item.name %}
+                      {{ item.name }}
+                    {% else %}
+                      {{ item }}
+                    {% endif %}
+                    </li>
+                  {% endfor %}
+                  {% if list[0] == 'Friends' %}
+                    <li><a href="mailto:bro@catskull.net?subject=I want to be your friend.&body=My name is [NAME] and I want to be your friend.%0AHere is my website: [INSERT LINK HERE].%0AWe will be good friends because: [we both like tacos].">
+                      You?
+                    </a></li>
+                  {% endif %}
+                </ul>
+              </td>
+            </tr>
+          {% else %}
+            <tr><td><div style="display:flex;justify-content:center;">
+            {%- for button in list[1] -%}
+              {{- button -}}
+            {%- endfor -%}
+          {% endunless %}
+          </div></td></tr>
         </tbody>
       </table>
     {% endfor %}
