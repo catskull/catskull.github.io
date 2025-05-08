@@ -7,7 +7,7 @@ layout: default
       <a href="/">{{ site.theme_config.back_home_text }}</a> / <a href="/archive">archive</a> /
       {% assign link = "/archive" %}
     {% else %}
-      <a href="/">{{ site.theme_config.back_home_text }}</a> /
+      <a href="/">{{ site.theme_config.back_home_text }}</a> /&nbsp;{%- if page.collection == "newsletters" -%}<a href="/newsletter">newsletter</a> / {%- endif -%}
     {% endif %}
   </nav>
 </header>
@@ -36,11 +36,12 @@ layout: default
   <page-likes></page-likes>
 </div>
 <page-replies open default="https://catskull.net/public/images/outlook_express-4.png"></page-replies>
-<script src="https://catskull.net/public/js/components/replies.js"></script>
-<script src="https://catskull.net/public/js/components/likes.js"></script>
 
 <footer style="float: right;">
-  {% include random.html %}
+  {% unless page.collection == "newsletters" %}{% include random.html %}{% endunless %}
   <a href="{{ link }}">{{ site.theme_config.back_home_text }}</a>
 </footer>
 </main>
+
+<script src="https://catskull.net/public/js/components/replies.js"></script>
+<script src="https://catskull.net/public/js/components/likes.js"></script>

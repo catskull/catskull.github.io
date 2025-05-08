@@ -24,6 +24,9 @@ plugins:
   - jekyll-sitemap
 
 collections:
+  newsletters:
+    output: true
+    permalink: /newsletter/:path
   recipes:
     output: true
   playlists:
@@ -42,3 +45,7 @@ defaults:
       type: playlists
     values:
       layout: playlist
+  - scope:
+      type: newsletters
+    values:
+      layout: post
