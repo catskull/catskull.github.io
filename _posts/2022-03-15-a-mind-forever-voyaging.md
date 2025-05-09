@@ -4,6 +4,118 @@ title:  "A Mind Forever Voyaging"
 date:   2022-03-15
 
 ---
+<style>
+::highlight(bla-bla-bla) {
+  background-color: peachpuff;
+}
+::selection {
+	background: unset;
+}
+</style>
+<script>
+function denormalizeRange(range) {
+  const startContainerData = getNodePathWithText(range.startContainer);
+  const endContainerData = getNodePathWithText(range.endContainer);
+
+  return {
+    startContainerPath: startContainerData.path,
+    startNodeIndex: startContainerData.index,
+    startOffset: range.startOffset,
+    endContainerPath: endContainerData.path,
+    endNodeIndex: endContainerData.index,
+    endOffset: range.endOffset
+  };
+}
+
+// Helper function to get path and text node index
+function getNodePathWithText(node) {
+  let path = [];
+  let index = 0;
+
+  // If the node is a text node, use its parent and get the index of the text node
+  if (node.nodeType === Node.TEXT_NODE) {
+    index = Array.from(node.parentNode.childNodes).indexOf(node);
+    node = node.parentNode;
+  }
+
+  // Get the path to the parent element
+  while (node && node.nodeType === Node.ELEMENT_NODE) {
+    let selector = node.nodeName.toLowerCase();
+    if (node.id) {
+      selector += `#${node.id}`;
+      path.unshift(selector);
+      break;
+    } else {
+      let siblingIndex = Array.from(node.parentNode.children).indexOf(node);
+      selector += `:nth-child(${siblingIndex + 1})`;
+    }
+    path.unshift(selector);
+    node = node.parentNode;
+  }
+
+  return { path: path.join(" > "), index };
+}
+
+function rehydrateRange(data) {
+  const startContainer = getNodeFromPath(data.startContainerPath, data.startNodeIndex);
+  const endContainer = getNodeFromPath(data.endContainerPath, data.endNodeIndex);
+  
+  if (startContainer && endContainer) {
+    const range = document.createRange();
+    range.setStart(startContainer, data.startOffset);
+    range.setEnd(endContainer, data.endOffset);
+    return range;
+  } else {
+    throw new Error("Could not find nodes to recreate range");
+  }
+}
+
+// Helper function to locate a node or text node from a saved path and index
+function getNodeFromPath(path, nodeIndex) {
+  try {
+    const parentNode = document.querySelector(path);
+    if (!parentNode) return null;
+    
+    // Return text node if nodeIndex is specified
+    return nodeIndex !== undefined ? parentNode.childNodes[nodeIndex] : parentNode;
+  } catch (e) {
+    console.error("Error finding node for path:", path);
+    return null;
+  }
+}
+
+document.addEventListener("selectionchange", async (e) => {
+  const selection = document.getSelection();
+  if (selection.rangeCount > 0) {
+  	const range = selection.getRangeAt(0);
+  	let data = denormalizeRange(range);
+		const response = await fetch('http://localhost:8787', {
+			method:'POST',
+			referrerPolicy:'no-referrer-when-downgrade',
+			body: JSON.stringify(data)
+		})
+		const highlights = await response.json();
+  	localStorage.setItem('highlight', JSON.stringify(data));
+  	const highlight = new Highlight(range);
+    CSS.highlights.set("bla-bla-bla", highlight);
+  }
+});
+
+document.addEventListener("DOMContentLoaded", async (event) => {
+	const response = await fetch('http://localhost:8787', {
+		method:'GET',
+		referrerPolicy:'no-referrer-when-downgrade'
+	})
+	const highlights = await response.json();
+	const ranges = highlights.map((h) => {
+	  const data = JSON.parse(h);
+	  return rehydrateRange(data);
+	})
+  const highlight = new Highlight(...ranges);
+	CSS.highlights.set("bla-bla-bla", highlight);
+});
+
+</script>
 
 Update Aug. 1 2023
 <br>
