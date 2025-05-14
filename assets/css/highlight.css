@@ -90,12 +90,24 @@ code {
     #figure-container {
       background: var(--main-bg-color) !important;
       * { border-color: var(--main-color) !important; }
-      transition: box-shadow .3s ease;
-      box-shadow: 1ch 1ch var(--box-shadow);
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        translate: 1ch 1ch;
+        background: var(--box-shadow);
+        transition: translate .3s ease;
+        z-index: -1;
+      }
     }
 
     #figure-container:hover {
-      box-shadow: .5ch .5ch var(--box-shadow);
+      &::after {
+        translate: 0.5ch 0.5ch;
+      }
+
       a {
         text-decoration: underline;
       }
