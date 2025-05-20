@@ -16,8 +16,20 @@ tables:
   'Catskull.net':
     -
       Online: 2013
-      PV/M: 2.23k
+      PV/M: 2.41k
       Meaning: "?"
+
+  Numbers:
+    - 
+      1854200: Z Displacement
+      "50, 117, 168": RGB
+      19243: Photos
+    -
+      "3!+2!+0!": Fingers
+      "9.39×10^-7%R🜨": Head
+    -
+      42: Forty-two
+
 
   Favorites:
   -
@@ -50,6 +62,21 @@ tables:
     Pen: Pilot Hi-Tec C Coleto 4-in-1
 
 lists:
+
+  Aspirations:
+    - Skateboarder
+    - President
+    - Musician
+    - Christian
+    - Scientist
+    - Apple Developer
+    - Thinker
+    - Polymath
+    - Friend
+    - Author
+    - Visual Artist
+    - Cool Guy
+
   Buttons:
     - |
       <a href="https://damien.zone" title="damien dot zone"><img src="https://damien.zone/public/88x31_damien.png" alt="damien dot zone" style="image-rendering:pixelated;" /></a>
