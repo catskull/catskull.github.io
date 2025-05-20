@@ -79,6 +79,15 @@
     .banner:hover::before {
       opacity: 1;
     }
+
+    .monospace-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      img {
+        margin: initial !important;
+      }
+    }
   }
 
   .label {
