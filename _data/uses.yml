@@ -48,6 +48,7 @@
       url: https://macmousefix.com
     - name: Trasmit
       url: https://panic.com/transmit/
+    - name: Safari
 - name: Creative
   children:
     - name: Final Cut Pro
