@@ -3,7 +3,7 @@ require 'nokolexbor'
 @prefix = nil
 
 Jekyll::Hooks.register :site, :after_init do |site|
-  @prefix = site.config['image_prefix']
+  @prefix = site.config['image_prefix'] if Jekyll.env == 'production'
 end
 
 [:documents, :pages].each do |hook_owner|
@@ -12,7 +12,7 @@ end
       document = Nokolexbor::HTML(doc.output)
       document.css('img').each do |img|
         src = img['src']
-        next if src.nil? || src.start_with?('http', '//', @prefix) || !src.end_with?('.jpeg', '.jpg', '.png', '.gif')
+        next if !img['raw'].nil? || src.nil? || src.start_with?('http', '//', @prefix) || !src.end_with?('.jpeg', '.jpg', '.png', '.gif')
         img['src'] = @prefix + src
       end
       doc.output = document.to_html
