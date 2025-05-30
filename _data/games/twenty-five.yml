@@ -76,7 +76,7 @@
   wiki: https://en.wikipedia.org/wiki/SteamWorld_Heist
 
 - title: The Lost Vikings
-  platform: SNES (OpenEmu experimental macOS ARM build)
+  platform: SNES (OpenEmu-Arm)
   developer: Silicon & Synapse
   publisher: Interplay Productions
   year: 1993
@@ -86,7 +86,7 @@
   wiki: https://en.wikipedia.org/wiki/The_Lost_Vikings
 
 - title: The Lost Vikings 2
-  platform: SNES (OpenEmu experimental macOS ARM build)
+  platform: SNES (OpenEmu-Arm)
   developer: Blizzard Entertainment
   publisher: Interplay Productions
   year: 1997
@@ -96,7 +96,7 @@
   wiki: https://en.wikipedia.org/wiki/The_Lost_Vikings_2
 
 - title: "The Legend of Zelda: Link’s Awakening DX"
-  platform: Game Boy Color (OpenEmu experimental macOS ARM build)
+  platform: Game Boy Color (OpenEmu-Arm)
   developer: Nintendo R&D2
   publisher: Nintendo
   year: 1998 (1993)
@@ -117,7 +117,7 @@
   wiki: https://en.wikipedia.org/wiki/Prince_of_Persia_(1989_video_game)
 
 - title: Blackthorne
-  platform: SNES (OpenEmu)
+  platform: SNES (OpenEmu-Arm)
   developer: Blizzard Entertainment
   publisher: Interplay Productions
   year: 1994
@@ -127,7 +127,7 @@
   wiki: https://en.wikipedia.org/wiki/Blackthorne
 
 - title: Another World
-  platform: Sega CD (OpenEmu)
+  platform: Sega CD (OpenEmu-Arm)
   developer: Delphine Software
   publisher: Delphine Software / Interplay
   year: 1991
@@ -174,7 +174,7 @@
   wiki: https://en.wikipedia.org/wiki/Katamari_Damacy_Rolling_Live
 
 - title: Jikkyō Oshaberi Parodius ~forever with me~
-  platform: Sony Playstation
+  platform: Sony Playstation (Duckstation)
   developer: Stone Heads / Konami
   publisher: Konami
   year: 1996
@@ -184,7 +184,7 @@
   wiki: https://en.wikipedia.org/wiki/Jikkyō_Oshaberi_Parodius
 
 - title: Harmful Park
-  platform: Sony Playstation
+  platform: Sony Playstation (Duckstation)
   developer: Sky Think System
   publisher: Sky Think System
   year: 1997
@@ -194,7 +194,7 @@
   text: After having fun with _Parodius_, I decided to give another "cute 'em up" a try with _Harmful Park_. I played with the Japanese translation which is to say I have no idea what the story means, if there is one. I can say it's a straightforward, forgiving, and fun horizontally scrolling shooter. Instead of the _Gradius_ style power ups, you have access to all of your weapons at all times. You can power up to get 2 sub guns which makes you pretty tough. I used the normal bullets and mowed everything down easily enough on "Easy" diffuculty. I went back and did the first 2 stages on "Very Hard" difficulty, and it still wasn't so bad. This is definately not on the level of a _Parodius_ game in terms of inventiveness, but it's a great two player game you're sure to have fun with.
 
 - title: Sexy Parodius
-  platform: Sony Playstation
+  platform: Sony Playstation (Duckstation)
   developer: Konami
   publisher: Konami
   year: 1996
@@ -204,7 +204,7 @@
   text: _Sexy Parodius_ is the 5th and final mainline entry in the _Parodius_ series (not including _Paro Wars_, a turn-based strategy game). Like the name implies, the game is "sexy". What does that mean? Well, there's girls in risquee situations. Though really it's not too "adult" themed, I probably wouldn't let my kids play it. I really like Parodius!
 
 - title: Gokujō Parodius Da! Deluxe Pack
-  platform: Sony Playstation
+  platform: Sony Playstation (Duckstation)
   developer: Konami
   publisher: Konami
   year: 1994
@@ -214,7 +214,7 @@
   text: The second and third _Parodius_ games in one package! They're both just as fun as the next. Having now played through all the mainline _Parodius_ games (except the very first one), I think that _Jikkyō Oshaberi Parodius ~forever with me~_ is my overall favorite. I think that's the culmination of the crazy ideas _Parodius_ represents.
 
 - title: "Time Bokan Series: Bokan to Ippatsu! Doronbo"
-  platform: Sony Playstation
+  platform: Sony Playstation (Duckstation)
   developer: Eleven
   publisher: Banpresto
   year: 1996
@@ -224,7 +224,7 @@
   text: I don't know where I heard of this game or why it was on my computer, but it was and I'm very happy. Apparently this is based on a 1970's Japanese manga called _Time Boken_ from the studio most famous in the US for _Speed Racer_. The game consists of 7 or 8 levels. Before each, you choose from a handful of mech-vehicles to pilot. Each ship behaves differently and they're all fun to play, so it actually makes for quite a bit of genuine replay value. I found myself playing through stages two or three times. It's a vertical shooter and the pixel art is a great example of the peak of the 2D/16 bit SNES look we saw glimpses of on the Playstation. I really enjoyed this one and I can definately see myself coming back to this, assuming I will be able to remember the name.
 
 - title: "Time Bokan Series: Bokan Desuyo"
-  platform: Sony Playstation
+  platform: Sony Playstation (Duckstation)
   developer: Eleven
   publisher: Banpresto
   year: 1998
@@ -232,3 +232,43 @@
   date: 5/26/25
   wiki: https://timebokan.fandom.com/wiki/Time_Bokan_Series:_Bokan_Desuyo
   text: The only thing better than an obscure PS1 shmup based on an obscure manga is the _sequel_ to such a game! It's more of pretty much the same, which is good in my opinion. There's nothing here that fundamentally shakes up the gameplay. You could start with this one just as easily as the first. Unfortunately this seems to be where the _Time Boken_ shmup series ends. I can't even find anything about the developer of this game, did they do anything else? I'm not even totally positive _Eleven_ is the developer, that's just what the Time Bokan wiki says! If there's more games in this series, I'd love to play them. I did find a racing game _Bokan Go Go Go_, maybe I'll give it a shot.
+
+- title: The Legend of the Mystical Ninja
+  platform: SNES (OpenEmu-Arm)
+  developer: Konami
+  publisher: Konami
+  year: 1992
+  image: /public/media/posts/games/2025/mystical-ninja.jpg
+  date: 5/28/25
+  wiki: https://en.wikipedia.org/wiki/The_Legend_of_the_Mystical_Ninja
+  text: Mystical Ninja! I was introduced to this game by illegally downloading a ROM in 2001 and playing it on Snes9x on my brother's computer. I was immediately taken with the unique charm. Set in feudal Japan, Mystical Ninja's story is mostly irrelevant beyond the need for a joke. And the jokes are quite silly! The game refuses to take itself seriously. Some of the platforming sections are challenging. 2-player mode in theory is great, but in practice my kids made it hard or impossible to not die. Lots of great 90's Konami art and design with more easter eggs and throwbacks to keep track of. The game has the entire first level of Gradius fully playable in-game! The game is filled with little fun things like this, I think it wants you to hang out in mystical Japan just as much as it wants you to beat the campaign. Good music, good graphics, tight platforming. I like it! It's shorter too, only a couple of hours to play through.
+
+- title: "Ganbare Goemon 2: Kiteretsu Shōgun McGuiness"
+  platform: SNES (OpenEmu-Arm)
+  developer: Konami
+  publisher: Konami
+  year: 1993
+  image: /public/media/posts/games/2025/goemon2.jpg
+  date: 5/29/25
+  wiki: https://en.wikipedia.org/wiki/Ganbare_Goemon_2:_Kiteretsu_Shōgun_McGuiness
+  text: Being a fan of _Mystical Ninja_ I became familiar that it was actually a part of a much larger series in Japan, based on historical characters, similar to something like Robin Hood or Johnny Appleseed - folk heroes. In 2005 my family got a broadband connection and I can remember searching up the Nintendo 64 Geomon games on eBay and offering a "best offer" listing $20 off their listed $120 price and they replied "Not for this incredible treasure!" To this day, the only _Goemon_ game I had ever played was _Mystical Ninja_. I changed that! Goemon 2 improves on the first game in pretty much every way. You can tell that _Super Mario World_ came out during/after the first game had been developed. The second game goes so far as to almost be a spoof of SMW. An overhead map replaces the direct linearity of stages in the first game. They even introduce a couple of "alternate exits" a-la SMW, but as far as I could tell they were both single-route deviations, not an entire new path like SMW. Still, what's there is there and it's good! My favorite addition is the new mecha stages! I love mechs and mecha-anime. Each boss fight has you controlling a mech, first in an "endless runner" type stage, smashing towns and enemies as you go. Then, a first-person Punch-Out style fight! You can hit a left hook or a right hook and have to deflect and punch the boss at the right time. It's really fun! And funny too! It's a bit less all over the place compared to the first game, and I like both for what they are.
+
+- title: "Tiny Toon Adventures 2: Montana's Movie Madness"
+  platform: Game Boy (OpenEmu-Arm)
+  developer: Konami
+  publisher: Konami
+  year: 1993
+  image: /public/media/posts/games/2025/tinytoon2.png
+  date: 5/29/25
+  wiki: https://en.wikipedia.org/wiki/Tiny_Toon_Adventures_2:_Montana%27s_Movie_Madness
+  text: We had this growing up. It was one of the few games on Game Boy I played as a child. I can remember bringing it with me to visit my dad at his office to ask him to help me beat a level. He obliged and of course I immediately died. I must have been 3 or 4. This one is a bit odd - it released in North America first and a few months later in Japan. There are a few fairly critical design flaws. Just issues in the level design where the difficulty seems to be accidentally extreme just for a single jump. I cheat, and use save states, so I was able to get past without too much pain. But if I didn't have that, I don't know that this game is even beatable. It's too bad because other than a few issues, it's really fun! Good music, nice graphics, and the platforming is as tight as any Konami game. You'll traverse 4 distinct movie sets and each has a few stages plus a themed boss fight. I liked it as a kid, and I still like it. It's enjoyable enough that even a 4 year old can spend 15 minutes with it and have some fun.
+
+- title: 
+  platform: 
+  developer: 
+  publisher: 
+  year: 
+  image: https://catskull.net/cdn-cgi/image/format=avif/https://catskull.net/assets/images/posts/interview-with-margaret-h-hamilton/nasa1989.jpeg
+  date: 
+  wiki: 
+  text: 
