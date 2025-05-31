@@ -3,7 +3,8 @@ require 'nokolexbor'
 @prefix = nil
 
 Jekyll::Hooks.register :site, :after_init do |site|
-  @prefix = site.config['image_prefix'] if Jekyll.env == 'production'
+  # @prefix = site.config['image_prefix'] if Jekyll.env == 'production'
+  @prefix = site.config['image_prefix'] if false
 end
 
 [:documents, :pages].each do |hook_owner|
