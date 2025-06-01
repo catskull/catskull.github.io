@@ -23,7 +23,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-image_prefix: https://catskull.net/cdn-cgi/image/format=auto/
+image_prefix: /cdn-cgi/image/format=auto/
 
 collections:
   newsletters:
