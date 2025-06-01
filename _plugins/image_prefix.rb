@@ -3,13 +3,12 @@ require 'nokolexbor'
 @prefix = nil
 
 Jekyll::Hooks.register :site, :after_init do |site|
-  # @prefix = site.config['image_prefix'] if Jekyll.env == 'production'
-  @prefix = site.config['image_prefix'] if false
+  @prefix = site.config['image_prefix'] if Jekyll.env == 'production'
 end
 
 [:documents, :pages].each do |hook_owner|
   Jekyll::Hooks.register hook_owner, :post_render do |doc|
-    unless @prefix.nil?
+    unless @prefix.nil? || !['.html', '.md'].include?(doc.data['ext'])
       document = Nokolexbor::HTML(doc.output)
       document.css('img').each do |img|
         src = img['src']
