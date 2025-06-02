@@ -12,16 +12,6 @@ layout: post
 
 [This website is MIT licensed](https://github.com/catskull/catskull.github.io/blob/master/LICENSE.txt)
 
-You are free (as in freedom) to:
-- Use any of this content, including my original thoughts, ideas, images, and anything else published on this site that I reasonably have a copyright to for any purpose, including commercially (to make money). If you do that successfully, that will really be quite something.
-- Modify any of this as much as you want.
-- Distribute this however you see fit.
-- Use this privately (why?)
-
-I am not liable for this software and I do not offer any warranty whatsoever. Refer to the license for more information.
-
-The only reservation the MIT license puts on your freedom to use this software is that you must also redistribute this code, or your modifications to this code, under the same MIT license.
-
 I retain personal copyright and trademark for Catskull, the catskull logos, my name (David DeGraw), and the domain catskull.net. You are not allowed to impersonate me in writing or any other form to the extent of the applicable legal jurisdiction.
 
 I believe strongly in the principles of free and open source software. I have made a career out of building upon open source software. To retain any personal copyright to the software I write in my free time, using the knowledge that a cruel and loving God has bestowed upon me, feels like an affront to the very goodness that is inherent to human nature. How could I keep another from lighting their candle from my dull flame?
