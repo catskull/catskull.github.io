@@ -35,6 +35,12 @@ Hard·Off is actually a spin-off of "Japan's largest chain of used bookstores"[^
 - Garage Off
 - Liquor Off
 
+{% include figure.html
+	src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Book_off.jpg"
+	alt=" Book Off at Higashiyama Nara Japan"
+	caption="Book Off at Higashiyama Nara Japan (wikipedia)"
+%}
+
 I've never been to any of the other 'Offs, only Hard·Off.
 
 It made such a lasting impression on me that I commissioned a one-of-a-kind custom Game Boy DMG, imagined if it were an officially licensed Nintendo product.
