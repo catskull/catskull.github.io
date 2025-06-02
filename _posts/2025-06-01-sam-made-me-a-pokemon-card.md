@@ -18,11 +18,7 @@ I mean, he made a Pokémon card for me!
 
 I mean, he made me _into_ a Pokémon card!
 
-And, he's a very astute man of science, so he's built a handy web component so I can share my card with you!
-
-
-<tcg-card src="/assets/images/posts/sam-made-me-a-pokemon-card/Dave.png" alt="Sam made me a Pokemon card"></tcg-card>
-<script type="module" src="/public/js/components/tcg-card.js"></script>
+[image redacted]
 
 I also streamed the pack opening at his request and it was a lot of fun. Opening my own holographic card was a once in a lifetime experience, and I've pulled a Dark Charizard Holo before.
 
