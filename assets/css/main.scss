@@ -4,20 +4,6 @@
 @use 'highlight.css' as *;
 
 @font-face {
-  font-family: "Berkeley Mono";
-  src: url('/assets/font/BerkeleyMonoVariable-Regular.woff2');
-  font-weight: 100 150;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Berkeley Mono";
-  src: url('/assets/font/BerkeleyMonoVariable-Italic.woff2');
-  font-weight: 100 150;
-  font-style: italic;
-}
-
-@font-face {
   font-family: "Other Hand";
   src: url('/assets/font/OtherHand-Medium.woff2');
 }
@@ -42,9 +28,8 @@ body {
   --main-color: black;
   --main-bg-color: white;
   color: var(--main-color);
-  font-family: 'Berkeley Mono', monospace;
+  font-family: system-ui;
   font-size: clamp(0.8rem, 2vw, 1rem);
-  font-weight: 100;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
