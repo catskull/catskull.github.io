@@ -12,7 +12,9 @@ permalink: /playlist/archive/master-list/
 [CSV](/playlist/archive/master-list.csv) (right-click "Save As...")
 
 {% assign index = 1 %}
+{% assign playlistcount = 0 %}
 
+{% capture content %}
 <table class="monospace">
 	<thead>
 		<tr>
@@ -32,12 +34,20 @@ permalink: /playlist/archive/master-list/
 		{% for song in site.data.playlists[year.first][idstring] %}
 			<tr>
 				<td>
-					{{ index }}. {{ song["Artist"] }} - "{{ song["Name"] }}"
+					{{ index }}. {{ song["Artist"] }} - "{{ song["Name"] }}" <a href="/playlist/archive/{{ year.first }}/{{ idstring }}">↗</a>
 				</td>
 			</tr>
 			{% assign index = index | plus: 1 %}
 		{% endfor %}
+		{% assign playlistcount = playlistcount | plus: 1 %}
 	{% endfor %}
 {% endfor %}
 	</tbody>
 </table>
+{% endcapture %}
+
+Total songs: {{ index | minus: 1 }}
+<br>
+Total playlists: {{ playlistcount }}
+
+{{ content }}
