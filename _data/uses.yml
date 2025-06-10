@@ -26,6 +26,8 @@
       url: https://en.wikipedia.org/wiki/User:Catskull
     - name: Mastodon
       url: https://mastodon.social/@dareelcatskull
+    - name: Email
+      url: mailto:bro@catskull.net
 - name: Development
   children:
     - name: Berkeley Mono
