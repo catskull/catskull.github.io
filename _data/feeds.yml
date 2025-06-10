@@ -1,0 +1,36 @@
+- name: "@dareelcatskull@mastodon.social"
+  url: https://mastodon.social/@dareelcatskull.rss
+  link: https://mastodon.social/@dareelcatskull
+- name: samwarnick.com
+  url: https://proxy.catskull.net/https://samwarnick.com/feed.rss
+  link: https://samwarnick.com
+- name: catskull.net
+  url: https://catskull.net/feed.xml
+  link: https://catskull.net
+- name: Hacker News
+  url: https://proxy.catskull.net/https://hnrss.org/frontpage
+  link: https://news.ycombinator.com
+- name: carter.works
+  url: https://carter.works/blog/feed.xml
+  link: https://carter.works
+- name: Wikipedia
+  url: https://proxy.catskull.net/https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
+  link: https://en.wikipedia.org
+- name: ismailefe.org
+  url: https://ismailefe.org/feed.xml
+  link: https://ismailefe.org
+- name: iacillo.dev.br
+  url: https://iacillo.dev.br/rss.xml
+  link: https://iacillo.dev.br
+- name: KSL News
+  url: https://proxy.catskull.net/https://www.ksl.com/rss/news
+  link: https://www.ksl.com
+- name: Provo City Newsflash
+  url: https://proxy.catskull.net/https://www.provo.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml
+  link: https://www.provo.gov
+- name: NASA
+  url: https://proxy.catskull.net/https://www.nasa.gov/feeds/iotd-feed/
+  link: https://www.nasa.gov
+- name: Bible Verse of the Day
+  url: https://proxy.catskull.net/https://www.biblegateway.com/votd/get/?format=atom
+  link: https://www.biblegateway.com
