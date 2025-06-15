@@ -87,11 +87,20 @@ catskull.net
         <a href="/bookshelf">bookshelf</a>
       {% endif %}
     </li>
+    {% if false %}
     <li>
       {% if page.name == "feeds.md" %}
         <mark>feeds</mark>
       {% elsif false %}
         <a href="/feeds">feeds</a>
+      {% endif %}
+    </li>
+    {% endif %}
+    <li>
+      {% if page.name == "podcast.md" %}
+        <mark>podcast</mark>
+      {% elsif false %}
+        <a href="/podcast">podcast</a>
       {% endif %}
     </li>
   </ul>
