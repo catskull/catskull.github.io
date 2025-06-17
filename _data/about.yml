@@ -63,6 +63,10 @@ tables:
 
 lists:
 
+  Accomplishments:
+    - |
+      <a href="https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=75403dd1d05bea1b65349ebb9f8b7deb40b9c802">Name in the OpenWrt repo</a>
+
   Aspirations:
     - Skateboarder
     - President
