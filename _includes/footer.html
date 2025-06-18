@@ -1,0 +1,5 @@
+<footer style="float: right;">
+  {% unless page.collection == "newsletters" %}{% include random.html %}{% endunless %}
+  <a href="/newsletter">newsletter</a>
+  <a href="/">{{ site.theme_config.back_home_text }}</a>
+</footer>

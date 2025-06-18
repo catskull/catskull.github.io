@@ -25,11 +25,7 @@ Here's random links and my short thoughts about them. Mostly for my own referenc
 </div>
 <page-replies open default="https://catskull.net/public/images/outlook_express-4.png"></page-replies>
 
-<footer style="float: right;">
-  {% unless page.collection == "newsletters" %}{% include random.html %}{% endunless %}
-  <a href="/newsletter">newsletter</a><sup><mark>(new)</mark></sup>
-  <a href="/">{{ site.theme_config.back_home_text }}</a>
-</footer>
+{% include footer.html %}
 
 <script src="https://catskull.net/public/js/components/replies.js"></script>
 <script src="https://catskull.net/public/js/components/likes.js"></script>
