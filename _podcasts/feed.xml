@@ -44,7 +44,7 @@ layout: null
       <itunes:image href="https://catskull.net/assets/images/podcasts/logo.jpg" />
       <description><![CDATA[{{ podcast.content }}]]></description>
       <content:encoded><![CDATA[{{ podcast.content }}]]></content:encoded>
-      <enclosure type="audio/mpeg" url="https://media.catskull.com{{ podcast.media }}" />
+      <enclosure type="audio/mpeg" url="https://media.catskull.net{{ podcast.media }}" />
       <itunes:duration>{{ podcast.duration }}</itunes:duration>
       <itunes:explicit>{{ podcast.explicit | default: false }}</itunes:explicit>
       <itunes:keywords />
