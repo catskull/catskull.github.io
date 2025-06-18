@@ -36,7 +36,7 @@ People I would like to talk to:
 		<p>{{ podcast.content }}</p>
 		audio:
 		<br>
-		<audio controls src="{{ podcast.media }}"></audio>
+		<audio controls src="https://media.catskull.net{{ podcast.media }}"></audio>
 	</li>
 	{% endunless %}
 {% endfor %}
