@@ -16,6 +16,6 @@ I use this to keep track of wikipedia articles I find interesting. This page nee
 ![{{wiki.title}}]({{wiki.image_url}})
 {% endif %}
 {{ wiki.extract }}
-{% include external_link.html href=wiki.url text="Wikipedia" %} ‽ <small>{{ wiki.created | date: "%-m/%-d/%y" }}</small>
+{% include external_link.html href=wiki.url text="Wikipedia" %} ‽⸘ <small>{{ wiki.created | date: "%-m/%-d/%y" }}</small>
 <hr>
 {% endfor %}
