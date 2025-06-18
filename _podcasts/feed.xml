@@ -36,15 +36,15 @@ layout: null
       {% for podcast in site.podcasts reversed %}
       {% unless podcast.name == 'feed.xml' %}
       {% assign index = site.podcasts.size | minus: forloop.index | plus: 1 %}
-      <title>{{ index }}: {{ podcast.guest }}</title>
-      <itunes:title>{{ podcast.guest }}</itunes:title>
+      <title>{{ index }}: {{ podcast.title | escape }}</title>
+      <itunes:title>{{ podcast.title | escape }}</itunes:title>
       <pubDate>{{ podcast.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <guid isPermaLink="false"><![CDATA[episode-{{ index }}-{{ podcast.guest | slugify }}]]></guid>
-      <link><![CDATA[{{site.url}}/podcast#episode-{{ index }}-{{ podcast.guest | slugify }}]]></link>
+      <guid isPermaLink="false"><![CDATA[episode-{{ index }}-{{ podcast.title | escape | slugify }}]]></guid>
+      <link><![CDATA[{{site.url}}/podcast#episode-{{ index }}-{{ podcast.title | escape | slugify }}]]></link>
       <itunes:image href="https://catskull.net/assets/images/podcasts/logo.jpg" />
       <description><![CDATA[{{ podcast.content }}]]></description>
       <content:encoded><![CDATA[{{ podcast.content }}]]></content:encoded>
-      <enclosure length="{{ podcast.size }}" type="audio/mpeg" url="{{ podcast.media }}" />
+      <enclosure type="audio/mpeg" url="{{site.url}}{{ podcast.media }}" />
       <itunes:duration>{{ podcast.duration }}</itunes:duration>
       <itunes:explicit>{{ podcast.explicit | default: false }}</itunes:explicit>
       <itunes:keywords />

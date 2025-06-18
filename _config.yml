@@ -38,7 +38,7 @@ collections:
     output: true
     permalink: /:title:output_ext
   podcasts:
-    output: false
+    output: true
 
 defaults:
   - scope:

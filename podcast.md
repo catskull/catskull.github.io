@@ -28,12 +28,14 @@ People I would like to talk to:
 	{% unless podcast.name == 'feed.xml' %}
 	{% assign index = site.podcasts.size | minus: forloop.index | plus: 1 %}
 	{% capture url %}
-	episode-{{ index }}-{{ podcast.guest | slugify }}
+	episode-{{ index }}-{{ podcast.title | slugify }}
 	{% endcapture %}
 	<li class="index-list-item">
 		<time datetime="{{ podcast.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ podcast.date | date: site.theme_config.date_format }}</time>
-		<h3 id="{{ url }}" class="index-list-title"><a href="#{{ url }}">{{ index }}: {{ podcast.guest }}</a></h3>
+		<h3 id="{{ url }}" class="index-list-title"><a href="#{{ url }}">{{ index }}: {{ podcast.title }}</a>{% if podcast.explicit %}🅴{% endif %}</h3>
 		<p>{{ podcast.content }}</p>
+		audio:
+		<br>
 		<audio controls src="{{ podcast.media }}"></audio>
 	</li>
 	{% endunless %}
