@@ -40,7 +40,7 @@ layout: null
       <itunes:title>{{ podcast.title | escape }}</itunes:title>
       <pubDate>{{ podcast.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <guid isPermaLink="false"><![CDATA[episode-{{ index }}-{{ podcast.title | escape | slugify }}]]></guid>
-      <link><![CDATA[{{site.url}}/podcast#episode-{{ index }}-{{ podcast.title | escape | slugify }}]]></link>
+      <link><![CDATA[{{site.url}}/podcast#episode-{{ index }}-{{ podcast.title | slugify }}]]></link>
       <itunes:image href="https://catskull.net/assets/images/podcasts/logo.jpg" />
       <description><![CDATA[{{ podcast.content }}]]></description>
       <content:encoded><![CDATA[{{ podcast.content }}]]></content:encoded>
