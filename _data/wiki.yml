@@ -706,3 +706,10 @@
   image_wh: 258x387
   description: 2001 film by Sharon Maguire
   extract: Bridget Jones's Diary is a 2001 romantic comedy film directed by Sharon Maguire from a screenplay by Helen Fielding, Andrew Davies and Richard Curtis. It is based on the 1996 novel of the same name by Fielding, which was itself a loose adaptation of Jane Austen's Pride and Prejudice. The film stars Renée Zellweger as Bridget Jones, a 32-year-old British single woman who writes a diary, which focuses on the things she wishes to happen in her life. However, her life changes when two men vie for her affection, portrayed by Colin Firth and Hugh Grant. Jim Broadbent and Gemma Jones appear in supporting roles.
+- url: https://en.wikipedia.org/wiki/Double_agent
+  created: '2025-06-18T21:49:35Z'
+  title: Double agent
+  image_url: undefined
+  image_wh: 
+  description: Type of special intelligence service
+  extract: In the field of counterintelligence, a double agent is an employee of a secret intelligence service for one country, whose primary purpose is to spy on a target organization of another country, but who is now spying on their own country's organization for the target organization.
