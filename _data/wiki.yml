@@ -727,3 +727,10 @@
   image_wh: 
   description: Topics referred to by the same term
   extract: Undefined may refer to:
+- url: https://en.wikipedia.org/wiki/Age_of_Enlightenment?wprov=sfti1#
+  created: '2025-06-19T05:04:32Z'
+  title: Age of Enlightenment
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg/330px-Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg
+  image_wh: 320x211
+  description: 17th- to 18th-century European cultural movement
+  extract: The Age of Enlightenment was a European intellectual and philosophical movement active from the late 17th to early 19th century. Chiefly valuing knowledge gained through rationalism and empiricism, the Enlightenment was concerned with a wide range of social and political ideals such as natural law, liberty, and progress, toleration and fraternity, constitutional government, and the formal separation of church and state.
