@@ -1,0 +1,231 @@
+---
+layout: null
+---
+<html lang="{{ page.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    <a href="/" style="position: fixed; background: var(--main-bg-color); right: 0; z-index: 1;">catskull.net</a>
+    <div class="page-content">
+      <style>
+        .container {
+          display: flex;
+          min-height: 100vh;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 200px;
+          height: 100vh;
+          overflow-y: auto;
+          z-index: 100;
+          overscroll-behavior-y: contain;
+        }
+
+        #sidebar-header {
+          position: sticky;
+          top: 0;
+          background: var(--main-bg-color);
+          border-bottom: 1px solid;
+        }
+
+        #sidebar-header input {
+          width: 100%;
+          padding: 1px 5px;
+
+        }
+
+        .toc-title {
+          margin-bottom: 0;
+          margin-top: 0;
+          padding: 1rem;
+        }
+
+        .toc-nav {
+          list-style: none;
+          padding-left: 1rem;
+        }
+
+        .toc-nav li {
+          margin-bottom: 0.5rem;
+        }
+
+        .toc-nav a {
+          display: block;
+          padding: 0.5rem 0.75rem;
+          text-decoration: none;
+          border-radius: 4px;
+          transition: all 0.2s ease;
+          font-size: 0.9rem;
+        }
+
+        .toc-nav a:hover {
+          background-color: Highlight;
+          color: HighlightText;
+        }
+
+        /* Active link styling */
+        .toc-nav a.active {
+          background-color: Mark;
+          color: MarkText;
+          font-weight: 500;
+        }
+
+        /* Main Content */
+        .main-content {
+          margin-left: 220px;
+          padding: 2rem;
+          max-width: calc(100% - 250px);
+        }
+
+        /* Content sections */
+        .section {
+          margin-bottom: 3rem;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+          .sidebar {
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+          }
+
+          .sidebar.mobile-open {
+            transform: translateX(0);
+          }
+
+          .main-content {
+            margin-left: 0;
+            max-width: 100%;
+          }
+
+          .mobile-toggle {
+            display: block;
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            z-index: 101;
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+        }
+
+        .mobile-toggle {
+          display: none;
+        }
+
+        /* Intersection observer styles for active states */
+        .section[data-visible="true"] {
+          /* Optional: Add visual feedback for visible sections */
+          background: pink;
+        }
+      </style>
+      <button class="mobile-toggle" onclick="toggleSidebar()">☰</button>
+      <div class="container">
+      {% assign wikis = site.data.wiki | sort: 'title' %}
+
+      <nav class="sidebar" id="sidebar">
+        <div id="sidebar-header">
+          <h3 class="toc-title"><a href="#wiki-archive">wiki archive</a></h3>
+          <label for="sidebar-search" style="visibility: hidden; display: none;">Choose a browser from this list:</label>
+          <input list="wiki-list" id="sidebar-search" name="sidebar-search" />
+          <datalist id="wiki-list">
+          {% for wiki in wikis %}
+            <option value="{{wiki.title}}"></option>
+          {% endfor %}
+          </datalist>
+        </div>
+        <ul class="toc-nav">
+          {% for wiki in wikis %}
+            <li><a href="#{{wiki.title | slugify}}" data-target="{{wiki.title | slugify}}">{{wiki.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+        <main class="main-content">
+          {% include topnav.html %}
+          <h2 id="wiki-archive">wiki archive</h2>
+          <p>I use this to keep track of wikipedia articles I find interesting.</p>
+          {% assign wikis = site.data.wiki | sort: 'created' | reverse %}
+          {% for wiki in wikis %}
+            <section class="section" id="{{wiki.title | slugify}}">
+              <h2><a href="#{{wiki.title | slugify}}">{{ wiki.title }}</a></h2>
+              {{ wiki.description }}
+              {% if wiki.image_url %}
+                <img src="{{wiki.image_url}}" alt="{{wiki.title}}">
+              {% endif %}
+              <p>{{ wiki.extract }}</p>
+              <p>
+                {% include external_link.html href=wiki.url text="Wikipedia" %} ‽⸘ <small>{{ wiki.created | date: "%-m/%-d/%y" }}</small>
+              </p>
+              <hr>
+            </section>
+          {% endfor %}
+        </main>
+      </div>
+
+      <script>
+        // Auto-scroll functionality using Intersection Observer
+        const observerOptions = {
+          root: null,
+          rootMargin: '-20% 0px -70% 0px',
+          threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            const id = entry.target.getAttribute('id');
+            const navLink = document.querySelector(`[data-target="${id}"]`);
+            
+            if (entry.isIntersecting) {
+              // Remove active class from all links
+              document.querySelectorAll('.toc-nav a').forEach(link => {
+                link.classList.remove('active');
+              });
+              // Add active class to current link
+              if (navLink) {
+                navLink.classList.add('active');
+                navLink.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'center',
+                  inline: 'nearest'
+                });
+              }
+            }
+          });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.section').forEach(section => {
+          observer.observe(section);
+        });
+
+const input = document.getElementById('sidebar-search');
+
+input.addEventListener('input', function(e) {
+  const datalist = document.getElementById('wiki-list');
+  const options = Array.from(datalist.options).map(option => option.value);
+  
+  if (options.includes(e.target.value)) {
+    // Find link with matching text
+    const links = document.querySelectorAll('a');
+    const matchingLink = Array.from(links).find(link => 
+      link.textContent.trim() === e.target.value
+    );
+    
+    if (matchingLink) {
+      matchingLink.click();
+      e.target.value = '';
+    }
+  }
+});
+      </script>
+    </div>
+  </body>
+</html>
