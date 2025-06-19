@@ -31,10 +31,10 @@ layout: null
     <description><![CDATA[It's Mr. Rogers for adults if he was also an alien.]]></description>
     <itunes:type>episodic</itunes:type>
     <podcast:locked owner="bro@catskull.net">no</podcast:locked>
-
+    
+    {% for podcast in site.podcasts reversed %}
+    {% unless podcast.name == 'feed.xml' %}
     <item>
-      {% for podcast in site.podcasts reversed %}
-      {% unless podcast.name == 'feed.xml' %}
       {% assign index = site.podcasts.size | minus: forloop.index | plus: 1 %}
       <title>{{ index }}: {{ podcast.title | escape }}</title>
       <itunes:title>{{ podcast.title | escape }}</itunes:title>
@@ -51,9 +51,9 @@ layout: null
       <itunes:subtitle><![CDATA[{{ podcast.content | strip_html }}]]></itunes:subtitle>
       <itunes:episode>{{ index }}</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      {% endunless %}
-      {% endfor %}
     </item>
+    {% endunless %}
+    {% endfor %}
 
   </channel>
 </rss>
