@@ -46,6 +46,7 @@ layout: null
         .toc-nav {
           list-style: none;
           padding-left: 1rem;
+          overflow-x: hidden;
         }
 
         .toc-nav li {
@@ -57,7 +58,6 @@ layout: null
           padding: 0.5rem 0.75rem;
           text-decoration: none;
           border-radius: 4px;
-          transition: all 0.2s ease;
           font-size: 0.9rem;
         }
 
@@ -192,7 +192,7 @@ layout: null
               if (navLink) {
                 navLink.classList.add('active');
                 navLink.scrollIntoView({
-                  behavior: 'smooth',
+                  behavior: 'instant',
                   block: 'center',
                   inline: 'nearest'
                 });
