@@ -903,3 +903,11 @@
   description: 'Game played using the hands'
   extract: |
     Hand games are games played using only the hands of the players. Hand games exist in a variety of cultures internationally, and are of interest to academic studies in ethnomusicology and music education. Hand games are used to teach music literacy skills and socio-emotional learning in elementary music classrooms internationally.
+- url: https://en.wikipedia.org/wiki/Bald_eagle
+  created: '2025-06-20T23:27:46Z'
+  title: 'Bald eagle'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/330px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg
+  image_wh: 320x256
+  description: 'Bird of prey species of North America'
+  extract: |
+    The bald eagle is a bird of prey found in North America. A sea eagle, it has two known subspecies and forms a species pair with the white-tailed eagle, which occupies the same niche as the bald eagle in the Palearctic. Its range includes most of Canada and Alaska, all of the contiguous United States, and northern Mexico. It is found near large bodies of open water with an abundant food supply and old-growth trees for nesting.
