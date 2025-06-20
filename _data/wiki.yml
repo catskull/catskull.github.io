@@ -887,3 +887,11 @@
   description: 'Spicy fermented Korean condiment'
   extract: |
     Gochujang or red chili paste is a savory, sweet, and spicy fermented condiment popular in Korean cooking. It is made from gochugaru, glutinous rice, meju powder, yeotgireum, and salt. The sweetness comes from the starch of cooked glutinous rice, cultured with saccharifying enzymes during the fermentation process. Traditionally, it would be naturally fermented over years in jangdok (earthenware) on an elevated stone platform called jangdokdae in the backyard.
+- url: https://en.wikipedia.org/wiki/Rock_paper_scissors
+  created: '2025-06-20T21:23:29Z'
+  title: 'Rock paper scissors'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/330px-Rock-paper-scissors.svg.png
+  image_wh: 320x306
+  description: 'Hand game for two players or more'
+  extract: |
+    Rock, Paper, Scissors is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock", "paper", and "scissors". The earliest form of "rock paper scissors"-style game originated in China and was subsequently imported into Japan, where it reached its modern standardized form, before being spread throughout the world in the early 20th century.
