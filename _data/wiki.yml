@@ -879,3 +879,11 @@
   description: 'Type of food'
   extract: |
     Puffed grains are grains that have been expanded ("puffed") through processing. They have been made for centuries with the simplest methods like popping popcorn. Modern puffed grains are often created using high temperature, pressure, or extrusion.
+- url: https://en.wikipedia.org/wiki/Gochujang
+  created: '2025-06-20T20:58:41Z'
+  title: 'Gochujang'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Korean_chili_pepper_paste_GOCHUJANG.jpg/330px-Korean_chili_pepper_paste_GOCHUJANG.jpg
+  image_wh: 320x228
+  description: 'Spicy fermented Korean condiment'
+  extract: |
+    Gochujang or red chili paste is a savory, sweet, and spicy fermented condiment popular in Korean cooking. It is made from gochugaru, glutinous rice, meju powder, yeotgireum, and salt. The sweetness comes from the starch of cooked glutinous rice, cultured with saccharifying enzymes during the fermentation process. Traditionally, it would be naturally fermented over years in jangdok (earthenware) on an elevated stone platform called jangdokdae in the backyard.
