@@ -22,7 +22,7 @@ layout: null
     <itunes:author>Dave DeGraw</itunes:author>
     <itunes:category text="Society &amp; Culture">
     </itunes:category>
-    <itunes:image href="https://catskull.net/assets/images/podcasts/logo.jpg" />
+    <itunes:image href="https://catskull.net/assets/images/podcasts/logo.png" />
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
       <itunes:name><![CDATA[Dave DeGraw]]></itunes:name>
@@ -41,7 +41,7 @@ layout: null
       <pubDate>{{ podcast.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <guid isPermaLink="false"><![CDATA[episode-{{ index }}-{{ podcast.title | escape | slugify }}]]></guid>
       <link><![CDATA[{{site.url}}/podcast#episode-{{ index }}-{{ podcast.title | slugify }}]]></link>
-      <itunes:image href="https://catskull.net/assets/images/podcasts/logo.jpg" />
+      <itunes:image href="https://catskull.net/assets/images/podcasts/logo.png" />
       <description><![CDATA[{{ podcast.content }}]]></description>
       <content:encoded><![CDATA[{{ podcast.content }}]]></content:encoded>
       <enclosure type="audio/mpeg" length="{{ podcast.size }}" url="https://media.catskull.net{{ podcast.media }}" />
