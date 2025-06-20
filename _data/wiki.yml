@@ -895,3 +895,11 @@
   description: 'Hand game for two players or more'
   extract: |
     Rock, Paper, Scissors is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock", "paper", and "scissors". The earliest form of "rock paper scissors"-style game originated in China and was subsequently imported into Japan, where it reached its modern standardized form, before being spread throughout the world in the early 20th century.
+- url: https://en.wikipedia.org/wiki/Hand_game
+  created: '2025-06-20T21:23:36Z'
+  title: 'Hand game'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mushi-ken_%28%E8%99%AB%E6%8B%B3%29%2C_Japanese_rock-paper-scissors_variant%2C_from_the_Kensarae_sumai_zue_%281809%29.jpg/330px-Mushi-ken_%28%E8%99%AB%E6%8B%B3%29%2C_Japanese_rock-paper-scissors_variant%2C_from_the_Kensarae_sumai_zue_%281809%29.jpg
+  image_wh: 320x209
+  description: 'Game played using the hands'
+  extract: |
+    Hand games are games played using only the hands of the players. Hand games exist in a variety of cultures internationally, and are of interest to academic studies in ethnomusicology and music education. Hand games are used to teach music literacy skills and socio-emotional learning in elementary music classrooms internationally.
