@@ -8,7 +8,7 @@ I read a lot of Wikipedia. A _lot_.
 
 Sometimes I heavily research a single topic and take notes in my "thoughts + ideas" book. Most of the time, however, I'm simply reading about random things. I wanted a fun way to keep track of what I find on Wikipedia!
 
-I'm pretty happy with the interface I came up with. A simple chronologically ordered index page, with a navbar on the side in alphabetical order, complete with a pure HTML typeahead. Carter really hates the way the sidebar jumps around as you're scrolling the page because the sidebar and the main index page are not in the same order. The chronology of the wiki posts is actually more relevant to me as I go back and read them than their alphabetical order, but I still want to see the alphabetical order when I'm quickly scrolling through all of them. In my mind, it makes perfect sense. 🙂
+I'm pretty happy with the interface I came up with. A simple chronologically ordered index page, with a navbar on the side in alphabetical order, complete with a pure HTML typeahead. I have recieved some negative feedback for the way the sidebar jumps around as you're scrolling the page because the sidebar and the main index page are not in the same order. The chronology of the wiki posts is actually more relevant to me as I go back and read them than their alphabetical order, but I still want to see the alphabetical order when I'm quickly scrolling through all of them. In my mind, it makes perfect sense. 🙂
 
 <video autoplay="" loop="" muted="">
   <source src="assets/images/posts/wiki-archive/wiki.webm" type="video/webm">
