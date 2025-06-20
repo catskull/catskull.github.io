@@ -847,3 +847,11 @@
   description: 'Very small, one room public house'
   extract: |
     The term micropub was originally devised by the Campaign for Real Ale, in the 1976 edition of its Good Beer Guide, simply as a description for an unusually small but otherwise traditional pub. Examples of pubs described as such in this era included Manchester's Circus Tavern and The Nutshell in Bury St Edmunds. In more recent years, the term came to be redefined much more tightly, as a very small, modern, one-room pub, serving no food other than snacks, and "based upon good ale and lively banter". The original of these newly defined micropubs is often cited as the Butchers Arms in Herne, Kent.
+- url: https://en.wikipedia.org/wiki/Micropub_(protocol)
+  created: '2025-06-20T16:10:49Z'
+  title: 'Micropub (protocol)'
+  image_url: 
+  image_wh: 
+  description: 'Client–server protocol based on HTTP to create, update, and delete posts'
+  extract: |
+    Micropub (MP) is a W3C Recommendation that describes a client–server protocol based on HTTP to create, update, and delete posts on servers using web or native app clients. Micropub was originally developed in the IndieWebCamp community, contributed to W3C, and published as a W3C working draft on January 28, 2016.
