@@ -855,3 +855,11 @@
   description: 'Client–server protocol based on HTTP to create, update, and delete posts'
   extract: |
     Micropub (MP) is a W3C Recommendation that describes a client–server protocol based on HTTP to create, update, and delete posts on servers using web or native app clients. Micropub was originally developed in the IndieWebCamp community, contributed to W3C, and published as a W3C working draft on January 28, 2016.
+- url: https://en.wikipedia.org/wiki/Hermit
+  created: '2025-06-20T18:48:36Z'
+  title: 'Hermit'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/St.-Jerome-In-His-Study.jpg/330px-St.-Jerome-In-His-Study.jpg
+  image_wh: 320x216
+  description: 'Person who lives in seclusion from society'
+  extract: |
+    A hermit, also known as an eremite or solitary, is a person who lives in seclusion. Eremitism plays a role in a variety of religions.
