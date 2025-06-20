@@ -839,3 +839,11 @@
   description: 'Canadian electronic musician'
   extract: |
     Aaron Funk, known as Venetian Snares, is a Canadian electronic musician based in Winnipeg, Manitoba. He is widely known for innovating and popularising the breakcore genre, and is one of the most recognisable artists to be signed to Planet Mu, an experimental electronic music label. His signature style involves meticulously complex drums, eclectic use of samples, and odd time signatures, in particular, 74.
+- url: https://en.wikipedia.org/wiki/Micropub
+  created: '2025-06-20T16:10:42Z'
+  title: 'Micropub'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/The_Lazy_Landlord%2C_Wallasey.jpg/330px-The_Lazy_Landlord%2C_Wallasey.jpg
+  image_wh: 320x241
+  description: 'Very small, one room public house'
+  extract: |
+    The term micropub was originally devised by the Campaign for Real Ale, in the 1976 edition of its Good Beer Guide, simply as a description for an unusually small but otherwise traditional pub. Examples of pubs described as such in this era included Manchester's Circus Tavern and The Nutshell in Bury St Edmunds. In more recent years, the term came to be redefined much more tightly, as a very small, modern, one-room pub, serving no food other than snacks, and "based upon good ale and lively banter". The original of these newly defined micropubs is often cited as the Butchers Arms in Herne, Kent.
