@@ -863,3 +863,11 @@
   description: 'Person who lives in seclusion from society'
   extract: |
     A hermit, also known as an eremite or solitary, is a person who lives in seclusion. Eremitism plays a role in a variety of religions.
+- url: https://en.wikipedia.org/wiki/Cheetos
+  created: '2025-06-20T20:54:34Z'
+  title: 'Cheetos'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cheetos_logo.svg/320px-Cheetos_logo.svg.png
+  image_wh: 320x186
+  description: 'Brand of corn puff snack food'
+  extract: |
+    Cheetos is a crunchy corn-cheese puff snack brand made by Frito-Lay, a subsidiary of PepsiCo. Fritos creator Charles Elmer Doolin invented Cheetos in 1948, and began national distribution in the United States. The initial success of Cheetos was a contributing factor to the merger between The Frito Company and H.W. Lay & Company in 1961 to form Frito-Lay. In 1965 Frito-Lay became a subsidiary of The Pepsi-Cola Company, forming PepsiCo, the current owner of the Cheetos brand.
