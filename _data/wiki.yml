@@ -871,3 +871,11 @@
   description: 'Brand of corn puff snack food'
   extract: |
     Cheetos is a crunchy corn-cheese puff snack brand made by Frito-Lay, a subsidiary of PepsiCo. Fritos creator Charles Elmer Doolin invented Cheetos in 1948, and began national distribution in the United States. The initial success of Cheetos was a contributing factor to the merger between The Frito Company and H.W. Lay & Company in 1961 to form Frito-Lay. In 1965 Frito-Lay became a subsidiary of The Pepsi-Cola Company, forming PepsiCo, the current owner of the Cheetos brand.
+- url: https://en.wikipedia.org/wiki/Puffed_grain
+  created: '2025-06-20T20:57:46Z'
+  title: 'Puffed grain'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Amarant_burizony.jpg/330px-Amarant_burizony.jpg
+  image_wh: 320x213
+  description: 'Type of food'
+  extract: |
+    Puffed grains are grains that have been expanded ("puffed") through processing. They have been made for centuries with the simplest methods like popping popcorn. Modern puffed grains are often created using high temperature, pressure, or extrusion.
