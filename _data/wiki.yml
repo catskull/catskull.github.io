@@ -935,3 +935,11 @@
   description: 'Device that converts the chemical energy from a fuel into electricity'
   extract: |
     A fuel cell is an electrochemical cell that converts the chemical energy of a fuel and an oxidizing agent into electricity through a pair of redox reactions. Fuel cells are different from most batteries in requiring a continuous source of fuel and oxygen to sustain the chemical reaction, whereas in a battery the chemical energy usually comes from substances that are already present in the battery. Fuel cells can produce electricity continuously for as long as fuel and oxygen are supplied.
+- url: https://en.wikipedia.org/wiki/.us?wprov=sfti1
+  created: '2025-06-21T05:20:16Z'
+  title: '.us'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/DotUS_domain_logo.png/330px-DotUS_domain_logo.png
+  image_wh: 320x398
+  description: 'Internet country code top-level domain for the U.S.'
+  extract: |
+    .us is the Internet country code top-level domain (ccTLD) for the United States. It was established in February 1985. Registrants of .us domains must be U.S. citizens, residents, or organizations – or foreign entities with a presence in the United States or a territory of the United States. Most registrants in the U.S. have registered for .com, .net, .org and other gTLDs, instead of .us, which has primarily been used by state and local governments, even though private entities may also register .us domains. The domain is managed by Registry Services, LLC, an acquired subsidiary domain name registry of GoDaddy, on behalf of the United States Department of Commerce.
