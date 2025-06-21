@@ -1032,3 +1032,11 @@
   description: 'American television host and author (1928–2003)'
   extract: |
     Fred McFeely Rogers, better known as Mister Rogers, was an American television host, author, producer, and Presbyterian minister. He was the creator, showrunner, and host of the preschool television series Mister Rogers' Neighborhood, which ran from 1968 to 2001.
+- url: https://en.wikipedia.org/wiki/Frozen_Bubble
+  created: '2025-06-21T20:02:23Z'
+  title: 'Frozen Bubble'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Frozen_Bubble_2_-_Single_player.png/330px-Frozen_Bubble_2_-_Single_player.png
+  image_wh: 320x251
+  description: '2002 video game'
+  extract: |
+    Frozen Bubble is a free software clone of Puzzle Bobble for a variety of home and mobile systems.
