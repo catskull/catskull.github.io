@@ -951,14 +951,14 @@
   description: 'Topics referred to by the same term'
   extract: |
     Cyber City or Cybercity may refer to:Cyber City Gurgaon, an industrial park in Gurgaon, India
-Cyber City Kochi, a proposed Special Economic Zone information technology park adjacent to Kochi, India
-Cyber City, Magarpatta a privately owned gated community in the Hadapsar–area of Pune, India
-Ebene CyberCity, a city on the island nation of Mauritius
-Cybercity 1, a planned city and part of the Multimedia Super Corridor project in Malaysia
-Cyber City Oedo 808, a 1990–91 cyberpunk original video animation
-Yadanabon Cyber City, the largest information technology center in Myanmar
-Cyber City, a fictional city in the role-playing game Deltarune: Chapter 2
-Cybercity, a Danish Internet provider, now part of Telenor Denmark
+    Cyber City Kochi, a proposed Special Economic Zone information technology park adjacent to Kochi, India
+    Cyber City, Magarpatta a privately owned gated community in the Hadapsar–area of Pune, India
+    Ebene CyberCity, a city on the island nation of Mauritius
+    Cybercity 1, a planned city and part of the Multimedia Super Corridor project in Malaysia
+    Cyber City Oedo 808, a 1990–91 cyberpunk original video animation
+    Yadanabon Cyber City, the largest information technology center in Myanmar
+    Cyber City, a fictional city in the role-playing game Deltarune: Chapter 2
+    Cybercity, a Danish Internet provider, now part of Telenor Denmark
 - url: https://en.wikipedia.org/wiki/Cyber_City_Oedo_808?wprov=sfti1
   created: '2025-06-21T05:27:18Z'
   title: 'Cyber City Oedo 808'
@@ -980,7 +980,7 @@ Cybercity, a Danish Internet provider, now part of Telenor Denmark
   title: 'World Association of Ugly People'
   image_url: https://upload.wikimedia.org/wikipedia/en/d/da/ClubDeiBrutti.jpg
   image_wh: 218x322
-  description: 'undefined'
+  description: 
   extract: |
     The World Association of Ugly People is an organization dedicated to fighting for the recognition of ugly people, in a society that places a high value on physical beauty. The group's motto is "A person is what he is and not what he looks like".
 - url: https://en.wikipedia.org/wiki/Reel_trailer?wprov=sfti1
@@ -1023,7 +1023,7 @@ Cybercity, a Danish Internet provider, now part of Telenor Denmark
   description: 'Expressions of humor used during adversity: cynicism, derision, skepticism'
   extract: |
     Sardonicism is form of wit or humour, where being sardonic often involves expressing an uncomfortable truth in a clever and not necessarily malicious way, often with a degree of distrust or skepticism; or behavior disdainfully, cynically humorous, frequently based on scornful mocking. 
-This gave birth to a literary genre emphasizing the behavior.
+    This gave birth to a literary genre emphasizing the behavior.
 - url: https://en.wikipedia.org/wiki/Hotshot
   created: '2025-06-21T16:29:49Z'
   title: 'Hotshot'
