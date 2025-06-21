@@ -1040,3 +1040,11 @@
   description: '2002 video game'
   extract: |
     Frozen Bubble is a free software clone of Puzzle Bobble for a variety of home and mobile systems.
+- url: https://en.wikipedia.org/wiki/Puzzle_Bobble_4
+  created: '2025-06-21T22:52:46Z'
+  title: 'Puzzle Bobble 4'
+  image_url: https://upload.wikimedia.org/wikipedia/en/7/74/Puzzle_Bobble_4_Arcade_Flyer.jpg
+  image_wh: 266x375
+  description: '1997 video game'
+  extract: |
+    Puzzle Bobble 4 is the third sequel to the video game Puzzle Bobble and is the final appearance of the series on the PlayStation and the only appearance of the series on the Dreamcast.
