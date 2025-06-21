@@ -911,3 +911,11 @@
   description: 'Bird of prey species of North America'
   extract: |
     The bald eagle is a bird of prey found in North America. A sea eagle, it has two known subspecies and forms a species pair with the white-tailed eagle, which occupies the same niche as the bald eagle in the Palearctic. Its range includes most of Canada and Alaska, all of the contiguous United States, and northern Mexico. It is found near large bodies of open water with an abundant food supply and old-growth trees for nesting.
+- url: https://en.wikipedia.org/wiki/Disc_herniation
+  created: '2025-06-21T00:16:09Z'
+  title: 'Disc herniation'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hernie_discale_L4_L5.png/330px-Hernie_discale_L4_L5.png
+  image_wh: 320x488
+  description: 'Injury to the intervertebral disc'
+  extract: |
+    A disc herniation or spinal disc herniation is an injury to the intervertebral disc between two vertebrae, usually caused by excessive strain or trauma to the spine. It may result in back pain, pain or sensation in different parts of the body, and physical disability. The most conclusive diagnostic tool for disc herniation is MRI, and treatments may range from painkillers to surgery. Protection from disc herniation is best provided by core strength and an awareness of body mechanics including good posture.
