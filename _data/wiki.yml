@@ -927,3 +927,11 @@
   description: 'Concept car by the Italian car manufacture Fiat'
   extract: |
     The Fiat Phylla concept car was unveiled in 2008 by the Italian car manufacture Fiat. Originally expected to form the basis of a production car in 2010, it remains a concept city car. The Phylla name means "leaves" in ancient Greek.
+- url: https://en.wikipedia.org/wiki/Fuel_cell?wprov=sfti1
+  created: '2025-06-21T02:15:12Z'
+  title: 'Fuel cell'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Fuel_cell_NASA_p48600ac.jpg/330px-Fuel_cell_NASA_p48600ac.jpg
+  image_wh: 320x407
+  description: 'Device that converts the chemical energy from a fuel into electricity'
+  extract: |
+    A fuel cell is an electrochemical cell that converts the chemical energy of a fuel and an oxidizing agent into electricity through a pair of redox reactions. Fuel cells are different from most batteries in requiring a continuous source of fuel and oxygen to sustain the chemical reaction, whereas in a battery the chemical energy usually comes from substances that are already present in the battery. Fuel cells can produce electricity continuously for as long as fuel and oxygen are supplied.
