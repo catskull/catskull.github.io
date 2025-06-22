@@ -1120,3 +1120,11 @@
   description: 'Persistent human health condition or disease'
   extract: |
     A chronic condition is a health condition or disease that is persistent or otherwise long-lasting in its effects or a disease that comes with time. The term chronic is often applied when the course of the disease lasts for more than three months.
+- url: https://en.wikipedia.org/wiki/Endurance:_Shackleton%27s_Incredible_Voyage
+  created: '2025-06-22T22:08:20Z'
+  title: 'Endurance: Shackleton's Incredible Voyage'
+  image_url: https://upload.wikimedia.org/wikipedia/en/d/d5/EnduranceShackletonsIncredibleVoyage.jpg
+  image_wh: 255x393
+  description: '1959 book written by Alfred Lansing'
+  extract: |
+    Endurance: Shackleton's Incredible Voyage, is a 1959 book written by Alfred Lansing, about the failure of the Imperial Trans-Antarctic Expedition led by Sir Ernest Shackleton, in its attempt to cross the Antarctic continent in 1914.
