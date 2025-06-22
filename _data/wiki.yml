@@ -1096,3 +1096,11 @@
   description: 'Graphing calculator software bundled with macOS'
   extract: |
     Grapher is a computer program bundled with macOS since version 10.4 that is able to create 2D and 3D graphs from simple and complex equations. It includes a variety of samples ranging from differential equations to 3D-rendered Toroids and Lorenz attractors. It is also capable of dealing with functions and compositions of them. One can edit the appearance of graphs by changing line colors, adding patterns to rendered surfaces, adding comments, and changing the fonts and styles used to display them. Grapher is able to create animations of graphs by changing constants or rotating them in space.
+- url: https://en.wikipedia.org/wiki/Airborne_leaflet_propaganda?wprov=sfti1#
+  created: '2025-06-22T18:55:17Z'
+  title: 'Airborne leaflet propaganda'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Korean-leaflet-bomb.jpg/330px-Korean-leaflet-bomb.jpg
+  image_wh: 320x399
+  description: 'Leaflets dropped via air during wartime'
+  extract: |
+    Airborne leaflet dropping is a type of propaganda where leaflets (flyers) are scattered in the air, normally by filling cluster bombs that open in midair with thousands of leaflets.
