@@ -1088,3 +1088,11 @@
   description: 'Math YouTube channel'
   extract: |
     3Blue1Brown is a math YouTube channel created and run by Grant Sanderson. The channel focuses on teaching higher mathematics from a visual perspective, and on the process of discovery and inquiry-based learning in mathematics, which Sanderson calls "inventing math".
+- url: https://en.wikipedia.org/wiki/Grapher
+  created: '2025-06-22T05:04:03Z'
+  title: 'Grapher'
+  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Grapher_Screenshot_Big_Sur.png/330px-Grapher_Screenshot_Big_Sur.png
+  image_wh: 320x215
+  description: 'Graphing calculator software bundled with macOS'
+  extract: |
+    Grapher is a computer program bundled with macOS since version 10.4 that is able to create 2D and 3D graphs from simple and complex equations. It includes a variety of samples ranging from differential equations to 3D-rendered Toroids and Lorenz attractors. It is also capable of dealing with functions and compositions of them. One can edit the appearance of graphs by changing line colors, adding patterns to rendered surfaces, adding comments, and changing the fonts and styles used to display them. Grapher is able to create animations of graphs by changing constants or rotating them in space.
