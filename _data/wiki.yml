@@ -1064,3 +1064,11 @@
   description: 'Uranium enrichment facility in Iran'
   extract: |
     The Fordow Fuel Enrichment Plant, officially the Shahid Ali Mohammadi Nuclear Facility, is an Iranian underground uranium enrichment facility located 30 kilometres (20 mi) north of the Iranian city of Qom, at a former Islamic Revolutionary Guard Corps base. The site is under the control of the Atomic Energy Organization of Iran (AEOI). It is the second Iranian uranium enrichment facility, the other being the Natanz Nuclear Facility.
+- url: https://en.wikipedia.org/wiki/GBU-57A/B_MOP
+  created: '2025-06-22T04:10:48Z'
+  title: 'GBU-57A/B MOP'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/b/bb/USAF_MOP_test_release_crop.jpg
+  image_wh: 250x250
+  description: 'American GPS-guided "bunker buster" bomb'
+  extract: |
+    The GBU-57 series MOP is a 30,000-pound -class precision-guided "bunker buster" bomb developed for the United States Air Force (USAF). At least 20 were built by November 2015. Composed of a BLU-127 bomb body and precision guidance kit, the GBU-57 comes in several variants and BLU-127 weights. It is much larger than earlier USAF weapons designed to destroy heavily fortified, deep underground bunkers such as the 5,000-pound (2,300 kg) GBU-28 and GBU-37. The B-2 Spirit strategic bomber is the only in-service U.S. aircraft that can carry the heavy 20.5-foot (6.2 m)-long weapon.
