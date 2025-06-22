@@ -1080,3 +1080,11 @@
   description: 'Uranium in which isotope separation has been used to increase its proportion of uranium-235'
   extract: |
     Enriched uranium is a type of uranium in which the percent composition of uranium-235 has been increased through the process of isotope separation. Naturally occurring uranium is composed of three major isotopes: uranium-238, uranium-235, and uranium-234. 235U is the only nuclide existing in nature that is fissile with thermal neutrons.
+- url: https://en.wikipedia.org/wiki/3Blue1Brown
+  created: '2025-06-22T05:03:59Z'
+  title: '3Blue1Brown'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/3B1B_Logo.svg/330px-3B1B_Logo.svg.png
+  image_wh: 320x320
+  description: 'Math YouTube channel'
+  extract: |
+    3Blue1Brown is a math YouTube channel created and run by Grant Sanderson. The channel focuses on teaching higher mathematics from a visual perspective, and on the process of discovery and inquiry-based learning in mathematics, which Sanderson calls "inventing math".
