@@ -1048,3 +1048,11 @@
   description: '1997 video game'
   extract: |
     Puzzle Bobble 4 is the third sequel to the video game Puzzle Bobble and is the final appearance of the series on the PlayStation and the only appearance of the series on the Dreamcast.
+- url: https://en.wikipedia.org/wiki/Hierophant
+  created: '2025-06-22T00:51:09Z'
+  title: 'Hierophant'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Votive_relief_dedicated_to_hierophant.jpg/330px-Votive_relief_dedicated_to_hierophant.jpg
+  image_wh: 320x313
+  description: 'Religious function'
+  extract: |
+    A hierophant is a person who brings religious congregants into the presence of that which is deemed holy. As such, a hierophant is an interpreter of sacred mysteries and arcane principles.
