@@ -1118,15 +1118,16 @@
   image_url: 
   image_wh: 
   description: 'Persistent human health condition or disease'
-  extract: |
+  extract: |-
     A chronic condition is a health condition or disease that is persistent or otherwise long-lasting in its effects or a disease that comes with time. The term chronic is often applied when the course of the disease lasts for more than three months.
 - url: https://en.wikipedia.org/wiki/Endurance:_Shackleton%27s_Incredible_Voyage
   created: '2025-06-22T22:08:20Z'
-  title: 'Endurance: Shackleton's Incredible Voyage'
+  title: |-
+    Endurance: Shackleton's Incredible Voyage
   image_url: https://upload.wikimedia.org/wikipedia/en/d/d5/EnduranceShackletonsIncredibleVoyage.jpg
   image_wh: 255x393
   description: '1959 book written by Alfred Lansing'
-  extract: |
+  extract: |-
     Endurance: Shackleton's Incredible Voyage, is a 1959 book written by Alfred Lansing, about the failure of the Imperial Trans-Antarctic Expedition led by Sir Ernest Shackleton, in its attempt to cross the Antarctic continent in 1914.
 - url: https://en.wikipedia.org/wiki/The_Secret_Garden?wprov=sfti1#Film
   created: '2025-06-23T01:04:53Z'
@@ -1134,5 +1135,5 @@
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Houghton_AC85_B9345_911s_-_Secret_Garden%2C_1911_-_cover.jpg/330px-Houghton_AC85_B9345_911s_-_Secret_Garden%2C_1911_-_cover.jpg
   image_wh: 320x457
   description: '1911 novel by Frances Hodgson Burnett'
-  extract: |
+  extract: |-
     The Secret Garden is a children's novel by Frances Hodgson Burnett first published in book form in 1911, after serialisation in The American Magazine. Set in England, it is seen as a classic of English children's literature. The American edition was published by the Frederick A. Stokes Company with illustrations by M. L. Kirk, and the British edition by Heinemann with illustrations by Charles Heath Robinson.
