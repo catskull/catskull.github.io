@@ -61,3 +61,12 @@
   description: 'American diplomat and newspaper editor (1862–1948)'
   extract: |
         Josephus Daniels was a newspaper editor, Secretary of the Navy under President Woodrow Wilson, and U.S. Ambassador to Mexico under President Franklin D. Roosevelt.
+- url: https://en.wikipedia.org/wiki/Soylent_(meal_replacement)
+  created: '2025-06-23T20:18:26Z'
+  title: |
+    Soylent (meal replacement)
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Soylent.svg/330px-Soylent.svg.png
+  image_wh: 320x140
+  description: 'American brand of meal replacement products'
+  extract: |
+        Soylent is a set of meal replacement products in powder, shake, and bar forms, produced by Soylent Nutrition, Inc. The company was founded in 2013 and is headquartered in Los Angeles, California.
