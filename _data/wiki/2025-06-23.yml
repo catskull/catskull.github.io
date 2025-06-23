@@ -133,3 +133,12 @@
   description: 'Speech difficulty associated with aphasia'
   extract: |
         Paraphasia is a type of language output error commonly associated with aphasia and characterized by the production of unintended syllables, words, or phrases during the effort to speak. Paraphasic errors are most common in patients with fluent forms of aphasia, and come in three forms: phonemic or literal, neologistic, and verbal. Paraphasias can affect metrical information, segmental information, number of syllables, or both. Some paraphasias preserve the meter without segmentation, and some do the opposite. However, most paraphasias partially have both affects.
+- url: https://en.wikipedia.org/wiki/Agrammatism
+  created: '2025-06-23T21:35:00Z'
+  title: |
+    Agrammatism
+  image_url: 
+  image_wh: 
+  description: 'Non-fluent aphasia'
+  extract: |
+        Agrammatism is a characteristic of non-fluent aphasia. Individuals with agrammatism present with speech that is characterized by containing mainly content words, with a lack of function words. For example, when asked to describe a picture of children playing in the park, the affected individual responds with, "trees..children..run." People with agrammatism may have telegraphic speech, a unique speech pattern with simplified formation of sentences, akin to that found in telegraph messages. Deficits in agrammaticism are often language-specific, however—in other words, "agrammaticism" in speakers of one language may present differently from in speakers of another.
