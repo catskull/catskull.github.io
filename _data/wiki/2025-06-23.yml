@@ -7,3 +7,12 @@
   description: 'Air traffic control measure that slows the flow of an aircraft inbound to an airport'
   extract: |
         A ground stop is an air traffic control procedure that requires all aircraft that fit certain criteria to remain on the ground. This could be airport-specific or perhaps equipment- or airspace-specific, depending on the exact event that caused the ground stop to occur. Downstream effects can occur from a ground stop. It causes flights to be delayed or canceled and planes and flight crew to be unable to reach the location of their next scheduled flight.
+- url: https://en.wikipedia.org/wiki/2023_Chinese_balloon_incident
+  created: '2025-06-23T18:32:23Z'
+  title: |
+    2023 Chinese balloon incident
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/U-2_Pilot_over_Central_Continental_United_States_%287644960%29_%28cropped%29.jpg/330px-U-2_Pilot_over_Central_Continental_United_States_%287644960%29_%28cropped%29.jpg
+  image_wh: 320x343
+  description: 'Airspace violation and shootdown incident'
+  extract: |
+        From January 28 to February 4, 2023, a high-altitude balloon originating from China flew across North American airspace, including Alaska, western Canada, and the contiguous United States. On February 4, the U.S. Air Force shot down the balloon over U.S. territorial waters off the coast of South Carolina. Debris from the wreckage was recovered and sent to the FBI Laboratory in Quantico, Virginia, for analysis. Following a preliminary analysis of the debris in June, U.S. officials stated that the balloon carried intelligence-gathering equipment but does not appear to have sent information back to China. U.S. President Joe Biden described the balloon as carrying two railroad cars' equivalent of spy equipment, however stated that it was "not a major breach", and that he also believed that the Chinese leadership was not aware of the balloon. The U.S. government said the balloon had a propeller for maneuverability.
