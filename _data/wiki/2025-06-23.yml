@@ -105,7 +105,7 @@
   image_wh: 320x427
   description: 'Communication with oneself'
   extract: |
-        Intrapersonal communication is communication with oneself or self-to-self communication. Examples are thinking to oneself "I will do better next time" after having made a mistake or imagining a conversation with one's boss in preparation for leaving work early. It is often understood as an exchange of messages in which sender and receiver are the same person. Some theorists use a wider definition that goes beyond message-based accounts and focuses on the role of meaning and making sense of things. Intrapersonal communication can happen alone or in social situations. It may be prompted internally or occur as a response to changes in the environment.
+    Intrapersonal communication is communication with oneself or self-to-self communication. Examples are thinking to oneself "I will do better next time" after having made a mistake or imagining a conversation with one's boss in preparation for leaving work early. It is often understood as an exchange of messages in which sender and receiver are the same person. Some theorists use a wider definition that goes beyond message-based accounts and focuses on the role of meaning and making sense of things. Intrapersonal communication can happen alone or in social situations. It may be prompted internally or occur as a response to changes in the environment.
 - url: https://en.wikipedia.org/wiki/Dream_speech
   created: '2025-06-23T21:31:56Z'
   title: |
@@ -114,14 +114,15 @@
   image_wh: 
   description: 'Words in the mind during sleep'
   extract: |
-        Dream speech is internal speech which occurs during a dream. The term was coined by Emil Kraepelin in his 1906 monograph titled Über Sprachstörungen im Traume. The text discussed various forms of dream speech, outlining 286 examples. Dream speech is not to be confounded with the 'language of dreams', which refers to the visual means of representing thought in dreams.
+    Dream speech is internal speech which occurs during a dream. The term was coined by Emil Kraepelin in his 1906 monograph titled Über Sprachstörungen im Traume. The text discussed various forms of dream speech, outlining 286 examples. Dream speech is not to be confounded with the 'language of dreams', which refers to the visual means of representing thought in dreams.
 - url: https://en.wikipedia.org/wiki/Thought_insertion
   created: '2025-06-23T21:33:51Z'
   title: |
     Thought insertion
   image_url: 
   image_wh: 
-  description: 'Delusional belief that thoughts have been inserted into one's mind'
+  description: |
+    Delusional belief that thoughts have been inserted into one's mind
   extract: |
         Thought insertion is defined by the ICD-10 as the delusion that one's thoughts are not one's own, but rather belong to someone else and have been inserted into one's mind. The person experiencing the thought insertion delusion will not necessarily know where the thought is coming from, but makes a distinction between their own thoughts and those inserted into their minds. However, patients do not experience all thoughts as inserted; only certain ones, normally following a similar content or pattern. A person with this delusional belief is convinced of the veracity of their beliefs and is unwilling to accept such diagnosis.
 - url: https://en.wikipedia.org/wiki/Paraphasia
