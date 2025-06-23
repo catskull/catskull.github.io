@@ -154,6 +154,7 @@ title: wiki - catskull.net
           {% include topnav.html %}
           <h2 id="wiki-archive">wiki archive</h2>
           <p>I use this to keep track of wikipedia articles I find interesting. By no means do I endorse, sponsor, hold, or promote any of these ideas. It's just random wikipedia articles.</p>
+          <p>There are currently <b>{{ site.data.wiki.size }}</b> articles referenced here.</p>
           {% assign wikis = site.data.wiki | sort: 'created' | reverse %}
           {% for wiki in wikis %}
             <section class="section" id="{{wiki.title | slugify}}">
