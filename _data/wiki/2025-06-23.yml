@@ -70,3 +70,12 @@
   description: 'American brand of meal replacement products'
   extract: |
         Soylent is a set of meal replacement products in powder, shake, and bar forms, produced by Soylent Nutrition, Inc. The company was founded in 2013 and is headquartered in Los Angeles, California.
+- url: https://en.wikipedia.org/wiki/Millennials
+  created: '2025-06-23T20:58:13Z'
+  title: |
+    Millennials
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Generation_timeline.svg/330px-Generation_timeline.svg.png
+  image_wh: 320x200
+  description: 'Cohort born from the early 1980s to the mid-1990s'
+  extract: |
+        Millennials, also known as Generation Y or Gen Y, are the demographic cohort following Generation X and preceding Generation Z. Researchers and popular media use the early 1980s as starting birth years and the mid-1990s to early 2000s as ending birth years, with the generation typically being defined as people born from 1981 to 1996. Most millennials are the children of Baby Boomers. In turn, millennials are often the parents of Generation Alpha.
