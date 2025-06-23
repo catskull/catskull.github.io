@@ -16,3 +16,12 @@
   description: 'Airspace violation and shootdown incident'
   extract: |
         From January 28 to February 4, 2023, a high-altitude balloon originating from China flew across North American airspace, including Alaska, western Canada, and the contiguous United States. On February 4, the U.S. Air Force shot down the balloon over U.S. territorial waters off the coast of South Carolina. Debris from the wreckage was recovered and sent to the FBI Laboratory in Quantico, Virginia, for analysis. Following a preliminary analysis of the debris in June, U.S. officials stated that the balloon carried intelligence-gathering equipment but does not appear to have sent information back to China. U.S. President Joe Biden described the balloon as carrying two railroad cars' equivalent of spy equipment, however stated that it was "not a major breach", and that he also believed that the Chinese leadership was not aware of the balloon. The U.S. government said the balloon had a propeller for maneuverability.
+- url: https://en.wikipedia.org/wiki/If_a_tree_falls_in_a_forest_and_no_one_is_around_to_hear_it,_does_it_make_a_sound%3F
+  created: '2025-06-23T19:10:28Z'
+  title: |
+    If a tree falls in a forest and no one is around to hear it, does it make a sound?
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Fallen_tree2.jpg/330px-Fallen_tree2.jpg
+  image_wh: 320x427
+  description: 'Philosophical thought experiment'
+  extract: |
+        "If a tree falls in a forest and no one is around to hear it, does it make a sound?" is a philosophical thought experiment that raises questions regarding observation and perception.
