@@ -130,7 +130,12 @@ title: wiki - catskull.net
       </style>
       <button class="mobile-toggle" onclick="toggleSidebar()">☰</button>
       <div class="container">
-      {% assign wikis = site.data.wiki | sort: 'title' %}
+
+      {% assign wikis = '' | split: '' %}
+      {% for item in site.data.wiki %}
+        {% assign wikis = wikis | concat: item[1] %}
+      {% endfor %}
+      {% assign wikis = wikis | sort: 'title' %}
 
       <nav class="sidebar" id="sidebar">
         <div id="sidebar-header">
@@ -154,8 +159,8 @@ title: wiki - catskull.net
           {% include topnav.html %}
           <h2 id="wiki-archive">wiki archive</h2>
           <p>I use this to keep track of wikipedia articles I find interesting. By no means do I endorse, sponsor, hold, or promote any of these ideas. It's just random wikipedia articles.</p>
-          <p>There are currently <b>{{ site.data.wiki.size }}</b> articles referenced here.</p>
-          {% assign wikis = site.data.wiki | sort: 'created' | reverse %}
+          <p>There are currently <b>{{ wikis.size }}</b> articles referenced here.</p>
+          {% assign wikis = wikis | sort: 'created' | reverse %}
           {% for wiki in wikis %}
             <section class="section" id="{{wiki.title | slugify}}">
               <h2><a href="#{{wiki.title | slugify}}">{{ wiki.title }}</a></h2>
