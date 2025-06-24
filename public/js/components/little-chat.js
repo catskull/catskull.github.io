@@ -16,7 +16,7 @@ class LittleChat extends HTMLElement {
       <div class="messages" style="max-height: 400px; overflow-y: scroll; border: 1px solid; padding: 1rem;">
         ${this.messages.map(msg => this.renderMsg(msg)).join('')}
       </div>
-      
+      <audio id="notification-sound" style="display: none; visibility: hidden;"  src="/assets/aim.ogg"></audio>
       <form>
         <input type="text" placeholder="Add a message..." size="50">
         <button type="submit">Post</button>
@@ -33,7 +33,7 @@ class LittleChat extends HTMLElement {
   }
 
   idk() {
-    this.socket = new WebSocket("wss://little-chat.degraw.workers.dev/parties/chat/catskull.net");
+    this.socket = new WebSocket(`wss://little-chat.degraw.workers.dev/parties/chat/${location.hostname}`);
     this.socket.addEventListener("message", (event) => {
       const json = JSON.parse(event.data);
       if (json.type === 'all') {
@@ -44,6 +44,7 @@ class LittleChat extends HTMLElement {
         this.querySelector('.messages').innerHTML += this.renderMsg(json);
       }
       this.querySelector('.messages').scrollTop = this.querySelector('.messages').scrollHeight;
+      this.querySelector('#notification-sound').play();
     });
   }
 
