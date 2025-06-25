@@ -58,7 +58,11 @@ Time flies!
 
 The more expensive an activity is, the less fun it will be. Parks, splash pads, Target, strolls through the neighborhood are much more valuable. Kids haven't experienced anything yet!
 
-Share your hobbies with your kids. Allow them to be your friend. Ride skateboards, play music, build Lego, play video games, watch silly movies. Unless you are an identical twin, your kids are the most genetically similar people to you in the world. It makes sense you'll be similar.
+Share your hobbies with your kids. Allow them to be your friend. Ride skateboards, play music, build Lego, play video games, watch silly movies.
+
+Unless you are an identical twin, your kids are the most genetically similar people to you in the world. It makes sense you'll be similar.
+
+Having a plan, and letting kids know what the plan is and what to expect goes a long way.
 
 <hr class="final">
 <div style="text-align:center;">
