@@ -1,0 +1,22 @@
+# Privacy Policy
+
+**Last Updated:** 6/25/2025
+
+## Age Requirement (COPPA Compliance)
+This service is not intended for children under 13 years of age. If you are under 13, do not use this service.
+
+## What We Collect
+We only collect the chat messages you send to provide the chat service. We do not collect IP addresses, personal information, or any other data.
+
+## How We Use Your Messages
+Your messages are used solely to provide the chat functionality. We store only the most recent 500 messages - older messages are automatically deleted. **All messages are public and visible to all users.**
+
+## Data Sharing
+Since all messages are public, there is no private data to share. Messages are visible to anyone using the service.
+
+## Contact
+For questions about this policy, contact: bro@catskull.net
+
+---
+
+**By using this service, you confirm you are 13 or older and agree to this policy.**

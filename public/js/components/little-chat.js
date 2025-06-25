@@ -3,7 +3,6 @@ class LittleChat extends HTMLElement {
     super();
     this.socket = undefined;
     this.messages = [];
-    // this.color = colors[Math.floor(Math.random() * colors.length)];
     this.color = Math.floor(Math.random() * (360 - 0 + 1) + 0);
   }
   
@@ -15,6 +14,7 @@ class LittleChat extends HTMLElement {
     this.innerHTML = `
       <div class="messages" style="max-height: 400px; overflow-y: scroll; border: 1px solid; padding: 1rem;">
         ${this.messages.map(msg => this.renderMsg(msg)).join('')}
+        <div class="message">Welcome to little chat! By using, you are acknowledging you have read and agree to our <mark><a href="/public/little-chat-privacy.txt" target="_blank">privacy policy</a></mark>. Have fun!</div>
       </div>
       <audio id="notification-sound" style="display: none; visibility: hidden;"  src="/assets/aim.ogg"></audio>
       <form>
