@@ -18,7 +18,7 @@ class LittleChat extends HTMLElement {
       </div>
       <audio id="notification-sound" style="display: none; visibility: hidden;"  src="/assets/aim.ogg"></audio>
       <form>
-        <input type="text" placeholder="Add a message..." size="50">
+        <input style="max-width: 100%;" type="text" placeholder="Add a message..." size="50">
         <button type="submit">Post</button>
       </form>
     `;
