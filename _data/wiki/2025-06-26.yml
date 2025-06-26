@@ -128,3 +128,13 @@
     Former U.S. government scientific agency
   extract: |
     The United States Coast and Geodetic Survey was the first scientific agency of the United States Government. It existed from 1807 to 1970, and throughout its history was responsible for mapping and charting the coast of the United States, and later the coasts of U.S. territories. In 1871, it gained the additional responsibility of surveying the interior of the United States and geodesy became a more important part of its work, leading to it being renamed the U.S. Coast and Geodetic Survey in 1878.
+- url: https://en.wikipedia.org/wiki/Geodesy
+  created: '2025-06-26T18:40:38Z'
+  title: |
+    Geodesy
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Geoid_undulation_to_scale.jpg/330px-Geoid_undulation_to_scale.jpg
+  image_wh: 320x320
+  description: |
+    Science of measuring the shape, orientation, and gravity of Earth
+  extract: |
+    Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.
