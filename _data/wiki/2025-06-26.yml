@@ -68,3 +68,13 @@
     Natural reactions causing nucleosynthesis
   extract: |
     Cosmic ray spallation, also known as the x-process, is a set of naturally occurring nuclear reactions causing nucleosynthesis; it refers to the formation of chemical elements from the impact of cosmic rays on an object. Cosmic rays are highly energetic charged particles from beyond Earth, ranging from protons, alpha particles, and nuclei of many heavier elements. About 1% of cosmic rays also consist of free electrons.
+- url: https://en.wikipedia.org/wiki/Cosmic_ray
+  created: '2025-06-26T17:19:56Z'
+  title: |
+    Cosmic ray
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cosmic_ray_flux_versus_particle_energy.svg/330px-Cosmic_ray_flux_versus_particle_energy.svg.png
+  image_wh: 320x384
+  description: |
+    High-energy particle, mainly originating outside the Solar System
+  extract: |
+    Cosmic rays or astroparticles are high-energy particles or clusters of particles that move through space at nearly the speed of light. They originate from the Sun, from outside of the Solar System in our own galaxy, and from distant galaxies. Upon impact with Earth's atmosphere, cosmic rays produce showers of secondary particles, some of which reach the surface, although the bulk are deflected off into space by the magnetosphere or the heliosphere.
