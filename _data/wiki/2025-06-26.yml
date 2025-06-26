@@ -88,3 +88,13 @@
     Physical process
   extract: |
     Spallation is a process in which fragments of material (spall) are ejected from a body due to impact or stress. In the context of impact mechanics it describes ejection of material from a target during impact by a projectile. In planetary physics, spallation describes meteoritic impacts on a planetary surface and the effects of stellar winds and cosmic rays on planetary atmospheres and surfaces. In the context of mining or geology, spallation can refer to pieces of rock breaking off a rock face due to the internal stresses in the rock; it commonly occurs on mine shaft walls. In the context of metal oxidation, spallation refers to the breaking off of the oxide layer from a metal. For example, the flaking off of rust from iron. In the context of anthropology, spallation is a process used to make stone tools such as arrowheads by knapping. In nuclear physics, spallation is the process in which a heavy nucleus emits numerous nucleons as a result of being hit by a high-energy particle, thus greatly reducing its atomic weight. In industrial processes and bioprocessing the loss of tubing material due to the repeated flexing of the tubing within a peristaltic pump is termed spallation.
+- url: https://en.wikipedia.org/wiki/Particle_accelerator
+  created: '2025-06-26T17:25:08Z'
+  title: |
+    Particle accelerator
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fermilab.jpg/330px-Fermilab.jpg
+  image_wh: 320x209
+  description: |
+    Research apparatus for particle physics
+  extract: |
+    A particle accelerator is a machine that uses electromagnetic fields to propel charged particles to very high speeds and energies to contain them in well-defined beams. Small accelerators are used for fundamental research in particle physics. Accelerators are also used as synchrotron light sources for the study of condensed matter physics. Smaller particle accelerators are used in a wide variety of applications, including particle therapy for oncological purposes, radioisotope production for medical diagnostics, ion implanters for the manufacturing of semiconductors, and accelerator mass spectrometers for measurements of rare isotopes such as radiocarbon.
