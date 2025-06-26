@@ -7,7 +7,15 @@ class LittleChat extends HTMLElement {
   }
   
   renderMsg(msg) {
-    return `<div class="message" style="--hue: ${msg.user}; color: light-dark(oklch(0.72 0.15 var(--hue, 70)),oklch(0.72 0.15 var(--hue, 70)));">${msg.content}</div>`
+    const escapeHtml = (text) => {
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#x27;');
+      };
+    return `<div class="message" style="--hue: ${msg.user}; color: light-dark(oklch(0.72 0.15 var(--hue, 70)),oklch(0.72 0.15 var(--hue, 70)));">${escapeHtml(msg.content)}</div>`
   }
 
   render() {
