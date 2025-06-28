@@ -37,17 +37,18 @@ custom-shader = ./shaders/bloom.glsl
 {% for image in site.static_files %}
   {% if image.path contains 'images/shaders' %}
   {% if image.path contains '+' %}
+  {% unless image.path contains '.avif' %}
     {% assign slug = image.path | split: '/' | last | split: '.' | first %}
 <h2>{{ slug }}</h2>
     {% if image.path contains 'webm' %}
-<video autoplay loop muted playsinline>
+<video preload="none" controls muted loop playsinline poster="{{ image.path | replace: '.webm', '.avif' }}">
   <source src="{{ image.path }}" type="video/webm">
   Your browser does not support the video tag.
 </video>
-    {% else %}
-balls
-<img src="{{ image.path }}" alt="image" />
+    {% elsif image.path contains '.jp' %}
+<img loading="lazy" src="{{ image.path }}" alt="{{ slug }}" />
     {% endif %}
+  {% endunless %}
   {% endif %}
   {% endif %}
 {% endfor %}
@@ -57,17 +58,19 @@ balls
 {% for image in site.static_files %}
   {% if image.path contains 'images/shaders' %}
   {% unless image.path contains '+' %}
+  {% unless image.path contains '.avif' %}
     {% assign slug = image.path | split: '/' | last | split: '.' | first %}
     {% assign href = "https://github.com/hackr-sh/ghostty-shaders/blob/main/" | append: slug | append: ".glsl" %}
 <h2>{% include external_link.html href=href text=slug %}</h2>
     {% if image.path contains 'webm' %}
-<video autoplay loop muted playsinline>
+<video preload="none" controls muted loop playsinline poster="{{ image.path | replace: '.webm', '.avif' }}">
   <source src="{{ image.path }}" type="video/webm">
   Your browser does not support the video tag.
 </video>
-    {% else %}
-<img src="{{ image.path }}" alt="image" />
+    {% elsif image.path contains '.jp' %}
+<img loading="lazy" src="{{ image.path }}" alt="{{ slug }}" />
     {% endif %}
+  {% endunless %}
   {% endunless %}
   {% endif %}
 {% endfor %}
