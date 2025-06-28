@@ -94,32 +94,10 @@ title: wiki - catskull.net
             transition: transform 0.3s ease;
           }
 
-          .sidebar.mobile-open {
-            transform: translateX(0);
-          }
-
           .main-content {
             margin-left: 0;
             max-width: 100%;
           }
-
-          .mobile-toggle {
-            display: block;
-            position: fixed;
-            top: 1rem;
-            left: 1rem;
-            z-index: 101;
-            background: #007bff;
-            color: white;
-            border: none;
-            padding: 0.5rem;
-            border-radius: 4px;
-            cursor: pointer;
-          }
-        }
-
-        .mobile-toggle {
-          display: none;
         }
 
         /* Intersection observer styles for active states */
@@ -128,7 +106,6 @@ title: wiki - catskull.net
           background: pink;
         }
       </style>
-      <button class="mobile-toggle" onclick="toggleSidebar()">☰</button>
       <div class="container">
 
       {% assign wikis = '' | split: '' %}
@@ -160,6 +137,7 @@ title: wiki - catskull.net
           <h2 id="wiki-archive">wiki archive</h2>
           <p>I use this to keep track of wikipedia articles I find interesting. By no means do I endorse, sponsor, hold, or promote any of these ideas. It's just random wikipedia articles.</p>
           <p>There are currently <b>{{ wikis.size }}</b> articles referenced here.</p>
+          <p><a href="/wiki-archive.html">Read more about how this page is built.</a></p>
           {% assign wikis = wikis | sort: 'created' | reverse %}
           {% for wiki in wikis %}
             <section class="section" id="{{wiki.title | slugify}}">
