@@ -1,6 +1,6 @@
 ---
 title: The Most Dangerous App I've Ever Built
-tags: []
+tags: [cloudflare, javascript, little chat, programming, development]
 date: 2025-06-25 13:43:09 -0600
 layout: post
 ---

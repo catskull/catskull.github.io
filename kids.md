@@ -1,10 +1,10 @@
 ---
 layout: default
-title: kids - catskull.net
+title: parenting - catskull.net
 ---
 {% include topnav.html %}
 
-# kids
+# parenting
 
 My wife and I are the parents to 4 awesome kids. Parenting is quite the experience. I stole [Sam's](https://samwarnick.com/debugging-kids/) idea, and decided to keep a note of some of the little tips and tricks that have helped me have an easier time parenting.
 

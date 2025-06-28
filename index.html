@@ -4,6 +4,10 @@ title: blog - catskull.net
 ---
 {% include topnav.html %}
 
+<h2>latest mastodon post</h2>
+
+<rss-feed url="https://mastodon.social/@dareelcatskull.rss"></rss-feed>
+
 <h2>current newsletter</h2>
 
 <ul id="newsletter-list">
@@ -13,10 +17,6 @@ title: blog - catskull.net
     <h3 class="index-list-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
   </li>
 </ul>
-
-<h2>latest (mastodon)</h2>
-
-<rss-feed url="https://mastodon.social/@dareelcatskull.rss"></rss-feed>
 
 <h2>blog</h2>
 {% include random.html %}
@@ -44,3 +44,5 @@ title: blog - catskull.net
   <a href="/feed.xml">RSS</a>
 </footer>
 <script type="text/javascript" src="https://catskull.net/public/js/components/rss-feed.js" async></script>
+<script type="text/javascript" src="/public/js/components/little-chat.js"></script>
+
