@@ -30,8 +30,7 @@
       url: mailto:bro@catskull.net
 - name: Development
   children:
-    - name: Berkeley Mono
-      url: https://berkeleygraphics.com/typefaces/berkeley-mono/
+    - name: SF Mono
     - name: chruby
       url: https://github.com/postmodern/chruby
     - name: ruby-install
