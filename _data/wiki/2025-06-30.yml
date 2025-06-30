@@ -38,3 +38,13 @@
     Multiple of the unit byte
   extract: |
     The megabyte is a multiple of the unit byte for digital information. Its recommended unit symbol is MB. The unit prefix mega is a multiplier of 1000000 (106) in the International System of Units (SI). Therefore, one megabyte is one million bytes of information. This definition has been incorporated into the International System of Quantities.
+- url: https://en.wikipedia.org/wiki/Chamfer
+  created: '2025-06-30T15:20:04Z'
+  title: |
+    Chamfer
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Larks_tongue.JPG/330px-Larks_tongue.JPG
+  image_wh: 320x536
+  description: |
+    Flat transitional edge between two faces of an object
+  extract: |
+    A chamfer is a transitional edge between two faces of an object. Sometimes defined as a form of bevel, it is often created at a 45° angle between two adjoining right-angled faces.
