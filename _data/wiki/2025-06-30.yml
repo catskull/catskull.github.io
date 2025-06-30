@@ -48,3 +48,13 @@
     Flat transitional edge between two faces of an object
   extract: |
     A chamfer is a transitional edge between two faces of an object. Sometimes defined as a form of bevel, it is often created at a 45° angle between two adjoining right-angled faces.
+- url: https://en.wikipedia.org/wiki/Fillet_(mechanics)
+  created: '2025-06-30T15:22:18Z'
+  title: |
+    Fillet (mechanics)
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Fillet.jpg/330px-Fillet.jpg
+  image_wh: 320x240
+  description: |
+    Rounding of an interior or exterior corner
+  extract: |
+    In mechanical engineering, a fillet is a rounding of an interior or exterior corner of a part. An interior or exterior corner, with an angle or type of bevel, is called a "chamfer". Fillet geometry, when on an interior corner is a line of concave function, whereas a fillet on an exterior corner is a line of convex function. Fillets commonly appear on welded, soldered, or brazed joints.
