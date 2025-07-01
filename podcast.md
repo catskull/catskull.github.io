@@ -12,7 +12,7 @@ title: interrobang - catskull.net
 I love a good conversation. I've never met someone I didn't like and I didn't find interesting. "Interrobang" is me inquiring others about their passions, to see the world from their perspective. Let's have fun!
 
 People I would like to talk to:
-{% assign people = "Barack Obama, David Crank - Production Designer, Alfred Matthew 'Weird Al' Yankovic, Bronzson, Nate, Colton, Tony Hawk, Steve Meretzky" | split: ", " | sort %}
+{% assign people = "Barack Obama, David Crank - Production Designer, Alfred Matthew 'Weird Al' Yankovic, Bronzson, Nate, Colton, Tony Hawk, Steve Meretzky, Michael Levin" | split: ", " | sort %}
 {% for person in people %}
 - {{ person }}
 {% endfor %}
