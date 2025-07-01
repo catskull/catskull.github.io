@@ -13,6 +13,7 @@ layout: post
 		min-width: 5in;
     margin: 0;
     padding: 0;
+    table-layout: fixed;
 	}
 
 	#calendar thead tr td, #calendar thead tr th {
