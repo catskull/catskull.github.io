@@ -22,7 +22,11 @@ People I would like to talk to:
 ## Episodes
 
 [feed](/podcasts/feed.xml)
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/interrobang-with-dave-degraw/id1821937590)
+
+<a href="https://podcasts.apple.com/us/podcast/interrobang-with-dave-degraw/id1821937590?itscg=30200&itsct=podcast_box_badge&ls=1&mttnsubad=1821937590" style="display: inline-block;">
+<img src="https://toolbox.marketingtools.apple.com/api/v2/badges/listen-on-apple-podcasts/badge/en-us" alt="Listen on Apple Podcasts" style="width: 258px; height: 82px; vertical-align: middle; object-fit: contain;" />
+</a>
+    
 
 <ul id="index-list">
 {% for podcast in site.podcasts reversed %}
