@@ -68,3 +68,13 @@
     Virtual machine for interactive fiction games
   extract: |
     The Z-machine is a virtual machine that was developed by Joel Berez and Marc Blank in 1979 and used by Infocom for its text adventure games. Infocom compiled game code to files containing Z-machine instructions and could therefore port its text adventures to a new platform simply by writing a Z-machine implementation for that platform. With the large number of incompatible home computer systems in use at the time, this was an important advantage over using native code or developing a compiler for each system.
+- url: https://en.wikipedia.org/wiki/Inform
+  created: '2025-07-02T16:41:59Z'
+  title: |
+    Inform
+  image_url: 
+  image_wh: 
+  description: |
+    Programming language and design system
+  extract: |
+    Inform is a programming language and design system for interactive fiction originally created in 1993 by Graham Nelson. Inform can generate programs designed for the Z-code or Glulx virtual machines. Versions 1 through 5 were released between 1993 and 1996. Around 1996, Nelson rewrote Inform from first principles to create version 6. Over the following decade, version 6 became reasonably stable and a popular language for writing interactive fiction. In 2006, Nelson released Inform 7, a completely new language based on principles of natural language and a new set of tools based around a book-publishing metaphor.
