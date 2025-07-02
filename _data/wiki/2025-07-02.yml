@@ -119,3 +119,15 @@
     undefined
   extract: |
     The word magnificence comes from the Latin “magnum facere”, which means to do something great. The Latin word draws on the Greek “megaloprépeia”. This noun conveys the meaning of doing something great which is fitting or seemly to the circumstance. Magnificence is a philosophical, aesthetic, and socio-economic notion deeply rooted in Western culture since classical antiquity.
+- url: https://en.wikipedia.org/wiki/Colorfulness
+  created: '2025-07-02T23:16:08Z'
+  title: |
+    Colorfulness
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Brightness_and_colorfulness.png/330px-Brightness_and_colorfulness.png
+  image_wh: 320x159
+  description: |
+    Perceived intensity of a specific color
+  extract: |
+    Colorfulness, chroma and saturation are attributes of perceived color relating to chromatic intensity. As defined formally by the International Commission on Illumination (CIE) they respectively describe three different aspects of chromatic intensity, but the terms are often used loosely and interchangeably in contexts where these aspects are not clearly distinguished. The precise meanings of the terms vary by what other functions they are dependent on.Colorfulness is the "attribute of a visual perception according to which the perceived color of an area appears to be more or less chromatic ". The colorfulness evoked by an object depends not only on its spectral reflectance but also on the strength of the illumination, and increases with the latter unless the brightness is very high.
+    Chroma is the "colorfulness of an area judged as a proportion of the brightness of a similarly illuminated area that appears white or highly transmitting". As a result, chroma is mostly only dependent on the spectral properties, and as such is seen to describe the object color. It is how different from a grey of the same lightness such an object color appears to be.
+    Saturation is the "colorfulness of an area judged in proportion to its brightness", which in effect is the perceived freedom from whitishness of the light coming from the area. An object with a given spectral reflectance exhibits approximately constant saturation for all levels of illumination, unless the brightness is very high.
