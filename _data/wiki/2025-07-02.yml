@@ -58,3 +58,13 @@
     1984 video game
   extract: |
     The Hitchhiker's Guide to the Galaxy is an interactive fiction video game based on the comedic science fiction series of the same name. It was designed by series creator Douglas Adams and Infocom's Steve Meretzky, and it was first released in 1984 for the Apple II, Mac, Commodore 64, CP/M, MS-DOS, Amiga, Atari 8-bit computers, and Atari ST. It is Infocom's fourteenth game.
+- url: https://en.wikipedia.org/wiki/Z-machine
+  created: '2025-07-02T15:26:16Z'
+  title: |
+    Z-machine
+  image_url: 
+  image_wh: 
+  description: |
+    Virtual machine for interactive fiction games
+  extract: |
+    The Z-machine is a virtual machine that was developed by Joel Berez and Marc Blank in 1979 and used by Infocom for its text adventure games. Infocom compiled game code to files containing Z-machine instructions and could therefore port its text adventures to a new platform simply by writing a Z-machine implementation for that platform. With the large number of incompatible home computer systems in use at the time, this was an important advantage over using native code or developing a compiler for each system.
