@@ -25,7 +25,9 @@ html {
 }
 
 body {
-  --main-color: black;
+  --main-dark-color: rgb(215, 215, 216);
+  --main-light-color: black;
+  --main-color: var(--main-light-color);
   --main-bg-color: white;
   color: var(--main-color);
   font-family: system-ui;
@@ -105,7 +107,7 @@ table, th, td {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid var(--main-color);
   padding: 1rem;
 
   p {
@@ -123,13 +125,9 @@ img, video {
 @media (prefers-color-scheme: dark) {
   body {
     --main-bg-color: hsl(120, 2%, 9%);
-    --main-color: rgb(215, 215, 216);
+    --main-color: var(--main-dark-color);
     background: var(--main-bg-color);
     color: var(--main-color);
-  }
-
-  blockquote {
-    border: thin solid rgb(215, 215, 216);
   }
 
   a {
@@ -511,4 +509,43 @@ body:has(figure.full) {
 page-likes a {
   color: LinkText;
   text-decoration: underline;
+}
+
+.logo-video {
+    position: relative;
+    cursor: pointer;
+    image-rendering: pixelated;
+}
+
+.masked-logo-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask: url('/public/images/logos/davysgray.webp') no-repeat center/contain;
+    -webkit-mask: url('/public/images/logos/davysgray.webp') no-repeat center/contain;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.logo-video:hover .masked-logo-video {
+    opacity: 1;
+}
+
+/* Fallback - show just the mask image when not hovering */
+.logo-video::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/public/images/logos/davysgray.webp') no-repeat center/contain;
+    background-size: contain;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.logo-video:hover::before {
+    opacity: 0;
 }
