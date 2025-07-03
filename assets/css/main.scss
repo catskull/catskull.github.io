@@ -511,7 +511,7 @@ page-likes a {
   text-decoration: underline;
 }
 
-.logo-video {
+#logo-video {
     position: relative;
     cursor: pointer;
     image-rendering: pixelated;
@@ -527,12 +527,12 @@ page-likes a {
     transition: opacity 0.3s ease;
 }
 
-.logo-video:hover .masked-logo-video {
+#logo-video:hover .masked-logo-video {
     opacity: 1;
 }
 
 /* Fallback - show just the mask image when not hovering */
-.logo-video::before {
+#logo-video::before {
     content: '';
     position: absolute;
     top: 0;
@@ -546,6 +546,26 @@ page-likes a {
     pointer-events: none;
 }
 
-.logo-video:hover::before {
+#logo-video:hover::before {
     opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #logo-video:hover::before {
+      opacity: 1;
+  }
+  #logo-video:hover .masked-logo-video {
+    opacity: 0;
+  }
+  .img-frame img {
+    filter: saturate(2);
+  }
+  marquee {
+    visibility: hidden;
+  }
+  marquee::before {
+    content: "I might have just saved your life.";
+    visibility: visible;
+    position: absolute;
+  }
 }
