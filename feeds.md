@@ -57,4 +57,4 @@ title: feeds - catskull.net
     </div>
 </section>
 
-<script type="text/javascript" src="https://catskull.net/public/js/components/rss-feed.js" async></script>
+<script src="https://catskull.net/public/js/components/rss-feed.js" async></script>

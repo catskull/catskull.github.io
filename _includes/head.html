@@ -11,12 +11,15 @@
     {%- endif -%}
   </title>
 
-  {%-seo title=false-%}
+  {% capture seo_tag_output %}
+    {% seo title=false %}
+  {% endcapture %}
+  {{ seo_tag_output | replace: " />", ">" | replace: "/>", ">" }}
   {%-feed_meta-%}
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="icon" href="/favicon.png">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="me" href="https://mastodon.social/@dareelcatskull">
-  <meta name="fediverse:creator" content="@dareelcatskull@mastodon.social" />
+  <meta name="fediverse:creator" content="@dareelcatskull@mastodon.social">
   <meta property="og:image" content="{{ "/assets/opengraph.webp" | relative_url }}">
 </head>
