@@ -2,6 +2,7 @@
 layout: null
 title: wiki - catskull.net
 ---
+<!DOCTYPE html>
 <html lang="{{ page.lang | default: "en" }}">
   {%- include head.html -%}
   <body>
@@ -118,7 +119,7 @@ title: wiki - catskull.net
         <div id="sidebar-header">
           <h3 class="toc-title"><a href="#wiki-archive">wiki archive</a></h3>
           <label for="sidebar-search" style="visibility: hidden; display: none;">Choose a browser from this list:</label>
-          <input list="wiki-list" id="sidebar-search" name="sidebar-search" />
+          <input list="wiki-list" id="sidebar-search" name="sidebar-search">
           <datalist id="wiki-list">
           {% for wiki in wikis %}
             <option value="{{wiki.title}}"></option>
