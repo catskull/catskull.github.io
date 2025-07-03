@@ -15,7 +15,7 @@
     {% seo title=false %}
   {% endcapture %}
   {{ seo_tag_output | replace: " />", ">" | replace: "/>", ">" }}
-  {%-feed_meta-%}
+  <link type="application/atom+xml" rel="alternate" href="https://catskull.net/feed.xml" title="catskull.net">}
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="icon" href="/favicon.png">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
