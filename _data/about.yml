@@ -64,9 +64,11 @@ tables:
 lists:
 
   Accomplishments:
+    - Eagle Scout
+    - Successfully exited VIM
     - |
       <a href="https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=75403dd1d05bea1b65349ebb9f8b7deb40b9c802">Name in the OpenWrt repo</a>
-    - Eagle Scout
+
 
   Aspirations:
     - Skateboarder
@@ -199,6 +201,16 @@ lists:
    - Fife and Drum
    - Research
    - Blogging
+   - DIY
+   - Sustainability
+   - Thrifting
+   - Accessibility
+   - Internationalization
+   - Teaching
+   - Pedagogy
+   - Language
+   - Vocabulary
+   - Technology
 
   Friends:
     - name: Sam 🇺🇸
