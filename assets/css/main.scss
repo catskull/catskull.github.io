@@ -10,6 +10,10 @@
 
 :root {
   color-scheme: light dark;
+  --main-dark-color: rgb(215, 215, 216);
+  --main-light-color: black;
+  --main-color: var(--main-light-color);
+  --main-bg-color: white;
 }
 
 * {
@@ -25,10 +29,6 @@ html {
 }
 
 body {
-  --main-dark-color: rgb(215, 215, 216);
-  --main-light-color: black;
-  --main-color: var(--main-light-color);
-  --main-bg-color: white;
   color: var(--main-color);
   font-family: system-ui;
   font-size: clamp(0.8rem, 2vw, 1rem);
@@ -123,9 +123,11 @@ img, video {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+  :root {
     --main-bg-color: hsl(120, 2%, 9%);
     --main-color: var(--main-dark-color);
+  }
+  body {
     background: var(--main-bg-color);
     color: var(--main-color);
   }
@@ -141,8 +143,8 @@ img, video {
   .img-frame {
     background-image: repeating-linear-gradient(
       45deg,       /* angle of the lines */
-      rgb(150,150,150) 0,      /* start color (black) */
-      rgb(150,150,150) 1px,    /* end color (black) and width of the line */
+      #555 0,      /* start color (black) */
+      #555 1px,    /* end color (black) and width of the line */
       transparent 0px, /* start of transparent space after the line */
       transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
     );
@@ -233,7 +235,7 @@ sup a {
     padding-right: 0.5rem;
     margin: 0;
     font-size: 0.7rem;
-    color: dimgrey;
+    color: #555;
     cursor: context-menu;
   }
   li:hover {
@@ -289,8 +291,8 @@ sup a {
 .img-frame {
   background-image: repeating-linear-gradient(
     45deg,       /* angle of the lines */
-    rgb(100,100,100) 0,      /* start color (black) */
-    rgb(100,100,100) 1px,    /* end color (black) and width of the line */
+    #555 0,      /* start color (black) */
+    #555 1px,    /* end color (black) and width of the line */
     transparent 0px, /* start of transparent space after the line */
     transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
   );
@@ -569,3 +571,14 @@ page-likes a {
     position: absolute;
   }
 }
+
+@media (prefers-color-scheme: dark) and (prefers-contrast: more) and (forced-colors: none) {
+  :root {
+    --main-color: white !important;
+    --main-bg-color: black !important;
+  }
+  .post-tags li {
+    color: white !important;
+  }
+}
+
