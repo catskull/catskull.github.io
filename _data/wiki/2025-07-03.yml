@@ -74,8 +74,7 @@
     Powdered corn cob
   image_url: 
   image_wh: 
-  description: |
-    undefined
+  description:
   extract: |
     Powdered corn cob (PCC) is a rodenticide, marketed as a natural and environmentally-friendly alternative to anticoagulant types. The preparation was approved in July 2013 under the European Biocide Directive Program. It works by causing acute and ultimately lethal dehydration.
 - url: https://en.wikipedia.org/wiki/Corn_roaster
@@ -198,16 +197,6 @@
     Agricultural foodstuff used to feed domesticated animals
   extract: |
     Fodder, also called provender, is any agricultural foodstuff used specifically to feed domesticated livestock, such as cattle, rabbits, sheep, horses, chickens and pigs. "Fodder" refers particularly to food given to the animals, rather than that which they forage for themselves. Fodder includes hay, straw, silage, compressed and pelleted feeds, oils and mixed rations, and sprouted grains and legumes. Most animal feed is from plants, but some manufacturers add ingredients to processed feeds that are of animal origin.
-- url: https://www.merriam-webster.com/dictionary/Brobdingnagian
-  created: '2025-07-03T21:15:49Z'
-  title: |
-    Undefined
-  image_url: 
-  image_wh: 
-  description: |
-    Topics referred to by the same term
-  extract: |
-    Undefined may refer to:
 - url: https://en.wikipedia.org/wiki/Brobdingnag
   created: '2025-07-03T21:15:55Z'
   title: |
