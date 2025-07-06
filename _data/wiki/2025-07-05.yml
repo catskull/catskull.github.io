@@ -1,0 +1,40 @@
+- url: https://en.wikipedia.org/wiki/Tetris_Battle_Gaiden
+  created: '2025-07-05T00:00:07Z'
+  title: |
+    Tetris Battle Gaiden
+  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Tetris_Battle_Gaiden.jpg/330px-Tetris_Battle_Gaiden.jpg
+  image_wh: 320x176
+  description: |
+    1993 video game
+  extract: |
+    Tetris Battle Gaiden is a puzzle video game developed and published in 1993 by Bullet-Proof Software for the Super Famicom. Released only in Japan, the game is a variant of the Tetris series involving multiplayer battles comparable to those of the Puyo Puyo and Columns series of video games. The game received its first international release via the Tetris Forever (2024) video game compilation.
+- url: https://en.wikipedia.org/wiki/Internet_geolocation
+  created: '2025-07-05T19:44:13Z'
+  title: |
+    Internet geolocation
+  image_url: 
+  image_wh: 
+  description: |
+    Determining the physical location of internet user
+  extract: |
+    In computing, Internet geolocation is software capable of deducing the geographic position of a device connected to the Internet. For example, the device's IP address can be used to determine the country, city, or ZIP code, determining its geographical location. Other methods include examination of Wi-Fi hotspots.
+- url: https://en.wikipedia.org/wiki/Bountiful_(Book_of_Mormon)
+  created: '2025-07-05T20:52:00Z'
+  title: |
+    Bountiful (Book of Mormon)
+  image_url: 
+  image_wh: 
+  description: |
+    Name of two places described in the Book of Mormon
+  extract: |
+    Bountiful is the name of two places described in the Book of Mormon, a religious text dictated in 1829 by Joseph Smith. The first location is set in the Old World near Jerusalem, and the second location is set somewhere in the Americas. While secular and non-LDS scholars consider the Book of Mormon to be a work of fiction, Latter Day Saints view the book as a chronicle of actual indigenous American people. Accordingly, several scholars in The Church of Jesus Christ of Latter Day Saints have attempted to coordinate the Book of Mormon text relating to Bountiful with actual locations in the Old World and the New World.
+- url: https://openwrt.org/docs/guide-user/services/dns/doh_dnsmasq_https-dns-proxy
+  created: '2025-07-05T23:10:22Z'
+  title: |
+    Undefined
+  image_url: 
+  image_wh: 
+  description: |
+    Topics referred to by the same term
+  extract: |
+    Undefined may refer to:

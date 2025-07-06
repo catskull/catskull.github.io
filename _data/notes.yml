@@ -1,3 +1,7 @@
+- note: "How to set up OpenWrt Dns over https"
+  link: "https://openwrt.org/docs/guide-user/services/dns/doh_dnsmasq_https-dns-proxy"
+  date: 7/5/2025
+
 - note: "Excellent info on ice based tie-dye!"
   link: "https://www.tiedyeyoursummer.com/Technique/kaleidoscope-ice-tie-dye-technique"
   date: 7/2/2025
