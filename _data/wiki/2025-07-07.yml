@@ -8,3 +8,13 @@
     Color between red and magenta plus its shades
   extract: |
     Rose is the color halfway between red, magenta and white on the HSV color wheel, also known as the RGB color wheel, on which it is at hue angle of 330 degrees.
+- url: https://en.wikipedia.org/wiki/Spring_green?wprov=sfti1
+  created: '2025-07-07T00:56:03Z'
+  title: |
+    Spring green
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Spring_Green.svg/330px-Spring_Green.svg.png
+  image_wh: 320x320
+  description: |
+    Color
+  extract: |
+    Spring green is a color that was traditionally considered to be on the yellow side of green, but in modern computer systems based on the RGB color model is halfway between cyan and green on the color wheel.
