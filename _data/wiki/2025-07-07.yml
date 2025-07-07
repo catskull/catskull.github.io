@@ -18,3 +18,13 @@
     Color
   extract: |
     Spring green is a color that was traditionally considered to be on the yellow side of green, but in modern computer systems based on the RGB color model is halfway between cyan and green on the color wheel.
+- url: https://en.wikipedia.org/wiki/Natural_Color_System?wprov=sfti1
+  created: '2025-07-07T00:57:56Z'
+  title: |
+    Natural Color System
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Animation_of_the_NCS_Colour_System.gif/330px-Animation_of_the_NCS_Colour_System.gif
+  image_wh: 320x204
+  description: |
+    Proprietary perceptual color model
+  extract: |
+    The Natural Colour System (NCS) is a proprietary perceptual color model. It is based on the color opponency hypothesis of color vision, first proposed by German physiologist Ewald Hering. The current version of the NCS was developed by the Swedish Colour Centre Foundation, from 1964 onwards. The research team consisted of Anders Hård, Lars Sivik and Gunnar Tonnquist, who in 1997 received the AIC Judd award for their work. The system is based entirely on the phenomenology of human perception as opposed to color mixing. It is illustrated by a color atlas, marketed by NCS Colour AB in Stockholm.
