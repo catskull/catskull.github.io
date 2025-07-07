@@ -38,3 +38,13 @@
     Connector used to connect to mains power
   extract: |
     AC power plugs and sockets connect devices to mains electricity to supply them with electrical power. A plug is the connector attached to an electrically operated device, often via a cable. A socket is fixed in place, often on the internal walls of buildings, and is connected to an AC electrical circuit. Inserting the plug into the socket allows the device to draw power from this circuit.
+- url: https://en.wikipedia.org/wiki/IEC_60320?wprov=sfti1
+  created: '2025-07-07T04:50:10Z'
+  title: |
+    IEC 60320
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/IEC_60320_plugs.jpg/330px-IEC_60320_plugs.jpg
+  image_wh: 320x224
+  description: |
+    Set of standards for AC power connectors used on domestic appliances on the appliance side
+  extract: |
+    IEC 60320, entitled "Appliance couplers for household and similar general purposes", is a set of standards published by the International Electrotechnical Commission (IEC) that defines non-locking appliance couplers for connecting power supply cords to electrical appliances. These couplers are intended for use with devices operating at voltages up to 250 V (AC) and currents up to 16 A. The standard specifies various types of connectors, differentiated by shape and size, to accommodate different combinations of current ratings, temperature tolerances, and earthing requirements.
