@@ -8,3 +8,13 @@
     1994 racing video game
   extract: |
     Road Rash is a 1994 racing and vehicular combat video game originally published by Electronic Arts (EA) for the 3DO Interactive Multiplayer. A version for the Sega CD was developed simultaneously and released in 1995 to act as a "bridge" between the 3DO version and the Sega Genesis title Road Rash 3, and the game was subsequently ported to the PlayStation, Sega Saturn, and Microsoft Windows in 1996. The game is the third installment in the Road Rash series, and is centered around a series of motorcycle races throughout California that the player must win to advance to higher-difficulty races, while engaging in unarmed and armed combat to hinder the other racers.
+- url: https://en.wikipedia.org/wiki/Action_principles
+  created: '2025-07-08T15:21:49Z'
+  title: |
+    Action principles
+  image_url: 
+  image_wh: 
+  description: |
+    Fundamental mechanical principles
+  extract: |
+    Action principles lie at the heart of fundamental physics, from classical mechanics through quantum mechanics, particle physics, and general relativity. Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action. The action depends on the energy function, and the energy function depends on the position, motion, and interactions in the system: variation of the action allows the derivation of the equations of motion without vectors or forces.
