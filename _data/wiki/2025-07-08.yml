@@ -18,3 +18,13 @@
     Fundamental mechanical principles
   extract: |
     Action principles lie at the heart of fundamental physics, from classical mechanics through quantum mechanics, particle physics, and general relativity. Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action. The action depends on the energy function, and the energy function depends on the position, motion, and interactions in the system: variation of the action allows the derivation of the equations of motion without vectors or forces.
+- url: https://en.wikipedia.org/wiki/Maupertuis%27s_principle
+  created: '2025-07-08T15:24:39Z'
+  title: |
+    Maupertuis's principle
+  image_url: 
+  image_wh: 
+  description: |
+    Principle of least length in physics
+  extract: |
+    In classical mechanics, Maupertuis's principle states that the path followed by a physical system is the one of least length. It is a special case of the more generally stated principle of least action. Using the calculus of variations, it results in an integral equation formulation of the equations of motion for the system.
