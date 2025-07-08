@@ -13,12 +13,12 @@ Exhaustive. See also {% include external_link.html href="https://open.spotify.co
 
 [Master List](/playlist/archive/master-list/)
 
-{% assign playlists = site.playlists | group_by_exp: "playlist", "playlist.path | split: '/' | slice: 1, 1 | first" %}
+{% assign playlists = site.playlists | group_by_exp: "playlist", "playlist.path | split: '/' | slice: 1, 1 | first" | reverse %}
 
 {% for year in playlists %}
 <h2>{{year.name}}</h2>
 <ul>
-	{% assign pls = year.items | sort: "slug" %}
+	{% assign pls = year.items | sort: "slug" | reverse %}
 	{% for playlist in pls %}
 		<li>
 			<a href="{{playlist.url}}">Week {{playlist.title}}</a>
