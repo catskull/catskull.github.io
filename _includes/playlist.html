@@ -27,3 +27,90 @@
 		{% endif %}
 	</tfoot>
 </table>
+
+{% if include.apple and include.spotify %}
+
+<style>
+    .music-selector {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .options-container {
+        display: flex;
+        gap: 20px;
+    		
+    		a {
+    			text-decoration: none;
+    		}
+    }
+
+    .service-option {
+        background: white;
+        border: 2px solid #555;
+        border-radius: 12px;
+        padding: 60px 40px;
+        width: 200px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .service-option:hover {
+        border-color: LinkText;
+    }
+
+    .service-name {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        cursor: pointer;
+    }
+
+    @media (max-width: 500px) {
+    	#selection-container {
+    		display: none;
+    		visibility: hidden;
+    	}
+    }
+</style>
+
+<div id="selection-container" style="width: 100%; height: 450px; scroll-padding: 0px; overflow: hidden;">
+  <div class="music-selector">
+      <blockquote><p>You're standing before two doors. One leads to freedom, the other to certain doom. In front of each door stands a guard. One guard always tells the truth, the other always lies. You don't know which guard is which, or which door leads where.</p></blockquote>
+      <p>Make a selection:</p>
+      <div class="options-container">
+          <a href="#apple">
+          <div class="service-option apple-music" data-service="apple-music">
+              <div class="service-name">Apple Music</div>
+          </div>
+	        </a>
+          
+          <a href="#spotify">
+          <div class="service-option spotify" data-service="spotify">
+              <div class="service-name">Spotify</div>
+          </div>
+	        </a>
+	      </div>
+  </div>
+
+
+	<iframe id="apple" height="450" width="100%" title="Media player" src="https://embed.music.apple.com/us/playlist/{{ include.apple }}?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad={{ include.apple | split: "/" | first }}&amp;theme=auto" id="embedPlayer" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style="border: 0px; border-radius: 12px; width: 100%; height: 450px; max-width: 660px;" loading="lazy"></iframe>
+
+	<iframe id="spotify" style="border-radius:12px;" src="https://open.spotify.com/embed/playlist/{{ include.spotify }}?utm_source=generator&theme=0" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+{% endif %}
+
