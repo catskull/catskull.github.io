@@ -145,7 +145,9 @@ title: wiki - catskull.net
               <h2><a href="#{{wiki.title | slugify}}">{{ wiki.title }}</a></h2>
               {{ wiki.description }}
               {% if wiki.image_url %}
-                <img src="{{wiki.image_url}}" alt="{{wiki.title}}">
+                {% assign width = wiki.image_wh | split: "x" | first %}
+                {% assign height = wiki.image_wh | split: "x" | last %}
+                <img loading="lazy" width="{{ width }}" height="{{ height }}" src="{{wiki.image_url}}" alt="{{wiki.title}}">
               {% endif %}
               <p>{{ wiki.extract }}</p>
               <p>
