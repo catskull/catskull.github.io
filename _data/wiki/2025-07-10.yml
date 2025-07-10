@@ -58,3 +58,13 @@
     Machine for printing proof of postage payment
   extract: |
     A postage meter or franking machine is a mechanical device used to create and apply physical evidence of postage to mailed items. Postage meters are regulated by a country's postal authority. A postage meter imprints an amount of postage, functioning as a postage stamp, a cancellation and a dated postmark all in one. The meter stamp serves as proof of payment and eliminates the need for adhesive stamps.
+- url: https://en.wikipedia.org/wiki/Neopost_web-enabled_stamps
+  created: '2025-07-10T20:10:58Z'
+  title: |
+    Neopost web-enabled stamps
+  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/34-cent_pane_of_4_Neopost_web-enabled_postage_stamps.jpg/330px-34-cent_pane_of_4_Neopost_web-enabled_postage_stamps.jpg
+  image_wh: 320x293
+  description: |
+    undefined
+  extract: |
+    Neopost web-enabled stamps or Neopostage is a postage stamp that is part of the family of computerized postage. These stamps were developed by Neopost Online and Northrop Grumman Corporation. The joint effort resulted in an innovative self-service stamp vending system. Neopost Online is a US subsidiary of Neopost Inc. Testing of this system was authorized by the United States Postal Service (USPS) in March 2001.
