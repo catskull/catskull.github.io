@@ -48,3 +48,13 @@
     Hand-written method of postal franking in the Netherlands
   extract: |
     A postzegelcode is a hand-written method of franking in the Netherlands. It consists of a code containing nine numbers and letters that customers can purchase online from PostNL and write directly on their piece of mail within five days as proof of payment in place of a postage stamp.
+- url: https://en.wikipedia.org/wiki/Postage_meter#Digital_meters
+  created: '2025-07-10T20:07:06Z'
+  title: |
+    Postage meter
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pitney-Bowes_Model_M_postage_meter_c._1920.jpg/330px-Pitney-Bowes_Model_M_postage_meter_c._1920.jpg
+  image_wh: 320x285
+  description: |
+    Machine for printing proof of postage payment
+  extract: |
+    A postage meter or franking machine is a mechanical device used to create and apply physical evidence of postage to mailed items. Postage meters are regulated by a country's postal authority. A postage meter imprints an amount of postage, functioning as a postage stamp, a cancellation and a dated postmark all in one. The meter stamp serves as proof of payment and eliminates the need for adhesive stamps.
