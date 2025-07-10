@@ -38,3 +38,13 @@
     undefined
   extract: |
     A digital stamp in crafting, stamping, card making and scrapbooking is a digital image printed onto paper from the user's printer. Digital stamps come in a variety of formats, including PNG, JPG, and TIFF. Digital stamps offer many advantages over traditional rubber stamps because of their ability to be flipped, resized, rotated and easily stored.
+- url: https://en.wikipedia.org/wiki/Postzegelcode
+  created: '2025-07-10T19:59:57Z'
+  title: |
+    Postzegelcode
+  image_url: https://upload.wikimedia.org/wikipedia/commons/8/85/Postzegelcode.png
+  image_wh: 127x127
+  description: |
+    Hand-written method of postal franking in the Netherlands
+  extract: |
+    A postzegelcode is a hand-written method of franking in the Netherlands. It consists of a code containing nine numbers and letters that customers can purchase online from PostNL and write directly on their piece of mail within five days as proof of payment in place of a postage stamp.
