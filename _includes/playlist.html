@@ -22,7 +22,7 @@
 		{% endif %}
 		{% if include.apple or include.spotify %}
 		<tr>
-			<th>{% if include.apple %}{% include external_link.html href=apple_url text="Music" %}{% endif %}{% if include.apple and include.spotify %} | {% endif %}{% if include.spotify %}{% include external_link.html href=spotify_url text="Spotify" %}{% endif %}</th>
+			<th>{% if include.apple %}{% include external_link.html href=apple_url text="Apple Music" %}{% endif %}{% if include.apple and include.spotify %} | {% endif %}{% if include.spotify %}{% include external_link.html href=spotify_url text="Spotify" %}{% endif %}</th>
 		</tr>
 		{% endif %}
 	</tfoot>
