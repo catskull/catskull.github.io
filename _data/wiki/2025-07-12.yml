@@ -59,3 +59,13 @@
     Recording to reproduce a three-dimensional light field
   extract: |
     Holography is a technique that allows a wavefront to be recorded and later reconstructed. It is best known as a method of generating three-dimensional images, and has a wide range of other uses, including data storage, microscopy, and interferometry. In principle, it is possible to make a hologram for any type of wave.
+- url: https://en.wikipedia.org/wiki/Linear_optical_quantum_computing
+  created: '2025-07-12T23:57:24Z'
+  title: |
+    Linear optical quantum computing
+  image_url: 
+  image_wh: 
+  description: |
+    Paradigm of quantum computer
+  extract: |
+    Linear optical quantum computing or linear optics quantum computation (LOQC), also photonic quantum computing (PQC), is a paradigm of quantum computation, allowing (under certain conditions, described below) universal quantum computation. LOQC uses photons as information carriers, mainly uses linear optical elements, or optical instruments (including reciprocal mirrors and waveplates) to process quantum information, and uses photon detectors and quantum memories to detect and store quantum information.
