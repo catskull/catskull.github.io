@@ -27,9 +27,7 @@ I love a good conversation. I've never met someone I didn't like and I didn't fi
 {% for podcast in site.podcasts reversed %}
 	{% unless podcast.name == 'feed.xml' %}
 	{% assign index = site.podcasts.size | minus: forloop.index | plus: 1 %}
-	{% capture url %}
-	episode-{{ index }}-{{ podcast.title | slugify }}
-	{% endcapture %}
+	{% capture url %}episode-{{ index }}-{{ podcast.title | slugify }}{% endcapture %}
 	<li class="index-list-item">
 		<time datetime="{{ podcast.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ podcast.date | date: site.theme_config.date_format }}</time>
 		<h3 id="{{ url }}" class="index-list-title"><a href="#{{ url }}">{{ index }}: {{ podcast.title }}</a>{% if podcast.explicit %}🅴{% endif %}</h3>
