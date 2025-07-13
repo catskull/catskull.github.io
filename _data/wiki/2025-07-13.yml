@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Magneto-optical_trap
+  created: '2025-07-13T00:01:51Z'
+  title: |
+    Magneto-optical trap
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/MOT_setup.png/330px-MOT_setup.png
+  image_wh: 320x204
+  description: |
+    Apparatus for trapping and cooling neutral atoms
+  extract: |
+    In atomic, molecular, and optical physics, a magneto-optical trap (MOT) is an apparatus which uses laser cooling and a spatially varying magnetic field to create a trap which can produce samples of cold neutral atoms. Temperatures achieved in a MOT can be as low as several microkelvins, depending on the atomic species, which is two or three times below the photon-recoil limit. However, for atoms with an unresolved hyperfine structure, such as 7Li, the temperature achieved in a MOT will be higher than the Doppler cooling limit.
