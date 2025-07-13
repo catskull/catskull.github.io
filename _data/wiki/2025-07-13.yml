@@ -39,3 +39,13 @@
     2004 video game
   extract: |
     Dragon Ball: Advanced Adventure is a 2004 video game released for Game Boy Advance based on the Dragon Ball franchise.
+- url: https://en.wikipedia.org/wiki/Non-fungible_token?wprov=sfti1
+  created: '2025-07-13T04:00:01Z'
+  title: |
+    Non-fungible token
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/NFT_diagram.svg/330px-NFT_diagram.svg.png
+  image_wh: 320x180
+  description: |
+    Unique and non-interchangeable data
+  extract: |
+    A non-fungible token (NFT) is a unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity. It cannot be copied, substituted, or subdivided. The ownership of an NFT is recorded in the blockchain and can be transferred by the owner, allowing NFTs to be sold and traded. Initially pitched as a new class of investment asset, by September 2023, one report claimed that over 95% of NFT collections had zero monetary value.
