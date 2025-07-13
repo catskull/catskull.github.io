@@ -8,3 +8,13 @@
     Apparatus for trapping and cooling neutral atoms
   extract: |
     In atomic, molecular, and optical physics, a magneto-optical trap (MOT) is an apparatus which uses laser cooling and a spatially varying magnetic field to create a trap which can produce samples of cold neutral atoms. Temperatures achieved in a MOT can be as low as several microkelvins, depending on the atomic species, which is two or three times below the photon-recoil limit. However, for atoms with an unresolved hyperfine structure, such as 7Li, the temperature achieved in a MOT will be higher than the Doppler cooling limit.
+- url: https://en.wikipedia.org/wiki/Laser_cooling
+  created: '2025-07-13T00:02:28Z'
+  title: |
+    Laser cooling
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lithium-mot.png/330px-Lithium-mot.png
+  image_wh: 320x214
+  description: |
+    Cooling technique in atomic physics
+  extract: |
+    Laser cooling includes several techniques where atoms, molecules, and small mechanical systems are cooled with laser light. The directed energy of lasers is often associated with heating materials, e.g. laser cutting, so it can be counterintuitive that laser cooling often results in sample temperatures approaching absolute zero. It is a routinely used in atomic physics experiments where the laser-cooled atoms are manipulated and measured, or in technologies, such as atom-based quantum computing architectures.
