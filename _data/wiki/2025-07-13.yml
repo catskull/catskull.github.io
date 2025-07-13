@@ -18,3 +18,14 @@
     Cooling technique in atomic physics
   extract: |
     Laser cooling includes several techniques where atoms, molecules, and small mechanical systems are cooled with laser light. The directed energy of lasers is often associated with heating materials, e.g. laser cutting, so it can be counterintuitive that laser cooling often results in sample temperatures approaching absolute zero. It is a routinely used in atomic physics experiments where the laser-cooled atoms are manipulated and measured, or in technologies, such as atom-based quantum computing architectures.
+- url: https://en.wikipedia.org/wiki/Quantum_logic_gate#Universal_quantum_gates
+  created: '2025-07-13T00:02:53Z'
+  title: |
+    Quantum logic gate
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Quantum_Logic_Gates.png/330px-Quantum_Logic_Gates.png
+  image_wh: 320x393
+  description: |
+    Basic circuit in quantum computing
+  extract: |
+    
+    In quantum computing and specifically the quantum circuit model of computation, a quantum logic gate is a basic quantum circuit operating on a small number of qubits. Quantum logic gates are the building blocks of quantum circuits, like classical logic gates are for conventional digital circuits.
