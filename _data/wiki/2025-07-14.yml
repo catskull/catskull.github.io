@@ -130,3 +130,13 @@
     Region south of the Sahara Desert
   extract: |
     Sub-Saharan Africa is the area and regions of the continent of Africa that lie south of the Sahara. These include Central Africa, East Africa, Southern Africa, and West Africa. Geopolitically, in addition to the African countries and territories that are situated fully in that specified region, the term may also include polities that only have part of their territory located in that region, per the definition of the United Nations (UN). This is considered a non-standardised geographical region with the number of countries included varying from 46 to 48 depending on the organisation describing the region. The African Union (AU) uses a different regional breakdown, recognising all 55 member states on the continent—grouping them into five distinct and standard regions.
+- url: https://en.wikipedia.org/wiki/Artificial_gene_synthesis
+  created: '2025-07-14T22:47:59Z'
+  title: |
+    Artificial gene synthesis
+  image_url: 
+  image_wh: 
+  description: |
+    Group of methods in synthetic biology
+  extract: |
+    Artificial gene synthesis, or simply gene synthesis, refers to a group of methods that are used in synthetic biology to construct and assemble genes from nucleotides de novo. Unlike DNA synthesis in living cells, artificial gene synthesis does not require template DNA, allowing virtually any DNA sequence to be synthesized in the laboratory. It comprises two main steps, the first of which is solid-phase DNA synthesis, sometimes known as DNA printing. This produces oligonucleotide fragments that are generally under 200 base pairs. The second step then involves connecting these oligonucleotide fragments using various DNA assembly methods. Because artificial gene synthesis does not require template DNA, it is theoretically possible to make a completely synthetic DNA molecule with no limits on the nucleotide sequence or size.
