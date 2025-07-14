@@ -28,3 +28,13 @@
     Canadian restaurant chain
   extract: |
     Elephant & Castle Pub and Restaurant, or simply Elephant & Castle (E&C), is a Canadian restaurant chain founded in 1977. Restaurants operate in Canada and the United States.
+- url: https://en.wikipedia.org/wiki/Donkey_Kong_(1994_video_game)
+  created: '2025-07-14T15:29:24Z'
+  title: |
+    Donkey Kong (1994 video game)
+  image_url: https://upload.wikimedia.org/wikipedia/en/2/23/Donkey_Kong_94_box_art.jpg
+  image_wh: 250x251
+  description: |
+    Puzzle-platform video game
+  extract: |
+    Donkey Kong is a 1994 puzzle-platform game developed by Nintendo and Pax Softnica and published by Nintendo for the Game Boy. Donkey Kong is loosely based on the 1981 arcade game of the same name and its sequel Donkey Kong Jr.
