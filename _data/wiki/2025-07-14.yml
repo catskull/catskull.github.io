@@ -140,3 +140,13 @@
     Group of methods in synthetic biology
   extract: |
     Artificial gene synthesis, or simply gene synthesis, refers to a group of methods that are used in synthetic biology to construct and assemble genes from nucleotides de novo. Unlike DNA synthesis in living cells, artificial gene synthesis does not require template DNA, allowing virtually any DNA sequence to be synthesized in the laboratory. It comprises two main steps, the first of which is solid-phase DNA synthesis, sometimes known as DNA printing. This produces oligonucleotide fragments that are generally under 200 base pairs. The second step then involves connecting these oligonucleotide fragments using various DNA assembly methods. Because artificial gene synthesis does not require template DNA, it is theoretically possible to make a completely synthetic DNA molecule with no limits on the nucleotide sequence or size.
+- url: https://en.wikipedia.org/wiki/Genetic_engineering
+  created: '2025-07-14T22:50:29Z'
+  title: |
+    Genetic engineering
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Genetic_engineering_logo.png/330px-Genetic_engineering_logo.png
+  image_wh: 320x301
+  description: |
+    Manipulation of an organism's genome
+  extract: |
+    Genetic engineering, also called genetic modification or genetic manipulation, is the modification and manipulation of an organism's genes using technology. It is a set of technologies used to change the genetic makeup of cells, including the transfer of genes within and across species boundaries to produce improved or novel organisms. New DNA is obtained by either isolating and copying the genetic material of interest using recombinant DNA methods or by artificially synthesising the DNA. A construct is usually created and used to insert this DNA into the host organism. The first recombinant DNA molecule was made by Paul Berg in 1972 by combining DNA from the monkey virus SV40 with the lambda virus. As well as inserting genes, the process can be used to remove, or "knock out", genes. The new DNA can either be inserted randomly or targeted to a specific part of the genome.
