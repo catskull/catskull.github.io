@@ -28,3 +28,13 @@
     Protocol for real-time Internet chat and messaging
   extract: |
     IRC is a text-based chat system for instant messaging. IRC is designed for group communication in discussion forums, called channels, but also allows one-on-one communication via private messages as well as chat and data transfer, including file sharing.
+- url: https://en.wikipedia.org/wiki/XMPP
+  created: '2025-07-16T17:31:23Z'
+  title: |
+    XMPP
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/XMPP_logo.svg/320px-XMPP_logo.svg.png
+  image_wh: 320x320
+  description: |
+    Communications protocol for message-oriented middleware
+  extract: |
+    Extensible Messaging and Presence Protocol is an open communication protocol designed for instant messaging (IM), presence information, and contact list maintenance. Based on XML, it enables the near-real-time exchange of structured data between two or more network entities. Designed to be extensible, the protocol offers a multitude of applications beyond traditional IM in the broader realm of message-oriented middleware, including signalling for VoIP, video, file transfer, gaming and other uses.
