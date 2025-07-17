@@ -58,3 +58,13 @@
     Visual illusion
   extract: |
     The barberpole illusion is a visual illusion that reveals biases in the processing of visual motion in the human brain. This visual illusion occurs when a diagonally striped pole is rotated around its vertical axis (horizontally), it appears as though the stripes are moving in the direction of its vertical axis rather than around it.
+- url: https://en.wikipedia.org/wiki/Shepard_tone
+  created: '2025-07-17T17:25:51Z'
+  title: |
+    Shepard tone
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Shepard_Tones_spectrum_linear_scale.png/330px-Shepard_Tones_spectrum_linear_scale.png
+  image_wh: 320x165
+  description: |
+    Auditory illusion
+  extract: |
+    A Shepard tone, named after Roger Shepard, is a sound consisting of a superposition of sine waves separated by octaves. When played with the bass pitch of the tone moving upward or downward, it is referred to as the Shepard scale. This creates the auditory illusion of a tone that seems to continually ascend or descend in pitch, yet which ultimately gets no higher or lower.
