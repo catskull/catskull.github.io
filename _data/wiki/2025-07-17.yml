@@ -68,3 +68,14 @@
     Auditory illusion
   extract: |
     A Shepard tone, named after Roger Shepard, is a sound consisting of a superposition of sine waves separated by octaves. When played with the bass pitch of the tone moving upward or downward, it is referred to as the Shepard scale. This creates the auditory illusion of a tone that seems to continually ascend or descend in pitch, yet which ultimately gets no higher or lower.
+- url: https://en.wikipedia.org/wiki/Strange_loop
+  created: '2025-07-17T17:37:56Z'
+  title: |
+    Strange loop
+  image_url: 
+  image_wh: 
+  description: |
+    Cyclic structure that goes through several levels in a hierarchical system
+  extract: |
+    A strange loop is a cyclic structure that goes through several levels in a hierarchical system. It arises when, by moving only upwards or downwards through the system, one finds oneself back where one started.
+    Strange loops may involve self-reference and paradox. The concept of a strange loop was proposed and extensively discussed by Douglas Hofstadter in Gödel, Escher, Bach, and is further elaborated in Hofstadter's book I Am a Strange Loop, published in 2007.
