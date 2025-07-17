@@ -48,3 +48,13 @@
     Type of sign
   extract: |
     A barber's pole is a type of sign used by barbers to signify the place or shop where they perform their craft. The trade sign is, by a tradition dating back to the Middle Ages, a staff or pole with a helix of colored stripes. The pole may be stationary or may rotate, often with the aid of an electric motor. The consistent use of this advertising symbol can be seen as analogous to an apothecary's show globe, a tobacconist's cigar store Indian and a pawn broker's three gold balls.
+- url: https://en.wikipedia.org/wiki/Barberpole_illusion
+  created: '2025-07-17T17:24:48Z'
+  title: |
+    Barberpole illusion
+  image_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Barberpole_illusion_animated.gif
+  image_wh: 256x160
+  description: |
+    Visual illusion
+  extract: |
+    The barberpole illusion is a visual illusion that reveals biases in the processing of visual motion in the human brain. This visual illusion occurs when a diagonally striped pole is rotated around its vertical axis (horizontally), it appears as though the stripes are moving in the direction of its vertical axis rather than around it.
