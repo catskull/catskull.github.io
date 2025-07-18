@@ -18,3 +18,13 @@
     Operating system focused on disk-based file operations
   extract: |
     A disk operating system (DOS) is a computer operating system that requires a disk or other direct-access storage device as secondary storage. A DOS provides a file system and a means for loading and running programs stored on the disk.
+- url: https://en.wikipedia.org/wiki/Magic_Mouse
+  created: '2025-07-18T17:15:50Z'
+  title: |
+    Magic Mouse
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Magic_Mouse.jpg/330px-Magic_Mouse.jpg
+  image_wh: 320x213
+  description: |
+    Computer mice developed and released by Apple Inc.
+  extract: |
+    The Magic Mouse is a multi-touch wireless computer mouse sold by Apple Inc. and manufactured by Foxconn. The first-generation Magic Mouse was released on October 20, 2009, and introduced multi-touch functionality to a computer mouse. Taking after the iPhone, iPod Touch, and multi-touch MacBook touchpads, the Magic Mouse allows the use of multi-touch gestures and inertia scrolling across the surface of the mouse, designed for use with macOS.
