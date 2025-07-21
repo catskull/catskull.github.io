@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Wireless_Application_Protocol
+  created: '2025-07-21T16:07:30Z'
+  title: |
+    Wireless Application Protocol
+  image_url: https://upload.wikimedia.org/wikipedia/en/2/27/WAP_browsing.gif
+  image_wh: 176x208
+  description: |
+    Deprecated technical standard for data access over a cellular network
+  extract: |
+    Wireless Application Protocol (WAP) is an obsolete technical standard for accessing information over a mobile cellular network. Introduced in 1999, WAP allowed users with compatible mobile devices to browse content such as news, weather and sports scores provided by mobile network operators, specially designed for the limited capabilities of a mobile device. The Japanese i-mode system offered a competing wireless data standard.
