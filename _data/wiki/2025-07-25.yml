@@ -48,3 +48,13 @@
     American computer engineer, founder of the Internet Archive
   extract: |
     Brewster Lurton Kahle is an American digital librarian, computer engineer, and Internet entrepreneur. He graduated from the Massachusetts Institute of Technology in 1982 with a Bachelor of Science degree in computer science and engineering. Kahle founded the Internet Archive and co-founded Alexa Internet in 1996. He was inducted into the Internet Hall of Fame in 2012.
+- url: https://en.wikipedia.org/wiki/Connection_Machine?wprov=sfti1#
+  created: '2025-07-25T21:15:18Z'
+  title: |
+    Connection Machine
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Connection_Machine_CM-2_and_DataVault_at_Computer_Museum_of_America.webp/330px-Connection_Machine_CM-2_and_DataVault_at_Computer_Museum_of_America.webp.png
+  image_wh: 320x190
+  description: |
+    Supercomputer
+  extract: |
+    The Connection Machine (CM) is a member of a series of massively parallel supercomputers sold by Thinking Machines Corporation. The idea for the Connection Machine grew out of doctoral research on alternatives to the traditional von Neumann architecture of computers by Danny Hillis at Massachusetts Institute of Technology (MIT) in the early 1980s. Starting with CM-1, the machines were intended originally for applications in artificial intelligence (AI) and symbolic processing, but later versions found greater success in the field of computational science.
