@@ -38,3 +38,13 @@
     Medical condition
   extract: |
     Obesity is a risk factor for many chronic physical and mental illnesses.
+- url: https://en.wikipedia.org/wiki/Brewster_Kahle?wprov=sfti1
+  created: '2025-07-25T21:14:52Z'
+  title: |
+    Brewster Kahle
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Brewster_Kahle_%28cropped%29.jpg/330px-Brewster_Kahle_%28cropped%29.jpg
+  image_wh: 320x452
+  description: |
+    American computer engineer, founder of the Internet Archive
+  extract: |
+    Brewster Lurton Kahle is an American digital librarian, computer engineer, and Internet entrepreneur. He graduated from the Massachusetts Institute of Technology in 1982 with a Bachelor of Science degree in computer science and engineering. Kahle founded the Internet Archive and co-founded Alexa Internet in 1996. He was inducted into the Internet Hall of Fame in 2012.
