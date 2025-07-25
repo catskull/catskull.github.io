@@ -58,3 +58,13 @@
     Supercomputer
   extract: |
     The Connection Machine (CM) is a member of a series of massively parallel supercomputers sold by Thinking Machines Corporation. The idea for the Connection Machine grew out of doctoral research on alternatives to the traditional von Neumann architecture of computers by Danny Hillis at Massachusetts Institute of Technology (MIT) in the early 1980s. Starting with CM-1, the machines were intended originally for applications in artificial intelligence (AI) and symbolic processing, but later versions found greater success in the field of computational science.
+- url: https://en.wikipedia.org/wiki/FROSTBURG?wprov=sfti1
+  created: '2025-07-25T21:19:05Z'
+  title: |
+    FROSTBURG
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Frostburg.jpg/330px-Frostburg.jpg
+  image_wh: 320x488
+  description: |
+    Supercomputer
+  extract: |
+    FROSTBURG was a Connection Machine 5 (CM-5) massively parallel supercomputer used by the US National Security Agency (NSA) to perform mathematical calculations. The CM-5 was built by the Thinking Machines Corporation, based in Cambridge, Massachusetts, at a cost of US$25 million. The system was installed at NSA in 1991, and operated until 1997. It was the first massively parallel processing computer bought by NSA, originally containing 256 processing nodes. The system was upgraded in 1993 with another 256 nodes, for a total of 512 nodes. The system had a total of 500 billion 32-bit words of storage, 2.5 billion words of memory, and could perform at a theoretical maximum 65.5 gigaFLOPS. The operating system CMost was based on Unix, but optimized for parallel processing.
