@@ -18,3 +18,13 @@
     Geometric shape
   extract: |
     In geometry, a cone is a three-dimensional figure that tapers smoothly from a flat base to a point not contained in the base, called the apex or vertex.
+- url: https://en.wikipedia.org/wiki/Hypercone
+  created: '2025-07-28T16:49:16Z'
+  title: |
+    Hypercone
+  image_url: https://upload.wikimedia.org/wikipedia/commons/5/54/Spherical_cone_lines.png
+  image_wh: 300x400
+  description: |
+    4-dimensional figure
+  extract: |
+    In geometry, a hypercone is the figure in the 4-dimensional Euclidean space represented by the equation
