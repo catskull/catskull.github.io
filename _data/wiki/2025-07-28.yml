@@ -28,3 +28,13 @@
     4-dimensional figure
   extract: |
     In geometry, a hypercone is the figure in the 4-dimensional Euclidean space represented by the equation
+- url: https://en.wikipedia.org/wiki/Automotive_fuse
+  created: '2025-07-28T17:00:44Z'
+  title: |
+    Automotive fuse
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Electrical_fuses%2C_plug-in_type%2C_different_sizes.jpeg/330px-Electrical_fuses%2C_plug-in_type%2C_different_sizes.jpeg
+  image_wh: 320x226
+  description: |
+    Class of fuses used to protect the wiring and electrical equipment for vehicles
+  extract: |
+    Automotive fuses are a class of fuses used to protect the wiring and electrical equipment for vehicles. They are generally rated for circuits no higher than 32 volts direct current, but some types are rated for 42-volt electrical systems. They are occasionally used in non-automotive electrical products. Automotive fuses are typically housed inside one or more fuse boxes within the vehicle, typically on one side of the engine compartment and/or under the dash near the steering wheel. Some fuses or circuit breakers may nonetheless be placed elsewhere, such as near the cabin fan or air bag controller. They also exist as circuit breakers that are resettable using a switch.
