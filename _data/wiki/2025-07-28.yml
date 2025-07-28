@@ -8,3 +8,13 @@
     U.S. federal surveying and mapping agency
   extract: |
     The National Geodetic Survey (NGS) is a United States federal agency based in Washington, D.C. that defines and manages a national coordinate system, providing the foundation for transportation and communication, mapping and charting, and a large number of science and engineering applications. Since its founding in 1970, it has been part of the National Oceanic and Atmospheric Administration (NOAA), a division within the Department of Commerce.
+- url: https://en.wikipedia.org/wiki/Cone
+  created: '2025-07-28T16:48:44Z'
+  title: |
+    Cone
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cone_with_labeled_Radius%2C_Height%2C_Angle_and_Side.svg/330px-Cone_with_labeled_Radius%2C_Height%2C_Angle_and_Side.svg.png
+  image_wh: 320x180
+  description: |
+    Geometric shape
+  extract: |
+    In geometry, a cone is a three-dimensional figure that tapers smoothly from a flat base to a point not contained in the base, called the apex or vertex.
