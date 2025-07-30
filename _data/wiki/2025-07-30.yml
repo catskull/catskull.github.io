@@ -68,3 +68,13 @@
     19th-century phonetic writing system devised by the LDS Church
   extract: |
     The Deseret alphabet is a phonemic English-language spelling reform developed between 1847 and 1854 by the board of regents of the University of Deseret under the leadership of Brigham Young, the second president of the Church of Jesus Christ of Latter-day Saints. George D. Watt is reported to have been the most actively involved in the development of the script's novel characters, which were used to replace those of Isaac Pitman's English phonotypic alphabet. He was also the "New Alphabet's" first serious user. The script gets its name from the word deseret, a hapax legomenon in the Book of Mormon, which is said to mean "honeybee" in the only verse it is used in.
+- url: https://en.wikipedia.org/wiki/Gossip_protocol
+  created: '2025-07-30T22:52:22Z'
+  title: |
+    Gossip protocol
+  image_url: 
+  image_wh: 
+  description: |
+    Concept in computing
+  extract: |
+    A gossip protocol or epidemic protocol is a procedure or process of computer peer-to-peer communication that is based on the way epidemics spread. Some distributed systems use peer-to-peer gossip to ensure that data is disseminated to all members of a group. Some ad-hoc networks have no central registry and the only way to spread common data is to rely on each member to pass it along to their neighbors.
