@@ -11,7 +11,7 @@ I recently noticed that upon loading the catskull.net homepage, there was some k
 
 Press play on the video. It should loop but maybe not.
 
-<video style="aspect-ratio: 866/346;" controls loop muted playsinline>
+<video style="width: 100%; aspect-ratio: 866/346;" controls loop muted playsinline>
   <source src="/assets/images/posts/content-flicker-mitigation/baadreload.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
@@ -28,7 +28,7 @@ The logo is actually an html `<video>` tag with a `:before` psuedo-element that 
 {% include logo_tagline.html %}
 </div>
 
-Initially I was tempted to just throw a `height: 56px;` on and call it a day. This would prevent the vertical layout shift, but on narrow screens it causes extra white space as the image scaled to meet the `max-width` of the page.
+Initially I was tempted to just throw a `height: 56px;` on and call it a day. This would prevent the vertical layout shift, but on narrow screens it causes extra white space as the image scaled to meet the `max-width` of the page. However, we can use this to our advantage! Because the width of our logo is 100%, we can use aspect-ratio!
 
 > aspect ratio is a super power  
 > - Sam
@@ -42,7 +42,7 @@ Because my image has a predictable aspect ratio, simply adding `aspect-ratio: 64
 
 Great! We solved the vertical shift, but now another problem manifests!
 
-<video style="aspect-ratio: 798/320;" controls loop muted playsinline>
+<video style="width: 100%; aspect-ratio: 798/320;" controls loop muted playsinline>
   <source src="/assets/images/posts/content-flicker-mitigation/betterload.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
@@ -66,7 +66,7 @@ It's 2025 and you can `preload`, `lazyload`, and `auto` load anything on the web
 
 Now check this baby out, or just go see for yourself. At least as far as I can test, this is what I see when reloading the page. This is a video, not a screenshot.
 
-<video style="aspect-ratio: 798/320;" controls loop muted playsinline>
+<video style="width: 100%; aspect-ratio: 798/320;" controls loop muted playsinline>
   <source src="/assets/images/posts/content-flicker-mitigation/goodreload.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
