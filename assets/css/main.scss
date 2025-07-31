@@ -467,6 +467,7 @@ section#quotes {
 #portrait video {
   width: 100%;
   display: block;
+  aspect-ratio: 1/1;
 }
 
 #live-tag {
@@ -582,3 +583,7 @@ page-likes a {
   }
 }
 
+.button-88x31 {
+  width: 88px;
+  height: 31px;
+}

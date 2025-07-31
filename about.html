@@ -63,7 +63,9 @@ Updated June, 2025
           {% else %}
             <tr><td><div class="monospace-row">
             {%- for button in list[1] -%}
-              {{- button -}}
+              <div class="button-88x31">
+                {{- button -}}
+              </div>
             {%- endfor -%}
           {% endunless %}
           </div></td></tr>
