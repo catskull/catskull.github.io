@@ -48,3 +48,13 @@
     Internet-denoting grammatical prefixes
   extract: |
     Internet-related prefixes such as e-, i-, cyber-, info-, techno- and net- are added to a wide range of existing words to describe new, Internet- or computer-related flavors of existing concepts, often electronic products and services that already have a non-electronic counterpart. The adjective virtual is often used in a similar manner.
+- url: https://en.wikipedia.org/wiki/IEEE_802.15.4
+  created: '2025-07-31T02:05:19Z'
+  title: |
+    IEEE 802.15.4
+  image_url: 
+  image_wh: 
+  description: |
+    IEEE standard for low-rate wireless personal area networks
+  extract: |
+    IEEE 802.15.4 is a technical standard that defines the operation of a low-rate wireless personal area network (LR-WPAN). It specifies the physical layer and media access control for LR-WPANs, and is maintained by the IEEE 802.15 working group, which defined the standard in 2003. It is the basis for the Zigbee, ISA100.11a, WirelessHART, MiWi, 6LoWPAN, Thread, SNAP, and Clear Connect Type X specifications, each of which further extends the standard by developing the upper layers, which are not defined in IEEE 802.15.4. In particular, 6LoWPAN defines a binding for the IPv6 version of the Internet Protocol (IP) over WPANs, and is itself used by upper layers such as Thread.
