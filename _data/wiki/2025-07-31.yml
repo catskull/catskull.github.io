@@ -58,3 +58,13 @@
     IEEE standard for low-rate wireless personal area networks
   extract: |
     IEEE 802.15.4 is a technical standard that defines the operation of a low-rate wireless personal area network (LR-WPAN). It specifies the physical layer and media access control for LR-WPANs, and is maintained by the IEEE 802.15 working group, which defined the standard in 2003. It is the basis for the Zigbee, ISA100.11a, WirelessHART, MiWi, 6LoWPAN, Thread, SNAP, and Clear Connect Type X specifications, each of which further extends the standard by developing the upper layers, which are not defined in IEEE 802.15.4. In particular, 6LoWPAN defines a binding for the IPv6 version of the Internet Protocol (IP) over WPANs, and is itself used by upper layers such as Thread.
+- url: https://en.wikipedia.org/wiki/Universal_Media_Disc
+  created: '2025-07-31T04:28:08Z'
+  title: |
+    Universal Media Disc
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Universal_Media_Disc%2C_an_optical_disc_medium_developed_by_Sony_for_use_on_the_PlayStation_Portable.jpg/330px-Universal_Media_Disc%2C_an_optical_disc_medium_developed_by_Sony_for_use_on_the_PlayStation_Portable.jpg
+  image_wh: 320x318
+  description: |
+    Optical disc medium for PlayStation Portable
+  extract: |
+    The Universal Media Disc (UMD) is a discontinued optical disc medium developed by Sony for use on its PlayStation Portable handheld gaming and multimedia platform. It can hold up to 1.8 gigabytes of data and is capable of storing video games, feature-length films, and music. UMD is the trademark of Sony Computer Entertainment for their optical disk cartridge (ODC).
