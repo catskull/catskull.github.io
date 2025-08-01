@@ -11,7 +11,7 @@ layout: null
   <channel>
     <atom:link href="https://catskull.net/wiki.xml" rel="self" type="application/rss+xml"/>
     <title>catskull's wiki archive</title>
-    <pubDate>{{ wikis.first.created | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>    <lastBuildDate>{{ "now" | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <pubDate>{{ wikis.first.created | date_to_rfc822 }}</pubDate>    <lastBuildDate>{{ "now" | date_to_rfc822 }}</lastBuildDate>
     <generator>Your Mom's Podcast Engine 2.0</generator>
     <link>https://catskull.net/wiki</link>
     <language>en-us</language>
@@ -26,7 +26,7 @@ layout: null
       <description>
         <![CDATA[{{wiki.extract}}]]>
       </description>
-      <pubDate>{{ wiki.created | date: "%a, %d %b %Y %H:%M %Z" }}</pubDate>
+      <pubDate>{{ wiki.created | date_to_rfc822 }}</pubDate>
       <guid>https://catskull.net/wiki#{{wiki.title | slugify}}</guid>
     </item>
     {% endfor %}
