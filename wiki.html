@@ -139,6 +139,7 @@ title: wiki - catskull.net
           <p>I use this to keep track of wikipedia articles I find interesting. By no means do I endorse, sponsor, hold, or promote any of these ideas. It's just random wikipedia articles.</p>
           <p>There are currently <b>{{ wikis.size }}</b> articles referenced here.</p>
           <p><a href="/wiki-archive.html">Read more about how this page is built.</a></p>
+          <p><a href="/wiki.xml"><mark>New!</mark> Get an RSS feed of this page!</a></p>
           {% assign wikis = wikis | sort: 'created' | reverse %}
           {% for wiki in wikis %}
             <section class="section" id="{{wiki.title | slugify}}">
