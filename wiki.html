@@ -118,7 +118,7 @@ title: wiki - catskull.net
       <nav class="sidebar" id="sidebar">
         <div id="sidebar-header">
           <h3 class="toc-title"><a href="#wiki-archive">wiki archive</a></h3>
-          <label for="sidebar-search" style="visibility: hidden; display: none;">Choose a browser from this list:</label>
+          <label for="sidebar-search" style="visibility: hidden; display: none;">Search for an archived wiki article by title:</label>
           <input list="wiki-list" id="sidebar-search" name="sidebar-search">
           <datalist id="wiki-list">
           {% for wiki in wikis %}
@@ -199,8 +199,7 @@ const input = document.getElementById('sidebar-search');
 
 input.addEventListener('input', function(e) {
   const datalist = document.getElementById('wiki-list');
-  const options = Array.from(datalist.options).map(option => option.value);
-  
+  const options = Array.from(datalist.options).map(option => option.value.trim());
   if (options.includes(e.target.value)) {
     // Find link with matching text
     const links = document.querySelectorAll('a');
