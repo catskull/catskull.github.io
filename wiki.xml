@@ -1,0 +1,34 @@
+---
+layout: null
+---
+{%- assign wikis = '' | split: '' -%}
+{%- for item in site.data.wiki -%}
+  {%- assign wikis = wikis | concat: item[1] -%}
+{%- endfor -%}
+{%- assign wikis = wikis | sort: 'created' | reverse -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel>
+    <atom:link href="https://catskull.net/wiki.xml" rel="self" type="application/rss+xml"/>
+    <title>catskull's wiki archive</title>
+    <pubDate>{{ wikis.first.created | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>    <lastBuildDate>{{ "now" | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <generator>Your Mom's Podcast Engine 2.0</generator>
+    <link>https://catskull.net/wiki</link>
+    <language>en-us</language>
+    <copyright><![CDATA[Copyright © 2025 catskull.net]]></copyright>
+    <docs>https://catskull.net/wiki</docs>
+    <managingEditor>bro@catskull.net (bro@catskull.net)</managingEditor>
+    <description><![CDATA[My personal wiki archive feed.]]></description>    
+    {% for wiki in wikis limit: 50 %}
+    <item>
+      <title>{{ wiki.title | escape }}</title>
+      <link>https://catskull.net/wiki#{{wiki.title | slugify}}</link>
+      <description>
+        <![CDATA[{{wiki.extract}}]]>
+      </description>
+      <pubDate>{{ wiki.created | date: "%a, %d %b %Y %H:%M %Z" }}</pubDate>
+      <guid>https://catskull.net/wiki#{{wiki.title | slugify}}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
