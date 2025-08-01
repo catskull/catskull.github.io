@@ -4,6 +4,18 @@ title: blog - catskull.net
 ---
 {% include topnav.html %}
 
+<h2>random wiki</h2>
+
+{% assign wikis = '' | split: '' %}
+{% for item in site.data.wiki %}
+  {% assign wikis = wikis | concat: item[1] %}
+{% endfor %}
+{% assign wiki = wikis | sample %}
+
+<h3 style="margin:0;"><a href="/wiki#{{wiki.title | slugify}}" data-target="{{wiki.title | slugify}}">{{wiki.title}}</a></h3>
+<p style="margin-top:0;">{{ wiki.extract }}</p>
+<small>{{ wiki.created | date: "%-m/%-d/%y" }} {% include external_link.html href=wiki.url text="Wikipedia" %}</small>
+
 <h2>latest mastodon post</h2>
 
 <rss-feed url="https://mastodon.social/@dareelcatskull.rss"></rss-feed>
