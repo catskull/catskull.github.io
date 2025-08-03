@@ -28,3 +28,14 @@
     Earth pigment
   extract: |
     Sienna is an earth pigment containing iron oxide and manganese oxide. In its natural state, it is yellowish brown, and it is called raw sienna. When heated, it becomes a reddish brown, and it is called burnt sienna. It takes its name from the city-state of Siena, where it was produced during the Renaissance. Along with ochre and umber, it was one of the first pigments to be used by humans, and is found in many cave paintings. Since the Renaissance, it has been one of the brown pigments most widely used by artists.
+- url: https://en.wikipedia.org/wiki/X11_color_names
+  created: '2025-08-03T20:09:33Z'
+  title: |
+    X11 color names
+  image_url: 
+  image_wh: 
+  description: |
+    
+  extract: |
+    
+    In computing, on the X Window System, X11 color names are represented in a simple text file, which maps certain strings to RGB color values. It was traditionally shipped with every X11 installation, hence the name, and is usually located in <X11root>/lib/X11/rgb.txt. The web colors list is descended from it but differs for certain color names.
