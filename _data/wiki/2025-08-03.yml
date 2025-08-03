@@ -39,3 +39,13 @@
   extract: |
     
     In computing, on the X Window System, X11 color names are represented in a simple text file, which maps certain strings to RGB color values. It was traditionally shipped with every X11 installation, hence the name, and is usually located in <X11root>/lib/X11/rgb.txt. The web colors list is descended from it but differs for certain color names.
+- url: https://en.wikipedia.org/wiki/Zhejiang_University_of_Technology
+  created: '2025-08-03T20:53:29Z'
+  title: |
+    Zhejiang University of Technology
+  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/2/20/ZJUT_seal.svg/320px-ZJUT_seal.svg.png
+  image_wh: 320x320
+  description: |
+    Public university in Hangzhou, Zhejiang, China
+  extract: |
+    The Zhejiang University of Technology is a public university in Hangzhou, Zhejiang, China. It is affiliated with the Province of Zhejiang.
