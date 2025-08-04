@@ -6,9 +6,6 @@ title: interrobang - catskull.net
 
 # Interrobang with Dave DeGraw
 
-> The interrobang ‽ is an unconventional punctuation mark intended to combine the functions of the question mark (also known as the interrogative point) and the exclamation mark (also known in the jargon of printers and programmers as a "bang"). The glyph is a ligature of these two marks and was first proposed in 1962 by Martin K. Speckter
-> - [Wikipedia](https://en.wikipedia.org/wiki/Interrobang)
-
 I love a good conversation. I've never met someone I didn't like and I didn't find interesting. "Interrobang" is me inquiring others about their passions, to see the world from their perspective. Let's have fun!
 
 [Want to be my guest?](mailto:bro@catskull.net?subject=Interrobang)
