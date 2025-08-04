@@ -78,3 +78,13 @@
     US Congress research library
   extract: |
     The Library of Congress is a research library in Washington, D.C., serving as the library and research service for the United States Congress and the de facto national library of the United States. It also administers copyright law through the United States Copyright Office, and it houses the Congressional Research Service.
+- url: https://en.wikipedia.org/wiki/American_Memory
+  created: '2025-08-04T17:49:16Z'
+  title: |
+    American Memory
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/US-LOC-AmericanMemory-Logo.svg/330px-US-LOC-AmericanMemory-Logo.svg.png
+  image_wh: 320x292
+  description: |
+    undefined
+  extract: |
+    American Memory is an Internet-based archive for public domain image resources, audio, video, and archived Web content. Published by the Library of Congress, the archive launched on October 13, 1994, after $13 million was raised in private donations.
