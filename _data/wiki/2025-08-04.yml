@@ -108,3 +108,13 @@
     1918-1929 American animated film series
   extract: |
     Out of the Inkwell is an American animated film series of the silent era. It was produced by Max Fleischer from 1918 to 1929 and was called The Inkwell Imps at the end of that period.
+- url: https://en.wikipedia.org/wiki/Pareto_principle
+  created: '2025-08-04T20:26:44Z'
+  title: |
+    Pareto principle
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pareto_principle.png/330px-Pareto_principle.png
+  image_wh: 320x332
+  description: |
+    Statistical principle about ratio of effects to causes
+  extract: |
+    The Pareto principle states that, for many outcomes, roughly 80% of consequences come from 20% of causes.
