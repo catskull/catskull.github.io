@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Display_size?wprov=sfti1
+  created: '2025-08-10T04:17:43Z'
+  title: |
+    Display size
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/LCD_screen_sizes.svg/330px-LCD_screen_sizes.svg.png
+  image_wh: 320x226
+  description: |
+    Physical size of pictures and videos
+  extract: |
+    On 2D displays, such as computer monitors and TVs, display size or viewable image size (VIS) refers to the physical size of the area where pictures and videos are displayed. The size of a screen is usually described by the length of its diagonal, which is the distance between opposite corners, typically measured in inches. It is also sometimes called the physical image size to distinguish it from the "logical image size," which describes a screen's display resolution and is measured in pixels.
