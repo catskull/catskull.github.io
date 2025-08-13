@@ -113,7 +113,7 @@ title: wiki - catskull.net
       {% for item in site.data.wiki %}
         {% assign wikis = wikis | concat: item[1] %}
       {% endfor %}
-      {% assign wikis = wikis | sort: 'title' %}
+      {% assign wikis = wikis | sort: 'title' | uniq: 'title' %}
 
       <nav class="sidebar" id="sidebar">
         <div id="sidebar-header">
