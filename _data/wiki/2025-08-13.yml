@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/The_Pirate_Bay
+  created: '2025-08-13T18:48:52Z'
+  title: |
+    The Pirate Bay
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/The_Pirate_Bay_logo.svg/330px-The_Pirate_Bay_logo.svg.png
+  image_wh: 320x362
+  description: |
+    Website providing torrent files and magnet links
+  extract: |
+    The Pirate Bay, commonly abbreviated as TPB, is a free searchable online index of movies, music, video games, pornography and software. Founded in 2003 by Swedish think tank Piratbyrån, The Pirate Bay facilitates the connection among users of the peer-to-peer torrent protocol, which are able to contribute to the site through the addition of magnet links. The Pirate Bay has consistently ranked as one of the most visited torrent websites in the world.
