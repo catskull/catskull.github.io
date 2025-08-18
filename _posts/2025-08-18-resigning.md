@@ -54,6 +54,3 @@ My plan is to go finish my teaching degree and teach high school. I want to teac
 I’m going to start substitute teaching since I can do that right away. I will show up and do a great job as I always do and the doors will open. There will be setbacks. It will be hard. I’m walking away from a staff-level salary and I’m the sole breadwinner. That’s terrifying, literally horrifying. But I have to try! I’ve been really successful at pretty much everything I’ve even accidentally tried to do and I think I can use my cunning and wit to make it work.
 
 I’ve been writing on this site for at least the last 10 years. I mean honestly, I’m pretty much the same dude I was back then. Maybe I have more random crap now but at the end of the day I like to read wikipedia on my phone and write blog posts, you know? I built up all this stuff to make my life more bearable but there’s no substitute for passion. It’s not off to greener pastures. I’m not even sure if there is a pasture. I’m just going boldly where nobody else has gone before - into my future.
-
-_A note about burnout_
-
