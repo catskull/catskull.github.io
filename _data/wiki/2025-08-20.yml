@@ -38,3 +38,13 @@
     Incorrect or inaccurate action
   extract: |
     An error is an inaccurate or incorrect action, thought, or judgement.
+- url: https://en.wikipedia.org/wiki/Boris_Yeltsin
+  created: '2025-08-20T23:34:37Z'
+  title: |
+    Boris Yeltsin
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Boris_Yeltsin_%283x4_cropped%29.jpg/330px-Boris_Yeltsin_%283x4_cropped%29.jpg
+  image_wh: 320x427
+  description: |
+    President of Russia from 1991 to 1999
+  extract: |
+    Boris Nikolayevich Yeltsin was a Soviet and Russian politician and statesman who served as President of Russia from 1991 to 1999. He was a member of the Communist Party of the Soviet Union (CPSU) from 1961 to 1990. He later stood as a political independent, during which time he was viewed as being ideologically aligned with liberalism.
