@@ -144,7 +144,10 @@ title: wiki - catskull.net
           {% for wiki in wikis %}
             <section class="section" id="{{wiki.title | slugify}}">
               <h2><a href="#{{wiki.title | slugify}}">{{ wiki.title }}</a></h2>
-              {{ wiki.description }}
+              {% assign desc = wiki.description | strip %}
+              {% if desc != 'undefined' %}
+                {{ wiki.description }}
+              {% endif %}
               {% if wiki.image_url %}
                 {% assign width = wiki.image_wh | split: "x" | first %}
                 {% assign height = wiki.image_wh | split: "x" | last %}
