@@ -119,3 +119,13 @@
     Conscious subjective experience of humans
   extract: |
     Emotions are physical and mental states brought on by neurophysiological changes, variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure. There is no scientific consensus on a definition. Emotions are often intertwined with mood, temperament, personality, disposition, or creativity.
+- url: https://en.wikipedia.org/wiki/Affective_computing
+  created: '2025-08-21T16:09:59Z'
+  title: |
+    Affective computing
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sophia_at_the_AI_for_Good_Global_Summit_2018_%2827254369347%29_%28cropped%29.jpg/330px-Sophia_at_the_AI_for_Good_Global_Summit_2018_%2827254369347%29_%28cropped%29.jpg
+  image_wh: 320x406
+  description: |
+    Area of research in computer science aiming to understand the emotional state of users
+  extract: |
+    Affective computing is the study and development of systems and devices that can recognize, interpret, process, and simulate human affects. It is an interdisciplinary field spanning computer science, psychology, and cognitive science. While some core ideas in the field may be traced as far back as to early philosophical inquiries into emotion, the more modern branch of computer science originated with Rosalind Picard's 1995 paper entitled "Affective Computing" and her 1997 book of the same name published by MIT Press. One of the motivations for the research is the ability to give machines emotional intelligence, including to simulate empathy. The machine should interpret the emotional state of humans and adapt its behavior to them, giving an appropriate response to those emotions. Recent experimental research has shown that subtle affective haptic feedback can shape human reward learning and mobile interaction behavior, suggesting that affective computing systems may not only interpret emotional states but also actively modulate user actions through emotion-laden outputs.
