@@ -129,3 +129,13 @@
     Area of research in computer science aiming to understand the emotional state of users
   extract: |
     Affective computing is the study and development of systems and devices that can recognize, interpret, process, and simulate human affects. It is an interdisciplinary field spanning computer science, psychology, and cognitive science. While some core ideas in the field may be traced as far back as to early philosophical inquiries into emotion, the more modern branch of computer science originated with Rosalind Picard's 1995 paper entitled "Affective Computing" and her 1997 book of the same name published by MIT Press. One of the motivations for the research is the ability to give machines emotional intelligence, including to simulate empathy. The machine should interpret the emotional state of humans and adapt its behavior to them, giving an appropriate response to those emotions. Recent experimental research has shown that subtle affective haptic feedback can shape human reward learning and mobile interaction behavior, suggesting that affective computing systems may not only interpret emotional states but also actively modulate user actions through emotion-laden outputs.
+- url: https://en.wikipedia.org/wiki/Affect_control_theory
+  created: '2025-08-21T16:11:50Z'
+  title: |
+    Affect control theory
+  image_url: 
+  image_wh: 
+  description: |
+    undefined
+  extract: |
+    In control theory, affect control theory proposes that individuals maintain affective meanings through their actions and interpretations of events. The activity of social institutions occurs through maintenance of culturally based affective meanings.
