@@ -49,3 +49,13 @@
     Logical reasoning method
   extract: |
     Argument from analogy is a special type of inductive argument, where perceived similarities are used as a basis to infer some further similarity that has not been observed yet. Analogical reasoning is one of the most common methods by which human beings try to understand the world and make decisions. When a person has a bad experience with a product and decides not to buy anything further from the producer, this is often a case of analogical reasoning since the two products share a maker and are therefore both perceived as being bad. It is also the basis of much of science; for instance, experiments on laboratory rats are based on the fact that some physiological similarities between rats and humans implies some further similarity.
+- url: https://en.wikipedia.org/wiki/False_equivalence
+  created: '2025-08-21T00:26:14Z'
+  title: |
+    False equivalence
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Apple_and_Orange_-_they_do_not_compare.jpg/330px-Apple_and_Orange_-_they_do_not_compare.jpg
+  image_wh: 320x220
+  description: |
+    Logical fallacy of inconsistency
+  extract: |
+    A false equivalence or false equivalency is an informal fallacy in which an equivalence is drawn between two subjects based on flawed, faulty, or false reasoning. This fallacy is categorized as a fallacy of inconsistency. Colloquially, a false equivalence is often called "comparing apples and oranges."
