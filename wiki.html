@@ -151,7 +151,7 @@ title: wiki - catskull.net
               {% if wiki.image_url %}
                 {% assign width = wiki.image_wh | split: "x" | first %}
                 {% assign height = wiki.image_wh | split: "x" | last %}
-                <img loading="lazy" width="{{ width }}" height="{{ height }}" src="{{wiki.image_url}}" alt="{{wiki.title}}">
+                <img loading="lazy" style="aspect-ratio: {{ width }}/{{ height }};" src="{{wiki.image_url}}" alt="{{wiki.title}}">
               {% endif %}
               <p>{{ wiki.extract }}</p>
               <p>
