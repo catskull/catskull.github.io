@@ -41,7 +41,7 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       # Clone the rss-feed repository from GitHub
       - name: Checkout rss-feed repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: bullpen-dev/rss-feed
           ref: main
@@ -53,7 +53,7 @@ jobs:
 
       # replies component
       - name: Checkout replies repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: catskull/replies
           ref: master
@@ -65,7 +65,7 @@ jobs:
 
       # likes component
       - name: Checkout likes repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: catskull/likes
           ref: main
