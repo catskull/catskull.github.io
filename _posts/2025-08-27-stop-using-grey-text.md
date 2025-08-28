@@ -45,7 +45,7 @@ And please, if you _must_ use poorly contrasting colors for your blog, support t
   filename="o,rly?"
 %}
 
-It's literally _that_ easy! Or, you could just not do ti in the first place which would look like this:
+It's literally _that_ easy! Or, you could just not do it in the first place which would look like this:
 
 {% capture compiled_preview %}
 {% comment %}
