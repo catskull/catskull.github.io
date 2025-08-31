@@ -5,7 +5,7 @@ date: 2025-08-30 13:14:39 -0600
 layout: post
 ---
 
-Contrary to popular belief, the dessert is full of life. Shrubs, desert moss, rodents and insects of all varieties, hawks and eagles, not to mention the human settlements that have persevered through the ages. Seemingly no matter how far off the beaten path one travels, you will inevitably find signs of human activity: an empty beer can, some plastic bag, remnants of a fire, tire tracks.
+Contrary to popular belief, the desert is full of life. Shrubs, desert moss, rodents and insects of all varieties, hawks and eagles, not to mention the human settlements that have persevered through the ages. Seemingly no matter how far off the beaten path one travels, you will inevitably find signs of human activity: an empty beer can, some plastic bag, remnants of a fire, tire tracks.
 
 ![the desert is full of life](/assets/images/posts/three-days-in-the-wilderness/IMG_3268.jpeg)
 
