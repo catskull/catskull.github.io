@@ -1,6 +1,6 @@
 ---
 title: Three Days in the Wilderness
-tags: []
+tags: [journal, journey, meta, lore]
 date: 2025-08-30 13:14:39 -0600
 layout: post
 ---
