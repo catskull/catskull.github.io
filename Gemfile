@@ -13,3 +13,5 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "byebug", "~> 12.0", :group => :development
 
 gem "nokolexbor", "~> 0.6.0"
+
+gem "logger", "~> 1.7"

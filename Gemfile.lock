@@ -93,6 +93,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     mercenary (0.4.0)
     nokolexbor (0.6.0)
     nokolexbor (0.6.0-arm64-darwin)
@@ -181,6 +182,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.17.0)
   jekyll-seo-tag (~> 2.8)
   jekyll-sitemap (~> 1.4)
+  logger (~> 1.7)
   nokolexbor (~> 0.6.0)
 
 BUNDLED WITH
