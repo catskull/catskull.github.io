@@ -11,20 +11,139 @@ I really love [86Box](https://86box.net)! However, learning how to use it was qu
 
 I realize that I'm not alone in this - many find 86Box too daunting and confusing to configure. It took me some time to get it working correctly, but I think I've finally learned enough to share what I know with you. And with the relase of **5.0**, what better time to put a little blog post together than now!
 
-This guide is based on the most recent stable build, 5.0 (build 7600). I am on macOS but these instructions should work just as well on Windows and Linux, though I have not tested myself.
+This is still a work-in-progress! For now, follow along with my video tutorial:
 
-Once you have 86Box downloaded, you'll be greeted with the new "VM manager" UI just added in 5.0. From the "File" menu, select "New Machine..." and you'll be greeted with the "new system wizard". Select "Use existing configuration".
 
-Click to load the configuration and select my config. Review the imported configuration for your own enjoyment and to familiarize yourself with the various configuration settings. You technically don't need to mess with the config at all, but I feel that spending a minute or two reviewing it will help you have a smoother time in the future.
+{% include youtube.html embed="jkLAUAuQYNM" title="How to install Windows 98 on 86Box" %}
 
-Note that in my configuration, I'm using a 200mhz Pentium II. You can crank the clock speed up, but anything more than this on my M3 Max causes stuttering and slowdown. Do not simply crank it to the max unless you're on a host machine with better single-core performance than me. Looking at Geekbench, my M3 Max scores **3070** on single-core performance. I believe if you're on a beefy desktop such as a Ryzen 9 or Intel i9 you may be able to crank this up. The best way to tell if the CPU is bottlenecking is if audio begins to stutter! Later in this guide, we will use the Windows 98 startup chime as a crude benchmark. RAM is less of an issue, assuming you have plenty. I used 128MB for mine, which should be more than plenty for anything you throw at it. I also use a 20GB HDD image but that is dynamically sized, meaning it's not simply going to take up 20GB of your disk space until you actually fill it up.
+[**Download 86box.cfg↘**](/public/86box.cfg)
 
-Give your new system a clever name, such as "catskull is cool" or "balls". Hit "continue" and you'll be dropped into the 86Box configuration UI. You can take a moment to look around here, but since you already checked out the config you just imported, this isn't going to have any new information for you, so you're free to simply close it.
+{% include external_link.html href="https://86box.net" text="86box.net" %}
 
-Back in the main 86Box VM Manager window, you'll now have your new system populated. Double click it, or select it and hit the green play icon to boot! You should be greeted with some nice beeps and the beautiful retro Compaq logo. Truly, a thing of beauty. Annoyingly, the BIOS will halt the boot because the CMOS technically has not been set yet. Hit F1 (fn+F1 on an Apple keyboard) to enter the BIOS. Simply select "Load optimum settings", then "Y" to confirm. Then, "Save and Exit". Your system will reboot and you'll hear another glorious BIOS beep and the Compaq logo again.
+{% include external_link.html href="https://github.com/oerg866/win98-quickinstall" text="win98-quickinstall" %}
 
-We have our system configured, but there's nothing on the hard drive to boot yet! From the "Media" menu item (or by clicking the floppy/CD icon in the bottom right of the VM window), select your win98 quick install floppy and CD image. Hit any key to reboot and you will now see a short message that says "Press a key to run QuickInstall". Press any key. After about 20 seconds, you will be in the Win98 QuickInstall welcome screen! Press enter a few times until you are at the Main Menu. "Where do you want to go today?" - hmmm [I've never heard of that before](/where-do-you-want-to-go-today.html)!
+{% capture compiled_preview %}
+{% comment %}
+```ini
+[3dfx Voodoo3 3500 SI]
+bilinear = 1
+chromakey = 1
+dithersub = 1
+dacfilter = 0
+render_threads = 2
 
-First step - format and partition our hard disk by selecting the "CFDISK" option. Hit enter to select the default (and only) disk. Hit enter again to create the MBR partition. Hit enter again to create a new partition. On the next screen, use your right arrow key to select "Write" and hit enter. Then, hit left arrow to go back to "Quit". On the following "Partition Wizard" screen, hit down to select "FINISHED" otherwise you'll be back in the same partition screen we just exited. I bet you can't guess  how many times I've accidentally gone back into the partition editor.
+[General]
+emu_build_num = 7600
+sound_gain = 4
+vid_renderer = qt_software
+video_filter_method = 0
+video_fullscreen_scale = 3
 
-Back on the main menu, select "[INSTALL] Install selected Operating System variant". Hit enter again to install to the default, and only partition available. Enter again to format the drive before installation. The
+[Machine]
+cpu_family = pentium2_deschutes
+cpu_multi = 3
+cpu_speed = 200000000
+cpu_use_dynarec = 1
+fpu_type = internal
+machine = prosignias31x_bx
+mem_size = 131072
+
+[Video]
+gfxcard = voodoo3_3500_si_agp
+
+[Input devices]
+keyboard_type = keyboard_at
+mouse_type = ps2
+
+[Sound]
+sndcard = sb16_pnp
+
+[Network]
+net_01_link = 0
+net_02_link = 0
+net_03_link = 0
+net_04_link = 0
+
+[Storage controllers]
+fdc = none
+
+[Hard disks]
+hdd_01_fn = catskull.vhd
+hdd_01_ide_channel = 0:0
+hdd_01_parameters = 63, 16, 40634, 0, ide
+hdd_01_speed = ramdisk
+hdd_01_vhd_blocksize = 4096
+
+[Floppy and CD-ROM drives]
+cdrom_01_ide_channel = 0:1
+cdrom_01_image_path = 
+cdrom_01_parameters = 1, atapi
+cdrom_01_speed = 72
+fdd_01_image_history_01 = 
+fdd_01_type = 35_2hd
+fdd_02_type = none
+```
+{% endcomment %}
+<div class="highlight highlight-source-ini"><pre><span class="pl-en">[3dfx Voodoo3 3500 SI]</span>
+<span class="pl-k">bilinear</span> = 1
+<span class="pl-k">chromakey</span> = 1
+<span class="pl-k">dithersub</span> = 1
+<span class="pl-k">dacfilter</span> = 0
+<span class="pl-k">render_threads</span> = 2
+
+<span class="pl-en">[General]</span>
+<span class="pl-k">emu_build_num</span> = 7600
+<span class="pl-k">sound_gain</span> = 4
+<span class="pl-k">vid_renderer</span> = qt_software
+<span class="pl-k">video_filter_method</span> = 0
+<span class="pl-k">video_fullscreen_scale</span> = 3
+
+<span class="pl-en">[Machine]</span>
+<span class="pl-k">cpu_family</span> = pentium2_deschutes
+<span class="pl-k">cpu_multi</span> = 3
+<span class="pl-k">cpu_speed</span> = 200000000
+<span class="pl-k">cpu_use_dynarec</span> = 1
+<span class="pl-k">fpu_type</span> = internal
+<span class="pl-k">machine</span> = prosignias31x_bx
+<span class="pl-k">mem_size</span> = 131072
+
+<span class="pl-en">[Video]</span>
+<span class="pl-k">gfxcard</span> = voodoo3_3500_si_agp
+
+<span class="pl-en">[Input devices]</span>
+<span class="pl-k">keyboard_type</span> = keyboard_at
+<span class="pl-k">mouse_type</span> = ps2
+
+<span class="pl-en">[Sound]</span>
+<span class="pl-k">sndcard</span> = sb16_pnp
+
+<span class="pl-en">[Network]</span>
+<span class="pl-k">net_01_link</span> = 0
+<span class="pl-k">net_02_link</span> = 0
+<span class="pl-k">net_03_link</span> = 0
+<span class="pl-k">net_04_link</span> = 0
+
+<span class="pl-en">[Storage controllers]</span>
+<span class="pl-k">fdc</span> = none
+
+<span class="pl-en">[Hard disks]</span>
+<span class="pl-k">hdd_01_fn</span> = catskull.vhd
+<span class="pl-k">hdd_01_ide_channel</span> = 0:0
+<span class="pl-k">hdd_01_parameters</span> = 63, 16, 40634, 0, ide
+<span class="pl-k">hdd_01_speed</span> = ramdisk
+<span class="pl-k">hdd_01_vhd_blocksize</span> = 4096
+
+<span class="pl-en">[Floppy and CD-ROM drives]</span>
+<span class="pl-k">cdrom_01_ide_channel</span> = 0:1
+<span class="pl-k">cdrom_01_image_path</span> = 
+<span class="pl-k">cdrom_01_parameters</span> = 1, atapi
+<span class="pl-k">cdrom_01_speed</span> = 72
+<span class="pl-k">fdd_01_image_history_01</span> = 
+<span class="pl-k">fdd_01_type</span> = 35_2hd
+<span class="pl-k">fdd_02_type</span> = none</pre></div>
+{% endcapture %}
+{% include code.html
+  content=compiled_preview
+  filename="86box.cfg"
+  copy=1
+%}
