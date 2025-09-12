@@ -48,3 +48,13 @@
     Species of flowering plant
   extract: |
     Withania somnifera, known commonly as ashwagandha, is an evergreen shrub in the Solanaceae family that is native to the Middle East and North Africa, other African regions, southern Europe, and Indian subcontinent. Several other species in the genus Withania are morphologically similar. Common names include Indian ginseng and winter cherry.
+- url: https://en.wikipedia.org/wiki/3D_modeling
+  created: '2025-09-12T19:38:58Z'
+  title: |
+    3D modeling
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Activemarker2.PNG/330px-Activemarker2.PNG
+  image_wh: 320x228
+  description: |
+    Form of computer-aided engineering
+  extract: |
+    In 3D computer graphics, 3D modeling is the process of developing a mathematical coordinate-based representation of a surface of an object in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated 3D space.
