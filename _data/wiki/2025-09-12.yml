@@ -58,3 +58,13 @@
     Form of computer-aided engineering
   extract: |
     In 3D computer graphics, 3D modeling is the process of developing a mathematical coordinate-based representation of a surface of an object in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated 3D space.
+- url: https://en.wikipedia.org/wiki/Utah_teapot
+  created: '2025-09-12T19:44:33Z'
+  title: |
+    Utah teapot
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Utah_teapot_%28solid%29.stl/330px-Utah_teapot_%28solid%29.stl.png
+  image_wh: 320x240
+  description: |
+    Computer graphics 3D reference and test model
+  extract: |
+    The Utah teapot, or the Newell teapot, is one of the standard reference test models in 3D modeling and an in-joke within the computer graphics community. It is a mathematical model of an ordinary Melitta-brand teapot designed by Lieselotte Kantner that appears solid with a nearly rotationally symmetrical body. Using a teapot model is considered the 3D equivalent of a "Hello, World!" program, a way to create an easy 3D scene with a somewhat complex model acting as the basic geometry for a scene with a light setup. Some programming libraries, such as the OpenGL Utility Toolkit, even have functions dedicated to drawing teapots.
