@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Nibble
+  created: '2025-09-12T01:19:59Z'
+  title: |
+    Nibble
+  image_url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Octets_in_CP866_ordered_by_nibbles.png
+  image_wh: 192x192
+  description: |
+    Four-bit unit of binary data
+  extract: |
+    In computing, a nibble, also spelled nybble to match byte, is a unit of information that is an aggregation of four-bits; half of a byte/octet. The unit is alternatively called nyble, nybl, half-byte or tetrade. In networking or telecommunications, the unit is often called a semi-octet, quadbit, or quartet.
