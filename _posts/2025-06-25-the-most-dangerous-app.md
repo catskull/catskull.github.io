@@ -4,6 +4,8 @@ tags: [cloudflare, javascript, little chat, programming, development]
 date: 2025-06-25 13:43:09 -0600
 layout: post
 ---
+**I have disabled the chat. The experiment has run it's course.**
+
 ## Preamble
 
 "I wonder how hard it would be to build a chat app for my blog in 2025?"
@@ -17,8 +19,6 @@ I quickly forked their example and had it running on my own account quickly. The
 As I mentioned before, I would rather puke than `npm install` react, so I quickly threw away their entire front end. Well, who would have thought that a basic chat app can be implemented as a simple web component with 0 external dependencies? No way - that's illegal. You _have_ to use at least one special thing like _Lit_. Well, I didn't. Meet me in the chat, it's going down.
 
 ## Little Chat
-
-<little-chat></little-chat>
 
 Want your own little chat?
 
@@ -140,4 +140,3 @@ I build apps for me - and for you! Not for them. I want _you_ to use it. I want 
 
 Meet me in da chad!
 
-<script src="/public/js/components/little-chat.js"></script>

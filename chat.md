@@ -6,8 +6,4 @@ title: chat - catskull.net
 
 # chat
 
-Don't use this. Random trolls keep spamming in here. I'm not even sure why this exists.
-
-<little-chat></little-chat>
-
-<script src="/public/js/components/little-chat.js"></script>
+Nope. Not even once.
