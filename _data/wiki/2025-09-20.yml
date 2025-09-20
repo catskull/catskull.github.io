@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs?wprov=sfti1
+  created: '2025-09-20T03:17:25Z'
+  title: |
+    Plan 9 from Bell Labs
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Spaceglenda.svg/330px-Spaceglenda.svg.png
+  image_wh: 320x416
+  description: |
+    Research distributed operating system
+  extract: |
+    Plan 9 from Bell Labs is an operating system designed by the Computing Science Research Center (CSRC) at Bell Labs in the mid-1980s, built on the UNIX concepts first developed there in the late 1960s. Since 2000, Plan 9 has been free and open-source. The final official release was in early 2015.
