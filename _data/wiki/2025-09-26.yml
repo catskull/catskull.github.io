@@ -18,3 +18,13 @@
     Multi-sport event in Berlin, Germany
   extract: |
     The 1936 Summer Olympics, officially the Games of the XI Olympiad and officially branded as Berlin 1936, were an international multi-sport event held from 1 to 16 August 1936 in Berlin, then capital of Nazi Germany. Berlin won the bid to host the Games over Barcelona at the 29th International Olympic Committee meeting on 26 April 1931. The 1936 Games marked the second and most recent time the IOC gathered to vote in a city bidding to host those Games. Later rule modifications forbade cities hosting the bid vote from being awarded the games.
+- url: https://en.wikipedia.org/wiki/LithTech
+  created: '2025-09-26T23:53:57Z'
+  title: |
+    LithTech
+  image_url: https://upload.wikimedia.org/wikipedia/en/5/5c/Jupiter_Ex.PNG
+  image_wh: 109x144
+  description: |
+    Game engine
+  extract: |
+    LithTech is a game engine developed by Monolith Productions and comparable with the Quake and Unreal engines. Monolith and a number of other video game developers have used LithTech as the basis for their first-person shooter games.
