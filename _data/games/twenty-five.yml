@@ -330,7 +330,7 @@
   developer: C.E.J. Pacian
   publisher: 
   year: 2016
-  image: https://catskull.net/cdn-cgi/image/format=avif/https://catskull.net/assets/images/posts/interview-with-margaret-h-hamilton/nasa1989.jpeg
+  image: public/media/posts/games/2025/superliminal.png
   date: 7/11/25
   wiki: https://ifdb.org/viewgame?id=5xzoz5wimz4xxha
   text: Since I had such a fun time with _Grassy Knoll_, I decided to see what other modern interactive fiction might be out there. _Superluminal_ is essentially a space trading sim. It's pretty straightforward, but the gameplay loop is quick and rewarding enough that it's pretty satisfying! It's a bit like a giant fetch quest, but there are some puzzles along the way. It's not always obvious who is buying and selling. I had a fun and quick time with the game! And shoutout to Spatterlight for macOS. Super sleek and customizable IF parser. Knowing that there's a parse this good out there makes me very excited to keep playing more IF.
@@ -340,7 +340,7 @@
   developer: Dimps
   publisher: Banpresto/Atari
   year: 2004
-  image: https://catskull.net/cdn-cgi/image/format=avif/https://catskull.net/assets/images/posts/interview-with-margaret-h-hamilton/nasa1989.jpeg
+  image: public/media/posts/games/2025/Advanced_Adventure_JP.webp
   date: 7/13/25
   wiki: https://en.wikipedia.org/wiki/Dragon_Ball:_Advanced_Adventure
   text: For some reason, _Dragon Ball_ has always had a special place in my heart. Young Goku is just so cheerful! We rented _Curse of the Blood Rubies_ at some point and loved it. I never watched much DBZ either. I ended up browsing the list of GBA games to see what I might want to play and I optimistically picked this game, hoping beyond hope for an actually good Dragon Ball game. Boy, did I find it! This was a total blast! It actually reminds me a lot of the good parts of the sidescrolling parts of the _Mystical Ninja_ games I played earlier. On top of that is a really quite compelling 2D fighter. As you progress through the game, you slowly gain abilities and upgrades. The final boss fight against Piccolo was challenging but not overly so. I'm trying to get my friend Pacheco to play it also so we can go head to head over link cable!
@@ -375,6 +375,35 @@
   wiki: https://en.wikipedia.org/wiki/Star_Fox_64_3D
   text: Look... we had _Starfox 64_ growing up. In fact, my own late father once described his greatest life accomplishment in beating my older brother at _Starfox_. I had a lot of fun running through the short campaign. How many of us have been totally frustrated by the "protect the idiot party member" sections of an otherwise decent game? In Starfox 64, you have not only one idiot party member, but three! Slippy, the cute childish frog that seems to be completely unable to help himself stay out of harm's way. Peppy, the boomer-ish bunny that is equally hapless. And Falco... Falco... How do we deal with his _constant_ insults and sarcastic attitude? Do we just take him out deliberately? Personally, I feel bad when I let a party member down. But I also am not good enough at games to keep them alive. This game stresses me out. I didn't find this 3DS port to be particularly impressive and most of the time struggled to get it to even shoot in the right direction. Struggling against controls does not a good time make. Look, I'm glad that this 3DS port exists. I'm glad Nintendo finally re-released it as part of the classics collection since it was out of print for a long time. It just didn't translate super well for me. I like Starfox, and this gave me a hankering to play Starfox Adventures. I churned through the short campaign on "3DS" mode and that didn't leave me with much of a desire to ever pick it back up. I guess the lesson learned is don't make your antagonists more sympathetic to the player than the protagonists. I'd rather have my party die and leave me alone than try to constantly stop the incredibly weak enemies from absolutely destroying Slippy. Plus, if they die, then you don't have to listen to them any more. Bring back the SNES style bloop bloop voice acting. I'd kind of like to make a romhack that replaces the voice acting with the most insulting and annoying lines of all time.
 
+- title: Super Mario Land
+  platform: Game Boy (Super Game Boy 2)
+  developer: Nintendo R&D1
+  publisher: Nintendo
+  year: 1989
+  image: https://upload.wikimedia.org/wikipedia/en/2/22/Super-mario-land-gameboy-boxart.png
+  date: 9/3/25
+  wiki: https://en.wikipedia.org/wiki/Super_Mario_Land
+  text: This might be the very first video game I ever played. It's almost certainly the first I beat. I really love _Super Mario Land_. We didn't have an NES, so I believe this was also my introduction to the concept of Mario. My brother had an original Game Boy DMG-01 with a copy of Mario Land. Hirokazu (Hip) Tanaka's soundtrack is bar-none. Lore drop - while I haven't officially met Tanakasan, I have seen him in real life and could have said hello if I had something intelligent to say to him. I especially love _Overworld BGM 2_. I made up some words to it - "Everything, is going to be okay. And everything, is going to be just fine. And everything is going to go my way. And everything is going to beeeeeee juuuussst greeeaaat now!" I love the insane diversity of the worlds, unlike pretty much anything we've seen in another mainline Mario game. Aliens? Easter Island? Pyramids? I love it all! The submarine and airplane stages are an excellent break from the normal platforming. This has to be one of my favorite games of all time. It's tricky, but extra lives are plentiful so you should be able to get through it without too much trouble. Thanks, Nintnedo and Mr. Tanaka!
+
+- title: Shining Force
+  platform: Sega Genesis (OpenEmu-Arm)
+  developer: Climax Entertainment / Sonic! Software Planning
+  publisher: Sega
+  year: 1993
+  image: public/media/posts/games/2025/shiningforce.jpg
+  date: 10/3/25
+  wiki: https://en.wikipedia.org/wiki/Shining_Force
+  text: |
+    If my memory serves, it was Christmas 2001 that my brothers and I received a copy of _Sega Smash Pack Vol. 1_ for our Dreamcast. The summer before, we'd sold off a bunch of our systems, pooled our money, and saved up to buy a used Dreamcast from Software Etc. Ill-fated as the console may have been, I personally loved the Dreamcast and to this day I think it's my favorite video game console of all time. I just _love_ the Dreamcast. Everything about it. We had owned a Super Nintendo, but my experience with the Genesis was mostly just passing. Other kids had them, I thought the controller was strange but I liked the unique sounds and graphics compared to the SNES, Game Boy, and PC.
+
+    To be honest, I found most of the games on _Smash Pack_ mid at best. _Streets of Rage 2_ ("Streets of Agence" as my younger brother called it) was particularly fun to play. _Golden Axe_, _Altered Beast_, and _Wrestle War_... not so much. However, one of the games that caught my "video game expert" older brother was Shining Force. I remember watching him play through the first missions, fascinated with the various party members who would join you, seemingly at random. It was fun to watch and offer my fledgling strategy advice during battles. That Christmas, my mom helped us convert our garage into a temporary "game room" (probably just to keep us out of her hair) but man, I fondly remember the gentle sunlight streaming in during the realtively warm winter days of Southern Utah Christmas. I don't recall how far he made it through the game, but I seem to recall that he eventually rage quit out of frustration. Still, I always remembered _Shining Force_ as a curious and inviting Sega game.
+
+    I have a confession to make: I suck at video games. My attention span is almost zilch. I get distracted, bored, then end up doing something else and by the time I want to revisit, I can't remember where I left off or what to do. I'm honestly not sure if I've ever actually beaten an RPG that wasn't Pokémon. However, about a year ago I sunk a decent amount of time into the PS2 remake of Phantasy Star titled _Phantasy Star Generation 1_. I gained an appreciation and understanding of the non-Nintendo/Square/Enix JRPG heritage. They just play differently and in my opinion, different in a good way. Shining Force is certainly no exception.
+
+    _Shining Force_ is _incredible_. It's hard for me to put into words _why_ I like this game so much. It reminds me a lot of the early Pokémon games in the way that you play through with mostly a small-ish party, but there's still plenty of other characters for you to familiarize yourself and form strategies around for future playthroughs. Most of the party members in _Shining Force_, like Pokémon, are optional. I'm generally pretty thourough but I still didn't even find all of them during my playthrough! The game is incredibly balanced, the enemy AI adapts to your specific party and play style. It's challenging but incredibly forgiving! The hero of your party, Max, has a spell that will instantly teleport you from the battle back to the last Priest you visited to resurrect and heal your party. All experience is kept, so even if you fail and have to retreat or die, the game rewards you for even trying since when you attempt the battle again, your party will be a little stronger! I did a bit of "grinding" to level up party members if I found a battle to be a bit too difficult or if party members kept dying, but it doesn't really feel like grinding in the typical JRPG sense since the enemy AI will adapt to your new stronger party. No two battles will ever go _exactly_ the same way! It's a bit like chess in that sense.
+
+    As usual, I cheated by using a single save state (mostly to eliminate mistakes and random number pitfalls), and made heavy use of fast-forward to help with my lack of patience. Even still, my experience with _Shining Force_ was absolutely incredible. This is a strong contender for my _Game of the Year_, and possibly even my favorite game of all time. There are no tutorials. No exposition. No insane story and opaque directions. It's incredibly linear. It plays almost like a book. But with the variability in party members and stats, I could see how people would play this game again and again. There are some rough spots when it comes to inventory management and party management. My choices were mostly "vibes" based, just seeing which members seemed to do well in battle versus those who just totally sucked. If you ask 10 people how they play this game, you'll probably get 10 different answers and to me, that's what makes a game fun. I don't think they expected you to buy the strategy guide and call a 1-800 help line like _cough_ Nintendo _cough_ did at that time. They simply made a great game that's fun to play.
+
 - title: 
   platform: 
   developer: 
@@ -384,4 +413,5 @@
   date: 
   wiki: 
   text: 
+
 
