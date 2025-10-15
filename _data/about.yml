@@ -16,7 +16,7 @@ tables:
   'Catskull.net':
     -
       Online: 2013
-      Visits/M: 2.86k↑
+      Visits/M: 4.2k↑
       Meaning: "?"
 
   Numbers:
@@ -33,7 +33,7 @@ tables:
 
   Favorites:
   -
-    Hot Sauce: Frank's Red Hot
+    Hot Sauce: Tabasco
     TOD: "3:59"
   -
     MPH: 30
@@ -53,7 +53,7 @@ tables:
     Temp: 68°F
   -
     Other: Hot Showers
-    Food: Tacos
+    Food: Red Beans & Rice
   -
     Activity: Family Time
     Anime: Macross Plus
@@ -85,6 +85,7 @@ lists:
     - Cool Guy
     - Podcaster
     - Blogger
+    - Public School Teacher
 
   Buttons:
     - |
@@ -214,6 +215,7 @@ lists:
    - Vocabulary
    - Technology
    - Cloudflare
+   - Submarine Movies
 
   Friends:
     - name: Sam 🇺🇸
