@@ -107,7 +107,7 @@ layout: post
   <thead>
   	<tr>
   		<td colspan="7">
-  		{{ "now" | date: "%B %Y" }}
+  		{{ site.time | date: "%B %Y" }}
   		<span style="float: right;"><small>catskull.net</small></span>
   	</td>
   	</tr>
