@@ -1,0 +1,27 @@
+---
+title: The Time I Dug Myself Into a Pit That Nobody Could Help Me Out Of
+tags: [lore, meta]
+date: 2025-11-17 17:23:42 -0700
+layout: post
+---
+This is a minor lore drop and a direct extension of my [previous lore drop](https://catskull.net/lore-drop-199197.html).
+
+As mentioned in the above lore drop, my family relocated to St. George, Utah when I was in the first grade (age 6). I recall making friends with the teacher's son named Eric but that was fairly short lived because I don't have virtually any memories of our friendship, other than the fact that at one point early on he was my friend. 
+
+Shortly after that, I made another friend who was my best friend for a while. We'll call him "Will Smith" because the best way I can describe him is acting like "Will Smith" did in the late 90's. He was the youngest in his family and I guess by extension usually the butt of the joke, so when we hung out he passed that treatment on to me. We fought a lot. I remember one time we collected a bunch of leaves from my yard, since my yard had leaves, bagged them, then took them to his yard since, since his yard had a trampoline, so we could jump in them. However a fight shortly broke out between us and I remember attempting to re-bag the leaves so I could take them home with me and it got physical. Needless to say, we didn't have great problem solving skills. I have a lot of memories hanging out together, sleepovers and other things but it seems like a lot of the times we really did just fight.
+
+I'd guess we were "friends" for a bit of first grade and most of second grade. Then, we just stopped hanging out. I'm not sure why but I think we both realized we had just had enough. By third grade I think we both had moved on completely to new friend groups. I don't remember fighting with him any more, but I also don't remember any of our other interactions. I think maybe I just avoided him.
+
+During this time, it became clear to me that I had a fairly explosive temper. I'd hit a breaking point and just start raging uncontrollably. Screaming, yelling. I never hurt anyone or anything and it only happened a few times, but the fuse could be short. One time I was in Hollywood Video and a known aggressor came up to me and starting mocking me in a way that is not possible to describe in politically correct terms today, other than to say he was doing "retarded" gestures and vocalizations. I responded by walking up to him, punching him two times hard in the face, and then walking away. The whole interaction lasted maybe 30 seconds. I knew him from school and he very much deserved it, but this was the first time I'd been the direct target of his harassment. It never happened again.
+
+At some point my Mother made it clear that she did not approve of clothes-staining activities and that mustard in particular stained clothes. I liked mustard a lot (still do), though I'm not sure why this rule was ingrained into my head so strongly. Well, one fateful day when I was in fifth grade, Will Smith sat near me at lunch. He was up to his usual debauchery and started using his lunch tray to launch things on the lunch table. I believe I moved away from him, but he persisted. Suddenly, he launched something very hard and it just happened to land directly in my lap. It was a mustard packet. Mustard was all over my pants. It would stain for sure.
+
+I went black with rage. It was an out of body experience. I stood up, and just started swinging. Blow after blow after blow. I remember him begging me to stop but I just kept punching and punching his face again and again. Eventually an adult came and restrained me and I gave up the fight through tears.
+
+As usually happens in Elementary School, I was taken to the Principal's office. I didn't have many interactions with the principal but his name was Mr. Jones and he was generally a pretty nice guy. I'm not sure what his goal or opinion on the situation was, I'd never fought at school like this before and I think generally was an okay student. I didn't get into trouble in class. The only thing I can remember is that he used an analogy that frankly, made no sense to me whatsoever then and still doesn't. He said:
+
+> Dave, you're digging yourself into a giant pit. You're the only person who can get out, and you won't let anyone else help you.
+
+On November 24, 2009, a 26 year old medical student named John Jones entered the "Nutty Putty" cave and would never exit. The ordeal is now world-infamous as a case of intense morbid curiosity, especially among those with little experience in caves who can't fathom how it could be possible to become stuck a few hundred feet underground head first in a way that rendered rescue impossible. I've personally known about the incident since about the time it occurred, since it made pretty major headlines here in Utah. However, only recently I was made aware that John Jones is the son of my old principal, Mr. Jones.
+
+I honestly have no idea why I find this interesting, but I do. I can't stop thinking about it. I wonder if he had some kind of premonition about pits you can't escape from. I still don't know what he meant by his analogy or how it was supposed to help a 5th grader who had had enough of grade school shenanigans who was also probably feeling the initial surge of testosterone as I entered puberty. Maybe the moral of the story is a mustard stain isn't worth getting upset over and you should stay away from caves.
