@@ -68,7 +68,7 @@ Tell your kids that you love them.
 
 <hr class="final">
 <div style="text-align:center;">
-  <page-likes></page-likes>
+  <page-likes confetti></page-likes>
 </div>
 <page-replies open default="https://catskull.net/public/images/outlook_express-4.png"></page-replies>
 

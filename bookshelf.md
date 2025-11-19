@@ -1,6 +1,6 @@
 ---
 layout: default
-title: quotes - catskull.net
+title: bookshelf - catskull.net
 ---
 {% include topnav.html %}
 
@@ -19,11 +19,11 @@ title: quotes - catskull.net
 
 <hr class="final">
 <div style="text-align:center;">
-  <page-likes></page-likes>
+  <page-likes confetti></page-likes>
 </div>
 <page-replies open default="https://catskull.net/public/images/outlook_express-4.png"></page-replies>
 
 {% include footer.html %}
 
 <script src="https://catskull.net/public/js/components/replies.js"></script>
-<script src="https://catskull.net/public/js/components/likes.js"></script>
+<script src="http://localhost:8000/likes.js?true=false"></script>
