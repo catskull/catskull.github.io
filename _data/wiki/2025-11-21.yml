@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Stress_relaxation?wprov=sfti1
+  created: '2025-11-21T02:15:37Z'
+  title: |
+    Stress relaxation
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/StressRelaxation.svg/330px-StressRelaxation.svg.png
+  image_wh: 320x451
+  description: |
+    Materials science phenomenon
+  extract: |
+    In materials science, stress relaxation is the observed decrease in stress in response to strain generated in the structure. This is primarily due to keeping the structure in a strained condition for some finite interval of time hence causing some amount of plastic strain. This should not be confused with creep, which is a constant state of stress with an increasing amount of strain.
