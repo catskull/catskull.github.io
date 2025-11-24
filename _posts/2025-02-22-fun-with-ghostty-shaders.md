@@ -82,10 +82,11 @@ Finally for all you young players at home here's my full current daily ghostty c
 {% capture compiled_preview %}
 {% comment %}
 ```bash
-ont-family = TX-02
+custom-shader = ./shaders/starfield.glsl
+font-family = "SF Mono"
 font-size = 19
 font-thicken = true
-theme = light:xcodelighthc,dark:xcodedarkhc
+theme = light:Xcode Light hc,dark:Xcode Dark hc
 quick-terminal-animation-duration = 0
 keybind = global:super+grave_accent=toggle_quick_terminal
 cursor-style = block
@@ -104,10 +105,11 @@ macos-icon-ghost-color = FFFFFF
 macos-icon-screen-color = 000000
 ```
 {% endcomment %}
-<div class="highlight highlight-source-shell"><pre>ont-family = TX-02
+<div class="highlight highlight-source-shell"><pre>custom-shader = ./shaders/starfield.glsl
+font-family = <span class="pl-s"><span class="pl-pds">"</span>SF Mono<span class="pl-pds">"</span></span>
 font-size = 19
 font-thicken = <span class="pl-c1">true</span>
-theme = light:xcodelighthc,dark:xcodedarkhc
+theme = light:Xcode Light hc,dark:Xcode Dark hc
 quick-terminal-animation-duration = 0
 keybind = global:super+grave_accent=toggle_quick_terminal
 cursor-style = block
