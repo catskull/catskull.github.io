@@ -19,7 +19,7 @@ If you do a Google search for "ghostty shaders", my blog post should be the firs
 > Feb 22, 2025 — Ghostty doesn't directly support shaders, but a repo with shaders can be cloned to ~/.config/ghostty/shaders. Examples include 'drunkard+retro- ...
 
 Screenshot, for posterity:
-![go home drunk, you're google](/public/media/posts/games/2025/frickgoogleman/googlesux.jpg)
+![go home drunk, you're google](/assets/images/posts/google-search-is-hallucinating-meta-description/googlesux.jpg)
 
 "Ghostty doesn't directly support shaders" - o, rly??? [The Ghostty docs would suggest otherwise!](https://ghostty.org/docs/config/reference#custom-shader)
 
@@ -28,7 +28,7 @@ As another example, here's what a search engine that hasn't been completely capt
 > Feb 22, 2025 Back when Ghostty released I played around with the entire config, including trying to get some shaders to work. iTerm2 has the ability to have an image background in your terminal and ghostty does not, at least not directly. I wanted to get a custom image with a shader but couldn't get it working.
 
 Another screenshot:
-![duckduckgoogle](/public/media/posts/games/2025/frickgoogleman/durkdurkgor.jpg)
+![duckduckgoogle](/assets/images/posts/google-search-is-hallucinating-meta-description/durkdurkgor.jpg)
 
 If you go inspect the page source of that blog post, you'll see that this preview text is _exactly_ what is in the meta description tag. Nothing more, though apparently their UI does truncate the text at some point.
 
