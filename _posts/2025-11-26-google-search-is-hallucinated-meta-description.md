@@ -8,7 +8,7 @@ It is well known online that Google Search has been deteriorating at an exponent
 
 The specific ways that Google is deteriorating are unpredictable and especially discouraging. First, they prioritized unrelated ad spots in our searches. Then they force-fed us their "AI Overview" at the top of the page. I myself personally use a specific "adblock.css" user agent style sheet to hide most of the slop they've shoved into search ([see the project's GitHub for more information](https://github.com/catskull/adblock.css)). The writing has been pretty clearly on the wall for some time now.
 
-However, it now appears that Google is replacing a page's meta description with their own AI hallucinated slop. At the time of writing, a google search for "meta description" lands you at Google's own documentation page for what it is ([archive](https://web.archive.org/web/20251004154925/https://developers.google.com/search/docs/appearance/snippet)). Here's what their page says about how the search "snippet" is produced:
+However, it now appears that Google is replacing a page's meta description with their own AI halucinated slop. At the time of writing, a google search for "meta description" lands you at Google's own documentation page for what it is ([archive](https://web.archive.org/web/20251004154925/https://developers.google.com/search/docs/appearance/snippet)). Here's what their page says about how the search "snippet" is produced:
 
 > Google primarily uses the content on the page to automatically determine the appropriate snippet. We may also use descriptive information in the meta description element when it describes the page better than other parts of the content.
 
