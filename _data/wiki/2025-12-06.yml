@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Three-dimensional_integrated_circuit?wprov=sfti1#
+  created: '2025-12-06T05:54:19Z'
+  title: |
+    Three-dimensional integrated circuit
+  image_url: 
+  image_wh: 
+  description: |
+    Integrated circuit composed of several vertically stacked chips
+  extract: |
+    A three-dimensional integrated circuit is a MOS integrated circuit (IC) manufactured by stacking as many as 16 or more ICs and interconnecting them vertically using, for instance, through-silicon vias (TSVs) or Cu-Cu connections, so that they behave as a single device to achieve performance improvements at reduced power and smaller footprint than conventional two dimensional processes. The 3D IC is one of several 3D integration schemes that exploit the z-direction to achieve electrical performance benefits in microelectronics and nanoelectronics.
