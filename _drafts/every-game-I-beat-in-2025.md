@@ -1,5 +1,5 @@
 ---
-title: Games I played in 2025
+title: Every Game I Beat in 2025
 tags: [meta, games]
 layout: post
 ---
