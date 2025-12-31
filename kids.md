@@ -66,6 +66,8 @@ Having a plan, and letting kids know what the plan is and what to expect goes a 
 
 Tell your kids that you love them.
 
+Smile at kids.
+
 <hr class="final">
 <div style="text-align:center;">
   <page-likes confetti></page-likes>
