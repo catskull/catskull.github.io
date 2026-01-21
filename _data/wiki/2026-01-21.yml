@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Overhead_projector
+  created: '2026-01-21T16:31:31Z'
+  title: |
+    Overhead projector
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/OHP-sch.JPG/330px-OHP-sch.JPG
+  image_wh: 320x240
+  description: |
+    Device that projects a transparent image
+  extract: |
+    An overhead projector, like a film or slide projector, uses light to project an enlarged image on a screen, allowing the view of a small document or picture to be shared with a large audience.
