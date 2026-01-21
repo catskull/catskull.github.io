@@ -23,10 +23,11 @@ title: blog - catskull.net
 <h2>current newsletter</h2>
 
 <ul id="newsletter-list">
-  {% assign post = site.newsletters.first %}
+  {% assign newsletters = site.newsletters | sort: "created" | reverse %}
+  {% assign newsletter = newsletters.first %}
   <li class="index-list-item">
-    <time datetime="{{ post.created | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.created | date: site.theme_config.date_format }}</time>
-    <h3 class="index-list-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <time datetime="{{ newsletter.created | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ newsletter.created | date: site.theme_config.date_format }}</time>
+    <h3 class="index-list-title"><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h3>
   </li>
 </ul>
 
