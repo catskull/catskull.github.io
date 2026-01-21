@@ -8,3 +8,13 @@
     Device that projects a transparent image
   extract: |
     An overhead projector, like a film or slide projector, uses light to project an enlarged image on a screen, allowing the view of a small document or picture to be shared with a large audience.
+- url: https://en.wikipedia.org/wiki/Health_of_Abraham_Lincoln
+  created: '2026-01-21T19:52:45Z'
+  title: |
+    Health of Abraham Lincoln
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Abraham_Lincoln_O-116_by_Gardner%2C_1865-crop.png/330px-Abraham_Lincoln_O-116_by_Gardner%2C_1865-crop.png
+  image_wh: 320x400
+  description: |
+    
+  extract: |
+    Abraham Lincoln's health has been the subject of both contemporaneous commentary and subsequent hypotheses by historians and scholars. Until middle age, his health was fairly good for the time. He contracted malaria in 1830 and 1835; the latter was the worse of the two cases. He contracted smallpox in 1863 during an 1863 to 1864 epidemic in Washington, D.C.
