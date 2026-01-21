@@ -10,5 +10,5 @@ I started a newsletter to keep track of my activity over a longer period. If you
 ## Archive
 
 {% for newsletter in site.newsletters %}
-- [{{ newsletter.created }} - {{ newsletter.title }}]({{ newsletter.url }})
+- [{{ newsletter.created | date: site.theme_config.date_format }}: {{ newsletter.title }}]({{ newsletter.url }})
 {% endfor %}
