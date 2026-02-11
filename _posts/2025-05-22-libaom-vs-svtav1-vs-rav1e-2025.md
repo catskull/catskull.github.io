@@ -97,7 +97,7 @@ It seems like in all cases, avif has a hard time playing a consistent framerate 
 
 # Conclusion
 
-Based on my testing, I believe that `rav1e` is currently the most reliable encoder. It's not a night and day difference in most cases. In some cases, `SVT-AV1` offered smaller files, but in our webm test, it performed _much_ worse than both `rav1e` and `Libaom`, which is suprising considering that `Libaom` took last place in every other test, as we would expect.
+Based on my testing, I believe that `rav1e` is currently the most reliable encoder. It's not a night and day difference in most cases. In some cases, `SVT-AV1` offered smaller files, but in our webm test, it performed _much_ worse than both `rav1e` and `Libaom`, which is surprising considering that `Libaom` took last place in every other test, as we would expect.
 
 In either case, using `avif` instead of _any other image format_ is recommended. We have mainline support in all evergreen browsers. The bandwidth savings can be up to 97%! It feels a bit like switching out an incandescent light bulb for a new-fangled LED bulb. It's free real estate!
 
