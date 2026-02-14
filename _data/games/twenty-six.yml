@@ -45,6 +45,27 @@
   date: 1/17/25
   wiki: https://en.wikipedia.org/wiki/PowerWash_Simulator
 
+- title: Banjo-Kazooie
+  platform: Nintendo 64 (recompiled)
+  developer: Rare
+  publisher: Nintendo
+  year: 1998
+  image: /public/media/posts/games/2026/banjo.jpg
+  text: |
+    Growing up, we never actually owned a copy of _Banjo-Kazooie_, but it was a game common enough that I had a chance to play it from time to time. I remember my cousin actually owned it and would let me play it. I liked that after you'd beaten the different levels, you could go back in to them and play it again. I particularly enjoyed the ability to transform into different animals, my favorite was the bee since you could fly around.
+
+    It's a bit wild to think how good Rare in the 90's was. In a lot of ways, they were _the_ first party developer for the Nintendo 64. Anything with a Rare logo on it was basically gold. From _Diddy Kong Racing_ to _Donkey Kong 64_, I enjoyed anything they made and then some.
+
+    Later on when I was in middle school, I ended up tracking down a copy of _Banjo_ and played through it. I remember coming home late after a dance and finally finishing off the final boss for the first time. Since then, I think I've played through it one more time, probably around 2018 when I bought an Xbox One and a copy of Rare Replay.
+
+    The new hotness in the Nintendo 64 scene is these "recomps". I'm not totally sure what kind of black magic is involved, but they're able to take a legally obtained ROM dump of an N64 game and "recompile" it for modern platforms, and luckily they're pretty well supported on macOS. This recomp is quite good, upscaling the models and with a few quality of life tweaks such as saving notes in between levels. You see, each level has exactly 100 "notes" to collect but if you die or leave the stage, it resets which means you need to dedicate at least enough time to find them all in a single sitting. This recomp has a nice setting to save your notes so that problem isn't an issue any more.
+
+    That's not to say my experience was flawless. At the time of writing, there's a memory leak at the rate of about 10MB/s on macOS so you're up against that clock unless you want to crash the system. Controller support is fantastic though, and I used my official Switch Online N64 controller for the perfectly authentic experience complete with rumble and everything. The biggest issue I had was that I made it to the final boss fight, died a handful of times, and then had to go give my family some attention. When I came back the next day, there was a glitch that prevented me from triggering the final fight. I quit the game and relaunched it, but now my save file was gone! I'm not sure what happened exactly but it might have something to do with the fact that I got so close to beating the boss that it triggered the final cutscene only to die by a trailing fireball post-cutscene. I literally did beat the game, but not really! I'm putting it on this list anyways since I'm not going to go back and do it all again. I unlocked everything including all 900 notes and 99 jiggies. I feel a little bit robbed that I didn't get to actually witness the final credits, but oh well that's what I get for playing some recompiled monstrosity.
+
+    Banjo-Kazooie is a fun game, and it mostly holds up. The recomp does have a tweak for pure analog camera control if you have a controller with a second analog stick, but since I was on my N64 controller I was stuck with the default janky camera controls. Seriously, what the heck was with 90's 3D platformers and camera issues? Mario 64 is one of the worst offenders. I do not understand how the camera could be so bad and I don't understand how it's just completely not an issue any more. What did they figure out to fix it? I'll have to pay attention to the next game I play.
+  date: 2/13/26
+  wiki: https://en.wikipedia.org/wiki/Banjo-Kazooie_(video_game)
+
 - title: 
   platform:  
   developer: 
