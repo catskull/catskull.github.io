@@ -8,3 +8,13 @@
     Marker covertly embedded in a signal
   extract: |
     A digital watermark is a kind of marker covertly embedded in a noise-tolerant signal such as audio, video or image data. It is typically used to identify ownership of the copyright of such a signal. Digital watermarking is the process of hiding digital information in a carrier signal; the hidden information should, but does not need to, contain a relation to the carrier signal. Digital watermarks may be used to verify the authenticity or integrity of the carrier signal or to show the identity of its owners. It is prominently used for tracing copyright infringements and for banknote authentication.
+- url: https://en.wikipedia.org/wiki/First_principle
+  created: '2026-02-19T21:13:59Z'
+  title: |
+    First principle
+  image_url: 
+  image_wh: 
+  description: |
+    Basic proposition or assumption
+  extract: |
+    In philosophy and science, a first principle is a basic proposition or assumption that cannot be deduced from any other proposition or assumption. First principles in philosophy are from first cause attitudes and taught by Aristotelians, and nuanced versions of first principles are referred to as postulates by Kantians.
