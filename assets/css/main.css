@@ -239,7 +239,7 @@ html {
 body {
   color: var(--main-color);
   font-family: system-ui;
-  font-size: 1rem;
+  font-size: clamp(0.8rem, 2vw, 1rem);
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
