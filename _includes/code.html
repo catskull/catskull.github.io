@@ -12,6 +12,10 @@ da jacked up code
   filename="balls.mov"
 %}
 {%endcomment%}
+{%unless highlight_css_loaded%}
+<link rel="stylesheet" href="{{ "/assets/css/highlight.css" | relative_url }}">
+{%assign highlight_css_loaded = true%}
+{%endunless%}
 {%if include.copy%}
 <script>
 const copyToClipboard = (el) => {

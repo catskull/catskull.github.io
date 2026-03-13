@@ -1,16 +1,6 @@
-code {
-  padding: .2em .4em;
-  margin: 0;
-  font-size: 85%;
-  white-space: break-spaces;
-  background-color: var(--color-neutral-muted);
-  border-radius: 6px;
-}
-
 @media (prefers-color-scheme: dark) {
   body, [data-theme="dark"] {
     /*dark*/
-    color-scheme: dark;
     --color-prettylights-syntax-comment: #8b949e;
     --color-prettylights-syntax-constant: #79c0ff;
     --color-prettylights-syntax-entity: #d2a8ff;
@@ -48,7 +38,6 @@ code {
 @media (prefers-color-scheme: light) {
   body, [data-theme="light"] {
     /*light*/
-    color-scheme: light;
     --color-prettylights-syntax-comment: #57606a;
     --color-prettylights-syntax-constant: #0550ae;
     --color-prettylights-syntax-entity: #6639ba;
@@ -86,35 +75,16 @@ code {
 .code-frame {
     cursor: unset !important;
 
-    --box-shadow: rgba(0, 0, 0, 0.3);
     #figure-container {
       background: var(--main-bg-color) !important;
       * { border-color: var(--main-color) !important; }
-      position: relative;
-
-      &::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        translate: 1ch 1ch;
-        background: var(--box-shadow);
-        transition: translate .3s ease;
-        z-index: -1;
-      }
     }
 
-    #figure-container:hover {
-      &::after {
-        translate: 0.5ch 0.5ch;
-      }
-
-      a {
-        text-decoration: underline;
-      }
+    #figure-container:hover a {
+      text-decoration: underline;
     }
 
     @media (prefers-color-scheme: dark) {
-      --box-shadow: rgba(255, 255, 255, 0.3);
       figcaption {
         background: var(--main-color);
       }
@@ -265,4 +235,3 @@ code {
     }
   }
 }
-

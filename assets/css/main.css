@@ -1,7 +1,131 @@
----
----
-@use 'monospace.scss' as *;
-@use 'highlight.css' as *;
+code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: var(--color-neutral-muted, rgba(175, 184, 193, 0.2));
+  border-radius: 6px;
+}
+
+/* === monospace (grid layout) === */
+
+.grid {
+  --grid-line-height: 1.2rem;
+  --grid-border-width: 2px;
+  --grid-padding-small: calc(var(--grid-line-height) / 2);
+  --grid-content-line-height: 1.3rem;
+
+  --grid-cells: 0;
+  display: flex;
+  gap: 1ch;
+
+  #portrait {
+    position: relative;
+    top: var(--grid-padding-small);
+    width: calc(100% - 4px);
+    border: var(--grid-border-width) solid;
+    margin-bottom: 1ch;
+  }
+
+  table.monospace {
+    position: relative;
+    top: var(--grid-padding-small);
+    margin-bottom: 1ch;
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+      border: var(--grid-border-width) solid;
+    }
+
+    td:has(a img) {
+      padding: 0;
+    }
+
+    th {
+      padding: var(--grid-padding-small) calc(1ch - var(--grid-border-width) / 2) calc(var(--grid-padding-small) - var(--grid-border-width));
+      line-height: var(--grid-line-height);
+      vertical-align: top;
+      text-align: left;
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0 0.5rem;
+      line-height: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    .banner {
+      padding: 6.7vh auto;
+      font-size: 1.3rem;
+      height: 85px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .banner::before {
+      background-image: url('/public/images/240px-Zonenplatte_Cosinus.png');
+      background-repeat: no-repeat;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .banner:hover::before {
+      opacity: 1;
+    }
+
+    .monospace-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      img {
+        margin: initial !important;
+      }
+    }
+  }
+
+  .label {
+    font-weight: 300;
+    font-size: 10px;
+    position: relative;
+    left: -6px;
+    top: -2px;
+  }
+
+  .content, p {
+    position: relative;
+    top: -3px;
+    line-height: var(--grid-content-line-height);
+  }
+
+}
+
+.grid-uses {
+  display: grid !important;
+  grid-template-columns: repeat(2, 190px);
+  table.monospace {
+    margin-bottom: 0;
+  }
+}
+
+/* === main === */
 
 @font-face {
   font-family: "Other Hand";
@@ -32,7 +156,7 @@ html {
 body {
   color: var(--main-color);
   font-family: system-ui;
-  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-size: 1rem;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
@@ -120,7 +244,6 @@ img, video {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  color: solid;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -130,26 +253,13 @@ img, video {
   }
   body {
     background: var(--main-bg-color);
-    color: var(--main-color);
   }
 
   a {
     color: hsl(206.7, 100%, 70%);
   }
 
-  a:visited {
-    color: inherit;
-  }
-
   .img-frame {
-    background-image: repeating-linear-gradient(
-      45deg,       /* angle of the lines */
-      #555 0,      /* start color (black) */
-      #555 1px,    /* end color (black) and width of the line */
-      transparent 0px, /* start of transparent space after the line */
-      transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
-    );
-
     figcaption {
       color: hsl(120, 2%, 9%);
     }
@@ -171,9 +281,7 @@ img, video {
 }
 
 .typo {
-  text-decoration-style: wavy;
-  text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration: underline wavy red;
 }
 
 .post-header {
@@ -226,8 +334,8 @@ sup a {
 }
 
 .post-tags {
-  display: inline-flex; /* or use display: flex */
-  flex-wrap: wrap; /* Allows tags to wrap to the next line if there's not enough space */
+  display: inline-flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -290,17 +398,40 @@ sup a {
 }
 
 .img-frame {
+  --box-shadow: rgba(0, 0, 0, 0.3);
   background-image: repeating-linear-gradient(
-    45deg,       /* angle of the lines */
-    #555 0,      /* start color (black) */
-    #555 1px,    /* end color (black) and width of the line */
-    transparent 0px, /* start of transparent space after the line */
-    transparent 0.5rem  /* end of transparent space (controls the spacing between lines) */
+    45deg,
+    #555 0,
+    #555 1px,
+    transparent 0px,
+    transparent 0.5rem
   );
   padding: 5%;
   box-sizing: border-box;
   margin-top: 1rem;
   cursor: zoom-in;
+
+  @media (prefers-color-scheme: dark) {
+    --box-shadow: rgba(255, 255, 255, 0.3);
+  }
+
+  &:not(.full) #figure-container {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      translate: 1ch 1ch;
+      background: var(--box-shadow);
+      transition: translate .3s ease;
+      z-index: -1;
+    }
+  }
+
+  &:not(.full):hover #figure-container::after {
+    translate: 0.5ch 0.5ch;
+  }
 }
 
 .img-frame.full {
@@ -324,6 +455,10 @@ sup a {
   filter: saturate(0) contrast(10);
   transition: filter .3s;
   width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  background: dodgerblue;
+  box-sizing: border-box;
 }
 
 .img-frame:hover img {
@@ -335,10 +470,11 @@ sup a {
   border-style: solid;
   border-color: hsl(120, 2%, 9%);
   text-align: left;
-  width: calc(100% - 10px);
+  width: 100%;
   padding: 5px;
   font-size: small;
   border-bottom: 0;
+  box-sizing: border-box;
 }
 
 .img-frame.right {
@@ -350,10 +486,6 @@ sup a {
   max-width: 60%;
   float: left;
   margin: 0 2ch 0 0;
-}
-
-.img-frame img {
-  background: dodgerblue;
 }
 
 .img-icon {
@@ -396,16 +528,11 @@ figure {
   }
 }
 
-.right {
-  float: right;
-  margin: 0;
-}
-
 .blinking {
   animation: 2s blink ease infinite;
 }
 
-@keyframes "blink" {
+@keyframes blink {
   from, to {
     opacity: 0;
   }
@@ -439,7 +566,6 @@ figure {
 
     figure {
       text-align: center;
-      margin: 0;
     }
   }
 
@@ -485,12 +611,6 @@ section#quotes {
   span {
     filter: invert(1);
   }
-}
-
-.dot-leader {
-  border-bottom-style: dotted;
-  border-bottom-width: 0.3ch;
-  margin: 3px 5px;
 }
 
 body:has(figure.full) {
