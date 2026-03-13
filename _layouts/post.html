@@ -2,7 +2,7 @@
 layout: default
 ---
 <header>
-  <nav>
+  <nav aria-label="Breadcrumb">
     {% if page.category == "old" %}
       <a href="/">{{ site.theme_config.back_home_text }}</a> / <a href="/archive">archive</a> /
       {% assign link = "/archive" %}

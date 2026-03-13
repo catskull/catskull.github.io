@@ -1,88 +1,89 @@
+<header>
 {% unless page.name == "index.html" %}
 <div>catskull.net</div>
 {% endunless %}
-<nav>
+<nav aria-label="Main">
   <ul>
     <li>
       {% if page.name == "index.html" %}
-        <mark>home</mark>
+        <a href="/" aria-current="page"><mark>home</mark></a>
       {% else %}
         <a href="/">home</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "about.html" %}
-        <mark>about</mark>
+        <a href="/about" aria-current="page"><mark>about</mark></a>
       {% else %}
         <a href="/about">about</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "uses.html" %}
-        <mark>uses</mark>
+        <a href="/uses" aria-current="page"><mark>uses</mark></a>
       {% else %}
        <a href="/uses">uses</a>
       {% endif %}
     </li>
     <li>
     	{% if page.name == "projects.md" %}
-    		<mark>projects</mark>
+    		<a href="/projects" aria-current="page"><mark>projects</mark></a>
   		{% else %}
   			<a href="/projects">projects</a>
   		{% endif %}
     </li>
     <li>
     	{% if page.name == "quotes.md" %}
-    		<mark>quotes</mark>
+    		<a href="/quotes" aria-current="page"><mark>quotes</mark></a>
   		{% else %}
   			<a href="/quotes">quotes</a>
   		{% endif %}
     </li>
     <li>
       {% if page.name == "notes.md" %}
-        <mark>notes</mark>
+        <a href="/notes" aria-current="page"><mark>notes</mark></a>
       {% else %}
         <a href="/notes">notes</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "recipes.md" %}
-        <mark>recipes</mark>
+        <a href="/recipes" aria-current="page"><mark>recipes</mark></a>
       {% else %}
         <a href="/recipes">recipes</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "playlist.md" %}
-        <mark>playlist</mark>
+        <a href="/playlist" aria-current="page"><mark>playlist</mark></a>
       {% else %}
         <a href="/playlist">playlist</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "replies.md" %}
-        <mark>replies</mark>
+        <a href="/replies" aria-current="page"><mark>replies</mark></a>
       {% else %}
         <a href="/replies">replies</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "newsletter.md" %}
-        <mark>newsletter</mark>
+        <a href="/newsletter" aria-current="page"><mark>newsletter</mark></a>
       {% else %}
         <a href="/newsletter">newsletter</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "clouds.md" %}
-        <mark>clouds</mark>
+        <a href="/clouds" aria-current="page"><mark>clouds</mark></a>
       {% else %}
         <a href="/clouds">clouds</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "bookshelf.md" %}
-        <mark>bookshelf</mark>
+        <a href="/bookshelf" aria-current="page"><mark>bookshelf</mark></a>
       {% else %}
         <a href="/bookshelf">bookshelf</a>
       {% endif %}
@@ -90,7 +91,7 @@
     {% if false %}
     <li>
       {% if page.name == "feeds.md" %}
-        <mark>feeds</mark>
+        <a href="/feeds" aria-current="page"><mark>feeds</mark></a>
       {% elsif false %}
         <a href="/feeds">feeds</a>
       {% endif %}
@@ -98,24 +99,25 @@
     {% endif %}
     <li>
       {% if page.name == "podcast.md" %}
-        <mark>podcast</mark>
+        <a href="/podcast" aria-current="page"><mark>podcast</mark></a>
       {% else %}
         <a href="/podcast">podcast</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "wiki.html" %}
-        <mark>wiki</mark>
+        <a href="/wiki" aria-current="page"><mark>wiki</mark></a>
       {% else %}
         <a href="/wiki">wiki</a>
       {% endif %}
     </li>
     <li>
       {% if page.name == "kids.md" %}
-        <mark>parenting</mark>
+        <a href="/kids" aria-current="page"><mark>parenting</mark></a>
       {% else %}
         <a href="/kids">parenting</a>
       {% endif %}
     </li>
   </ul>
 </nav>
+</header>
