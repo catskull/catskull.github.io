@@ -64,32 +64,6 @@ code {
       margin: 0;
     }
 
-    .banner {
-      padding: 6.7vh auto;
-      font-size: 1.3rem;
-      height: 85px;
-      overflow: hidden;
-      cursor: pointer;
-    }
-
-    .banner::before {
-      background-image: url('/public/images/240px-Zonenplatte_Cosinus.png');
-      background-repeat: no-repeat;
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-position: center;
-      opacity: 0;
-      transition: opacity 0.2s ease;
-    }
-
-    .banner:hover::before {
-      opacity: 1;
-    }
 
     .monospace-row {
       display: flex;
@@ -117,11 +91,120 @@ code {
 
 }
 
-.grid-uses {
-  display: grid !important;
-  grid-template-columns: repeat(2, 190px);
-  table.monospace {
-    margin-bottom: 0;
+.uses-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.uses-box {
+  border: 2px solid currentColor;
+  padding: 4px 8px 8px;
+}
+
+.uses-box.wide {
+  grid-column: span 2;
+}
+
+.uses-box.full {
+  grid-column: 1 / -1;
+}
+
+.uses-box h2 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 -8px 4px;
+  padding: 0 8px 4px;
+  border-bottom: 2px solid currentColor;
+}
+
+.uses-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 12px;
+}
+
+.uses-box.wide ul {
+  columns: 3;
+}
+
+.uses-box li {
+  line-height: 1.5;
+  break-inside: avoid;
+}
+
+.uses-box li ul {
+  columns: 1;
+  padding-left: 1.5em;
+  list-style: disc;
+}
+
+.uses-box li ul li {
+  line-height: 1.2;
+}
+
+.uses-box img {
+  width: 100%;
+}
+
+.uses-box .banner {
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.uses-box .banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/images/240px-Zonenplatte_Cosinus.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.uses-box .banner:hover::before {
+  opacity: 1;
+}
+
+body.zone-bg {
+  background-image: url('/public/images/Zonenplatte_Cosinus.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .uses-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .uses-box ul {
+    columns: 1;
+  }
+  .uses-box.wide ul {
+    columns: 2;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .uses-wrap {
+    grid-template-columns: 1fr;
+  }
+  .uses-box.wide,
+  .uses-box.full {
+    grid-column: auto;
+  }
+  .uses-box.wide ul {
+    columns: 1;
   }
 }
 

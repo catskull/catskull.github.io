@@ -4,54 +4,49 @@ title: uses - catskull.net
 ---
 {% include topnav.html %}
 
+
 <p>
-Updated Jan. 11, 2025
+Updated March 13, 2026
 </p>
 
 <p>
 Things that I use.
 </p>
 
-<div class="grid grid-uses">
-	{% for item in site.data.uses %}
-	  <div {% if item.double %}style="grid-column: 1 / -1;"{% endif %}>
-	    <table class="monospace">
-	      <thead>
-	        <tr>
-	          <th>{{ item.name }}</th>
-	        </tr>
-	      </thead>
-	      <tbody>
-	        <tr>
-	          <td>
-			      	{% if item.children %}
-		            <ul>
-									{% assign uses = item.children | sort: "name" %}
-		              {% for use in uses %}
-									<li>{% if use.url %}<a href="{{use.url}}" target='_blank'>{% endif %}{{ use.name }}{% if use.url %}</a>{% endif %}</li>
-										{% if use.children %}
-										<ul>
-											{% for child in use.children %}
-											<li>{% if child.url %}<a href="{{child.url}}" target='_blank'>{% endif %}{{ child.name }}{% if child.url %}</a>{% endif %}</li>
-											{% endfor %}
-										</ul>
-										{% endif %}
-		              {% endfor %}
-		            </ul>
-				      {% elsif item.src %}
-				      	<a href="https://github.com/catskull/diagrams" target="_blank">
-					      	<img src="https://raw.githubusercontent.com/catskull/diagrams/main/diagrams/hifi.drawio.svg">
-					      </a>
-				      {% else %}
-			      			<div class="banner" onclick="document.body.style.backgroundImage = 'url(/public/images/Zonenplatte_Cosinus.png)'">
-			      			</div>
-				      {% endif %}
-	          </td>
-	        </tr>
-	      </tbody>
-	    </table>
-	  </div>
-	{% endfor %}
+<div class="uses-wrap">
+  {% for item in site.data.uses %}
+    {% if item.children %}
+    <div class="uses-box{% if item.double %} wide{% endif %}">
+      <h2>{{ item.name }}</h2>
+      <ul>
+        {% assign uses = item.children | sort: "name" %}
+        {% for use in uses %}
+        <li>{% if use.url %}<a href="{{use.url}}" target='_blank'>{% endif %}{{ use.name }}{% if use.url %}</a>{% endif %}
+          {% if use.children %}
+          <ul>
+            {% for child in use.children %}
+            <li>{% if child.url %}<a href="{{child.url}}" target='_blank'>{% endif %}{{ child.name }}{% if child.url %}</a>{% endif %}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% elsif item.src %}
+    <div class="uses-box full">
+      <h2>{{ item.name }}</h2>
+      <a href="{{ item.url }}" target="_blank">
+        <img src="{{ item.src }}">
+      </a>
+    </div>
+    {% else %}
+    <div class="uses-box full">
+      <h2>{{ item.name }}</h2>
+      <div class="banner" onclick="document.body.classList.toggle('zone-bg')"></div>
+    </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
 <hr class="final">

@@ -31,10 +31,8 @@
 - name: Development
   children:
     - name: SF Mono
-    - name: chruby
-      url: https://github.com/postmodern/chruby
-    - name: ruby-install
-      url: https://github.com/postmodern/ruby-install
+    - name: rv
+      url: https://github.com/spinel-coop/rv/
     - name: GitHub Desktop
       url: https://desktop.github.com/
     - name: Ghostty
@@ -45,11 +43,11 @@
       url: https://github.com/Schniz/fnm
     - name: GNU Nano
     - name: htop
-    - name: Mac Mouse Fix
-      url: https://macmousefix.com
     - name: Trasmit
       url: https://panic.com/transmit/
     - name: Safari
+    - name: fzf
+      url: https://github.com/junegunn/fzf
 - name: Creative
   children:
     - name: Final Cut Pro
@@ -64,8 +62,6 @@
       url: https://86box.net
     - name: OBS Studio
       url: https://obsproject.com
-    - name: IINA
-      url: https://iina.io
     - name: Playlistly
       url: https://www.obdura.com/playlisty/
 - name: Equipment
@@ -79,8 +75,8 @@
     - name: Fosi Audio TB10D Stereo Amplifier
     - name: Fosi Audio TP-02 Subwoofer Amplifier
     - name: Klipsch RP-160M
-    - name: Logitech MX Master 3S (White)
-      url: https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006558.html
+    - name: 8BitDo Retro R8 Mouse
+      url: https://www.8bitdo.com/retro-r8-mouse-n/
     - name: Apple Studio Display
     - name: Samsung SyncMaster 710ɴ
     - name: LG 43UN700-B
