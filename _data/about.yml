@@ -89,15 +89,17 @@ lists:
 
   Buttons:
     - |
-      <a href="https://damien.zone" title="damien dot zone"><img src="https://damien.zone/public/88x31_damien.png" alt="damien dot zone" style="image-rendering:pixelated;" /></a>
+      <a href="https://damien.zone" title="damien dot zone" target="_blank"><img src="https://damien.zone/public/88x31_damien.png" alt="damien dot zone" style="image-rendering:pixelated;" /></a>
     - |
-      <a href="https://macthemes.garden" title="Mac Themes Garden"><img src="https://macthemes.garden/buttons/88x31_macthemes.garden.png" alt="Mac Themes Garden" style="image-rendering:pixelated;" /></a>
+      <a href="https://macthemes.garden" title="Mac Themes Garden" target="_blank"><img src="https://macthemes.garden/buttons/88x31_macthemes.garden.png" alt="Mac Themes Garden" style="image-rendering:pixelated;" /></a>
     - |
-      <a href="https://catskull.net" title="catskull.net | mostly harmless"><img width='88px' height='31px' src='/assets/badge.gif' alt="catskull.net"/></a>
+      <a href="https://catskull.net" title="catskull.net | mostly harmless" target="_blank"><img width='88px' height='31px' src='/assets/badge.gif' alt="catskull.net"/></a>
     - |
       <img alt="[Valid Atom 1.0]" title="Valid Atom 1.0" src="https://validator.w3.org/feed/images/valid-atom.png">
     - |
-      <a href="https://biggulpsupreme.neocities.org/"><img src="https://buttons.catskull.net/avif/bgs.avif"></a>
+      <a href="https://biggulpsupreme.neocities.org/" target="_blank"><img src="https://buttons.catskull.net/avif/bgs.avif"></a>
+    - |
+      <a href="https://kagi.com/smallweb" target="_blank"><img src="https://kagi.com/smallweb/static/sw.png" alt="kagi small web" style="image-rendering:pixelated;" ></a>
 
   Interests:
    - Apple Inc.
