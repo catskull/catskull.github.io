@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/IBM_3270?wprov=sfti1#
+  created: '2026-03-28T21:11:57Z'
+  title: |
+    IBM 3270
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/IBM_3277_Model_2_terminal.jpg/330px-IBM_3277_Model_2_terminal.jpg
+  image_wh: 330x220
+  description: |
+    Family of block-oriented display terminals and printers made by IBM
+  extract: |
+    The IBM 3270 is a family of block oriented display and printer computer terminals introduced by IBM in 1971 and normally used to communicate with IBM mainframes. The 3270 was the successor to the IBM 2260 display terminal. Due to the text color on the original models, these terminals are informally known as green screen terminals. Unlike a character-oriented terminal, the 3270 minimizes the number of I/O interrupts required by transferring large blocks of data known as data streams, and uses a high speed proprietary communications interface, using coaxial cable.
