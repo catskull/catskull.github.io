@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Bang's_theorem_on_tetrahedra?wprov=sfti1
+  created: '2026-03-31T03:58:36Z'
+  title: |
+    Bang's theorem on tetrahedra
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bang_s_theoremtetrahedra.png/330px-Bang_s_theoremtetrahedra.png
+  image_wh: 330x206
+  description: |
+    On angles formed when a sphere is inscribed within a tetrahedron
+  extract: |
+    In geometry, Bang's theorem on tetrahedra states that, if a sphere is inscribed within a tetrahedron, and segments are drawn from the points of tangency to each vertex on the same face of the tetrahedron, then all four points of tangency have the same triple of angles. In particular, it follows that the 12 triangles into which the segments subdivide the faces of the tetrahedron form congruent pairs across each edge of the tetrahedron. It is named after Alfred Sophus Bang, who posed it as a problem in 1897.
