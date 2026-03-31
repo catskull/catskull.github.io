@@ -1,0 +1,45 @@
+{% comment %}
+Usage:
+{% include blog_challenge.html
+  week=1
+  chooser="Sam"
+  prompt="What's something cool I'm caring about or into recently?"
+  friend1_name="Sam" friend1_title="Sam's Post Title" friend1_url="https://..."
+  friend2_name="Alex" friend2_title="Alex's Post Title" friend2_url="https://..."
+%}
+{% endcomment %}
+
+<hr>
+<p>My friends and I decided to do a weekly blog challenge for the month of April, 2026! Each week, one of us chooses a prompt and we all write posts.</p>
+<p>For week {{ include.week }}, {{ include.chooser }} chose the prompt:<br> "<b>{{ include.prompt }}</b>"</p>
+
+{% assign friends = "" %}
+{% for i in (1..10) %}
+{% assign name_key = "friend" | append: i | append: "_name" %}
+{% assign title_key = "friend" | append: i | append: "_title" %}
+{% assign url_key = "friend" | append: i | append: "_url" %}
+{% assign fname = include[name_key] %}
+{% assign ftitle = include[title_key] %}
+{% assign furl = include[url_key] %}
+{% if fname %}
+{% if friends == "" %}
+{% assign friends = "yes" %}
+<p>My friends' posts this week:</p>
+<ul>
+{% endif %}
+<li>{{ fname }}: <a href="{{ furl }}">{{ ftitle }}</a></li>
+{% endif %}
+{% endfor %}
+{% if friends != "" %}
+</ul>
+{% endif %}
+
+{% assign challenge_posts = site.posts | where_exp: "post", "post.tags contains 'blog challenge 2026'" | where_exp: "post", "post.url != page.url" %}
+{% if challenge_posts.size > 0 %}
+<p><strong>My other posts in this series:</strong></p>
+<ul>
+{% for post in challenge_posts %}
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}

@@ -55,3 +55,11 @@ After we had fun looking at the Switch 2, I decided that DSi XL was exactly what
 I have absolutely _loved_ my DSi XL. Compared to the DS Lite, the buttons are clicky like the 3DS. I honestly think my DS Lite was worn enough that I was having a hard time with some button presses such as holding B to run in _New Super Mario Bros._. I've already played through 4 games on it, so my investment feels very much worth it. If you're interested to know _what_ I've been playing, well, you'll have to wait till next year when I publish my annual "games I beat" post. Until then, you can catch up on [what I played last year](/every-game-I-beat-in-2025.html), or [the year before](/games-i-played-in-2024.html).
 
 Nintendo, please make the 3DS again. Just start selling them. A digital storefront with the entire back catalog will allow you to maximize profit and minimize expense. You don't need to deal with physical game publishing. You could be generous and offer a way to let me port my physical games in to the digital store, but I think there are enough new players out there you'd still sell a zillion consoles even without that ability. Hardcore gamers already hate you, I don't think this will move the needle on that either way. The 3DS is a great first device for kids especially. It has social communication features that currently parents have to lean to a phone for, but phones are not good for kids. Pictochat has way less possibility of causing major harm than Snapchat. Just do it. Please. We want to play a small, portable, perfectly executed console. People still want their Switch 2 to play Breath of the Wild at a respectable framerate, but just as many kids out there want to experience _Phantom Hourglas_ and _A Link Between Worlds_ for the first time.
+
+{% include blog_challenge.html
+  week=1
+  chooser="Sam"
+  prompt="What's something cool I'm caring about or into recently?"
+  friend1_name="Urmom" friend1_title="Quantum Theory And You" friend1_url="https://sam.blog/post"
+  friend2_name="Urdad" friend2_title="Should I Be Worried About This Thing On My Neck?" friend2_url="https://alex.blog/post"
+%}
