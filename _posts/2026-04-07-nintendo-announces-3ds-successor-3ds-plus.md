@@ -60,6 +60,6 @@ Nintendo, please make the 3DS again. Just start selling them. A digital storefro
   week=1
   chooser="Sam"
   prompt="What's something cool I'm caring about or into recently?"
-  friend1_name="Urmom" friend1_title="Quantum Theory And You" friend1_url="https://sam.blog/post"
-  friend2_name="Urdad" friend2_title="Should I Be Worried About This Thing On My Neck?" friend2_url="https://alex.blog/post"
+  friend1_name="Sam" friend1_title="Four Keys Book Arts and Project Hail Andy" friend1_url="https://samwarnick.com/blog/four-keys-book-arts-and-project-hail-andy/"
+  friend2_name="Jared" friend2_title="The Nature of Prototyping in Professional Development" friend2_url="https://jaredezz.tech/posts/the-nature-of-prototyping/"
 %}
