@@ -19,6 +19,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-css-naked-day
 
 image_prefix: /cdn-cgi/image/format=auto/
 
