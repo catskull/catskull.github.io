@@ -74,7 +74,7 @@ We do things at home because at home they can be perfect. At home, our constrain
 
 ## Disclaimer
 
-This post was proofread and edited for spelling, grammar, and clarity with the help of Claude Code (Opus 4.6). Here are the prompts I gave it:
+This post was proofread and edited for spelling, grammar, and clarity with the help of Claude Code (Opus 4.6). You can [view the commit with Claude's changes on GitHub](https://github.com/catskull/catskull.github.io/commit/ce7b5285c7ea52af7228eaed3932b363d22c05d0). Here are the prompts I gave it:
 
 1. we're going to work on my most recent blog post titled Re: Opinions [about vibe coding]
 2. there's a youtube link that needs to be inserted with my youtube partial
