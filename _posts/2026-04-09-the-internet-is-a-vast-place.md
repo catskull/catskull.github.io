@@ -1,10 +1,9 @@
 ---
 title: The Internet is a vast place.
-tags: [blog-challenge-2026]
+tags: [blog challenge 2026, lore, meta, internet]
 date: 2026-04-14 13:46:38 -0600
 layout: post
 ---
-Prompt: What are your favorite places on the internet or favorite things about the internet and why? How do they differ from the parts of the internet that you dislike?
 
 The Internet is a vast place. It didn't always exist. It might go away someday.
 
@@ -62,3 +61,12 @@ I've been a Wikipedia reader for as long as I can remember. I _love_ reading Wik
 
 
 It's a bit difficult to even talk about "the internet" as a single concept. Maybe I have an outdated idea, but I don't really consider "the internet" to be any connected service. I primarily consider it to be the thing you view with a web browser. Maybe "the internet" to me really means the World Wide Web. A smart light switch isn't "the internet" even if it needs an internet connection to operate. I think that concept is already changing drastically with huge platforms like Roblox. As much as we want to gallivant about making a "new internet", I think it's already happened. I don't think my kids know how to use a web browser or really even have an understanding of the concept. But they play online games. They watch videos. The internet has become the services that operate using a public network connection and the World Wide Web is nearly a relic of the past. But I think I'll still be here in 50 years, drafting blog posts in nano, sending emails, and subscribing to RSS feeds. I wouldn't be surprised if I become a modern ham radio operator, but instead of broadcasting airwaves from my basement, I'll be blogging, connecting with other crazy people who are like-minded enough to figure out how to use the ancient technology.
+
+{% include blog_challenge.html
+  week=2
+  chooser="Jared"
+  prompt="What are your favorite places on the internet or favorite things about the internet and why? How do they differ from the parts of the internet that you dislike?"
+  friend1_name="Sam" friend1_title="Four Keys Book Arts and Project Hail Andy" friend1_url="https://samwarnick.com/blog/four-keys-book-arts-and-project-hail-andy/"
+  friend2_name="Jared" friend2_title="The Nature of Prototyping in Professional Development" friend2_url="https://jaredezz.tech/posts/the-nature-of-prototyping/"
+   friend3_name="Carter" friend3_title="I'm enjoying having opinions" friend3_url="https://carter.works/blog/2026-04-07-im-enjoying-having-opinions/"
+%}

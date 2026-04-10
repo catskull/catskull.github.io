@@ -62,4 +62,5 @@ Nintendo, please make the 3DS again. Just start selling them. A digital storefro
   prompt="What's something cool I'm caring about or into recently?"
   friend1_name="Sam" friend1_title="Four Keys Book Arts and Project Hail Andy" friend1_url="https://samwarnick.com/blog/four-keys-book-arts-and-project-hail-andy/"
   friend2_name="Jared" friend2_title="The Nature of Prototyping in Professional Development" friend2_url="https://jaredezz.tech/posts/the-nature-of-prototyping/"
+  friend3_name="Carter" friend3_title="I'm enjoying having opinions" friend3_url="https://carter.works/blog/2026-04-07-im-enjoying-having-opinions/"
 %}
