@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Gopher_(protocol)
+  created: '2026-04-10T06:00:09Z'
+  title: |
+    Gopher (protocol)
+  image_url: 
+  image_wh: 
+  description: |
+    TCP/IP application layer protocol
+  extract: |
+    Gopher is a communication protocol designed for distributing, searching, and retrieving documents in Internet Protocol networks. The design of the Gopher protocol and user interface is menu-driven, and presented an alternative to the World Wide Web in its early stages, but ultimately fell into disfavor, yielding to Hypertext Transfer Protocol (HTTP). The Gopher ecosystem is often regarded as the effective predecessor of the World Wide Web.
