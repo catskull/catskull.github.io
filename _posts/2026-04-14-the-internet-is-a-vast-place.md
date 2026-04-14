@@ -1,7 +1,7 @@
 ---
 title: The Internet is a vast place.
 tags: [blog challenge 2026, lore, meta, internet]
-date: 2026-04-14 13:46:38 -0600
+date: 2026-04-14 01:46:38 -0600
 layout: post
 ---
 
@@ -66,7 +66,6 @@ It's a bit difficult to even talk about "the internet" as a single concept. Mayb
   week=2
   chooser="Jared"
   prompt="What are your favorite places on the internet or favorite things about the internet and why? How do they differ from the parts of the internet that you dislike?"
-  friend1_name="Sam" friend1_title="Four Keys Book Arts and Project Hail Andy" friend1_url="https://samwarnick.com/blog/four-keys-book-arts-and-project-hail-andy/"
-  friend2_name="Jared" friend2_title="The Nature of Prototyping in Professional Development" friend2_url="https://jaredezz.tech/posts/the-nature-of-prototyping/"
-   friend3_name="Carter" friend3_title="I'm enjoying having opinions" friend3_url="https://carter.works/blog/2026-04-07-im-enjoying-having-opinions/"
+  friend1_name="Sam" friend1_title="Internet Driven Memories" friend1_url="https://samwarnick.com/blog/internet-driven-memories/"
+  friend2_name="Carter" friend2_title="My favorite places on the internet" friend2_url="https://carter.works/blog/2026-04-14-my-favorite-places-on-the-internet/"
 %}
