@@ -68,4 +68,5 @@ It's a bit difficult to even talk about "the internet" as a single concept. Mayb
   prompt="What are your favorite places on the internet or favorite things about the internet and why? How do they differ from the parts of the internet that you dislike?"
   friend1_name="Sam" friend1_title="Internet Driven Memories" friend1_url="https://samwarnick.com/blog/internet-driven-memories/"
   friend2_name="Carter" friend2_title="My favorite places on the internet" friend2_url="https://carter.works/blog/2026-04-14-my-favorite-places-on-the-internet/"
+  friend3_name="Jared" friend3_title="My Preferred Corners of the Internet, and Why I Spend My Time There" friend3_url="https://jaredezz.tech/posts/preferred-corners-of-the-internet/"
 %}
