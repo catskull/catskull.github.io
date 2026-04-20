@@ -23,7 +23,7 @@ The next day after my biweekly counseling appointment I decided to take the roun
 Why the Land Cruiser? To me it's a testament to engineering. These Toyota engineers, drunk on their own unlimited power, designed and manufactured a vehicle so unbelievably reliable that they never die. So much so that extremist [militant groups](https://en.wikipedia.org/wiki/Toyota_Land_Cruiser#Use_by_militant_groups_and_military_forces) and [peaceful organizations](https://www.youtube.com/watch?v=_Z_V5ggUo2Y) alike rely on them for transportation when you're so far out that recovery is not an option.
 
 {% include figure.html
-  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1990-1992_Toyota_Land_Cruiser_%28FJ80R%29_GXL_wagon_%282011-10-25%29.jpg/640px-1990-1992_Toyota_Land_Cruiser_%28FJ80R%29_GXL_wagon_%282011-10-25%29.jpg"
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1990-1992_Toyota_Land_Cruiser_%28FJ80R%29_GXL_wagon_%282011-10-25%29.jpg/960px-1990-1992_Toyota_Land_Cruiser_%28FJ80R%29_GXL_wagon_%282011-10-25%29.jpg"
   caption="𝑇𝑂𝑌𝑂𝑇𝐴"
   href="https://commons.wikimedia.org/wiki/File:1990-1992_Toyota_Land_Cruiser_(FJ80R)_GXL_wagon_(2011-10-25).jpg"
   alt="a 1992 Toyota Land Cruiser (FJ80R) GXL wagon photograph"
@@ -70,7 +70,7 @@ Download:
 Footnotes:
 
 {% include figure.html
-  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Toyota_Land_Cruiser_rear_20071004.jpg/640px-Toyota_Land_Cruiser_rear_20071004.jpg"
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Toyota_Land_Cruiser_rear_20071004.jpg/960px-Toyota_Land_Cruiser_rear_20071004.jpg"
   alt="A photo of a red 80 Series Land Cruiser with the Austrailian-style swing-out doors."
   href="https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_rear_20071004.jpg"
   caption="Figure 1"
