@@ -33,7 +33,7 @@ I'm not perfect. In all of those things I mentioned, there's more I could do, an
   week=4
   chooser="Carter"
   prompt="You have been given one month away from your obligations to use your talents to enact societal good. What do you go do?"
-  friend1_name="Sam" friend1_title="tba" friend1_url="https://samwarnick.com/blog/"
-  friend2_name="Carter" friend2_title="tba" friend2_url="https://carter.works/blog/"
+  friend1_name="Sam" friend1_title="Talents for Good" friend1_url="https://samwarnick.com/blog/talents-for-good/"
+  friend2_name="Carter" friend2_title="Get small, muchachos" friend2_url="https://carter.works/blog/2026-04-28-get-small-muchachos/"
   friend3_name="Jared" friend3_title="TBA" friend3_url="https://jaredezz.tech/posts/"
 %}
