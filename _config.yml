@@ -53,3 +53,25 @@ defaults:
       layout: post
 
 # time: "2026-12-01 00:00:00 -0700"
+
+og_image:
+  layouts_dir: _og/layouts   # optional, this is the default
+  output_dir: assets/og      # optional, this is the default
+  force: false               # optional, re-generate even if file exists
+  templates:
+    - collection: posts
+      template: _og/post.html
+      # template: false
+    - collection: newsletters
+      template: _og/newsletter.html
+      # template: false
+    - collection: page
+      # template: false
+      template: _og/page.html
+    - collection: recipes
+      # template: false
+      template: _og/recipe.html 
+    - path: /
+      template: _og/index.html
+    - collection: playlists
+      template: _og/playlist.html

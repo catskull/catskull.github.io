@@ -1,0 +1,12 @@
+---
+layout: base
+---
+{% assign newsletters = site.newsletters | sort: "created" %}
+{% for newsletter in newsletters %}
+  {% if newsletter.url == page.url %}
+    {% assign issue_number = forloop.index %}
+  {% endif %}
+{% endfor %}
+<div class="date">{{ page.created | date: "%B %-d, %Y" }}</div>
+<div class="title">{{ page.title | default: page.url }}</div>
+<div class="tags"><span>Newsletter #{{ issue_number }}</span></div>

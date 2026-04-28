@@ -1,0 +1,8 @@
+---
+layout: base
+---
+{% assign path_parts = page.path | split: "/" %}
+{% assign year = path_parts[1] %}
+{% assign week = path_parts[2] | split: "." | first %}
+<div class="date">Playlist</div>
+<div class="title">{{ year }} /<br>Week {{ week }}</div>

@@ -17,3 +17,7 @@ gem "nokolexbor", "~> 0.6"
 gem "jekyll-css-naked-day", "~> 0.1"
 
 gem "logger", "~> 1.7"
+
+group :development, :jekyll_plugins do
+  gem "jekyll-og-image", path: "/Users/catskull/code/ogimage"
+end
