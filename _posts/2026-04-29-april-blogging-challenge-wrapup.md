@@ -23,7 +23,7 @@ I like his image previews:
 I like how often he blogs. He's pretty sneaky and will just post quietly. Luckily, I'm subscribed to his RSS feed so I never miss a post (except for when I do). I like his [/uses](https://samwarnick.com/uses/) page!
 
 {% include blog_challenge.html
-  week=3
+  week=5
   chooser="we"
   prompt="What is one thing you like about each other's blogs?"
   friend1_name="Sam" friend1_title="April Blogging Challenge Wrap-Up" friend1_url="https://samwarnick.com/blog/april-blogging-challenge-wrap-up/"
