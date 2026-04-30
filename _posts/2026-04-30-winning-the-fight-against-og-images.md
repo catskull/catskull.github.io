@@ -28,8 +28,8 @@ Leaving aside the boutique implementations of link preview images, I focused onl
 
 {% include figure.html
 	src="assets/opengraph.webp"
-	alt="My old og:image"
-	caption="My old og:image"
+	alt="My OG og:image"
+	caption="My OG og:image"
 %}
 
 But how to generate a bunch of custom images on the fly? How to template the images? I wanted something fully automated and custom designed, and I didn't want to add a heavy media processing pipeline to my application. I wanted it to be as close to how the rest of the website is built as possible, not some custom ImageMagick or ffmpeg design system. I really like HTML and CSS. Generally speaking, they are really powerful and modern web browsers are _really, really_ good at rendering them. I can't think of another content layout system that is as powerful and flexible as HTML and CSS, not to mention ease of use and interoperability. This is why I initially leaned toward SVG, since it's actually basically fully interoperable with HTML including having HTML in an SVG and having SVG in HTML.
