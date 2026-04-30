@@ -3,4 +3,4 @@ layout: base
 ---
 <div class="title">{{ page.title | default: page.url }}</div>
 {% if page.description %}<div class="description">{{ page.description }}</div>{% endif %}
-<div class="tags">{% for tag in page.tags %}<span>#{{ tag }}</span> {% endfor %}</div>
+<div class="tags">{% for tag in page.tags %}<span>#{{ tag | replace: ' ', '-' }}</span> {% endfor %}</div>
