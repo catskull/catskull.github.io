@@ -16,7 +16,7 @@
   date: 2024-07-29
 - title: Gizzhead.org
   era: "2023"
-  status: active
+  status: defunct
   meta: Relaunched 2024 as a King Gizzard & The Lizard Wizard fan blog
   hyperlink: https://gizzhead.org
   image: /public/media/projects/gizzheaddotorg2024.jpg
@@ -45,6 +45,7 @@
   hyperlink: https://catskullelectronics.com
   image: /public/media/projects/catskull-electronics.jpg
   published: true
+  date: 2022-01-01
 - title: StatusDash
   era: "2021"
   status: defunct
@@ -53,6 +54,7 @@
   hyperlink: https://stoic-bartik-5f76cd.netlify.app
   image: /public/media/projects/statusdash.jpg
   published: true
+  date: 2021-12-31
 - title: Hammerspoon Plugins
   era: 2020-2021
   status: completed
@@ -61,6 +63,7 @@
   hyperlink: https://github.com/catskull/BouncingWindow.spoon
   image: /public/media/projects/hammerspoon.gif
   published: true
+  date: 2021-01-01
 - title: Catskull Records
   era: 2017-2020
   status: defunct
@@ -68,6 +71,7 @@
   hyperlink: https://catskullrecords.com
   image: /public/media/projects/catskull-records.jpg
   published: true
+  date: 2020-12-31
 - title: Open Source Cart Flasher
   era: "2020"
   status: defunct
@@ -75,6 +79,7 @@
   hyperlink: https://github.com/catskull/OSCF
   image: /public/media/projects/oscf.jpg
   published: true
+  date: 2020-01-01
 - title: USB MIDI Interface
   era: "2018"
   status: completed
@@ -82,6 +87,7 @@
   hyperlink: https://github.com/catskull/USBMIDIInterface
   image: /public/media/projects/usbmidiinterface.jpeg
   published: true
+  date: 2018-01-01
 - title: EmotiClean
   era: "2015"
   status: completed
@@ -89,6 +95,7 @@
   hyperlink: https://github.com/catskull/EmotiClean
   image: /public/media/projects/emoticlean.png
   published: true
+  date: 2015-12-31
 - title: Poop-o-meter
   era: "2015"
   status: completed
@@ -96,6 +103,7 @@
   hyperlink: https://www.youtube.com/watch?v=1zstJ1oCEuI
   image: /public/media/projects/poopometer.jpg
   published: true
+  date: 2015-06-01
 - title: Playstation 1 Emulator Console
   era: "2014"
   status: completed
@@ -103,3 +111,4 @@
   hyperlink: https://www.youtube.com/watch?v=OzNxo41OlG8
   image: /public/media/projects/ps1console.jpg
   published: true
+  date: 2014-01-01
