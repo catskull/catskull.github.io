@@ -10,6 +10,8 @@ My wife and I are the parents to 4 awesome kids. Parenting is quite the experien
 
 <hr>
 
+There will be a phase where you are your kids' best friend. It's tiring and overwhelming to have a kid best friend. They have a lot more energy! But it doesn't last forever. Soak it in.
+
 Nobody is more qualified to raise your kids than you are.
 
 When sharing food with a kid, always let them have the last bite. If you take the last bite, no matter how small, they will always feel cheated.
