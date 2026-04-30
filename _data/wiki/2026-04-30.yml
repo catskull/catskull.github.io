@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Just_intonation
+  created: '2026-04-30T15:57:32Z'
+  title: |
+    Just intonation
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Harmonic_series_klang.png/330px-Harmonic_series_klang.png
+  image_wh: 330x260
+  description: |
+    Musical tuning based on pure intervals
+  extract: |
+    Just intonation is the tuning of a musical interval without beats. The result is an acoustically pure sound that resonates within the harmonic series. The simplest relationship between pitches in this series can be expressed as small whole number ratios. Musicians around the world instinctively perform in just intonation.
