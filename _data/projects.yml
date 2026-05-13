@@ -1,3 +1,19 @@
+- title: ohnoban
+  era: 2026
+  status: active
+  meta: 'A kanban just for me'
+  hyperlink: https://catskull.net/ohnoban/ 
+  image: /public/media/projects/ohnoban.jpg
+  published: true
+  date: 2026-05-01
+- title: openwrt-x86-installer
+  era: 2026
+  status: completed (for now)
+  meta: 'Bootable x86 OpenWrt installer baed on Alpine Linux'
+  hyperlink: https://github.com/catskull/openwrt-x86-installer
+  image: /public/media/projects/openwrtx86installer.jpg
+  published: true
+  date: 2026-04-20
 - title: Replies
   era: 2024
   status: active
