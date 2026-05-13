@@ -348,9 +348,6 @@ img, video {
     }
   }
 
-  #portrait img {
-    opacity: 0.5;
-  }
 }
 
 .final {
@@ -678,6 +675,18 @@ section#quotes {
   width: 100%;
   display: block;
   aspect-ratio: 1/1;
+}
+
+@media (prefers-color-scheme: dark) {
+  #portrait img {
+    opacity: 0.5;
+  }
+}
+
+@media (prefers-color-scheme: dark) and (prefers-contrast: more) {
+  #portrait img {
+    opacity: 1;
+  }
 }
 
 #live-tag {
