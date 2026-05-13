@@ -348,7 +348,7 @@ img, video {
     }
   }
 
-  #portrait video {
+  #portrait img {
     opacity: 0.5;
   }
 }
@@ -674,7 +674,7 @@ section#quotes {
   }
 }
 
-#portrait video {
+#portrait img {
   width: 100%;
   display: block;
   aspect-ratio: 1/1;
