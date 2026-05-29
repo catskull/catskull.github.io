@@ -292,6 +292,31 @@
   date: 5/23/26
   wiki: https://en.wikipedia.org/wiki/Tom_Clancy%27s_Splinter_Cell_(video_game)
 
+- title: "Tom Clancy's Splinter Cell: Pandora Tomorrow"
+  platform: Xbox
+  developer: Ubisoft Milan/Shanghai
+  publisher: Ubisoft
+  year: 2004
+  image: /public/media/posts/games/2026/scpt.jpg
+  text: |
+    _Image courtesy of The Cover Project_
+
+    After I had such a blast with the first _Splinter Cell_ game, I couldn't wait to dive into the sequel, _Pandora Tomorrow_. Since I learned that the "definitive" versions of the games were on the original Xbox, I decided to boot up my trusty OG Xbox and play on real hardware. Back during the pandemic, I got the itch to get myself an Xbox and get it totally ready to rock. A super common issue with them is that there's a specific super capacitor that's used as an alternative to a BIOS battery. I guess that was a good choice at the time, but the problem is this one capacitor is notorious for failing and leaking acid all over the PCB. Specifically, the traces for the front buttons (power, eject) run right through the section where this capacitor is and they're right near the edge of the board so they'll corrode and fail which leaves the Xbox mostly broken. Fortunately, I was pretty good with a soldering iron at the time and was able to do a repair to get it totally functional. While the clock capacitor can be replaced, removing it doesn't really do any harm other than keeping the clock not synced, which impacts nothing. I actually took the time to do a full capacitor replacement on the whole console at that time. Additionally, I installed a sweet little Xbox HDMI converter, put in a modchip (Aladdin XT), and upgraded the HDD. It rocks pretty hard now! My oldest and I had a blast playing through _Burnout 3: Takedown_ and the HDMI output looks really great. I've also refurbished a set of controllers with fresh thumbsticks and controller cables. Put simply - I've got a really great OG Xbox set up ready to rock. So I figured I might as well put it to use and play this game on it.
+
+    _Pandora Tomorrow_ was a quick sequel. While the first was developed by Ubisoft Montreal, this one was farmed out to Ubisoft Milan and Shanghai. You could almost think of this as more of an "expansion pack" since the core gameplay and engine remain about 95% unchanged. Just more levels. The mechanics they did add are mostly useless such as the ability to hang upside down and shoot your gun, which I don't think I used a single time. One cool new ability is the "SWAT turn" which allows you to flip past an open door when your back is to the wall, allowing you to remain in stealth even while crossing an opening. Beyond that, its the same old _Splinter Cell_ just with a new campaign and levels. For me, I'm a huge fan of the original so I loved it. It sounds like most people do not share my sentiment on that front, prefering later titles in the series over the first two.
+
+    Each level progresses through a series of checkpoints that save the game. I really enjoyed that iterative approach. The checkpoint doesn't restore your health, ammo, or alarm status, but it does allow you to quickly jump back as you figure out how exactly to deal with each section of the level. Most sections required at least a few attempts, some took me dozens. Every checkpoint was a huge sigh of relief. While the levels are almost completely linear, there are always at least a few ways to deal with each situation as various scripted events from NPCs play out. It's like an iterative puzzle you solve one step at a time. For the most part it was enjoyable, though some sections felt overly long and I'd have to wait through the same challenge again and again as I figured out the next part of the section.
+
+    There are some really incredible levels in this game! I'd say that makes it stand even above the first game. A lot of them take place in Indonesia with various tropical and beach themed levels. A highlight for me was the Jerusalem level which is accompanied with a great thematic soundtrack. Another cool location was on a submarine. I really enjoyed that a lot of the levels had multiple paths that were all potentially valid, depending on how I liked to play them. The first game usually just had a single valid approach, which was still fine, but being able to choose which guards I ignored, how I took them down, and where I went made repeating sections and experimenting more fulfilling.
+
+    Unfortunately for me the game ends on a low note. The last level actually takes place inside Los Angeles International Airport (LAX) and it was pretty frustrating. There are a ton of guards who you can't kill and a few that you have to kill. But if any of them notice you at all, it's game over. It took a really long time and overstayed it's welcome for me. The final action sequence of the game in particular felt poorly executed. After being so stealthy and tactical for the entire game, you mostly just have to run in guns blazing and machine gun down the final three enemies. I tried several times and was unable to even figure out a stealthy path.
+
+    Since I raved so much about the licensed "Palm OS" menu theme of the first game, I was intrigued that they licensed the Sony Ericsson with a still cool mobile PDA style menu theme, but it isn't nearly as iconic as the original Palm PDA of the first game. Still good, just not incredible.
+
+    I admit that I immediately dove into the next sequel _Chaos Theory_ which is supposed to be the best, but my initial impressions are not great. The engine is changed quite a bit so it plays a lot different from the first two games. On top of that, the menu is just a regular menu nothing cool or branded at all. A lot of the charm is just missing for me. I might still give it a few more tries but so far, I wouldn't be surprised if it doesn't end up on this list.
+  date: 5/28/26
+  wiki: https://en.wikipedia.org/wiki/Tom_Clancy%27s_Splinter_Cell:_Pandora_Tomorrow
+
 - title: 
   platform: 
   developer: 
