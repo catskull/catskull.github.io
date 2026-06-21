@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Infinite_monkey_theorem?wprov=sfti1#
+  created: '2026-06-21T03:38:06Z'
+  title: |
+    Infinite monkey theorem
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chimpanzee_seated_at_typewriter.jpg/330px-Chimpanzee_seated_at_typewriter.jpg
+  image_wh: 330x263
+  description: |
+    Counterintuitive result in probability
+  extract: |
+    The infinite monkey theorem states that a monkey hitting keys independently and at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, including the complete works of William Shakespeare. More precisely, under the assumption of independence and randomness of each keystroke, the monkey would almost surely type every possible finite text an infinite number of times. The theorem can be generalized to state that any infinite sequence of independent events whose probabilities are uniformly bounded below by a positive number will almost surely have infinitely many occurrences.
