@@ -4,10 +4,10 @@ tags: [macos, nintendo, gaming, diy, hacks]
 date: 2026-07-10 11:14:02 -0600
 layout: post
 ---
-# TL;DR:
+## TL;DR:
 I made a GameCube to USB controller adapter that works on macOS including rumble. [You can build your own.](https://github.com/loopj/libjoybus/pull/35)
 
-# Intro
+## Intro
 
 Because I've had to move like 15 times in my life, I have a strong fear of owning too much crap. In times past, I had a fairly extensive game collection, but it's been heavily pared down to just Switch, (3)DS, my childhood Xbox and GameCube games, and some random Game Boy and other retro console games that are physically odd or unique in some way such as the Satellaview cartridge and Japanese Tomagotchi games.
 
@@ -16,7 +16,7 @@ Here's a video where I talk about some of the random stuff in my collection:
 
 However, one item I still keep on hand is _controllers_. Authentic input methods really capture the experience of playing the games for me. I can't quite capture the feeling of kneeling at the family room CRT, but I can capture the feeling of holding an N64 controller while I smash [_Beetle Adventure Racing_](/every-game-I-beat-in-2025.html#beetle-adventure-racing).
 
-# The Retro Gaming Nook
+## The Retro Gaming Nook
 
 {% include figure.html
 	src="assets/images/posts/macos-gamecube-controller/nook.jpeg"
@@ -28,7 +28,7 @@ Because I work from home, I'm at my computer desk all day. When I want to play a
 
 Due to this setup and my desire to use authentic inputs with it, I have two main constraints: First, figuring out a way to get the random old controllers working on my computer to play my freshly dumped backups. Second, the fact that I only own computers with macOS. You wouldn't think macOS would be so limiting when it comes to controllers, but Apple seems to like to totally reinvent the wheel every 5 years when it comes to how they deal with drivers, so most of the commercially available products simply don't work on macOS. Theoretically my life would be easier if I used some form of SteamOS or Windows, but in practice I'm just a lot more comfortable with macOS, even with its limitations.
 
-# Input Methods
+## Input Methods
 
 {% include figure.html
 	src="assets/images/posts/macos-gamecube-controller/controllers.jpeg"
@@ -60,7 +60,7 @@ For Nintendo 64, which has a very very unique and difficult to fully replicate c
 
 That just leaves one key console that has potentially the most iconic controller of all time, one that is still sought after, modded, and used by casual and esports players alike. Of course I'm talking about the Nintendo GameCube controller.
 
-# Options for using a GameCube controller on macOS in 2026
+## Options for using a GameCube controller on macOS in 2026
 
 There are a lot of options for using a GameCube controller on modern platforms in 2026. Very few of them work at all on macOS, and the ones that do don't work very well.
 
@@ -84,7 +84,7 @@ At this point, I was ready to give up and write it off as "not possible" until m
 
 However, like the legend of the Phoenix, I rose from the ashes. I refused to give up.
 
-# The Solution
+## The Solution
 
 One thing I learned from some of the past controller adapter projects I've done is that the Raspberry Pi Pico's [RP2040](https://en.wikipedia.org/wiki/RP2040) is potentially the single best piece of silicon produced in the last decade, save possibly Apple's own M-series chips. Unlike the other Raspberry Pi Single-Board Computers that run a full OS like Linux, the RP2040 is a microcontroller, like the ATMega328 of Arduino fame. You compile and flash firmware onto the chip to do one specific thing. The 2040 has some really incredible features that allow it to do native USB stuff very well. Potentially the best feature is its "programmable I/O" (PIO) that give it almost-FPGA like abilities to emulate hardware protocols that a standard microcontroller wouldn't be able to do. A full Pi Pico dev board is $5, and the chip on its own is well under a dollar. My favorite RP2040 dev board is the "RP2040-Zero" which is tiny, has USB-C, and is $10 for a 3-pack on Amazon. I picked up a 3-pack a few years ago for my other controller projects, and wouldn't you know it, I still had one more waiting for me to use.
 
@@ -132,7 +132,7 @@ I plugged it in, flashed the code, plugged it in, and suddenly my computer recog
 
 To finish it off, I just wrapped the wires around the PCB and taped the RP2040-zero to it with some sweet silicone tape. It's really stretchy and only sticks to itself, no adhesive to gum everything up. I'm half tempted to design a board to make it easier for others to build, or possibly even sell a premade adapter, but at this point I'm having too much fun just using it to bother. That's one regret I have from Catskull Electronics. I was always so busy with literally everything else that I never really had any time to actually use any of the gear I was making.
 
-# The End
+## The End
 
 And that, folks, is the long tale of how I got a GameCube controller working on macOS. I am so thankful to the libjoybus project for allowing this to happen. It's exciting and a bit scary that I was able to point Claude Code at the problem and it worked it out. I would have spent weeks trying to figure out all the random data needed to get the RP2040 to do DualShock 4 stuff, but Claude went through it like a hot knife through butter.
 
