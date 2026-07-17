@@ -7,17 +7,17 @@
   description: |
     1992 video game
   extract: |
-    The Legend of Kyrandia: Book One is a 2D point-and-click adventure game, developed by Westwood Studios and published by Virgin Games in August 1992. The game is the first in the Legend of Kyrandia series, and focuses on players taking on the role of a young prince who must put an end to the tyrannical chaos of an evil court jester.
+    The Legend of Kyrandia: Book One is a point-and-click adventure game developed by Westwood Studios and published by Virgin Games in August 1992. It was originally released for MS-DOS, then ported to Amiga, FM Towns, Mac, and PC-98. It is the first in the Legend of Kyrandia series, and focuses on players taking on the role of a young prince who must put an end to the tyrannical chaos of an evil court jester.
 - url: https://en.wikipedia.org/wiki/UFO_50?wprov=sfti1#Development
   created: '2025-08-07T03:11:42Z'
   title: |
     UFO 50
   image_url: https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/UFO_50_cover.png/330px-UFO_50_cover.png
-  image_wh: 320x180
+  image_wh: 330x186
   description: |
     2024 video game collection
   extract: |
-    UFO 50 is a video game collection developed and published by Mossmouth for Windows on September 18, 2024. It features 50 unique games of varying genres and length. The games are a collaborative effort by six developers over the course of several years, its development akin to a game jam.
+    UFO 50 is a video game collection developed and published by Mossmouth for Windows in September 2024 and for Nintendo Switch in August 2025. It features 50 unique games of varying genres and length. The games were a collaborative effort by six developers over the course of several years, its development akin to a game jam.
 - url: https://en.wikipedia.org/wiki/List_of_music_considered_the_worst
   created: '2025-08-07T17:24:51Z'
   title: |
@@ -32,23 +32,23 @@
   created: '2025-08-07T17:31:07Z'
   title: |
     General Educational Development
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/GED_Testing_Service.svg/320px-GED_Testing_Service.svg.png
-  image_wh: 320x182
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/GED_Testing_Service.svg/330px-GED_Testing_Service.svg.png
+  image_wh: 330x188
   description: |
     High school diploma test
   extract: |
-    The General Educational Development (GED) tests are a group of four academic subject tests in the United States and its territories certifying academic knowledge equivalent to a high school diploma. This certification is an alternative to the U.S. high school diploma, as is HiSET. Passing the GED test gives those who do not complete high school, or who do not meet requirements for high school diploma, the opportunity to earn a Certificate of High School Equivalency or similarly titled credential. 
+    The General Educational Development (GED) tests are a group of four academic subject tests in the United States and its territories certifying academic knowledge equivalent to a high school diploma. This certification is an alternative to the U.S. high school diploma, as is HiSET. Passing the GED test gives those who do not complete high school, or who do not meet requirements for a high school diploma, the opportunity to earn a Certificate of High School Equivalency or similarly titled credential. 
     GED Testing Service is a joint venture of the American Council on Education, which started the GED program in 1942.
 - url: https://en.wikipedia.org/wiki/IOS_26
   created: '2025-08-07T17:42:02Z'
   title: |
     IOS 26
-  image_url: https://upload.wikimedia.org/wikipedia/en/d/d7/IOS_26_Public_Beta_1_Liquid_Glass.png
-  image_wh: 215x466
+  image_url: https://upload.wikimedia.org/wikipedia/en/9/9b/IOS_26_Homescreen.png
+  image_wh: 214x465
   description: |
-    2025 mobile operating system made by Apple
+    2025 mobile operating system
   extract: |
-    iOS 26 is the nineteenth and the next major release of Apple's iOS operating system for the iPhone. It was announced on June 9, 2025, at Apple's Worldwide Developers Conference (WWDC), and it is expected to be released in mid-September 2025.
+    iOS 26 is the nineteenth major release of Apple's iOS operating system for the iPhone. It was announced at the 2025 Worldwide Developers Conference (WWDC) on June 9, 2025, and released on September 15, 2025. The successor to iOS 18, its version number was brought forward to 26 as Apple adopted a year-based convention for consistency across its operating systems.
 - url: https://en.wikipedia.org/wiki/The_Age_of_Spiritual_Machines
   created: '2025-08-07T17:44:37Z'
   title: |
@@ -64,17 +64,17 @@
   title: |
     Means of communication
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/5_different_Smartphones.jpg/330px-5_different_Smartphones.jpg
-  image_wh: 320x213
+  image_wh: 330x219
   description: |
     Methods used to exchange information
   extract: |
-    Means of communication or media are used by people to communicate and exchange information with each other as an information sender and a receiver. Diverse arrays of media that reach a large audience via mass communication are called mass media.
+    Means of communication or media are ways used by people to communicate and exchange information with each other as an information sender and a receiver. Diverse arrays of media that reach a large audience via mass communication are called mass media.
 - url: https://en.wikipedia.org/wiki/Electronic_media
   created: '2025-08-07T19:18:39Z'
   title: |
     Electronic media
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Webpage.png/330px-Webpage.png
-  image_wh: 320x163
+  image_wh: 330x168
   description: |
     Media needing electronic means for access
   extract: |

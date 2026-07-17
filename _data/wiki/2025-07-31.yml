@@ -5,19 +5,19 @@
   image_url: 
   image_wh: 
   description: |
-    A cliché used as a pattern for other expressions
+    Cliché used as a pattern for other expressions
   extract: |
-    A snowclone is a clichéd phrase in which one or more words can be substituted to express a similar idea in a different context, often to humorous or sarcastic effect. For example, the Iraqi dictator Saddam Hussein's phrase "the mother of all battles" has spawned such variations as "the mother of all pizzas." The term snowclone was coined in 2004, derived from journalistic clichés that referred to the number of Inuit words for snow.
+    A snowclone is a phrasal template based on a cliché, substituting words to express a similar idea in a different context, often to humorous or sarcastic effect. For example, the Iraqi dictator Saddam Hussein's widely publicized phrase "the mother of all battles" in 1991 spawned such variations as "the mother of all traffic jams". The term snowclone was coined in 2004, derived from journalistic clichés that referred to the number of Inuit words for snow.
 - url: https://en.wikipedia.org/wiki/Eskimo_words_for_snow
   created: '2025-07-31T01:55:41Z'
   title: |
     Eskimo words for snow
-  image_url: 
-  image_wh: 
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Alaskan_Inuit_winter_home_1900.jpg/330px-Alaskan_Inuit_winter_home_1900.jpg
+  image_wh: 330x247
   description: |
     Linguistic cliché
   extract: |
-    The claim that Eskimo words for snow are unusually numerous, particularly in contrast to English, is a cliché commonly used to support the controversial linguistic relativity hypothesis. In linguistic terminology, the relevant languages are the Eskimo–Aleut languages, specifically the Yupik and Inuit varieties.
+    The claim that Eskimo words for snow are unusually numerous, particularly in contrast to English, is a cliché commonly used to support the controversial linguistic relativity hypothesis. In linguistic terminology, the relevant languages are the Eskaleut languages, specifically the Yupik and Inuit varieties.
 - url: https://en.wikipedia.org/wiki/Construction_grammar
   created: '2025-07-31T01:57:11Z'
   title: |
@@ -63,11 +63,11 @@
   title: |
     Universal Media Disc
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Universal_Media_Disc%2C_an_optical_disc_medium_developed_by_Sony_for_use_on_the_PlayStation_Portable.jpg/330px-Universal_Media_Disc%2C_an_optical_disc_medium_developed_by_Sony_for_use_on_the_PlayStation_Portable.jpg
-  image_wh: 320x318
+  image_wh: 330x328
   description: |
     Optical disc medium for PlayStation Portable
   extract: |
-    The Universal Media Disc (UMD) is a discontinued optical disc medium developed by Sony for use on its PlayStation Portable handheld gaming and multimedia platform. It can hold up to 1.8 gigabytes of data and is capable of storing video games, feature-length films, and music. UMD is the trademark of Sony Computer Entertainment for their optical disk cartridge (ODC).
+    The Universal Media Disc (UMD) is a discontinued optical disc medium developed by Sony for use on its PlayStation Portable handheld gaming and multimedia platform. It can hold up to 1.8 gigabytes of data and is capable of storing video games, feature-length films, and music.
 - url: https://en.wikipedia.org/wiki/Yu-Gi-Oh!_The_Eternal_Duelist_Soul
   created: '2025-07-31T04:47:14Z'
   title: |
@@ -93,7 +93,7 @@
   title: |
     Gustave Doré
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Photograph_of_Gustave_Dor%C3%A9_by_Nadar%2C_between_1856_and_1858.jpg/330px-Photograph_of_Gustave_Dor%C3%A9_by_Nadar%2C_between_1856_and_1858.jpg
-  image_wh: 320x403
+  image_wh: 330x415
   description: |
     French illustrator and painter (1832–1883)
   extract: |
@@ -103,28 +103,28 @@
   title: |
     List of presidents of the United States involved in Scouting
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/White_House_radio_broadcast_February_8_1937_for_the_1937_national_Scout_jamboree.jpg/330px-White_House_radio_broadcast_February_8_1937_for_the_1937_national_Scout_jamboree.jpg
-  image_wh: 320x259
+  image_wh: 330x267
   description: |
     
   extract: |
-    In 1911, President William Howard Taft accepted the position of honorary president of the BSA; each U.S. president since has been offered the position and has served. Theodore Roosevelt was the only honorary vice-president, as he had left office before the honorary presidency began.
+    In 1911, U.S. President William Howard Taft accepted the position of honorary president of the Boy Scouts of America (BSA); each U.S. president since has been offered the position and has served in the role of honorary president. Theodore Roosevelt was the only individual to serve as honorary vice-president, as he had left office as U.S. president before the BSA's office of honorary presidency was established.
 - url: https://en.wikipedia.org/wiki/Woman_yelling_at_a_cat
   created: '2025-07-31T17:38:21Z'
   title: |
     Woman yelling at a cat
   image_url: https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/WomanYellingAtACat_meme.jpg/330px-WomanYellingAtACat_meme.jpg
-  image_wh: 320x160
+  image_wh: 330x165
   description: |
     Internet meme
   extract: |
-    Woman yelling at a cat is an Internet meme first used in a post by Twitter user @MISSINGEGIRL on May 1, 2019. It juxtaposes two images: on the left, a screen capture of "Malibu Beach Party from Hell", an episode from The Real Housewives of Beverly Hills, depicting cast member Taylor Armstrong crying and pointing ; and a picture uploaded to Tumblr in June 2018, depicting a cat from Ottawa, Ontario, Smudge, sitting at a dinner table behind a salad with a seemingly bemused expression.
+    Woman yelling at a cat is an Internet meme first used in a post by Twitter user @MISSINGEGIRL on May 1, 2019. It juxtaposes two images: on the left, a screen capture of "Malibu Beach Party from Hell", an episode from The Real Housewives of Beverly Hills, depicting cast member Taylor Armstrong crying and pointing ; and on the right, a picture uploaded to Tumblr in June 2018, depicting a cat from Ottawa, Ontario, Smudge, sitting at a dinner table behind a salad with a seemingly bemused expression.
 - url: https://en.wikipedia.org/wiki/Doodle
   created: '2025-07-31T20:27:45Z'
   title: |
     Doodle
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Luise_Kritzelzeichnung.jpg/330px-Luise_Kritzelzeichnung.jpg
-  image_wh: 320x391
+  image_wh: 330x403
   description: |
     Simple drawing
   extract: |
-    A doodle is a drawing made while a person's attention is otherwise occupied. Doodles are simple drawings that can have concrete representational meaning or may just be composed of random and abstract lines or shapes, generally without ever lifting the drawing device from the paper, in which case it is usually called a scribble.
+    A doodle is a drawing made while a person's attention is otherwise occupied. Doodles are simple drawings that can have concrete representational meaning or may just be composed of random and abstract lines or shapes, generally without ever lifting the drawing device from the paper.

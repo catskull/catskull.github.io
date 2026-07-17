@@ -3,11 +3,11 @@
   title: |
     Entertainment
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Symposium_scene_Nicias_Painter_MAN.jpg/330px-Symposium_scene_Nicias_Painter_MAN.jpg
-  image_wh: 320x213
+  image_wh: 330x220
   description: |
     Activity that holds attention or gives pleasure
   extract: |
-    Entertainment is a form of activity that holds the attention and interest of an audience or gives pleasure and delight. It can be an idea or a task, but it is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience's attention.
+    Entertainment is a form of activity that holds the attention and interest of an audience or gives pleasure and delight. It can be an idea or a task, but it is more commonly one of the activities or events developed over thousands of years specifically to engage an audience.
 - url: https://en.wikipedia.org/wiki/When_I'm_Sixty-Four?wprov=sfti1
   created: '2025-07-26T15:28:00Z'
   title: |
@@ -17,7 +17,7 @@
   description: |
     1967 song by the Beatles
   extract: |
-    "When I'm Sixty-Four" is a song by the English rock band The Beatles, written by Paul McCartney and released on the 1967 album Sgt. Pepper's Lonely Hearts Club Band. It was one of the first songs McCartney wrote; he was about 14, probably in April or May 1956. The song was recorded in a different key from the final version; it was sped up at McCartney's request to make his voice sound younger. It prominently features a trio of clarinets.
+    "When I'm Sixty-Four" is a song by the English rock band the Beatles, written by Paul McCartney and released on the 1967 album Sgt. Pepper's Lonely Hearts Club Band. It was one of the first songs McCartney wrote; he was about 14, probably in April or May 1956. The song was recorded in a different key from the final version; it was sped up at McCartney's request to make his voice sound younger. It prominently features a trio of clarinets.
 - url: https://en.wikipedia.org/wiki/With_a_Little_Help_from_My_Friends?wprov=sfti1
   created: '2025-07-26T15:36:56Z'
   title: |
@@ -27,7 +27,7 @@
   description: |
     1967 song by the Beatles
   extract: |
-    "With a Little Help from My Friends" is a song recorded by English rock band the Beatles for their 1967 album Sgt. Pepper's Lonely Hearts Club Band. It was written by Paul McCartney and John Lennon, and is sung by drummer Ringo Starr, his lead vocal for the album. As the second track on the album, it segues from the applause on the title track.
+    "With a Little Help from My Friends" is a song recorded by English rock band the Beatles for their 1967 album Sgt. Pepper's Lonely Hearts Club Band. It was written by John Lennon and Paul McCartney, and is sung by drummer Ringo Starr, as his lead vocal for the album. As the second track on the album, it segues from the applause on the title track.
 - url: https://en.wikipedia.org/wiki/Habituation?wprov=sfti1
   created: '2025-07-26T20:53:21Z'
   title: |
@@ -37,4 +37,4 @@
   description: |
     Decrease in a behavioral response to a repeated stimulus
   extract: |
-    Habituation is a form of non-associative learning in which an organism’s non-reinforced response to an inconsequential stimulus decreases after repeated or prolonged presentations of that stimulus. For example, organisms may habituate to repeated sudden loud noises when they learn that these have no consequences.
+    Habituation is a form of non-associative learning in which an organism's non-reinforced response to an inconsequential stimulus decreases after repeated or prolonged presentations of that stimulus. For example, organisms may habituate to repeated sudden loud noises when they learn that these have no consequences.

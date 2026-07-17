@@ -3,17 +3,17 @@
   title: |
     Aaron Sorkin
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Aaron_Sorkin_%2827566400913%29.jpg/330px-Aaron_Sorkin_%2827566400913%29.jpg
-  image_wh: 320x480
+  image_wh: 330x495
   description: |
-    American filmmaker (born 1961)
+    American screenwriter, playwright, and filmmaker (born 1961)
   extract: |
-    Aaron Benjamin Sorkin is an American screenwriter, playwright and film director. Born in New York City, he developed a passion for writing at an early age. As a writer for stage, television, and film, Sorkin is recognized for his trademark fast-paced dialogue and extended monologues, complemented by frequent use of the storytelling technique called the "walk and talk". Sorkin has earned numerous accolades including an Academy Award, a BAFTA Award, five Primetime Emmy Awards, and three Golden Globes.
+    Aaron Benjamin Sorkin is an American screenwriter, playwright, and filmmaker. As a writer for stage, television, and film, he is recognized for his trademark fast-paced dialogue and extended monologues, complemented by frequent use of the storytelling technique called the "walk and talk". Sorkin has earned numerous accolades including an Academy Award, a BAFTA Award, five Primetime Emmy Awards, three Golden Globes, and two WGA Awards, in addition to a Laurence Olivier Award nomination.
 - url: https://en.wikipedia.org/wiki/Xenobot
   created: '2025-07-01T17:16:40Z'
   title: |
     Xenobot
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/A_xenobot_in_simulation_and_reality.png/330px-A_xenobot_in_simulation_and_reality.png
-  image_wh: 320x151
+  image_wh: 330x155
   description: |
     Artificial organism
   extract: |
@@ -27,13 +27,13 @@
   description: |
     1984 single by Night Ranger
   extract: |
-    "Sister Christian" is a song by the American hard rock band Night Ranger. A power ballad, it was released in March 1984 as the second single from their album Midnight Madness. It was ranked No. 32 on VH1's 100 Greatest Songs of the 1980s. It was written and sung by the band's drummer, Kelly Keagy, for his sister. It was the band's biggest hit, peaking at number five on the Billboard Hot 100, and staying on the charts for 24 weeks. It also reached No. 1 in Canada. The song is used in several films, including Boogie Nights (1997), Superstar (1999), Friday the 13th (2009) and Ben Affleck's 2023 film Air (2023).
+    "Sister Christian" is a song by the American band Night Ranger. A power ballad, it was released in March 1984 as the second single from their second album Midnight Madness (1983). It was written and sung by the band's drummer, Kelly Keagy, for his sister. It was the band's biggest hit, peaking at number five on the US Billboard Hot 100, and staying on the charts for 24 weeks. It also reached No. 1 in Canada. The song is used in several films, including Boogie Nights (1997), Superstar (1999), Friday the 13th (2009), and Air (2023). The song is also used in South Park season 28 episode 1, "Twisted Christian". It was ranked number 32 on VH1's 100 Greatest Songs of the 1980s. It is also featured in the 2002 videogame Grand Theft Auto Vice City on the in-game radio station Emotion 98.3.
 - url: https://en.wikipedia.org/wiki/Cruising_(driving)
   created: '2025-07-01T17:32:51Z'
   title: |
     Cruising (driving)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Cruise_on_Colby_%2817662461654%29.jpg/330px-Cruise_on_Colby_%2817662461654%29.jpg
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Traveling by car for pleasure
   extract: |
@@ -53,27 +53,27 @@
   title: |
     What to the Slave Is the Fourth of July?
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Frederick_Douglass_by_Samuel_J_Miller%2C_1847-52.png/330px-Frederick_Douglass_by_Samuel_J_Miller%2C_1847-52.png
-  image_wh: 320x443
+  image_wh: 330x457
   description: |
     1852 speech by Frederick Douglass
   extract: |
-    "What to the Slave Is the Fourth of July?" was a speech delivered by Frederick Douglass on July 5, 1852, at Corinthian Hall in Rochester, New York, at a meeting organized by the Rochester Ladies' Anti-Slavery Society. In the address, Douglass states that positive statements about perceived American values, such as liberty, citizenship, and freedom, were an offense to the enslaved population of the United States because they lacked those rights. Douglass referred not only to the captivity of enslaved people, but to the merciless exploitation and the cruelty and torture that slaves were subjected to in the United States.
+    "What to the Slave Is the Fourth of July?" was a speech delivered by Frederick Douglass on July 5, 1852, at Corinthian Hall in Rochester, New York, at a meeting organized by the Rochester Ladies' Anti-Slavery Society. In the address, Douglass states that positive statements about perceived American values, such as liberty, citizenship, and freedom, were an offense to the enslaved population of the United States because they lacked those rights. Douglass referred not only to the captivity of slaves, but to the merciless exploitation and the cruelty and torture that slaves were subjected to in the United States.
 - url: https://en.wikipedia.org/wiki/Miracle#:~:text=A%20miracle%20is%20an%20event,some%20supernatural%20or%20praeternatural%20cause.
   created: '2025-07-01T19:56:18Z'
   title: |
     Miracle
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Virgin_Mary_of_Akita_Japan.jpg/330px-Virgin_Mary_of_Akita_Japan.jpg
-  image_wh: 320x440
+  image_url: 
+  image_wh: 
   description: |
     Event not explicable by natural or scientific laws
   extract: |
-    A miracle is an event that is inexplicable by natural or scientific laws and accordingly gets attributed to some supernatural or praeternatural cause. Various religions often attribute a phenomenon characterized as miraculous to the actions of a supernatural being, (especially) a deity, a miracle worker, a saint, or a religious leader.
+    A miracle is an event that cannot be explained by natural or scientific laws and accordingly gets attributed to some supernatural or preternatural cause. Various religions often attribute a phenomenon characterized as miraculous to the actions of a supernatural being, especially by a deity, a miracle worker, a saint, or a religious leader.
 - url: https://en.wikipedia.org/wiki/Space_Pen
   created: '2025-07-01T20:18:32Z'
   title: |
     Space Pen
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/AG-7_Space_Pen.JPG/330px-AG-7_Space_Pen.JPG
-  image_wh: 320x217
+  image_wh: 330x223
   description: |
     Gravity-independent ballpoint pen
   extract: |
@@ -83,8 +83,8 @@
   title: |
     Bruce Hornsby
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bruce_Hornsby_%2832703421057%29_%28cropped%29.jpg/330px-Bruce_Hornsby_%2832703421057%29_%28cropped%29.jpg
-  image_wh: 320x503
+  image_wh: 330x518
   description: |
     American musician (born 1954)
   extract: |
-    Bruce Randall Hornsby is an American singer-songwriter and pianist. His music draws from folk rock, jazz, bluegrass, folk, Southern rock, country rock, jam band, rock, heartland rock, and blues rock musical traditions.
+    Bruce Randall Hornsby is an American singer-songwriter and pianist. His music draws from a wide range of traditions — folk, jazz, modern classical, bluegrass, rock, and jam band styles.

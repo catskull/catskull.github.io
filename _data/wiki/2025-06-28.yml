@@ -3,7 +3,7 @@
   title: |
     Earthship
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/G2_Global_model_Earthship_Taos_N.M..JPG/330px-G2_Global_model_Earthship_Taos_N.M..JPG
-  image_wh: 320x180
+  image_wh: 330x185
   description: |
     Style of architecture that uses native materials and upcycled materials to build homes
   extract: |
@@ -13,7 +13,7 @@
   title: |
     History of ethical idealism
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/330px-Immanuel_Kant_portrait_c1790.jpg
-  image_wh: 320x357
+  image_wh: 330x368
   description: |
     
   extract: |
@@ -33,21 +33,21 @@
   title: |
     Apple Infinite Loop campus
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Apple_Infinite_Loop_Aerial.jpg/330px-Apple_Infinite_Loop_Aerial.jpg
-  image_wh: 320x180
+  image_wh: 330x186
   description: |
-    Former corporate headquarters of Apple Inc. in California, United States
+    Former corporate headquarters of Apple Inc. in California, U.S.
   extract: |
-    The Apple Campus is the former corporate headquarters of Apple Inc. from 1993 until 2017. In April 2017, it was largely replaced by Apple Park, but is still an Apple office and lab space. The campus is located at 1 Infinite Loop in Cupertino, California, United States. Its design resembles that of a university, with the buildings arranged around green spaces.
+    The Apple Infinite Loop campus is an office complex owned and occupied by Apple Inc. in Cupertino, California. When it opened in 1993, the campus was used exclusively for the company's research and development activities. After returning to Apple in 1997, Steve Jobs made the campus the company's corporate headquarters. It remained Apple's headquarters until the opening of Apple Park in 2017, but continues to house Apple offices and laboratories. The buildings are arranged around landscaped green spaces in a layout resembling a university campus.
 - url: https://en.wikipedia.org/wiki/Oval_Office
   created: '2025-06-28T01:08:11Z'
   title: |
     Oval Office
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/President_Donald_Trump_signs_Executive_Orders%2C_Monday%2C_February_10%2C_2025%2C_in_the_Oval_Office.jpg/330px-President_Donald_Trump_signs_Executive_Orders%2C_Monday%2C_February_10%2C_2025%2C_in_the_Oval_Office.jpg
-  image_wh: 320x213
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/View_of_Oval_Office_in_2017.jpg/330px-View_of_Oval_Office_in_2017.jpg
+  image_wh: 330x220
   description: |
-    U.S. presidential office in the White House
+    US presidential office in the White House
   extract: |
-    The Oval Office is the formal working space of the president of the United States. Part of the Executive Office of the President of the United States, it is in the West Wing of the White House, in Washington, D.C.
+    The Oval Office is the formal working space of the president of the United States at the White House in Washington, D.C. Part of the Executive Office of the President, it is located at the southeast corner of the West Wing.
 - url: https://en.wikipedia.org/wiki/Batman:_The_Video_Game_(Game_Boy_video_game)
   created: '2025-06-28T01:52:07Z'
   title: |
@@ -57,13 +57,13 @@
   description: |
     1990 video game
   extract: |
-    Batman: The Video Game is a 1990 action video game developed and published by Sunsoft for the Game Boy. Based on the DC Comics superhero Batman, it is inspired by the Warner Bros.'s 1989 film of the same name. In the main storyline, Batman must face the Joker. The Game Boy version was developed by most of the same staff at Sunsoft which had previously worked on the Nintendo Entertainment System adaptation based on the 1989 film. It was produced by Cho Musou, while soundtrack was composed by Naoki Kodaka, Nobuyuki Hara, and Shinichi Seya. The game garnered generally favorable reception from critics and retrospective commentarists.
+    Batman: The Video Game is a 1990 action video game developed and published by Sunsoft for the Game Boy. Based on the DC Comics superhero Batman, it is inspired by the Warner Bros.'s 1989 film of the same name. In the main storyline, Batman must face the Joker. The Game Boy version was developed by most of the same staff at Sunsoft which had previously worked on the Nintendo Entertainment System adaptation based on the 1989 film. It was produced by Cho Musou, while soundtrack was composed by Naoki Kodaka, Nobuyuki Hara, and Shinichi Seya. The game garnered a generally favorable reception from critics and retrospective commentators.
 - url: https://en.wikipedia.org/wiki/Rice_paddy_art
   created: '2025-06-28T17:36:53Z'
   title: |
     Rice paddy art
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sengoku_busho_of_rice_field_art.JPG/330px-Sengoku_busho_of_rice_field_art.JPG
-  image_wh: 320x426
+  image_wh: 330x440
   description: |
     Japanese art form
   extract: |

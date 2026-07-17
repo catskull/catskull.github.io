@@ -3,7 +3,7 @@
   title: |
     Sieve
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Laboratory_sieves_BMK.jpg/330px-Laboratory_sieves_BMK.jpg
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Tool for separation of solid materials by particle size
   extract: |
@@ -13,17 +13,17 @@
   title: |
     Absent-minded professor
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lindroth_The_Absent-minded_Professor.jpg/330px-Lindroth_The_Absent-minded_Professor.jpg
-  image_wh: 320x392
+  image_wh: 330x404
   description: |
     Stock character in film
   extract: |
-    The absent-minded professor is a stock character of popular fiction, usually portrayed as a talented academic whose academic brilliance is accompanied by below-par functioning in other areas, leading to forgetfulness and mistakes. One explanation of this is that highly talented individuals often have unevenly distributed capabilities, being brilliant in their field of choice but below average on other measures of ability. Alternatively, they are considered to be so engrossed in their field of study that they forget their surroundings. The phrase is also commonly used in English to describe people who are so engrossed in their own world that they fail to keep track of their surroundings. It is a common stereotype that professors get so obsessed with their research that they pay little attention to anything else.
+    The absent-minded professor is a stock character of popular fiction, usually portrayed as a talented scholar whose academic brilliance is accompanied by below-par functioning in other areas, leading to forgetfulness and mistakes. One explanation of this is that highly-talented individuals often have unevenly distributed capabilities, being brilliant in their field of choice but below average on other measures of ability. Alternatively, they are considered to be so engrossed in their field of study that they forget their surroundings. The phrase is also commonly used in English to describe people who are so engrossed in their own world that they fail to keep track of their surroundings. It is a common stereotype that professors get so obsessed with their research that they pay little attention to anything else.
 - url: https://en.wikipedia.org/wiki/Wise_old_man
   created: '2025-06-30T01:27:51Z'
   title: |
     Wise old man
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Rembrandt_Harmensz._van_Rijn_038.jpg/330px-Rembrandt_Harmensz._van_Rijn_038.jpg
-  image_wh: 320x274
+  image_wh: 330x283
   description: |
     Jungian and literary archetype
   extract: |
@@ -32,8 +32,8 @@
   created: '2025-06-30T03:05:35Z'
   title: |
     Megabyte
-  image_url: 
-  image_wh: 
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/PS2-8MB-Mem-Card.jpg/330px-PS2-8MB-Mem-Card.jpg
+  image_wh: 330x247
   description: |
     Multiple of the unit byte
   extract: |
@@ -43,7 +43,7 @@
   title: |
     Chamfer
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Larks_tongue.JPG/330px-Larks_tongue.JPG
-  image_wh: 320x536
+  image_wh: 330x552
   description: |
     Flat transitional edge between two faces of an object
   extract: |
@@ -53,27 +53,27 @@
   title: |
     Fillet (mechanics)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Fillet.jpg/330px-Fillet.jpg
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Rounding of an interior or exterior corner
   extract: |
-    In mechanical engineering, a fillet is a rounding of an interior or exterior corner of a part. An interior or exterior corner, with an angle or type of bevel, is called a "chamfer". Fillet geometry, when on an interior corner is a line of concave function, whereas a fillet on an exterior corner is a line of convex function. Fillets commonly appear on welded, soldered, or brazed joints.
+    In mechanical engineering, a fillet is a rounding of an interior or exterior corner of a part. It contrasts with a chamfer, which is a bevel on a corner. Fillet geometry, when on an interior corner is a line of concave function, whereas a fillet on an exterior corner is a line of convex function. Fillets commonly appear on welded, soldered, or brazed joints.
 - url: https://en.wikipedia.org/wiki/Silicon_carbide
   created: '2025-06-30T15:23:15Z'
   title: |
     Silicon carbide
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/SiC_p1390066.jpg/330px-SiC_p1390066.jpg
-  image_wh: 320x272
+  image_wh: 330x280
   description: |
-    Extremely hard semiconductor
+    Wide-bandgap semiconductor and abrasion-resistant ceramic
   extract: |
-    Silicon carbide (SiC), also known as carborundum, is a hard chemical compound containing silicon and carbon. A wide bandgap semiconductor, it occurs in nature as the extremely rare mineral moissanite, but has been mass-produced as a powder and crystal since 1893 for use as an abrasive. Grains of silicon carbide can be bonded together by sintering to form very hard ceramics that are widely used in applications requiring high endurance, such as car brakes, car clutches and ceramic plates in bulletproof vests. Large single crystals of silicon carbide can be grown by the Lely method and they can be cut into gems known as synthetic moissanite.
+    Silicon carbide (SiC), also known as carborundum, is a hard chemical compound of silicon and carbon. A wide bandgap semiconductor, it occurs in nature as the extremely rare mineral moissanite, but has been mass-produced as powder and crystals since 1893 for use as an abrasive. Grains of silicon carbide can be bonded together by sintering to form very hard ceramics that are widely used in applications requiring high endurance, such as disc brakes, clutches and ballistic plates in bulletproof vests. Large single crystals of silicon carbide can be grown by the Lely method and they can be cut into synthetic moissanite gemstones.
 - url: https://en.wikipedia.org/wiki/Bureau_of_Land_Management
   created: '2025-06-30T17:56:12Z'
   title: |
     Bureau of Land Management
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_United_States_Bureau_of_Land_Management.svg/330px-Flag_of_the_United_States_Bureau_of_Land_Management.svg.png
-  image_wh: 320x192
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Logo_of_the_United_States_Bureau_of_Land_Management.svg/330px-Logo_of_the_United_States_Bureau_of_Land_Management.svg.png
+  image_wh: 330x287
   description: |
     Agency within the US Department of the Interior
   extract: |
@@ -83,9 +83,9 @@
   title: |
     Rangeland management
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Range_management_graduate_research_student_collecting_line_point_intercept_data_.jpg/330px-Range_management_graduate_research_student_collecting_line_point_intercept_data_.jpg
-  image_wh: 320x569
+  image_wh: 330x587
   description: |
-    undefined
+    
   extract: |
     Rangeland management is a natural science that centers around the study of rangelands and the "conservation and sustainable management [of Arid-Lands] for the benefit of current societies and future generations". Range management is defined by Holechek et al. as the "manipulation of rangeland components to obtain optimum combination of goods and services for society on a sustained basis". The United Nations (UN) has declared 2026 the International Year of Rangelands and Pastoralists, with the Food and Agriculture Organization leading the initiative.
 - url: https://en.wikipedia.org/wiki/Savanna
@@ -93,11 +93,11 @@
   title: |
     Savanna
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tarangire-Natpark800600.jpg/330px-Tarangire-Natpark800600.jpg
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Mixed woodland-grassland ecosystem
   extract: |
-    A savanna or savannah is a mixed woodland-grassland biome and ecosystem characterised by the trees being sufficiently widely spaced so that the canopy does not close. The open canopy allows sufficient light to reach the ground to support an unbroken herbaceous layer consisting primarily of grasses. Four savanna forms exist; savanna woodland where trees and shrubs form a light canopy, tree savanna with scattered trees and shrubs, shrub savanna with distributed shrubs, and grass savanna where trees and shrubs are mostly nonexistent.
+    A savanna or savannah is a mixed woodland-grassland biome and ecosystem characterised by the trees being sufficiently widely spaced so that the canopy does not close. The open canopy allows sufficient light to reach the ground to support an unbroken herbaceous layer consisting primarily of grasses. Four savanna forms exist; savanna woodland, where trees and shrubs form a light canopy; tree savanna, with scattered trees and shrubs; shrub savanna, with distributed shrubs; and grass savanna, where trees and shrubs are mostly nonexistent.
 - url: https://en.wikipedia.org/wiki/Anamnesis_(philosophy)
   created: '2025-06-30T18:31:03Z'
   title: |
@@ -107,13 +107,13 @@
   description: |
     Concept in Plato's epistemological and psychological theory
   extract: |
-    In Plato's theory of epistemology, anamnesis refers to the recollection of innate knowledge acquired before birth. The concept posits the claim that learning involves the act of rediscovering knowledge from within oneself. This stands in contrast to the opposing doctrine known as empiricism, which posits that all knowledge is derived from experience and sensory perception. Plato develops the theory of anamnesis in his Socratic dialogues: Meno, Phaedo, and Phaedrus.
+    In Plato's theory of epistemology, anamnesis refers to the recollection of innate knowledge acquired before birth. The concept posits the claim that learning involves the act of rediscovering knowledge from within oneself. This stands in stark contrast to the opposing doctrine known as empiricism, which posits that all knowledge is derived from experience and sensory perception. Plato develops the theory of anamnesis in his Socratic dialogues: Meno, Phaedo, and Phaedrus.
 - url: https://en.wikipedia.org/wiki/Phosphene
   created: '2025-06-30T21:52:35Z'
   title: |
     Phosphene
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Phosphene_artistic_depiction.gif/330px-Phosphene_artistic_depiction.gif
-  image_wh: 320x173
+  image_wh: 330x179
   description: |
     Visual illusion
   extract: |
@@ -123,7 +123,7 @@
   title: |
     Kabuki syndrome
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Kabuki_Syndrome_9.jpg/330px-Kabuki_Syndrome_9.jpg
-  image_wh: 320x621
+  image_wh: 330x681
   description: |
     Medical condition
   extract: |

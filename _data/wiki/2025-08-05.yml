@@ -3,7 +3,7 @@
   title: |
     Clothing sizes
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Body_measures_SVG.svg/330px-Body_measures_SVG.svg.png
-  image_wh: 320x226
+  image_wh: 330x233
   description: |
     Label sizes used for garments sold off-the-shelf
   extract: |
@@ -15,7 +15,7 @@
   title: |
     Ready-to-wear
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ClothingReadyWear.jpg/330px-ClothingReadyWear.jpg
-  image_wh: 320x236
+  image_wh: 330x244
   description: |
     Mass-produced clothing in standard sizes
   extract: |
@@ -25,7 +25,7 @@
   title: |
     Bespoke tailoring
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/TailoringFirstFitFront01.jpg/330px-TailoringFirstFitFront01.jpg
-  image_wh: 320x329
+  image_wh: 330x339
   description: |
     Making men's clothing to an individual buyer's specification by a tailor
   extract: |
@@ -36,7 +36,7 @@
   title: |
     Made-to-measure
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/TailoringFirstFitFront02.jpg/330px-TailoringFirstFitFront02.jpg
-  image_wh: 320x394
+  image_wh: 330x406
   description: |
     Custom clothing cut and sewn using a standard-sized base pattern
   extract: |

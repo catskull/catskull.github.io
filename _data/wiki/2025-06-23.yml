@@ -4,117 +4,130 @@
     Ground stop
   image_url: 
   image_wh: 
-  description: 'Air traffic control measure that slows the flow of an aircraft inbound to an airport'
+  description: |
+    Air traffic control measure that slows the flow of an aircraft inbound to an airport
   extract: |
-        A ground stop is an air traffic control procedure that requires all aircraft that fit certain criteria to remain on the ground. This could be airport-specific or perhaps equipment- or airspace-specific, depending on the exact event that caused the ground stop to occur. Downstream effects can occur from a ground stop. It causes flights to be delayed or canceled and planes and flight crew to be unable to reach the location of their next scheduled flight.
+    A ground stop is an air traffic control procedure that requires all aircraft that fit certain criteria to remain on the ground. This could be airport-specific or perhaps equipment- or airspace-specific, depending on the exact event that caused the ground stop to occur. Downstream effects can occur from a ground stop. It causes flights to be delayed or canceled and planes and flight crew to be unable to reach the location of their next scheduled flight.
 - url: https://en.wikipedia.org/wiki/2023_Chinese_balloon_incident
   created: '2025-06-23T18:32:23Z'
   title: |
     2023 Chinese balloon incident
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/U-2_Pilot_over_Central_Continental_United_States_%287644960%29_%28cropped%29.jpg/330px-U-2_Pilot_over_Central_Continental_United_States_%287644960%29_%28cropped%29.jpg
-  image_wh: 320x343
-  description: 'Airspace violation and shootdown incident'
+  image_wh: 330x354
+  description: |
+    Airspace violation and shootdown incident
   extract: |
-        From January 28 to February 4, 2023, a high-altitude balloon originating from China flew across North American airspace, including Alaska, western Canada, and the contiguous United States. On February 4, the U.S. Air Force shot down the balloon over U.S. territorial waters off the coast of South Carolina. Debris from the wreckage was recovered and sent to the FBI Laboratory in Quantico, Virginia, for analysis. Following a preliminary analysis of the debris in June, U.S. officials stated that the balloon carried intelligence-gathering equipment but does not appear to have sent information back to China. U.S. President Joe Biden described the balloon as carrying two railroad cars' equivalent of spy equipment, however stated that it was "not a major breach", and that he also believed that the Chinese leadership was not aware of the balloon. The U.S. government said the balloon had a propeller for maneuverability.
+    From January 28 to February 4, 2023, a high-altitude balloon originating from China flew across North American airspace, including Alaska, western Canada, and the contiguous United States. On February 4, the U.S. Air Force shot down the balloon over U.S. territorial waters off the coast of South Carolina near the city of Myrtle Beach. Debris from the wreckage was recovered and sent to the FBI Laboratory in Quantico, Virginia, for analysis. U.S. officials stated that the balloon carried intelligence-gathering equipment but does not appear to have sent information back to China. They believed that while the balloon carried a motor, it could not overcome high altitude winds and the Chinese leadership was not aware of the balloon going off course.
 - url: https://en.wikipedia.org/wiki/If_a_tree_falls_in_a_forest_and_no_one_is_around_to_hear_it,_does_it_make_a_sound%3F
   created: '2025-06-23T19:10:28Z'
   title: |
     If a tree falls in a forest and no one is around to hear it, does it make a sound?
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Fallen_tree2.jpg/330px-Fallen_tree2.jpg
-  image_wh: 320x427
-  description: 'Philosophical thought experiment'
+  image_wh: 330x440
+  description: |
+    Philosophical thought experiment
   extract: |
-        "If a tree falls in a forest and no one is around to hear it, does it make a sound?" is a philosophical thought experiment that raises questions regarding observation and perception.
+    "If a tree falls in a forest and no one is around to hear it, does it make a sound?" is a philosophical thought experiment that raises questions regarding observation and perception.
 - url: https://en.wikipedia.org/wiki/Trash80
   created: '2025-06-23T19:19:55Z'
   title: |
     Trash80
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/EEF_2011_-_Trash80_%285501617802%29.jpg/330px-EEF_2011_-_Trash80_%285501617802%29.jpg
-  image_wh: 320x212
-  description: 'Musical artist'
+  image_wh: 330x219
+  description: |
+    Musical artist
   extract: |
-        Trash80 is a micromusic/bitpop project from Timothy Robert Lamb, a pioneer of independent Game Boy music. He has published several songs online under a Creative Commons license (BY-NC-ND) under the Trash80 and Tresk banners. Whereas many Trash80 songs are ambient soundscapes featuring the use of Game Boy sounds, Tresk songs feature simple piano lines. Most prominently, Lamb's music has been featured on the soundtrack of the real-time strategy game Darwinia.
+    Trash80 is a micromusic/bitpop project from Timothy Robert Lamb, a pioneer of independent Game Boy music. He has published several songs online under a Creative Commons license (BY-NC-ND) under the Trash80 and Tresk banners. Whereas many Trash80 songs are ambient soundscapes featuring the use of Game Boy sounds, Tresk songs feature simple piano lines. Most prominently, Lamb's music has been featured on the soundtrack of the real-time strategy game Darwinia.
 - url: https://en.wikipedia.org/wiki/Honorific
   created: '2025-06-23T19:28:13Z'
   title: |
     Honorific
   image_url: 
   image_wh: 
-  description: 'Title that conveys esteem, courtesy, or respect for position or rank'
+  description: |
+    Title that conveys position or rank
   extract: |
-        An honorific is a title that conveys esteem, courtesy, or respect for position or rank when used in addressing or referring to a person. Sometimes, the term "honorific" is used in a more specific sense to refer to an honorary academic title. It is also often conflated with systems of honorific speech in linguistics, which are grammatical or morphological ways of encoding the relative social status of speakers. Honorifics can be used as prefixes or suffixes depending on the appropriate occasion and presentation in accordance with style and customs.
+    An honorific is a title that conveys esteem, courtesy, or respect for position or rank when used in addressing or referring to a person. It is also often conflated with systems of honorific speech in linguistics, which are grammatical or morphological ways of encoding the relative social status of speakers. Honorifics can be used as prefixes or suffixes depending on the appropriate occasion and presentation in accordance with style and customs. Sometimes, the term "honorific" is used in a more specific sense, to refer to an honorary academic title.
 - url: https://en.wikipedia.org/wiki/Woodrow_Wilson
   created: '2025-06-23T20:02:12Z'
   title: |
     Woodrow Wilson
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/President_Woodrow_Wilson_in_1914%2C_Harris_%26_Ewing_%283x4_cropped_b%29.jpg/330px-President_Woodrow_Wilson_in_1914%2C_Harris_%26_Ewing_%283x4_cropped_b%29.jpg
-  image_wh: 320x427
-  description: 'President of the United States from 1913 to 1921'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/President_Woodrow_Wilson_Harris_%26_Ewing_%283x4_cropped_b%29.jpg/330px-President_Woodrow_Wilson_Harris_%26_Ewing_%283x4_cropped_b%29.jpg
+  image_wh: 330x440
+  description: |
+    President of the United States from 1913 to 1921
   extract: |
-        Thomas Woodrow Wilson was the 28th president of the United States, serving from 1913 to 1921. He was the only Democrat to serve as president during the Progressive Era when Republicans dominated the presidency and legislative branches. As president, Wilson changed the nation's economic policies and led the United States into World War I. He was the leading architect of the League of Nations, and his stance on foreign policy came to be known as Wilsonianism.
+    Thomas Woodrow Wilson was the 28th president of the United States, serving from 1913 to 1921. He was the only Democrat to serve as president during the Progressive Era, when Republicans dominated the presidency and legislative branches. As president, Wilson made significant economic reforms and led the United States through World War I. He was the leading architect of the League of Nations, and his stance on foreign policy came to be known as Wilsonianism.
 - url: https://en.wikipedia.org/wiki/Josephus_Daniels
   created: '2025-06-23T20:03:39Z'
   title: |
     Josephus Daniels
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Josephus_Daniels_1.jpg/330px-Josephus_Daniels_1.jpg
-  image_wh: 320x448
-  description: 'American diplomat and newspaper editor (1862–1948)'
+  image_wh: 330x462
+  description: |
+    American diplomat and newspaper editor (1862–1948)
   extract: |
-        Josephus Daniels was a newspaper editor, Secretary of the Navy under President Woodrow Wilson, and U.S. Ambassador to Mexico under President Franklin D. Roosevelt.
+    Josephus Daniels was a newspaper editor, Secretary of the Navy under President Woodrow Wilson, and U.S. Ambassador to Mexico under President Franklin D. Roosevelt.
 - url: https://en.wikipedia.org/wiki/Soylent_(meal_replacement)
   created: '2025-06-23T20:18:26Z'
   title: |
     Soylent (meal replacement)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Soylent.svg/330px-Soylent.svg.png
-  image_wh: 320x140
-  description: 'American brand of meal replacement products'
+  image_wh: 330x144
+  description: |
+    American brand of meal replacement products
   extract: |
-        Soylent is a set of meal replacement products in powder, shake, and bar forms, produced by Soylent Nutrition, Inc. The company was founded in 2013 and is headquartered in Los Angeles, California.
+    Soylent is a brand of meal replacement powders and shakes produced by Starco Brands, Inc. The brand was founded as Soylent Nutrition, Inc. in 2013 and is headquartered in Los Angeles, California. The company developed a following initially in Silicon Valley and received early financial backing from Andreessen Horowitz and GV. In 2021, Soylent announced that it had become profitable starting in 2020. In 2023, Starco Brands acquired the company.
 - url: https://en.wikipedia.org/wiki/Millennials
   created: '2025-06-23T20:58:13Z'
   title: |
     Millennials
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Generation_timeline.svg/330px-Generation_timeline.svg.png
-  image_wh: 320x200
-  description: 'Cohort born from the early 1980s to the mid-1990s'
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Generation_timeline_simple.svg/330px-Generation_timeline_simple.svg.png
+  image_wh: 330x206
+  description: |
+    Cohort born from 1981 to 1996
   extract: |
-        Millennials, also known as Generation Y or Gen Y, are the demographic cohort following Generation X and preceding Generation Z. Researchers and popular media use the early 1980s as starting birth years and the mid-1990s to early 2000s as ending birth years, with the generation typically being defined as people born from 1981 to 1996. Most millennials are the children of Baby Boomers. In turn, millennials are often the parents of Generation Alpha.
+    Millennials, also known as Generation Y or Gen Y, are the demographic cohort following Generation X and preceding Generation Z. Researchers and popular media use the early 1980s as starting birth years and the mid-1990s to early 2000s as ending birth years, with the generation typically being defined as people born from 1981 to 1996. Most millennials are the children of baby boomers and older Gen Xers, and are often the parents of younger Generation Z and Generation Alpha.
 - url: https://en.wikipedia.org/wiki/Theia_(hypothetical_planet)
   created: '2025-06-23T21:02:05Z'
   title: |
     Theia (hypothetical planet)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Artist%27s_concept_of_collision_at_HD_172555.jpg/330px-Artist%27s_concept_of_collision_at_HD_172555.jpg
-  image_wh: 320x256
-  description: 'Hypothesized ancient planet'
+  image_wh: 330x264
+  description: |
+    Ancient planet that collided with the Earth
   extract: |
-        Theia is a hypothesized ancient planet in the early Solar System which, according to the giant-impact hypothesis, collided with the early Earth around 4.5 billion years ago, with some of the resulting ejected debris coalescing to form the Moon. Collision simulations support the idea that the large low-shear-velocity provinces in the lower mantle may be remnants of Theia. Theia is hypothesized to have been about the size of Mars, and may have formed in the outer Solar System and provided much of Earth's water, though this is debated.
+    Theia is a hypothetical ancient planet in the early Solar System which, according to the giant-impact hypothesis, collided with the proto-Earth around 4.50 billion years ago, with some of the resulting ejected debris re-coalescing to form the Moon. Collision simulations support the idea that the two large low-shear-velocity provinces in the Earth's lower mantle may be remnants of Theia.
 - url: https://en.wikipedia.org/wiki/Conversation
   created: '2025-06-23T21:24:09Z'
   title: |
     Conversation
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Arnold_Lakhovsky_Conversation.png/330px-Arnold_Lakhovsky_Conversation.png
-  image_wh: 320x267
-  description: 'Interactive communication between two or more people'
+  image_wh: 330x276
+  description: |
+    Interactive communication between two or more people
   extract: |
-        Conversation is interactive communication between two or more people. The development of conversational skills and etiquette is an important part of socialization. The development of conversational skills in a new language is a frequent focus of language teaching and learning. Conversation analysis is a branch of sociology which studies the structure and organization of human interaction, with a more specific focus on conversational interaction.
+    Conversation is interactive communication between two or more people. The development of conversational skills and etiquette is an important part of socialization. The development of conversational skills in a new language is a frequent focus of language teaching and learning. Conversation analysis is a branch of sociology which studies the structure and organization of human interaction, with a more specific focus on conversational interaction.
 - url: https://en.wikipedia.org/wiki/Intrapersonal_communication
   created: '2025-06-23T21:26:55Z'
   title: |
     Intrapersonal communication
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Philly_Thinker.JPG/330px-Philly_Thinker.JPG
-  image_wh: 320x427
-  description: 'Communication with oneself'
+  image_wh: 330x440
+  description: |
+    Communication with oneself
   extract: |
-    Intrapersonal communication is communication with oneself or self-to-self communication. Examples are thinking to oneself "I will do better next time" after having made a mistake or imagining a conversation with one's boss in preparation for leaving work early. It is often understood as an exchange of messages in which sender and receiver are the same person. Some theorists use a wider definition that goes beyond message-based accounts and focuses on the role of meaning and making sense of things. Intrapersonal communication can happen alone or in social situations. It may be prompted internally or occur as a response to changes in the environment.
+    Intrapersonal communication is communication with oneself or self-to-self communication. Examples are thinking to oneself "I will do better next time" after having made a mistake and imagining a conversation with one's boss in preparation for requesting to leave work early. It is often understood as an exchange of messages in which the sender and the receiver are the same person. Some theorists use a wider definition that goes beyond message-based accounts and focuses on the role of meaning and making sense of things. Intrapersonal communication can happen alone or in social situations. It may be prompted internally or occur as a response to changes in the environment.
 - url: https://en.wikipedia.org/wiki/Dream_speech
   created: '2025-06-23T21:31:56Z'
   title: |
     Dream speech
   image_url: 
   image_wh: 
-  description: 'Words in the mind during sleep'
+  description: |
+    Words in the mind during sleep
   extract: |
-    Dream speech is internal speech which occurs during a dream. The term was coined by Emil Kraepelin in his 1906 monograph titled Über Sprachstörungen im Traume. The text discussed various forms of dream speech, outlining 286 examples. Dream speech is not to be confounded with the 'language of dreams', which refers to the visual means of representing thought in dreams.
+    Dream speech is speech that occurs internally during a dream. The term was coined by Emil Kraepelin in his 1906 monograph Über Sprachstörungen im Traume. The text discussed various forms of dream speech, outlining 286 examples. Dream speech is not to be confounded with the 'language of dreams', which refers to the visual means of representing thought in dreams.
 - url: https://en.wikipedia.org/wiki/Thought_insertion
   created: '2025-06-23T21:33:51Z'
   title: |
@@ -124,69 +137,74 @@
   description: |
     Delusional belief that thoughts have been inserted into one's mind
   extract: |
-        Thought insertion is defined by the ICD-10 as the delusion that one's thoughts are not one's own, but rather belong to someone else and have been inserted into one's mind. The person experiencing the thought insertion delusion will not necessarily know where the thought is coming from, but makes a distinction between their own thoughts and those inserted into their minds. However, patients do not experience all thoughts as inserted; only certain ones, normally following a similar content or pattern. A person with this delusional belief is convinced of the veracity of their beliefs and is unwilling to accept such diagnosis.
+    Thought insertion is defined by the ICD-10 as the delusion that one's thoughts are not one's own, but rather belong to someone else and have been inserted into one's mind. The person experiencing the thought insertion delusion will not necessarily know where the thought is coming from, but makes a distinction between their own thoughts and those inserted into their minds. However, patients do not experience all thoughts as inserted; only certain ones, normally following a similar content or pattern. A person with this delusional belief is convinced of the veracity of their beliefs and is unwilling to accept such diagnosis.
 - url: https://en.wikipedia.org/wiki/Paraphasia
   created: '2025-06-23T21:34:28Z'
   title: |
     Paraphasia
   image_url: 
   image_wh: 
-  description: 'Speech difficulty associated with aphasia'
+  description: |
+    Speech difficulty associated with aphasia
   extract: |
-        Paraphasia is a type of language output error commonly associated with aphasia and characterized by the production of unintended syllables, words, or phrases during the effort to speak. Paraphasic errors are most common in patients with fluent forms of aphasia, and come in three forms: phonemic or literal, neologistic, and verbal. Paraphasias can affect metrical information, segmental information, number of syllables, or both. Some paraphasias preserve the meter without segmentation, and some do the opposite. However, most paraphasias partially have both affects.
+    Paraphasia is a type of language output error commonly associated with aphasia and characterized by the production of unintended syllables, words, or phrases during the effort to speak. Paraphasic errors are most common in patients with fluent forms of aphasia, and come in three forms: phonemic or literal, neologistic, and verbal. Paraphasias can affect metrical information, segmental information, number of syllables, or both. Some paraphasias preserve the meter without segmentation, and some do the opposite. However, most paraphasias partially have both affects.
 - url: https://en.wikipedia.org/wiki/Agrammatism
   created: '2025-06-23T21:35:00Z'
   title: |
     Agrammatism
   image_url: 
   image_wh: 
-  description: 'Non-fluent aphasia'
+  description: |
+    Non-fluent aphasia
   extract: |
-        Agrammatism is a characteristic of non-fluent aphasia. Individuals with agrammatism present with speech that is characterized by containing mainly content words, with a lack of function words. For example, when asked to describe a picture of children playing in the park, the affected individual responds with, "trees..children..run." People with agrammatism may have telegraphic speech, a unique speech pattern with simplified formation of sentences, akin to that found in telegraph messages. Deficits in agrammaticism are often language-specific, however—in other words, "agrammaticism" in speakers of one language may present differently from in speakers of another.
+    Agrammatism is a characteristic of non-fluent aphasia. Individuals with agrammatism present with speech that is characterized by containing mainly content words, with a lack of function words. For example, when asked to describe a picture of children playing in the park, the affected individual responds with, "trees..children..run." People with agrammatism may have telegraphic speech, a unique speech pattern with simplified formation of sentences, akin to that found in telegraph messages. Deficits in agrammaticism are often language-specific, however—in other words, "agrammaticism" in speakers of one language may present differently from in speakers of another.
 - url: https://en.wikipedia.org/wiki/Clanging
   created: '2025-06-23T21:36:43Z'
   title: |
     Clanging
   image_url: 
   image_wh: 
-  description: 'Symptom of mental disorders'
+  description: |
+    Symptom of mental disorders
   extract: |
-        Clanging is a symptom of mental disorders, primarily found in patients with schizophrenia and bipolar disorder. This symptom is also referred to as association chaining, and sometimes, glossomania.
+    Clanging is a symptom of mental disorders, primarily found in patients with schizophrenia and bipolar disorder. This symptom is also referred to as association chaining, and sometimes, glossomania.
 - url: https://en.wikipedia.org/wiki/Echolalia
   created: '2025-06-23T21:36:57Z'
   title: |
     Echolalia
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Autism_Aspect_Echolalia_1.png/330px-Autism_Aspect_Echolalia_1.png
-  image_wh: 320x213
-  description: 'Speech disorder'
+  image_wh: 330x220
+  description: |
+    Speech disorder
   extract: |
-        Echolalia is the repetition of vocalizations made by another person; when repeated by the same person, it is called palilalia. In its profound form it is automatic and effortless. It is one of the echophenomena, closely related to echopraxia, the automatic repetition of movements made by another person; both are "subsets of imitative behavior" whereby sounds or actions are imitated "without explicit awareness". Echolalia may be an immediate reaction to a stimulus or may be delayed.
+    Echolalia is the repetition of vocalizations made by another person; when repeated by the same person, it is called palilalia. In its profound form it is automatic and effortless. It is one of the echophenomena, closely related to echopraxia, the automatic repetition of movements made by another person; both are "subsets of imitative behavior" whereby sounds or actions are imitated "without explicit awareness". Echolalia may be an immediate reaction to a stimulus or may be delayed.
 - url: https://en.wikipedia.org/wiki/Neologism
   created: '2025-06-23T21:37:23Z'
   title: |
     Neologism
   image_url: 
   image_wh: 
-  description: 'Recent term that is gaining acceptance'
+  description: |
+    Recent term gaining acceptance
   extract: |
-        In linguistics, a neologism is any newly formed word, term, or phrase that has achieved popular or institutional recognition and is becoming accepted into mainstream language. Most definitively, a word can be considered a neologism once it is published in a dictionary.
+    In linguistics, a neologism is any newly formed word, term, or phrase that has gained popular or institutional recognition and is becoming accepted into mainstream language.
 - url: https://en.wikipedia.org/wiki/Windows_95
   created: '2025-06-23T22:12:31Z'
   title: |
     Windows 95
   image_url: https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Windows_95_at_first_run.png/330px-Windows_95_at_first_run.png
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
-    Microsoft computer operating system released in 1995
+    1995 Microsoft operating system version
   extract: |
-    Windows 95 is a consumer-oriented operating system developed by Microsoft and the first of its Windows 9x family of operating systems, released to manufacturing on July 14, 1995, and generally to retail on August 24, 1995. Windows 95 merged Microsoft's formerly separate MS-DOS and Microsoft Windows products into a single product and featured significant improvements over its predecessor, most notably in the graphical user interface (GUI) and in its simplified "plug-and-play" features. There were also major changes made to the core components of the operating system, such as moving from a mainly cooperatively multitasked 16-bit architecture of its predecessor Windows 3.1 to a 32-bit preemptive multitasking architecture.
+    Windows 95 is a consumer-oriented operating system developed by Microsoft, released to manufacturing on July 14, 1995, and to retail on August 24, 1995. The first of the Windows 9x line of operating systems, Windows 95, which replaced Windows 3.1, merged Microsoft's MS-DOS and Microsoft Windows operating systems into a single product, and featured major changes to the core components of the operating system, such as moving from the mainly cooperatively multitasked 16-bit architecture of its predecessor to a 32-bit preemptive multitasking architecture.
 - url: https://en.wikipedia.org/wiki/Windows_9x
   created: '2025-06-23T22:19:32Z'
   title: |
     Windows 9x
   image_url: https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Windows_95_Desktop_screenshot.png/330px-Windows_95_Desktop_screenshot.png
-  image_wh: 320x239
+  image_wh: 330x247
   description: |
     Series of Microsoft operating systems
   extract: |
-    Windows 9x is a generic term referring to a line of discontinued Microsoft Windows operating systems released from 1995 to 2000 and supported until 2006, which were based on the kernel introduced in Windows 95 and modified in succeeding versions, with its underlying foundation based on MS-DOS. The first version in the 9x series was Windows 95, which was succeeded by Windows 98 and then Windows Me, which was the third and last version of Windows on the 9x line, until the series was superseded by Windows XP.
+    Windows 9x is a generic term referring to a former line of Windows, a family of operating systems produced by Microsoft. It had releases between 1995 and 2000, and were based on the kernel first introduced in Windows 95, which was continuously updated in later versions. MS-DOS support was retained in order to facilitate booting into Windows as well as providing real mode support for DOS.

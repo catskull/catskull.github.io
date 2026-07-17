@@ -3,17 +3,17 @@
   title: |
     Bomberman Hero
   image_url: https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Bomberman_Hero_box.jpg/330px-Bomberman_Hero_box.jpg
-  image_wh: 320x223
+  image_wh: 330x230
   description: |
     1998 video game
   extract: |
-    Bomberman Hero is a platforming video game and the second Bomberman game for the Nintendo 64. A further departure from the 16-bit Bomberman titles after Bomberman 64, it gives Bomberman more character moves, and features additional levels, bosses, and weapons. However, in a break from the Bomberman series formula, it lacks a multiplayer mode. This game was re-released on the Wii Virtual Console service in 2011.
+    Bomberman Hero is a platform video game developed by A.I Co., Ltd. and published by Hudson Soft for the Nintendo 64. It is the second Bomberman game to be released on the system, following Bomberman 64 (1997). It is notable for being a dramatic deviation from previous Bomberman titles, featuring predominant platforming gameplay as opposed to the series' traditional top-down strategy gameplay.
 - url: https://en.wikipedia.org/wiki/Demarcation_problem?wprov=sfti1
   created: '2025-08-30T06:33:18Z'
   title: |
     Demarcation problem
-  image_url: 
-  image_wh: 
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logical_positivists_collage_free.png/330px-Logical_positivists_collage_free.png
+  image_wh: 330x330
   description: |
     Philosophical question of how to distinguish between science and non-science
   extract: |
@@ -27,13 +27,13 @@
   description: |
     Aesop's fable
   extract: |
-    The North Wind and the Sun is one of Aesop's Fables. It is type 298 in the Aarne–Thompson folktale classification. The moral it teaches about the superiority of persuasion over force has made the story widely known. It has also become a chosen text for phonetic transcriptions.
+    The North Wind and the Sun is one of Aesop's Fables. It is type 298 in the Aarne–Thompson folktale classification. The moral it teaches - the superiority of persuasion over force - has made the story widely known. It has also become a chosen text for phonetic transcriptions.
 - url: https://en.wikipedia.org/wiki/Oak_City,_Utah
   created: '2025-08-30T19:27:41Z'
   title: |
     Oak City, Utah
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Welcome_to_Oak_City%2C_Utah.jpg/330px-Welcome_to_Oak_City%2C_Utah.jpg
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Town in the state of Utah, United States
   extract: |
@@ -43,7 +43,7 @@
   title: |
     Mountain Meadows Massacre
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Mmm_1999_cairn.jpg/330px-Mmm_1999_cairn.jpg
-  image_wh: 320x212
+  image_wh: 330x218
   description: |
     1857 massacre of California-bound immigrants by Nauvoo Legion militiamen
   extract: |

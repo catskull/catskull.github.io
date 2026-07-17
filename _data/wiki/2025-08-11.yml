@@ -12,8 +12,8 @@
   created: '2025-08-11T03:47:48Z'
   title: |
     Superior Defender Gundam Force
-  image_url: https://upload.wikimedia.org/wikipedia/en/1/18/SD_Gundam_Force_DVD_Cover_Vol._6.jpg
-  image_wh: 266x374
+  image_url: https://upload.wikimedia.org/wikipedia/en/2/24/SDGUNDAMFORCE.jpg
+  image_wh: 266x375
   description: |
     Japanese anime television series
   extract: |
@@ -27,23 +27,23 @@
   description: |
     2010 video game
   extract: |
-    Beat City is a 2010 rhythm video game developed by Universomo and published by THQ for the Nintendo DS. It was released on April 20, 2010, in North America, and in Europe on June 11, 2010. It was the first- and possibly only- video game to be developed for a handheld system by Universomo, who mostly worked on mobile games and was shuttered a month before the game's release.
+    Beat City is a 2010 rhythm video game developed by Universomo and published by THQ for the Nintendo DS. It was released on April 20, 2010, in North America, and in Europe on June 11, 2010. It was the first and only video game to be developed for a handheld system by Universomo, who mostly worked on mobile games and was shuttered a month before the game's release.
 - url: https://en.wikipedia.org/wiki/Satellaview
   created: '2025-08-11T22:07:33Z'
   title: |
     Satellaview
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Satellaview_with_Super_Famicom.jpg/330px-Satellaview_with_Super_Famicom.jpg
-  image_wh: 320x320
+  image_wh: 330x330
   description: |
     Video game console peripheral
   extract: |
-    The Satellaview is a satellite modem peripheral produced by Nintendo for the Super Famicom in 1995. Containing 1 megabyte of ROM space and an additional 512 kB of RAM, Satellaview allowed players to download games, magazines, and other media through satellite broadcasts provided by Japanese company St.GIGA. Its heavy third-party support included Squaresoft, Taito, Konami, Capcom, and Seta. To use Satellaview, players purchased a special broadcast satellite (BS) tuner directly from St.GIGA or rented one for a six-month fee. It attaches to the expansion port on the bottom of the Super Famicom.
+    The Satellaview is a satellite modem peripheral for the Super Famicom, produced by Nintendo as part of the fourth generation of video game consoles. It was released in Japan on April 23, 1995, as the successor to the Famicom's Network System. Containing a megabyte of ROM space and 512 kilobytes of RAM, the Satellaview allowed players to download games, magazines, and other media through satellite broadcasts provided by St.GIGA. Players purchased or rented a broadcast satellite tuner. It attaches to the expansion port on the bottom of the Super Famicom. The Satellaview received extensive support from third-party developers, including SquareSoft, Taito, Konami, Capcom, and Seta.
 - url: https://en.wikipedia.org/wiki/St.GIGA
   created: '2025-08-11T22:19:00Z'
   title: |
     St.GIGA
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Nisseki_Yokohama_Billding.JPG/330px-Nisseki_Yokohama_Billding.JPG
-  image_wh: 320x505
+  image_wh: 330x520
   description: |
     Defunct Japanese satellite radio broadcaster
   extract: |

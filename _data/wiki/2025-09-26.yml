@@ -2,22 +2,22 @@
   created: '2025-09-26T03:45:41Z'
   title: |
     Government of the United Kingdom
-  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UK_Government_logo.png/330px-UK_Government_logo.png
-  image_wh: 320x136
+  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/8/88/UK_Government_logo.svg/330px-UK_Government_logo.svg.png
+  image_wh: 330x122
   description: |
     
   extract: |
-    His Majesty's Government, abbreviated to HM Government or otherwise UK Government, is the central executive authority of the United Kingdom of Great Britain and Northern Ireland. The government is led by the prime minister who selects all the other ministers. The country has had a Labour government since 2024. The prime minister and his most senior ministers belong to the supreme decision-making committee, known as the Cabinet.
+    The UK Government, formally His Majesty's Government, is the central executive authority of the United Kingdom of Great Britain and Northern Ireland. The government is led by the prime minister who advises the monarch on the appointment of all the other ministers. The government is currently formed by the Labour party, which has had a majority in the House of Commons since 2024. The prime minister and his most senior ministers belong to the supreme decision-making committee, known as the Cabinet.
 - url: https://en.wikipedia.org/wiki/1936_Summer_Olympics
   created: '2025-09-26T19:30:14Z'
   title: |
     1936 Summer Olympics
-  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/1936_Summer_Olympics_logo.svg/320px-1936_Summer_Olympics_logo.svg.png
-  image_wh: 320x388
+  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/1936_Summer_Olympics_logo.svg/330px-1936_Summer_Olympics_logo.svg.png
+  image_wh: 330x400
   description: |
     Multi-sport event in Berlin, Germany
   extract: |
-    The 1936 Summer Olympics, officially the Games of the XI Olympiad and officially branded as Berlin 1936, were an international multi-sport event held from 1 to 16 August 1936 in Berlin, then capital of Nazi Germany. Berlin won the bid to host the Games over Barcelona at the 29th International Olympic Committee meeting on 26 April 1931. The 1936 Games marked the second and most recent time the IOC gathered to vote in a city bidding to host those Games. Later rule modifications forbade cities hosting the bid vote from being awarded the games.
+    The 1936 Summer Olympics, officially the Games of the XI Olympiad and branded as Berlin 1936, were an international multi-sport event held from 1 to 16 August 1936 in Berlin, Germany. Berlin won the right to host the Games over Barcelona at the 29th IOC Session in 1931. The 1936 Games were the second and last occasion on which the International Olympic Committee (IOC) chose a host by a ballot in which the bidding cities themselves could vote; later rules barred cities that hosted the vote from being selected.
 - url: https://en.wikipedia.org/wiki/LithTech
   created: '2025-09-26T23:53:57Z'
   title: |
@@ -27,7 +27,7 @@
   description: |
     Game engine
   extract: |
-    LithTech is a game engine developed by Monolith Productions and comparable with the Quake and Unreal engines. Monolith and a number of other video game developers have used LithTech as the basis for their first-person shooter games.
+    LithTech is a discontinued game engine developed by Monolith Productions and comparable with the Quake and Unreal engines. Monolith and a number of other video game developers have used LithTech as the basis for their first-person shooter games.
 - url: https://en.wikipedia.org/wiki/Rage_of_Mages
   created: '2025-09-26T23:55:22Z'
   title: |

@@ -7,13 +7,13 @@
   description: |
     Four-bit unit of binary data
   extract: |
-    In computing, a nibble, also spelled nybble to match byte, is a unit of information that is an aggregation of four-bits; half of a byte/octet. The unit is alternatively called nyble, nybl, half-byte or tetrade. In networking or telecommunications, the unit is often called a semi-octet, quadbit, or quartet.
+    In computing, a nibble, also spelled nybble to match byte, is a unit of information consisting of four bits, equivalent to one half of a byte or octet. The unit is alternatively called a nybble, nybl, half-byte or tetrad. In computer networking and telecommunications, the unit is also sometimes called a semi-octet, quadbit, or quartet.
 - url: https://en.wikipedia.org/wiki/Ken_Levine_(game_developer)?wprov=sfti1#Personal_life
   created: '2025-09-12T04:30:48Z'
   title: |
     Ken Levine (game developer)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ken_Levine_2014_GDC_cropped.jpg/330px-Ken_Levine_2014_GDC_cropped.jpg
-  image_wh: 320x500
+  image_wh: 330x515
   description: |
     American video game developer (born 1966)
   extract: |
@@ -33,7 +33,7 @@
   title: |
     Dennis Rodman
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dennis_Rodman_02_%2834649289162%29_%28cropped%29.jpg/330px-Dennis_Rodman_02_%2834649289162%29_%28cropped%29.jpg
-  image_wh: 320x441
+  image_wh: 330x455
   description: |
     American basketball player (born 1961)
   extract: |
@@ -43,17 +43,17 @@
   title: |
     Withania somnifera
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/WithaniaFruit.jpg/330px-WithaniaFruit.jpg
-  image_wh: 320x480
+  image_wh: 330x495
   description: |
     Species of flowering plant
   extract: |
-    Withania somnifera, known commonly as ashwagandha, is an evergreen shrub in the Solanaceae family that is native to the Middle East and North Africa, other African regions, southern Europe, and Indian subcontinent. Several other species in the genus Withania are morphologically similar. Common names include Indian ginseng and winter cherry.
+    Withania somnifera, known commonly as ashwagandha, is an evergreen shrub in the Solanaceae family that is native to the Middle East and North Africa, other African regions, southern Europe, Indian subcontinent, and Southeast Asia. Several other species in the genus Withania are morphologically similar. Other common names include Indian ginseng and winter cherry.
 - url: https://en.wikipedia.org/wiki/3D_modeling
   created: '2025-09-12T19:38:58Z'
   title: |
     3D modeling
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Activemarker2.PNG/330px-Activemarker2.PNG
-  image_wh: 320x228
+  image_wh: 330x235
   description: |
     Form of computer-aided engineering
   extract: |
@@ -63,7 +63,7 @@
   title: |
     Utah teapot
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Utah_teapot_%28solid%29.stl/330px-Utah_teapot_%28solid%29.stl.png
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Computer graphics 3D reference and test model
   extract: |
@@ -75,9 +75,9 @@
   image_url: 
   image_wh: 
   description: |
-    Typographical symbol or glyph (•)
+    Typographical symbol (•)
   extract: |
-    In typography, a bullet or bullet point, •, is a typographical symbol or glyph used to introduce items in a list. For example:Milk
+    In typography, a bullet or bullet point, •, is a typographical mark used to introduce items in a list. For example:Milk
     Eggs
     Bread
     Butter
@@ -90,13 +90,13 @@
   description: |
     Symbol depicting a pointing finger
   extract: |
-    The manicule, ☛, is a typographic mark with the appearance of a hand with its index finger extending in a pointing gesture. Originally used for handwritten marginal notes, it later came to be used in printed works to draw the reader's attention to important text. Though once widespread, it is rarely used today, except as an occasional archaic novelty or on informal directional signs.
+    The manicule, ☞, is a typographical mark with the appearance of a hand with its index finger extended in a pointing gesture. It is typically used to draw the reader's attention to a certain part of a text. In older texts, it had a broader variety of uses including indicating section headers, marginal notes, and terms for cross-reference. The term manicule was derived from the Latin manicula, or 'little hand', though it has been known by many other names, often related to its various functions, including fist, index, and pointer.
 - url: https://en.wikipedia.org/wiki/V_sign
   created: '2025-09-12T19:55:37Z'
   title: |
     V sign
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Churchill_V_sign_HU_55521.jpg/330px-Churchill_V_sign_HU_55521.jpg
-  image_wh: 320x429
+  image_wh: 330x442
   description: |
     Hand sign (victory, peace or insult)
   extract: |

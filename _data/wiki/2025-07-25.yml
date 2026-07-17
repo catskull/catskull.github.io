@@ -2,38 +2,38 @@
   created: '2025-07-25T02:51:42Z'
   title: |
     Demographic transition
-  image_url: 
-  image_wh: 
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Japan_animated_population_pyramid.gif/330px-Japan_animated_population_pyramid.gif
+  image_wh: 330x278
   description: |
     Shift from high to low birth rates
   extract: |
-    In demography, demographic transition is a phenomenon and theory in the social sciences referring to the historical shift from high birth rates and high death rates to low birth rates and low death rates as societies attain more technology, education, and economic development. The demographic transition has occurred in most of the world over the past two centuries, bringing the unprecedented population growth of the post-Malthusian period, then reducing birth rates and population growth significantly in all regions of the world. The demographic transition strengthens economic growth process through three changes: a reduced dilution of capital and land stock, an increased investment in human capital, and an increased size of the labour force relative to the total population and changed age population distribution. Although this shift has occurred in many industrialized countries, the theory and model are frequently imprecise when applied to individual countries due to specific social, political, and economic factors affecting particular populations.
+    Demographic transition is a phenomenon and theory in the social sciences referring to the historical shift from high to low rates of birth and death, as societies attain several attributes: more technology, education, and economic development. The demographic transition has occurred in most of the world over the past two centuries, bringing the unprecedented population growth of the post-Malthusian period, and then reducing birth rates and population growth significantly in all regions of the world. The demographic transition strengthens the economic growth process through three changes: reduced dilution of capital and land stock; increased investment in human capital; and increased size of the labor force relative to the total population, along with a changed distribution of population age. Although this shift has occurred in many industrialized countries, the theory and model are often imprecise when applied to individual countries, because of specific social, political, and economic factors that affect particular populations.
 - url: https://en.wikipedia.org/wiki/Obesity?wprov=sfti1
   created: '2025-07-25T19:02:40Z'
   title: |
     Obesity
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/FatCT2008_%28cropped%29.JPG/330px-FatCT2008_%28cropped%29.JPG
-  image_wh: 320x269
+  image_wh: 330x277
   description: |
     Medical condition of excess body fat
   extract: |
-    Obesity is a medical condition, considered by multiple organizations to be a disease, in which excess body fat has accumulated to such an extent that it can have negative effects on health. People are classified as obese when their body mass index (BMI)—a person's weight divided by the square of the person's height—is over 30 kg/m2; the range 25–30 kg/m2 is defined as overweight. Some East Asian countries use lower values to calculate obesity. Obesity is a major cause of disability and is correlated with various diseases and conditions, particularly cardiovascular diseases, type 2 diabetes, obstructive sleep apnea, certain types of cancer, and osteoarthritis.
+    Obesity is a medical condition, considered a disease by multiple organizations, in which excess body fat has accumulated to such an extent that it can have negative effects on health. People are classified as obese when their body mass index (BMI)—a person's weight divided by the square of the person's height—is over 30 kg/m2; the range 25–30 kg/m2 is defined as overweight. Some East Asian countries use lower BMI thresholds to define obesity. Obesity is a major cause of disability and is correlated with various diseases and conditions, particularly cardiovascular diseases, type 2 diabetes, obstructive sleep apnea, certain types of cancer, and osteoarthritis.
 - url: https://en.wikipedia.org/wiki/Preventable_causes_of_death?wprov=sfti1
   created: '2025-07-25T19:04:12Z'
   title: |
     Preventable causes of death
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Avoidable_mortality_in_England_and_Wales%2C_2001-2011.png/330px-Avoidable_mortality_in_England_and_Wales%2C_2001-2011.png
-  image_wh: 320x759
+  image_wh: 330x782
   description: |
     Causes of death that could have been avoided
   extract: |
-    Preventable causes of death are causes of death related to risk factors which could have been avoided. The World Health Organization has traditionally classified death according to the primary type of disease or injury. However, causes of death may also be classified in terms of preventable risk factors—such as smoking, unhealthy diet, sexual behavior, and reckless driving—which contribute to a number of different diseases. Such risk factors are usually not recorded directly on death certificates, although they are acknowledged in medical reports.
+    Preventable causes of death are causes of death related to risk factors which could have been avoided. The World Health Organization has traditionally classified death according to the primary type of disease or injury. However, causes of death may also be classified in terms of preventable risk factors—such as smoking, unhealthy diet, unprotected sexual behavior (STIs), and reckless driving—which contribute to a number of different diseases. Such risk factors are usually not recorded directly on death certificates, although they are acknowledged in medical reports.
 - url: https://en.wikipedia.org/wiki/Obesity-associated_morbidity?wprov=sfti1
   created: '2025-07-25T19:04:56Z'
   title: |
     Obesity-associated morbidity
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Medical_complications_of_obesity.png/330px-Medical_complications_of_obesity.png
-  image_wh: 320x437
+  image_wh: 330x450
   description: |
     Medical condition
   extract: |
@@ -43,17 +43,17 @@
   title: |
     Brewster Kahle
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Brewster_Kahle_%28cropped%29.jpg/330px-Brewster_Kahle_%28cropped%29.jpg
-  image_wh: 320x452
+  image_wh: 330x466
   description: |
-    American computer engineer, founder of the Internet Archive
+    American computer engineer and founder of the Internet Archive
   extract: |
-    Brewster Lurton Kahle is an American digital librarian, computer engineer, and Internet entrepreneur. He graduated from the Massachusetts Institute of Technology in 1982 with a Bachelor of Science degree in computer science and engineering. Kahle founded the Internet Archive and co-founded Alexa Internet in 1996. He was inducted into the Internet Hall of Fame in 2012.
+    Brewster Lurton Kahle is an American digital librarian, computer engineer, and internet entrepreneur. He graduated from the Massachusetts Institute of Technology in 1982 with a Bachelor of Science degree in computer science and engineering. Kahle founded the Internet Archive and co-founded Alexa Internet in 1996. He was inducted into the Internet Hall of Fame in 2012.
 - url: https://en.wikipedia.org/wiki/Connection_Machine?wprov=sfti1#
   created: '2025-07-25T21:15:18Z'
   title: |
     Connection Machine
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Connection_Machine_CM-2_and_DataVault_at_Computer_Museum_of_America.webp/330px-Connection_Machine_CM-2_and_DataVault_at_Computer_Museum_of_America.webp.png
-  image_wh: 320x190
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Connection_Machine_CM-2_and_DataVault_at_The_Mimms_Museum_of_Technology_and_Art.webp/330px-Connection_Machine_CM-2_and_DataVault_at_The_Mimms_Museum_of_Technology_and_Art.webp.png
+  image_wh: 330x211
   description: |
     Supercomputer
   extract: |
@@ -63,7 +63,7 @@
   title: |
     FROSTBURG
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Frostburg.jpg/330px-Frostburg.jpg
-  image_wh: 320x488
+  image_wh: 330x503
   description: |
     Supercomputer
   extract: |

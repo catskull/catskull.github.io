@@ -2,8 +2,8 @@
   created: '2025-06-25T14:01:14Z'
   title: |
     Attention deficit hyperactivity disorder
-  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/ADHDNeuroanatomy.png/330px-ADHDNeuroanatomy.png
-  image_wh: 320x274
+  image_url: 
+  image_wh: 
   description: |
     Neurodevelopmental disorder
   extract: |
@@ -11,13 +11,13 @@
 - url: https://en.wikipedia.org/wiki/Troll_(slang)
   created: '2025-06-25T15:23:42Z'
   title: |
-    Troll (slang)
+    Trolling
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Wikipedia_vandalism.svg/330px-Wikipedia_vandalism.svg.png
-  image_wh: 320x206
+  image_wh: 330x213
   description: |
-    Person who sows discord online
+    Deliberately making offensive remarks online
   extract: |
-    In slang, a troll is a person who posts deliberately offensive or provocative messages online or who performs similar behaviors in real life. The methods and motivations of trolls can range from benign to sadistic. These messages can be inflammatory, insincere, digressive, extraneous, or off-topic, and may have the intent of provoking others into displaying emotional responses, or manipulating others' perceptions, thus acting as a bully or a provocateur. The behavior is typically for the troll's amusement, or to achieve a specific result such as disrupting a rival's online activities or purposefully causing confusion or harm to other people. Trolling behaviors involve tactical aggression to incite emotional responses, which can adversely affect the target's well-being.
+    In slang, trolling is when a person posts deliberately offensive or provocative messages online or performs similar behaviors offline. The methods and motivations of trolls can range from benign to sadistic. These messages can be inflammatory, insincere, digressive, extraneous, or off-topic, and may have the intent of provoking others into displaying emotional responses, or manipulating others' perceptions, thus acting as a bully or a provocateur. The behavior is typically for the troll's amusement, or to achieve a specific result such as disrupting a rival's online activities or purposefully causing confusion or harm to other people. Trolling behaviors involve tactical aggression to incite emotional responses, which can adversely affect the target's well-being.
 - url: https://en.wikipedia.org/wiki/Epizeuxis
   created: '2025-06-25T18:50:01Z'
   title: |
@@ -35,10 +35,9 @@
   image_url: 
   image_wh: 
   description: |
-    Confidence or trust in a person, thing, or concept
+    Belief in the teachings of a religion
   extract: |
-    Faith is confidence or trust in a person, thing, or concept. In the context of religion, faith is "belief in God or in the doctrines or teachings of religion".
-    According to the Merriam-Webster's Dictionary, faith has multiple definitions, including "something that is believed especially with strong conviction", "complete trust", "belief and trust in and loyalty to God", as well as "a firm belief in something for which there is no proof".
+    In religion, faith is the "belief in God or in the doctrines or teachings of religion".
 - url: https://en.wikipedia.org/wiki/Natural_theology
   created: '2025-06-25T19:19:22Z'
   title: |
@@ -54,7 +53,7 @@
   title: |
     Lectures on Faith
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lectures_on_Faith_First_Page.PNG/330px-Lectures_on_Faith_First_Page.PNG
-  image_wh: 320x500
+  image_wh: 330x515
   description: |
     Religious text of the Latter-day Saint movement
   extract: |

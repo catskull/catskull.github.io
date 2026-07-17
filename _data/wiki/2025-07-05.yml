@@ -3,7 +3,7 @@
   title: |
     Tetris Battle Gaiden
   image_url: https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Tetris_Battle_Gaiden.jpg/330px-Tetris_Battle_Gaiden.jpg
-  image_wh: 320x176
+  image_wh: 330x182
   description: |
     1993 video game
   extract: |
@@ -17,7 +17,7 @@
   description: |
     Determining the physical location of internet user
   extract: |
-    In computing, Internet geolocation is software capable of deducing the geographic position of a device connected to the Internet. For example, the device's IP address can be used to determine the country, city, or ZIP code, determining its geographical location. Other methods include examination of Wi-Fi hotspots.
+    In computing, internet geolocation is software capable of deducing the geographic position of a device connected to the Internet.
 - url: https://en.wikipedia.org/wiki/Bountiful_(Book_of_Mormon)
   created: '2025-07-05T20:52:00Z'
   title: |

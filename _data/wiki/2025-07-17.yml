@@ -3,17 +3,17 @@
   title: |
     Trinity (nuclear test)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Trinity_shot_color.jpg/330px-Trinity_shot_color.jpg
-  image_wh: 320x368
+  image_wh: 330x380
   description: |
     First detonation of a nuclear weapon
   extract: |
-    Trinity was the first detonation of a nuclear weapon, conducted by the United States Army at 5:29 a.m. Mountain War Time on July 16, 1945, as part of the Manhattan Project. The test was of an implosion-design plutonium bomb, or "gadget" – the same design as the Fat Man bomb later detonated over Nagasaki, Japan, on August 9, 1945. Concerns about whether the complex Fat Man design would work led to a decision to conduct the first nuclear test. The code name "Trinity" was assigned by J. Robert Oppenheimer, the director of the Los Alamos Laboratory; the name was possibly inspired by the poetry of John Donne.
+    Trinity was the first detonation of a nuclear weapon, conducted by the United States Army at 5:29 a.m. Mountain War Time on July 16, 1945, as part of the Manhattan Project. The test was of an implosion-design plutonium bomb, or "gadget" – the same design as the Fat Man bomb later detonated over Nagasaki, Japan, on August 9, 1945. Concerns about whether the complex Fat Man design would work led to a decision to conduct the first nuclear test. The code name "Trinity" was assigned by J. Robert Oppenheimer, the director of the Los Alamos Laboratory. The name was possibly inspired by the poetry of John Donne.
 - url: https://en.wikipedia.org/wiki/SuperDisk
   created: '2025-07-17T16:31:04Z'
   title: |
     SuperDisk
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Imation_SD-USB-M3_SuperDisk_Drive.jpg/330px-Imation_SD-USB-M3_SuperDisk_Drive.jpg
-  image_wh: 320x196
+  image_wh: 330x202
   description: |
     Storage medium from Imation
   extract: |
@@ -43,7 +43,7 @@
   title: |
     Barber's pole
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Barberspole.jpg/330px-Barberspole.jpg
-  image_wh: 320x427
+  image_wh: 330x440
   description: |
     Type of sign
   extract: |
@@ -63,7 +63,7 @@
   title: |
     Shepard tone
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Shepard_Tones_spectrum_linear_scale.png/330px-Shepard_Tones_spectrum_linear_scale.png
-  image_wh: 320x165
+  image_wh: 330x171
   description: |
     Auditory illusion
   extract: |
@@ -75,7 +75,7 @@
   image_url: 
   image_wh: 
   description: |
-    Cyclic structure that goes through several levels in a hierarchical system
+    Cycles going through a hierarchy
   extract: |
     A strange loop is a cyclic structure that goes through several levels in a hierarchical system. It arises when, by moving only upwards or downwards through the system, one finds oneself back where one started.
     Strange loops may involve self-reference and paradox. The concept of a strange loop was proposed and extensively discussed by Douglas Hofstadter in Gödel, Escher, Bach, and is further elaborated in Hofstadter's book I Am a Strange Loop, published in 2007.
@@ -88,17 +88,17 @@
   description: |
     2007 book by Douglas Hofstadter
   extract: |
-    I Am a Strange Loop is a 2007 book by Douglas Hofstadter, examining in depth the concept of a strange loop to explain the sense of "I". The concept of a strange loop was originally developed in his 1979 book Gödel, Escher, Bach.In the end, we are self-perceiving, self-inventing, locked-in mirages that are little miracles of self-reference.
+    I Am a Strange Loop is a 2007 book by Douglas Hofstadter, examining in depth the concept of a strange loop to explain the sense of "I". The concept of a strange loop was originally developed in his 1979 book Gödel, Escher, Bach.
 - url: https://en.wikipedia.org/wiki/Douglas_Hofstadter
   created: '2025-07-17T18:11:25Z'
   title: |
     Douglas Hofstadter
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Douglas_Hofstadter%2C_Stanford_2006_%28crop%29.jpg/330px-Douglas_Hofstadter%2C_Stanford_2006_%28crop%29.jpg
-  image_wh: 320x324
+  image_wh: 330x335
   description: |
     American professor of cognitive science (born 1945)
   extract: |
-    Douglas Richard Hofstadter is an American cognitive and computer scientist whose research includes concepts such as the sense of self in relation to the external world, consciousness, analogy-making, strange loops, artificial intelligence, and discovery in mathematics and physics. His 1979 book Gödel, Escher, Bach: An Eternal Golden Braid won the Pulitzer Prize for general nonfiction, and a National Book Award for Science. His 2007 book I Am a Strange Loop won the Los Angeles Times Book Prize for Science and Technology.
+    Douglas Richard Hofstadter is an American cognitive and computer scientist whose research includes concepts such as the sense of self in relation to the external world, consciousness, analogy-making, strange loops, ambigrams, artificial intelligence, and discovery in mathematics and physics. His 1979 book Gödel, Escher, Bach: An Eternal Golden Braid won the Pulitzer Prize for general nonfiction, and a National Book Award for Science. His 2007 book I Am a Strange Loop won the Los Angeles Times Book Prize for Science and Technology.
 - url: https://en.wikipedia.org/wiki/Alphabet_Aerobics
   created: '2025-07-17T18:27:26Z'
   title: |
@@ -114,11 +114,11 @@
   title: |
     Brazil
   image_url: https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/330px-Flag_of_Brazil.svg.png
-  image_wh: 320x224
+  image_wh: 330x231
   description: |
-    Country in South America
+    Country primarily in South America
   extract: |
-    Brazil, officially the Federative Republic of Brazil, is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 212 million people. The country is a federation composed of 26 states and a Federal District, which hosts the capital, Brasília. Its most populous city is São Paulo, followed by Rio de Janeiro. Brazil has the most Portuguese speakers in the world and is the only country in the Americas where Portuguese is an official language.
+    Brazil, officially the Federative Republic of Brazil, is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 213 million people. Brazil is a federation composed of 26 states and a Federal District, which hosts the capital, Brasília. Its most populous city is São Paulo, followed by Rio de Janeiro. Brazil has the largest Lusophone population in the world and is the only Portuguese-speaking country in the Americas, where it is the official language.
 - url: https://en.wikipedia.org/wiki/Peaceful_transition_of_power
   created: '2025-07-17T18:52:29Z'
   title: |
@@ -135,7 +135,7 @@
   title: |
     Plano Real
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/1-real-2019-25-anos.png/330px-1-real-2019-25-anos.png
-  image_wh: 320x161
+  image_wh: 330x166
   description: |
     Set of measures taken to stabilize the Brazilian economy in 1994
   extract: |
@@ -149,15 +149,15 @@
   description: |
     Limitative results in mathematical logic
   extract: |
-    Gödel's incompleteness theorems are two theorems of mathematical logic that are concerned with the limits of provability in formal axiomatic theories. These results, published by Kurt Gödel in 1931, are important both in mathematical logic and in the philosophy of mathematics. The theorems are widely, but not universally, interpreted as showing that Hilbert's program to find a complete and consistent set of axioms for all mathematics is impossible.
+    Gödel's incompleteness theorems are two theorems of mathematical logic that are concerned with the limits of provability in formal axiomatic theories. These results, published by Kurt Gödel in 1931, are important both in mathematical logic and in philosophy of mathematics. The theorems are interpreted as showing that Hilbert's program to find a complete and consistent set of axioms for all mathematics is impossible.
 - url: https://en.wikipedia.org/wiki/Controlled_digital_lending
   created: '2025-07-17T20:17:23Z'
   title: |
     Controlled digital lending
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/CDLmain.jpg/330px-CDLmain.jpg
-  image_wh: 320x160
+  image_wh: 330x165
   description: |
     Digital library lending model
   extract: |
     
-    Controlled digital lending (CDL) is a model by which libraries digitize materials in their collection and make them available for lending. It is based on interpretations of the United States copyright principles of fair use and copyright exhaustion.
+    Controlled digital lending (CDL) is a model by which libraries digitize materials in their collection and make them available for lending on an owned-to-loaned ratio. That is, libraries can only digitize and lend the number of physical copies they have legally acquired through purchase or donation. In the United States, the model is based on interpretations of the United States copyright principles of fair use and copyright exhaustion. In the literature, the concept of independent Secure Digital Lending (iSDL) has emerged as a European counterpart to the American Controlled Digital Lending (CDL).

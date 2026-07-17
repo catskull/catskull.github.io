@@ -3,9 +3,9 @@
   title: |
     Marco Benevento
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marco_Benevento_in_Saugerties_NY_2012.jpeg/330px-Marco_Benevento_in_Saugerties_NY_2012.jpeg
-  image_wh: 320x455
+  image_wh: 330x470
   description: |
-    American musician, songwriter, and producer
+    American musician, songwriter and producer (born 1977)
   extract: |
     Marco Benevento is an American pianist, songwriter, multi-instrumentalist, and record producer, who has been a fixture of the New York experimental music rock and jazz scene since 1999. He is the founder and recording engineer of Fred Short, a recording studio in Upstate New York, and a member of the rock groups Benevento/Russo Duo and Joe Russo's Almost Dead, both of which feature his regular musical collaborator Joe Russo.
 - url: https://en.wikipedia.org/wiki/Imperialism?wprov=sfti1#
@@ -13,7 +13,7 @@
   title: |
     Imperialism
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Punch_Rhodes_Colossus.png/330px-Punch_Rhodes_Colossus.png
-  image_wh: 320x415
+  image_wh: 330x428
   description: |
     Extension of rule over foreign nations
   extract: |
@@ -33,7 +33,7 @@
   title: |
     Labour and Freedom Alliance
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Emek_ve_%C3%96zg%C3%BCrl%C3%BCk_%C4%B0ttifak%C4%B1_logo.svg/330px-Emek_ve_%C3%96zg%C3%BCrl%C3%BCk_%C4%B0ttifak%C4%B1_logo.svg.png
-  image_wh: 320x220
+  image_wh: 330x227
   description: |
     Turkish electoral alliance
   extract: |
@@ -47,13 +47,13 @@
   description: |
     Capitalism featuring undue alliances between business interests and politicians
   extract: |
-    Crony capitalism, sometimes also called simply cronyism, is a pejorative term used in political discourse to describe a situation in which businesses profit from a close relationship with state power, either through an anti-competitive regulatory environment, direct government largesse, or corruption. Examples given for crony capitalism include obtainment of permits, government grants, tax breaks, or other undue influence from businesses over the state's deployment of public goods, for example, mining concessions for primary commodities or contracts for public works. In other words, it is used to describe a situation where businesses thrive not as a result of free enterprise, but rather collusion between a business class and the political class.
+    Crony capitalism, sometimes also called simply cronyism, is a pejorative term used in political discourse to describe a situation in which businesses profit from a close relationship with state power, either through an anti-competitive regulatory environment, direct government largesse, or corruption. Examples given for crony capitalism include the obtainment of permits, government grants, tax breaks, or other undue influence from businesses over the state's deployment of public goods, for example, mining concessions for primary commodities or contracts for public works. In other words, it is used to describe a situation where businesses thrive not as a result of free enterprise, but rather collusion between the business class and the political class.
 - url: https://en.wikipedia.org/wiki/Sequoyah
   created: '2025-08-14T16:01:04Z'
   title: |
     Sequoyah
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Henry_Inman_-_Sequoyah_-_Google_Art_Project.jpg/330px-Henry_Inman_-_Sequoyah_-_Google_Art_Project.jpg
-  image_wh: 320x384
+  image_wh: 330x396
   description: |
     Cherokee polymath and creator of the Cherokee syllabary
   extract: |
@@ -83,17 +83,17 @@
   title: |
     Wombat
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/330px-Vombatus_ursinus_-Maria_Island_National_Park.jpg
-  image_wh: 320x213
+  image_wh: 330x220
   description: |
-    Species of marsupials
+    Species of marsupial native to Australia
   extract: |
-    Wombats are short-legged, muscular quadrupedal marsupials of the family Vombatidae that are native to Australia. Living species are about 1 m (40 in) in length with small, stubby tails and weigh between 20 and 35 kg. They are adaptable and habitat tolerant, and are found in forested, mountainous, and heathland areas of southern and eastern Australia, including Tasmania, as well as an isolated patch of about 300 ha in Epping Forest National Park in central Queensland.
+    Wombats are short-legged, muscular quadrupedal marsupials of the family Vombatidae that are native to Australia. Living species are about one metre (40 in) in length with small, stubby tails and weigh between 20 and 35 kg. They are adaptable and habitat tolerant, and are found in forested, mountainous, and heathland areas of southern and eastern Australia, including Tasmania, as well as an isolated patch of about 300 ha in Epping Forest National Park in central Queensland.
 - url: https://en.wikipedia.org/wiki/Swamp_wallaby
   created: '2025-08-14T21:16:19Z'
   title: |
     Swamp wallaby
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Wallabia_bicolor_Jenolan_Caves_portrait.jpg/330px-Wallabia_bicolor_Jenolan_Caves_portrait.jpg
-  image_wh: 320x239
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wallabia_bicolor_Jenolan_Caves.jpg/330px-Wallabia_bicolor_Jenolan_Caves.jpg
+  image_wh: 330x201
   description: |
     Species of mammal
   extract: |
@@ -102,8 +102,8 @@
   created: '2025-08-14T23:58:41Z'
   title: |
     Netrun-mon
-  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Netrunmon.jpg/320px-Netrunmon.jpg
-  image_wh: 320x240
+  image_url: https://upload.wikimedia.org/wikipedia/en/b/b6/Netrunmon.jpg
+  image_wh: 325x244
   description: |
     2004 original video animation
   extract: |

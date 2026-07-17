@@ -7,7 +7,7 @@
   description: |
     1994 racing video game
   extract: |
-    Road Rash is a 1994 racing and vehicular combat video game originally published by Electronic Arts (EA) for the 3DO Interactive Multiplayer. A version for the Sega CD was developed simultaneously and released in 1995 to act as a "bridge" between the 3DO version and the Sega Genesis title Road Rash 3, and the game was subsequently ported to the PlayStation, Sega Saturn, and Microsoft Windows in 1996. The game is the third installment in the Road Rash series, and is centered around a series of motorcycle races throughout California that the player must win to advance to higher-difficulty races, while engaging in unarmed and armed combat to hinder the other racers.
+    Road Rash is a 1994 racing/vehicular combat video game originally published by Electronic Arts (EA) for the 3DO Interactive Multiplayer. A version for the Sega CD was developed simultaneously and released in 1995 to act as a "bridge" between the 3DO version and the Sega Genesis title Road Rash 3, and the game was subsequently ported to the PlayStation, Sega Saturn, and Microsoft Windows in 1996. The game is the third installment in the Road Rash series, and is centered around a series of motorcycle races throughout California that the player must win to advance to higher-difficulty races, while engaging in unarmed and armed combat to hinder the other racers.
 - url: https://en.wikipedia.org/wiki/Action_principles
   created: '2025-07-08T15:21:49Z'
   title: |
@@ -17,7 +17,7 @@
   description: |
     Fundamental mechanical principles
   extract: |
-    Action principles lie at the heart of fundamental physics, from classical mechanics through quantum mechanics, particle physics, and general relativity. Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action. The action depends on the energy function, and the energy function depends on the position, motion, and interactions in the system: variation of the action allows the derivation of the equations of motion without vectors or forces.
+    Action principles are fundamental to physics, from classical mechanics through quantum mechanics, particle physics, and general relativity. Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action. The action depends on the energy function, and the energy function depends on the position, motion, and interactions in the system: variation of the action allows the derivation of the equations of motion without vectors or forces.
 - url: https://en.wikipedia.org/wiki/Maupertuis%27s_principle
   created: '2025-07-08T15:24:39Z'
   title: |
@@ -35,15 +35,15 @@
   image_url: https://upload.wikimedia.org/wikipedia/en/4/46/HeroesChronicles.jpg
   image_wh: 286x347
   description: |
-    2000 video game
+    2000-01 Heroes of Might and Magic III level packs
   extract: |
-    Heroes Chronicles is an episodic series of level packs for Heroes of Might and Magic III, a turn-based strategy video game. Eight installments were released from September 2000 to June 2001, developed by Jon Van Caneghem through New World Computing and published by the 3DO Company. Heroes Chronicles tells the story of Tarnum, a barbarian judged unworthy of Paradise due to his crimes. He is made immortal and sent through time by the Ancestors to aid in various quests as punishment.
+    Heroes Chronicles is an episodic series of level packs for Heroes of Might and Magic III, a turn-based strategy video game. Eight installments were released from September 2000 to June 2001, developed by Jon Van Caneghem through New World Computing and published by the 3DO Company. Heroes Chronicles tells the story of Tarnum, a barbarian judged unworthy of Paradise due to his crimes. He is made immortal and sent by the Ancestors to aid in various quests throughout the centuries as punishment.
 - url: https://en.wikipedia.org/wiki/Degrees_of_glory
   created: '2025-07-08T18:20:02Z'
   title: |
     Degrees of glory
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mormon_plan_of_Salvation_diagram_%28English%29_%282%29.jpg/330px-Mormon_plan_of_Salvation_diagram_%28English%29_%282%29.jpg
-  image_wh: 320x222
+  image_wh: 330x229
   description: |
     Mormon afterlife concept
   extract: |
@@ -52,12 +52,12 @@
   created: '2025-07-08T18:27:15Z'
   title: |
     Uncle Acid & the Deadbeats
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Uncle_Acid_%26_the_Deadbeats%2C_Off_Festival_2013_%282%29.jpg/330px-Uncle_Acid_%26_the_Deadbeats%2C_Off_Festival_2013_%282%29.jpg
-  image_wh: 320x240
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/2016_RiP_Uncle_Acid_and_the_Deadbeats_-_by_2eight_-_8SC6811.jpg/330px-2016_RiP_Uncle_Acid_and_the_Deadbeats_-_by_2eight_-_8SC6811.jpg
+  image_wh: 330x186
   description: |
-    English Doom Metal band
+    English rock band
   extract: |
-    Uncle Acid & the Deadbeats are an English doom metal band, formed in Cambridge by Kevin Starrs in 2009. The band has released six studio albums and one live album. Their most recent studio album Nell' Ora Blu, was released in May 2024 – as well as a number of singles. The band appears regularly at festivals around Europe.
+    Uncle Acid & the Deadbeats are an English psychedelic rock and doom metal band formed in Cambridge by Kevin Starrs in 2009. The band has released six studio albums and one live album. Their most recent studio album Nell' Ora Blu, was released in May 2024 – as well as a number of singles. The band appears regularly at festivals around Europe.
 - url: https://en.wikipedia.org/wiki/Christian_universalism
   created: '2025-07-08T18:42:59Z'
   title: |
@@ -67,37 +67,37 @@
   description: |
     Christian belief that all will be reconciled to God
   extract: |
-    Christian universalism is a school of Christian theology focused around the doctrine of universal reconciliation – the view that all human beings will ultimately be saved and restored to a right relationship with God. "Christian universalism" and "the belief or hope in the universal reconciliation through Christ" can be understood as synonyms.
+    Christian universalism is a school of Christian theology focused around the doctrine of universal reconciliation – the view that all human beings will ultimately be saved and restored to a right relationship with God.
 - url: https://en.wikipedia.org/wiki/Emanuel_Swedenborg
   created: '2025-07-08T18:54:00Z'
   title: |
     Emanuel Swedenborg
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Emanuel_Swedenborg.PNG/330px-Emanuel_Swedenborg.PNG
-  image_wh: 320x384
+  image_wh: 330x396
   description: |
     Swedish scientist, philosopher, and theologian (1688–1772)
   extract: |
-    Emanuel Swedenborg (; Swedish: [ɛˈmɑ̂ːnʉɛl ˈsvêːdɛnˌbɔrj] ; born Emanuel Swedberg; was a Swedish polymath; scientist, engineer, astronomer, anatomist, Christian theologian, philosopher, and mystic. He became best known for his book on the afterlife, Heaven and Hell.
+    Emanuel Swedenborg was a Swedish polymath; a scientist, engineer, astronomer, anatomist, Christian theologian, philosopher, and mystic. He became best known for his book on the afterlife, Heaven and Hell (1758).
 - url: https://en.wikipedia.org/wiki/UL_(safety_organization)
   created: '2025-07-08T19:05:35Z'
   title: |
     UL (safety organization)
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/UL_Solutions_logo.svg/330px-UL_Solutions_logo.svg.png
-  image_wh: 320x131
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/UL_Headquarter.jpg/330px-UL_Headquarter.jpg
+  image_wh: 330x248
   description: |
     Global safety certification company
   extract: |
-    The UL enterprise is a global private safety company headquartered in Northbrook, Illinois, composed of three organizations, UL Research Institutes, UL Standards & Engagement and UL Solutions.
+    UL Research Institutes is a global private safety company headquartered in Northbrook, Illinois, composed of three organizations, UL Research Institutes, UL Standards & Engagement and UL Solutions.
 - url: https://en.wikipedia.org/wiki/Heaven_and_Hell_(Swedenborg_book)
   created: '2025-07-08T19:35:28Z'
   title: |
     Heaven and Hell (Swedenborg book)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Emanuel_Swedenborg.PNG/330px-Emanuel_Swedenborg.PNG
-  image_wh: 320x384
+  image_wh: 330x396
   description: |
     Book giving a detailed description of the Afterlife
   extract: |
-    Heaven and Hell is a book written by Emanuel Swedenborg in Latin, published in 1758. It gives a detailed description of the afterlife; how people live after the death of the physical body. The book owes its popular appeal to that subject matter.
+    Heaven and Hell is a book written by Emanuel Swedenborg in Latin, published in 1758. It gives a detailed description of the afterlife; how people live after the death of the physical body.
 - url: https://en.wikipedia.org/wiki/Translation_(Mormonism)
   created: '2025-07-08T19:39:57Z'
   title: |
@@ -113,8 +113,8 @@
   title: |
     Loperamide
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Loperamide.svg/330px-Loperamide.svg.png
-  image_wh: 320x164
+  image_wh: 330x169
   description: |
     Medicine used to reduce diarrhea
   extract: |
-    Loperamide, sold under the brand name Imodium, among others, is a medication of the opioid receptor agonist class used to decrease the frequency of diarrhea. It is often used for this purpose in irritable bowel syndrome, inflammatory bowel disease, short bowel syndrome, Crohn's disease, and ulcerative colitis. It is not recommended for those with blood in the stool, mucus in the stool, or fevers. The medication is taken by mouth.
+    Loperamide, sold under the brand name Imodium, among others, is a medication of the opioid receptor agonist class used to decrease the frequency of diarrhea. It is often used for this purpose in irritable bowel syndrome, inflammatory bowel disease, short bowel syndrome, Crohn's disease, and ulcerative colitis. Loperamide is taken by mouth.

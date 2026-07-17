@@ -3,7 +3,7 @@
   title: |
     Tinker
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tinker_by_Krieger.jpg/330px-Tinker_by_Krieger.jpg
-  image_wh: 320x464
+  image_wh: 330x478
   description: |
     Wandering tinsmith
   extract: |
@@ -13,7 +13,7 @@
   title: |
     Willy Wonka
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Charlie_and_the_Chocolate_Factory_%281964%29_front_cover%2C_first_US_edition_%28cropped%29.jpg/330px-Charlie_and_the_Chocolate_Factory_%281964%29_front_cover%2C_first_US_edition_%28cropped%29.jpg
-  image_wh: 320x480
+  image_wh: 330x495
   description: |
     Fictional character in Roald Dahl novels
   extract: |
@@ -27,7 +27,7 @@
   description: |
     British TV children's series (1965–1996)
   extract: |
-    Jackanory was a BBC children's television series which was originally broadcast between 1965 and 1996. It was designed to stimulate an interest in reading. The programme was first transmitted on 13 December 1965, and the first story was the fairy-tale "Cap-o'-Rushes" read by Lee Montague. Jackanory was broadcast until 1996, with around 3,500 episodes in its 30-year run.
+    Jackanory is a BBC children's television series which was originally broadcast between 1965 and 1996. It was designed to stimulate an interest in reading. The programme was first transmitted on 13 December 1965, and the first story was the fairy-tale "Cap-o'-Rushes" read by Lee Montague. Jackanory was broadcast until 1996, with around 3,650 episodes in its 30-year run.
 - url: https://en.wikipedia.org/wiki/Tom_and_Jerry:_Willy_Wonka_and_the_Chocolate_Factory?wprov=sfti1
   created: '2025-07-27T01:15:13Z'
   title: |
@@ -42,13 +42,13 @@
   created: '2025-07-27T01:28:39Z'
   title: |
     Ode (poem)
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Giant_ocean_wave_%28cropped%29.jpg/330px-Giant_ocean_wave_%28cropped%29.jpg
-  image_wh: 320x320
+  image_url: 
+  image_wh: 
   description: |
     1873 poem by Arthur O'Shaughnessy
   extract: |
-    "Ode" is a poem written by the English poet Arthur O'Shaughnessy and first published in 1873. It is the first poem in O'Shaughnessy's collection Music and Moonlight (1874). "Ode" has nine stanzas, although it is commonly believed to be only three stanzas long. The opening stanza is:
     
+    "Ode" is a poem written by the English poet Arthur O'Shaughnessy and first published in 1873. It is the first poem in O'Shaughnessy's collection Music and Moonlight (1874).
 - url: https://en.wikipedia.org/wiki/Everett_Ruess?wprov=sfti1
   created: '2025-07-27T05:00:47Z'
   title: |
@@ -74,8 +74,8 @@
   title: |
     Yukon Telegraph Trail
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Raspberry_Station.jpg/330px-Raspberry_Station.jpg
-  image_wh: 320x187
+  image_wh: 330x192
   description: |
-    undefined
+    Historic site
   extract: |
     The Yukon Telegraph Trail, also known simply as the Telegraph Trail, is a historic pathway in the Canadian province of British Columbia that extends from the village of Ashcroft in the south to the community of Atlin in the north. It was used for servicing the Yukon Telegraph Line which ran from Ashcroft in the south to Dawson City, Yukon in the north. The telegraph line was constructed by the Dominion Government Telegraph Service from 1898 to 1901. It was abandoned in 1936 with the advent of radio communication. Along the length of the trail are remains of telegraph cabins, telegraph cable and other artifacts that were used during the construction of the telegraph line.

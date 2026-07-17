@@ -7,24 +7,23 @@
   description: |
     Distinction in certain fields of language analysis
   extract: |
-    The distinction between literal and figurative language exists in all natural languages; the phenomenon is studied within certain areas of language analysis, in particular stylistics, rhetoric, and semantics.Literal language is the usage of words exactly according to their direct, straightforward, or conventionally accepted meanings: their denotation.
-    Figurative language is the usage of words in addition to, or deviating beyond, their conventionally accepted definitions in order to convey a more complex meaning or achieve a heightened effect. This is done by language-users presenting words in such a way that their audience equates, compares, or associates the words with normally unrelated meanings. A common intended effect of figurative language is to elicit audience responses that are especially emotional, aesthetic, or intellectual.
+    The distinction between literal and figurative language exists in all natural languages; the phenomenon is studied within certain areas of language analysis, linguistics, and the humanities, in particular stylistics, rhetoric, and semantics.
 - url: https://en.wikipedia.org/wiki/Lie
   created: '2025-08-21T00:11:26Z'
   title: |
     Lie
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pinocchio.jpg/330px-Pinocchio.jpg
-  image_wh: 320x441
+  image_wh: 330x454
   description: |
     Intentionally false statement made to deceive
   extract: |
-    A lie is an assertion that is believed to be false, typically used with the purpose of deceiving or misleading someone. The practice of communicating lies is called lying. A person who communicates a lie may be termed a liar. Lies can be interpreted as deliberately false statements or misleading statements, though not all statements that are literally false are considered lies – metaphors, hyperboles, and other figurative rhetoric are not intended to mislead, while lies are explicitly meant for literal interpretation by their audience. Lies may also serve a variety of instrumental, interpersonal, or psychological functions for the individuals who use them.
+    A lie is an assertion that is believed to be false, typically used with the intention of deceiving or misleading someone. The practice of communicating lies is called lying. A person who communicates a lie may be termed a liar. Lies can be interpreted as deliberately false statements or misleading statements, though not all statements that are literally false are considered lies – metaphors, hyperboles, and other figurative rhetoric are not intended to mislead, while lies are explicitly meant for literal interpretation by their audience. Lies may also serve a variety of instrumental, interpersonal, or psychological functions for the individuals who use them.
 - url: https://en.wikipedia.org/wiki/Healing_the_paralytic_at_Capernaum
   created: '2025-08-21T00:12:39Z'
   title: |
     Healing the paralytic at Capernaum
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Galway_museum_item.jpg/330px-Galway_museum_item.jpg
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Miracle carried out by Jesus according to the Bible
   extract: |
@@ -34,11 +33,11 @@
   title: |
     Black propaganda
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/1934_Protocols_Patriotic_Pub.jpg/330px-1934_Protocols_Patriotic_Pub.jpg
-  image_wh: 320x497
+  image_wh: 330x512
   description: |
     Form of influence campaign
   extract: |
-    Black propaganda is a form of propaganda intended to create the impression that it was created by those it is supposed to discredit. Black propaganda contrasts with gray propaganda, which does not identify its source, as well as white propaganda, which does not disguise its origins at all. It is typically used to vilify or embarrass the enemy through misrepresentation.
+    Black propaganda is covert disinformation deliberately attributed to a false source—often the very group it aims to discredit—in order to undermine that group's credibility. Black propaganda contrasts with gray propaganda, which does not identify its source, as well as white propaganda, which does not disguise its origins at all. It is typically used to vilify or embarrass the enemy through misrepresentation.
 - url: https://en.wikipedia.org/wiki/Argument_from_analogy#False_analogy
   created: '2025-08-21T00:25:28Z'
   title: |
@@ -54,7 +53,7 @@
   title: |
     False equivalence
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Apple_and_Orange_-_they_do_not_compare.jpg/330px-Apple_and_Orange_-_they_do_not_compare.jpg
-  image_wh: 320x220
+  image_wh: 330x226
   description: |
     Logical fallacy of inconsistency
   extract: |
@@ -78,7 +77,7 @@
   description: |
     Teachers of 5th century BC Greece
   extract: |
-    A sophist was a teacher in ancient Greece in the fifth and fourth centuries BC. Sophists specialized in one or more subject areas, such as philosophy, rhetoric, music, athletics and mathematics. They taught arete, "virtue" or "excellence", predominantly to young statesmen and nobility.
+    A sophist was a professional travelling teacher in ancient Greece in the fifth and fourth centuries BC. Sophists specialized in one or more subject areas, such as philosophy, rhetoric, music, athletics, mathematics, and arete: "virtue" or "excellence". The sophists sold their tutoring expertise predominantly to young statesmen and nobility. Certain sophists are regarded as philosophers in their own right. The first credited sophist, Protagoras, argued that "man is the measure of all things", and he controversially would strive to "make the weaker argument the stronger".
 - url: https://en.wikipedia.org/wiki/Preference_falsification
   created: '2025-08-21T00:30:10Z'
   title: |
@@ -88,47 +87,47 @@
   description: |
     Stating a preference not truly held
   extract: |
-    Preference falsification is the act of misrepresenting a preference under perceived public pressure. It involves the selection of a publicly expressed preference that differs from the underlying privately held preference. People frequently convey to each other preferences that differ from what they would communicate privately under credible cover of anonymity. Techniques such as list experiments can be used to uncover preference falsification.
+    Preference falsification is the act of misrepresenting a preference under perceived public pressure. It involves publicly expressing a preference that differs from one's underlying privately held preference. People frequently convey to each other preferences that differ from what they would communicate privately under credible cover of anonymity. Techniques such as list experiments can be used to uncover preference falsification.
 - url: https://en.wikipedia.org/wiki/Mutual_aid?wprov=sfti1
   created: '2025-08-21T01:56:23Z'
   title: |
     Mutual aid
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Irish-stew_dinners_for_the_poor._Wellcome_L0003267.jpg/330px-Irish-stew_dinners_for_the_poor._Wellcome_L0003267.jpg
-  image_wh: 320x230
+  image_wh: 330x238
   description: |
     Voluntary exchange of resources and services for mutual benefit
   extract: |
-    Mutual aid is an organizational model where voluntary, collaborative exchanges of resources and services for common benefit take place amongst community members to overcome social, economic, and political barriers to meeting common needs. This can include physical resources like food, clothing, or medicine, as well as services like breakfast programs or education. These groups are often built for the daily needs of their communities, but mutual aid groups are also found throughout relief efforts, such as in natural disasters or pandemics like the COVID-19 pandemic.
+    Mutual aid has traditionally been an organizational model where voluntary, collaborative exchanges of resources and services for common benefit take place amongst community members to overcome social, economic, and political barriers to meeting common needs. Mutual aid can include physical resources like food, clothing, or medicine, as well as services like breakfast programs or education. These groups are often built for the daily needs of their communities, but mutual aid groups are also found throughout relief efforts, such as in natural disasters or pandemics like the COVID-19 pandemic.
 - url: https://en.wikipedia.org/wiki/Herman_Cain?wprov=sfti1#Death
   created: '2025-08-21T12:46:13Z'
   title: |
     Herman Cain
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Herman_Cain_by_Gage_Skidmore_4.jpg/330px-Herman_Cain_by_Gage_Skidmore_4.jpg
-  image_wh: 320x391
+  image_wh: 330x403
   description: |
     American businessman (1945–2020)
   extract: |
-    Herman Cain was an American businessman and Tea Party movement activist in the Republican Party. Cain graduated from Morehouse College with a bachelor's degree in mathematics. He then earned a master's degree in computer science at Purdue University while also working full-time for the U.S. Department of the Navy. In 1977, he joined the Pillsbury Company where he later became vice president. During the 1980s, Cain's success as a business executive at Burger King prompted Pillsbury to appoint him as chairman and CEO of Godfather's Pizza, in which capacity he worked from 1986 to 1996.
+    Herman Cain was an American businessman and Tea Party movement activist in the Republican Party.
 - url: https://en.wikipedia.org/wiki/Emotion
   created: '2025-08-21T15:49:41Z'
   title: |
     Emotion
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sixteen_faces_expressing_the_human_passions._Wellcome_L0068375_%28cropped%29.jpg/330px-Sixteen_faces_expressing_the_human_passions._Wellcome_L0068375_%28cropped%29.jpg
-  image_wh: 320x396
+  image_wh: 330x408
   description: |
-    Conscious subjective experience of humans
+    Conscious subjective experience
   extract: |
-    Emotions are physical and mental states brought on by neurophysiological changes, variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure. There is no scientific consensus on a definition. Emotions are often intertwined with mood, temperament, personality, disposition, or creativity.
+    Emotions are physical and mental states brought on by neurophysiological and neuropsychological changes, variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure. There is no scientific consensus on a definition. Emotions are often intertwined with mood, temperament, personality, disposition, or creativity.
 - url: https://en.wikipedia.org/wiki/Affective_computing
   created: '2025-08-21T16:09:59Z'
   title: |
     Affective computing
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sophia_at_the_AI_for_Good_Global_Summit_2018_%2827254369347%29_%28cropped%29.jpg/330px-Sophia_at_the_AI_for_Good_Global_Summit_2018_%2827254369347%29_%28cropped%29.jpg
-  image_wh: 320x406
+  image_wh: 330x419
   description: |
-    Area of research in computer science aiming to understand the emotional state of users
+    Emotion modeling in AI
   extract: |
-    Affective computing is the study and development of systems and devices that can recognize, interpret, process, and simulate human affects. It is an interdisciplinary field spanning computer science, psychology, and cognitive science. While some core ideas in the field may be traced as far back as to early philosophical inquiries into emotion, the more modern branch of computer science originated with Rosalind Picard's 1995 paper entitled "Affective Computing" and her 1997 book of the same name published by MIT Press. One of the motivations for the research is the ability to give machines emotional intelligence, including to simulate empathy. The machine should interpret the emotional state of humans and adapt its behavior to them, giving an appropriate response to those emotions. Recent experimental research has shown that subtle affective haptic feedback can shape human reward learning and mobile interaction behavior, suggesting that affective computing systems may not only interpret emotional states but also actively modulate user actions through emotion-laden outputs.
+    Affective computing is the study and development of systems and devices that can recognize, interpret, process, and simulate human affects. It is an interdisciplinary field spanning computer science, psychology, and cognitive science. While some core ideas in the field may be traced as far back as to early philosophical inquiries into emotion, the modern idea originated with Rosalind Picard's 1995 paper entitled "Affective Computing" and her 1997 book of the same name published by MIT Press. One motivation for researching affective computing is the ability to give machines emotional intelligence, including simulating empathy. The goal is that a machine should interpret the emotional state of humans and adapt its behavior to those emotions, responding appropriately. Recent experimental research has shown that subtle affective haptic feedback can shape human reward learning and mobile interaction behavior, suggesting that affective computing systems may not only interpret emotional states but also actively modulate user actions through emotion-laden outputs.
 - url: https://en.wikipedia.org/wiki/Affect_control_theory
   created: '2025-08-21T16:11:50Z'
   title: |
@@ -136,7 +135,7 @@
   image_url: 
   image_wh: 
   description: |
-    undefined
+    
   extract: |
     In control theory, affect control theory proposes that individuals maintain affective meanings through their actions and interpretations of events. The activity of social institutions occurs through maintenance of culturally based affective meanings.
 - url: https://en.wikipedia.org/wiki/Id,_ego_and_superego#Superego
@@ -164,17 +163,17 @@
   title: |
     The World's Billionaires
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/The_World_Billionaire%27s_net_worth_2000-2025.png/330px-The_World_Billionaire%27s_net_worth_2000-2025.png
-  image_wh: 320x161
+  image_wh: 330x166
   description: |
     Annual ranking of the world's billionaires by Forbes magazine
   extract: |
-    The World's Billionaires is an annual ranking of people who are billionaires, i.e., they are considered to have a net worth of US$1 billion or more, by the American business magazine Forbes. The list was first published in March 1987. The total net worth of each individual on the list is estimated and is cited in United States dollars, based on their documented assets and accounting for debt and other factors. Royalty and dictators whose wealth comes from their positions are excluded from these lists. This ranking is an index of the wealthiest documented individuals, excluding any ranking of those with wealth that is not able to be completely ascertained.
+    The World's Billionaires is an annual ranking by the American business magazine Forbes of people who are billionaires, i.e., they are estimated to have a net worth of US$1 billion or more. The list was first published in March 1987. The net worth of each individual is cited in United States dollars, based on their documented assets, and accounting for debt and other factors. This ranking excludes royalty and dictators whose wealth comes from their positions, as well as people whose wealth is not able to be completely ascertained.
 - url: https://en.wikipedia.org/wiki/Underworld
   created: '2025-08-21T20:22:44Z'
   title: |
     Underworld
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Jan_Brueghel_the_Younger_-_Juno_in_the_Underworld%2C_1626-1630.jpg/330px-Jan_Brueghel_the_Younger_-_Juno_in_the_Underworld%2C_1626-1630.jpg
-  image_wh: 320x240
+  image_wh: 330x247
   description: |
     World of the dead in various mythologies
   extract: |
@@ -184,7 +183,7 @@
   title: |
     Jan Brueghel the Younger
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Landscape_with_Pan_and_Syrinx_by_Sir_Peter_Paul_Rubens_Jan_Breughel_the_Younger.jpg/330px-Landscape_with_Pan_and_Syrinx_by_Sir_Peter_Paul_Rubens_Jan_Breughel_the_Younger.jpg
-  image_wh: 320x194
+  image_wh: 330x200
   description: |
     Flemish painter (1601–1678)
   extract: |
@@ -194,18 +193,18 @@
   title: |
     Oshkosh NGDV
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/USPS_Oshkosh_NGDV_-_20250721163031_%28cropped%29.jpg/330px-USPS_Oshkosh_NGDV_-_20250721163031_%28cropped%29.jpg
-  image_wh: 320x208
+  image_wh: 330x214
   description: |
     2020s replacement for the US Postal Service's local delivery fleet
   extract: |
-    The Oshkosh Next Generation Delivery Vehicle (NGDV) is a mail truck for the United States Postal Service (USPS). The contract, which is valued at $6 billion, was awarded to Oshkosh Defense of the Oshkosh Corporation in February 2021. Up to 160,000 vehicles will be built in a new South Carolina factory. Four variants of the NGDV are expected to be in fleet use: both gasoline-powered and battery-electric, in either front-wheel drive or all-wheel drive. The USPS was scheduled to start receiving the vehicles October 2023, but repeated delays meant that only 93 vehicles had been delivered by December 2024.
+    The Oshkosh Next Generation Delivery Vehicle (NGDV) is a mail truck for the United States Postal Service (USPS). The contract, which is valued at $6 billion, was awarded to Oshkosh Defense of Oshkosh Corporation in February 2021. Up to 160,000 vehicles will be built in a new South Carolina factory. Four variants of the NGDV are expected to be in fleet use: both gasoline-powered and battery-electric, in either front-wheel drive or all-wheel drive. The USPS was scheduled to start receiving the vehicles October 2023, but repeated delays meant that only 2,500 vehicles had been delivered by November 2025.
 - url: https://en.wikipedia.org/wiki/Nintendo_64
   created: '2025-08-21T21:26:55Z'
   title: |
     Nintendo 64
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/N64-Console-Set.png/330px-N64-Console-Set.png
-  image_wh: 320x172
+  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Nintendo_64_%28logo%29.svg/330px-Nintendo_64_%28logo%29.svg.png
+  image_wh: 330x285
   description: |
     Home video game console
   extract: |
-    The Nintendo 64 (N64) is a home video game console developed and marketed by Nintendo. It was released in Japan on June 23, 1996, in North America on September 29, 1996, and in Europe and Australia on March 1, 1997. As the successor to the Super Nintendo Entertainment System (SNES), the N64 was the last major home console to use ROM cartridges as its primary storage medium. As a fifth-generation console, the Nintendo 64 primarily competed with Sony's PlayStation and the Sega Saturn.
+    The Nintendo 64 (N64) is a home video game console developed and marketed by Nintendo. It was released in Japan on June 23, 1996, in North America on September 29, 1996, and in Europe and Australia on March 1, 1997. It was Nintendo's third major home console, following the Super Nintendo Entertainment System, and competed with Sony's PlayStation and the Sega Saturn in the fifth generation of consoles.

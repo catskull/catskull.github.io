@@ -3,11 +3,11 @@
   title: |
     Quetiapine
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Quetiapine.svg/330px-Quetiapine.svg.png
-  image_wh: 320x233
+  image_wh: 330x240
   description: |
     Atypical antipsychotic medication
   extract: |
-    Quetiapine, sold under the brand name Seroquel among others, is an atypical antipsychotic medication used in the treatment of schizophrenia, bipolar disorder, bipolar depression, and major depressive disorder. Despite being widely prescribed as a sleep aid due to its tranquillizing effects, the benefits of such use may not outweigh the risk of undesirable side effects. It is taken orally.
+    Quetiapine, sold under the brand name Seroquel among others, is an atypical antipsychotic medication used in the treatment of schizophrenia, bipolar disorder, and major depressive disorder. Despite being widely prescribed as a sleep aid due to its tranquillizing effects, the benefits of such use may not outweigh the risk of undesirable side effects. It is taken orally.
 - url: https://en.wikipedia.org/wiki/Musical_hallucinations
   created: '2025-08-12T18:52:41Z'
   title: |
@@ -23,7 +23,7 @@
   title: |
     Message to the Grass Roots
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Malcolm_X_NYWTS_2a.jpg/330px-Malcolm_X_NYWTS_2a.jpg
-  image_wh: 320x441
+  image_wh: 330x455
   description: |
     1963 speech by Malcolm X
   extract: |
@@ -33,21 +33,21 @@
   title: |
     Toussaint Louverture
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Toussaint_Louverture_-_Girardin.jpg/330px-Toussaint_Louverture_-_Girardin.jpg
-  image_wh: 320x390
+  image_wh: 330x402
   description: |
     Haitian general and revolutionary (1744–1803)
   extract: |
-    François-Dominique Toussaint Louverture also known as Toussaint L'Ouverture or Toussaint Bréda, was a Haitian general and the most prominent leader of the Haitian Revolution. During his life, Louverture first fought and allied with Spanish forces against Saint-Domingue Royalists, then joined with Republican France, becoming Governor-General-for-life of Saint-Domingue, and lastly fought against Bonaparte's republican troops. As a revolutionary leader, Louverture displayed military and political acumen that helped transform the fledgling slave rebellion into a revolutionary movement. Along with Jean-Jacques Dessalines, Louverture is now known as one of the "Fathers of Haiti".
+    François-Dominique Toussaint Louverture, also known as Toussaint L'Ouverture or Toussaint Bréda, was a Haitian general and the most prominent leader of the Haitian Revolution. During his life, Louverture first fought and allied with Spanish forces against Saint-Domingue Royalists, then joined with Republican France, becoming Governor-General-for-life of Saint-Domingue, and lastly fought against Bonaparte's republican troops. As a revolutionary leader, Louverture displayed military and political acumen that helped transform the fledgling slave rebellion into a revolutionary movement. Along with Jean-Jacques Dessalines, Louverture is now known as one of the "Fathers of Haiti" and a figure of Haitian mythology, where he was celebrated as a founder of the black nation.
 - url: https://en.wikipedia.org/wiki/Toussaint_Louverture
   created: '2025-08-12T19:33:01Z'
   title: |
     Toussaint Louverture
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Toussaint_Louverture_-_Girardin.jpg/330px-Toussaint_Louverture_-_Girardin.jpg
-  image_wh: 320x390
+  image_wh: 330x402
   description: |
     Haitian general and revolutionary (1744–1803)
   extract: |
-    François-Dominique Toussaint Louverture also known as Toussaint L'Ouverture or Toussaint Bréda, was a Haitian general and the most prominent leader of the Haitian Revolution. During his life, Louverture first fought and allied with Spanish forces against Saint-Domingue Royalists, then joined with Republican France, becoming Governor-General-for-life of Saint-Domingue, and lastly fought against Bonaparte's republican troops. As a revolutionary leader, Louverture displayed military and political acumen that helped transform the fledgling slave rebellion into a revolutionary movement. Along with Jean-Jacques Dessalines, Louverture is now known as one of the "Fathers of Haiti".
+    François-Dominique Toussaint Louverture, also known as Toussaint L'Ouverture or Toussaint Bréda, was a Haitian general and the most prominent leader of the Haitian Revolution. During his life, Louverture first fought and allied with Spanish forces against Saint-Domingue Royalists, then joined with Republican France, becoming Governor-General-for-life of Saint-Domingue, and lastly fought against Bonaparte's republican troops. As a revolutionary leader, Louverture displayed military and political acumen that helped transform the fledgling slave rebellion into a revolutionary movement. Along with Jean-Jacques Dessalines, Louverture is now known as one of the "Fathers of Haiti" and a figure of Haitian mythology, where he was celebrated as a founder of the black nation.
 - url: https://en.wikipedia.org/wiki/Joseph_E._Johnson_(Mormon)
   created: '2025-08-12T19:53:01Z'
   title: |
@@ -73,7 +73,7 @@
   title: |
     Alvin Karpis
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Alvin_Karpis.jpg/330px-Alvin_Karpis.jpg
-  image_wh: 320x489
+  image_wh: 330x505
   description: |
     American criminal (1907–1979)
   extract: |
@@ -83,11 +83,11 @@
   title: |
     Sharecropping
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Greene_Co_Ga1941_Delano.jpg/330px-Greene_Co_Ga1941_Delano.jpg
-  image_wh: 320x237
+  image_wh: 330x244
   description: |
     Use of land by a tenant in return for a share of the crops produced
   extract: |
-    Sharecropping is a legal arrangement in which a landowner allows a tenant (sharecropper) to use the land in return for a share of the crops produced on that land. Sharecropping is not to be conflated with tenant farming, which provides the tenant greater autonomy, and higher economic and social status.
+    Sharecropping is the legal arrangement in which a landowner allows a tenant (sharecropper) to use the land in return for a share of the crops produced on that land. Sharecropping is different from tenant farming, which provides the tenant greater autonomy, and higher economic and social status.
 - url: https://en.wikipedia.org/wiki/Quickening
   created: '2025-08-12T20:35:07Z'
   title: |
@@ -95,35 +95,35 @@
   image_url: 
   image_wh: 
   description: |
-    Moment in pregnancy when the pregnant woman starts to feel movement in the uterus
+    Moment in pregnancy when the mother starts to feel movement in the uterus
   extract: |
-    In pregnancy terms, quickening is the moment in pregnancy when the pregnant person starts to feel the fetus's movement in the uterus. It was believed in Ancient philosophy that the quickening marked the moment that a soul entered the fetus, termed ensoulment.
+    In pregnancy terms, quickening is the moment in pregnancy when the mother starts to feel the fetus's movement in the uterus. It was believed in ancient philosophy that the quickening marked the moment that a soul entered the fetus, termed ensoulment.
 - url: https://en.wikipedia.org/wiki/Ensoulment
   created: '2025-08-12T20:36:43Z'
   title: |
     Ensoulment
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/HumanEmbryogenesis.svg/330px-HumanEmbryogenesis.svg.png
-  image_wh: 320x250
+  image_url: 
+  image_wh: 
   description: |
-    Moment at which a being gains a soul
+    Moment a being is said to gain a soul
   extract: |
-    In religion and Ancient philosophy, ensoulment is the moment at which a human or other being gains a soul. Some belief systems maintain that a soul is newly created within a developing child; others, especially in religions that believe in reincarnation, believe that the soul is pre-existing and enters the body at a particular stage of development.
+    In religion and ancient philosophy, ensoulment is the moment at which a human or other being gains a soul. Some belief systems maintain that a soul is newly created within a developing child; others, especially in religions that believe in reincarnation, believe that the soul is pre-existing and enters the body at a particular stage of development.
 - url: https://en.wikipedia.org/wiki/As-salamu_alaykum
   created: '2025-08-12T21:20:16Z'
   title: |
     As-salamu alaykum
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Assalamu-aleykum-black.svg/330px-Assalamu-aleykum-black.svg.png
-  image_wh: 320x124
+  image_wh: 330x128
   description: |
     Arabic greeting
   extract: |
-    As-salamu alaykum, also written salamun alaykum and typically rendered in English as salam alaykum, is a greeting in Arabic that means 'Peace be upon you'. The salām has become a religious salutation for Muslims worldwide when greeting each other, though its use as a greeting predates Islam, and is also common among Arabic speakers of other religions.
+    As-salamu alaykum, also written salamun alaykum and typically rendered in English as salam alaykum, is a greeting in Arabic that means 'Peace be upon you'. The word salām has become a religious salutation for Muslims worldwide when greeting each other, though its use as a greeting predates Islam, and is also common among Arabic speakers of other religions, and speakers of languages with Arabic loanwords, such as Indian Christians in the northern Indian subcontinent who speak Hindi-Urdu.
 - url: https://en.wikipedia.org/wiki/Yigo,_Guam
   created: '2025-08-12T21:28:05Z'
   title: |
     Yigo, Guam
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cliff_%2817932862992%29.jpg/330px-Cliff_%2817932862992%29.jpg
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Village in Guam, United States
   extract: |
@@ -143,7 +143,7 @@
   title: |
     Japanese occupation of Guam
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/330px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png
-  image_wh: 320x224
+  image_wh: 330x231
   description: |
     1941–1944 occupation of Guam by Empire of Japan
   extract: |
@@ -153,7 +153,7 @@
   title: |
     Pacific Islands home front during World War II
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Streetscape_%28AM_78560-1%29.jpg/330px-Streetscape_%28AM_78560-1%29.jpg
-  image_wh: 320x240
+  image_wh: 330x247
   description: |
     Effects on Melanesia, Micronesia and Polynesia
   extract: |
@@ -163,17 +163,17 @@
   title: |
     Copra
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kerala_coconut.jpg/330px-Kerala_coconut.jpg
-  image_wh: 320x240
+  image_wh: 330x248
   description: |
     Dried meat or kernel of the coconut
   extract: |
-    Copra is the dried, white flesh of the coconut from which coconut oil is extracted. Traditionally, the coconuts are sun-dried, especially for export, before the oil, also known as copra oil, is pressed out. The oil extracted from copra is rich in lauric acid, making it an important commodity in the preparation of lauryl alcohol, soaps, fatty acids, cosmetics, etc. and thus a lucrative product for many coconut-producing countries. The palatable oil cake, known as copra cake, obtained as a residue in the production of copra oil is used in animal feeds. The ground cake is known as coconut or copra meal.
+    Copra is the dried, white flesh of the coconut from which coconut oil is extracted. Traditionally, the coconuts are sun-dried, especially for export, before the oil, also known as copra oil, is pressed out.
 - url: https://en.wikipedia.org/wiki/Beachhead
   created: '2025-08-12T21:54:49Z'
   title: |
     Beachhead
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Supplying_and_developing_the_beachhead.jpg/330px-Supplying_and_developing_the_beachhead.jpg
-  image_wh: 320x183
+  image_wh: 330x189
   description: |
     Temporary line created when a military unit reaches a landing beach by sea
   extract: |
@@ -183,17 +183,17 @@
   title: |
     Japanese holdout
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Japanese_holdout_soldiers_occupying_Bukittinggi.jpg/330px-Japanese_holdout_soldiers_occupying_Bukittinggi.jpg
-  image_wh: 320x239
+  image_wh: 330x247
   description: |
-    Imperial Japanese soldiers who kept fighting after the surrender of Japan in 1945
+    Soldiers who kept fighting post-WWII
   extract: |
-    Japanese holdouts were soldiers of the Imperial Japanese Army (IJA) and Imperial Japanese Navy (IJN) in the Pacific Theatre of World War II who continued fighting after the surrender of Japan at the end of the war for a variety of reasons. Japanese holdouts either doubted that Japan had surrendered, were not aware that the war had ended because communications had been cut off by Allied advances, feared they would be executed if they surrendered to Allied forces, or felt bound by honor and loyalty to never surrender.
+    Japanese holdouts were soldiers of the Imperial Japanese Army (IJA) and Imperial Japanese Navy (IJN) in the Pacific Theatre of World War II who continued fighting after the surrender of Japan at the end of the war for a variety of reasons. Japanese holdouts either doubted that Japan had surrendered, were not aware that the war had ended because communications had been cut off by Allied advances, feared they would be executed if they surrendered to Allied forces, or felt bound by honor and loyalty never to surrender.
 - url: https://en.wikipedia.org/wiki/War_in_the_Pacific_National_Historical_Park
   created: '2025-08-12T21:56:27Z'
   title: |
     War in the Pacific National Historical Park
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/View_of_Asan_Park_%28cropped%29.jpg/330px-View_of_Asan_Park_%28cropped%29.jpg
-  image_wh: 320x170
+  image_wh: 330x175
   description: |
     National Historical Park of the US
   extract: |
@@ -203,17 +203,17 @@
   title: |
     Battle of Guam (1944)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/First_flag_on_Guam_-_1944.jpg/330px-First_flag_on_Guam_-_1944.jpg
-  image_wh: 320x254
+  image_wh: 330x262
   description: |
     WWII battle in the Pacific theater between US and Japan
   extract: |
-    The Battle of Guam was the American recapture of the Japanese-held island of Guam, a U.S. territory in the Mariana Islands captured by the Japanese from the United States in the First Battle of Guam in 1941 during the Pacific campaign of World War II. The battle was a critical component of Operation Forager. The recapture of Guam and the broader Mariana and Palau Islands campaign resulted in the destruction of much of Japan's naval air power and allowed the United States to establish large airbases from which it could bomb the Japanese home islands with its new strategic bomber, the Boeing B-29 Superfortress.
+    The Battle of Guam was the American recapture of the Japanese-held island of Guam, an American territory in the Mariana Islands captured by the Japanese in the First Battle of Guam in 1941 during the Pacific campaign of World War II. The battle was a critical component of Operation Forager. The recapture of Guam and the broader Mariana and Palau Islands campaign resulted in the destruction of much of Japan's naval air power and allowed the United States to establish large airbases from which it could bomb the Japanese home islands with its new strategic bomber, the Boeing B-29 Superfortress.
 - url: https://en.wikipedia.org/wiki/Battle_of_Guam_(1941)
   created: '2025-08-12T22:19:29Z'
   title: |
     Battle of Guam (1941)
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Japan_Guam_Landing_1941.gif/330px-Japan_Guam_Landing_1941.gif
-  image_wh: 320x161
+  image_wh: 330x166
   description: |
     WWII Battle by Japanese forces to capture Guam from the United States
   extract: |
@@ -223,21 +223,21 @@
   title: |
     George Ray Tweed
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/George_Ray_Tweed.jpg/330px-George_Ray_Tweed.jpg
-  image_wh: 320x429
+  image_wh: 330x442
   description: |
     U.S. Navy radioman
   extract: |
-    George Ray Tweed was a decorated radioman in the United States Navy who served during World War II. He is most famous for evading Japanese capture for two years and seven months after the surrender of the U.S garrison on Guam in 1941.
+    George Ray Tweed was a decorated radioman in the United States Navy who served during World War II. He is most famous for evading Japanese capture for two years and seven months after the surrender of the U.S. garrison on Guam in 1941.
 - url: https://en.wikipedia.org/wiki/Chamorro_people
   created: '2025-08-12T22:23:51Z'
   title: |
     Chamorro people
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Chamorro_performers_%28cropped%29.jpg/330px-Chamorro_performers_%28cropped%29.jpg
-  image_wh: 320x332
+  image_wh: 330x342
   description: |
     Indigenous people of the Mariana Islands
   extract: |
-    The Chamorro people are the Indigenous people of the Mariana Islands, politically divided between the United States territory of Guam and the encompassing Commonwealth of the Northern Mariana Islands in Micronesia, a commonwealth of the US. Today, significant Chamorro populations also exist in several US states, including Hawaii, California, Washington, Texas, Tennessee, Oregon, and Nevada, all of which together are designated as Pacific Islander Americans according to the US census. According to the 2000 census, about 64,590 people of Chamorro ancestry live in Guam and another 19,000 live in the Northern Marianas.
+    The Chamorro people are the Indigenous people of the Mariana Islands, politically divided between the United States territory of Guam and the encompassing Commonwealth of the Northern Mariana Islands in Micronesia, a commonwealth of the US. Today, significant Chamorro populations also exist in several US states, including Hawaii, California, Washington, Texas, Tennessee, Oregon, and Nevada, all of which together are designated as Pacific Islander Americans according to the US census. According to the 2020 census, about 63,035 people with Chamorro ancestry live in Guam and another 17,163 live in the Northern Marianas. Among those, 50,420 identified as Chamorro alone in Guam and 12,001 in Northern Marianas.
 - url: https://en.wikipedia.org/wiki/History_of_Guam
   created: '2025-08-12T22:25:05Z'
   title: |
@@ -265,6 +265,6 @@
   image_url: 
   image_wh: 
   description: |
-    US War Plan against the Empire of Japan
+    US war plan against the Empire of Japan
   extract: |
-    War Plan Orange was a series of United States Joint Army and Navy Board war plans for dealing with a possible war with Imperial Japan during the years between the First and Second World Wars. It failed to foresee the significance of the technological changes to naval warfare, including the submarine, air support and aircraft carriers, and although the Battle of Midway was important, and the US Navy did "island-hop" to regain lost territory, there was no culminating "showdown" battle as anticipated by Plan Orange.
+    War Plan Orange was a series of United States Joint Army and Navy Board war plans for dealing with a possible war with Imperial Japan in the years between the First and Second World Wars. It failed to foresee the significance of technological changes in naval warfare, including the submarine, air support and aircraft carriers, and although the Battle of Midway was important, and the US Navy did "island-hop" to regain lost territory, there was no culminating "showdown" battle as anticipated by Plan Orange.

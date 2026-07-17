@@ -1,0 +1,105 @@
+#!/usr/bin/env ruby
+require 'yaml'
+require 'net/http'
+require 'json'
+require 'uri'
+
+WIKI_DATA_DIR = './_data/wiki'
+USER_AGENT = 'wiki-admin-alert-system@catskull.net'
+
+def encode_slug(slug)
+  slug.bytes.map { |b| b < 128 ? b.chr : format('%%%02X', b) }.join
+end
+
+def fetch_summary(slug)
+  uri = URI("https://en.wikipedia.org/api/rest_v1/page/summary/#{encode_slug(slug)}")
+  req = Net::HTTP::Get.new(uri)
+  req['Accept'] = 'application/json; charset=utf-8; profile="https://www.mediawiki.org/wiki/Specs/Summary/1.4.2"'
+  req['User-Agent'] = USER_AGENT
+
+  res = Net::HTTP.start(uri.host, uri.port, use_ssl: true) { |http| http.request(req) }
+  return nil unless res.is_a?(Net::HTTPSuccess)
+
+  JSON.parse(res.body)
+end
+
+def slug_for(url)
+  url.split('https://en.wikipedia.org/wiki/')[1]&.strip
+end
+
+def block_lines(text)
+  text.to_s.sub(/\n+\z/, '').split("\n", -1).map { |line| "    #{line.rstrip}" }.join("\n")
+end
+
+def format_entry(entry)
+  <<~YAML.chomp
+    - url: #{entry['url']}
+      created: '#{entry['created']}'
+      title: |
+    #{block_lines(entry['title'])}
+      image_url: #{entry['image_url']}
+      image_wh: #{entry['image_wh']}
+      description: |
+    #{block_lines(entry['description'])}
+      extract: |
+    #{block_lines(entry['extract'])}
+  YAML
+end
+
+files = Dir.glob(File.join(WIKI_DATA_DIR, '*.yml')).sort
+
+total_updated = 0
+total_entries = 0
+failed = []
+
+files.each do |path|
+  entries = YAML.load_file(path)
+  next unless entries.is_a?(Array)
+
+  file_changed = false
+
+  entries.each do |entry|
+    total_entries += 1
+    url = entry['url'].to_s
+
+    begin
+      slug = slug_for(url)
+      unless slug
+        failed << [url, 'could not extract slug from url']
+        next
+      end
+
+      print "[#{File.basename(path)}] #{slug} ... "
+
+      json = fetch_summary(slug)
+      unless json
+        puts "FAILED"
+        failed << [url, 'non-success HTTP response']
+        next
+      end
+
+      entry['title'] = json['title']
+      entry['image_url'] = json.dig('thumbnail', 'source') || ''
+      entry['image_wh'] = json['thumbnail'] ? "#{json['thumbnail']['width']}x#{json['thumbnail']['height']}" : ''
+      entry['description'] = json['description'] || ''
+      entry['extract'] = json['extract'] || ''
+
+      file_changed = true
+      total_updated += 1
+      puts "OK"
+    rescue StandardError => e
+      puts "ERROR"
+      failed << [url, "#{e.class}: #{e.message}"]
+    end
+
+    sleep 0.2
+  end
+
+  File.write(path, "#{entries.map { |e| format_entry(e) }.join("\n")}\n") if file_changed
+end
+
+puts "\nUpdated #{total_updated}/#{total_entries} entries across #{files.size} files."
+if failed.any?
+  puts "Failed to update #{failed.size} entries:"
+  failed.each { |url, reason| puts "  - #{url} (#{reason})" }
+end

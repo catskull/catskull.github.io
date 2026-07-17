@@ -3,7 +3,7 @@
   title: |
     Scout Motto
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Badge_and_pin_%28AM_626443-2%29_%28cropped%29.jpg/330px-Badge_and_pin_%28AM_626443-2%29_%28cropped%29.jpg
-  image_wh: 320x492
+  image_wh: 330x507
   description: |
     Motto of the Scout movement
   extract: |
@@ -17,4 +17,4 @@
   description: |
     Software genre
   extract: |
-    Interactive fiction (IF) is software simulating environments in which players use text commands to control characters and influence the environment. Works in this form can be understood as literary narratives, either in the form of Interactive narratives or Interactive narrations. These works can also be understood as a form of video game, either in the form of an adventure game or role-playing game. In common usage, the term refers to text adventures, a type of adventure game where the entire interface can be "text-only", however, graphical text adventure games, where the text is accompanied by graphics still fall under the text adventure category if the main way to interact with the game is by typing text. Some users of the term distinguish between interactive fiction, known as "Puzzle-free", that focuses on narrative, and "text adventures" that focus on puzzles.
+    Interactive fiction (IF) is software simulating environments in which players use text commands to control characters and influence the environment. Works in this form can be understood as literary narratives, either in the form of interactive narratives or interactive narrations. These works can also be understood as a form of video game, either in the form of an adventure game or role-playing game. In common usage, the term refers to text adventures, a type of adventure game where the entire interface can be "text-only", however, graphical text adventure games, where the text is accompanied by graphics still fall under the text adventure category if the main way to interact with the game is by typing text. Some users of the term distinguish between interactive fiction, known as "puzzle-free", that focuses on narrative, and "text adventures" that focus on puzzles.

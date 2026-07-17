@@ -3,7 +3,7 @@
   title: |
     Dave Van Ronk
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Dave_Van_Ronk.jpg/330px-Dave_Van_Ronk.jpg
-  image_wh: 320x480
+  image_wh: 330x495
   description: |
     American folk musician (1936–2002)
   extract: |
@@ -13,7 +13,7 @@
   title: |
     Tullamore Dew
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Tullamore_DEW_Legendary_Logo.jpg/330px-Tullamore_DEW_Legendary_Logo.jpg
-  image_wh: 320x217
+  image_wh: 330x223
   description: |
     Brand of Irish whiskey
   extract: |
@@ -23,7 +23,7 @@
   title: |
     IRC
   image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tolsun_2.jpg/330px-Tolsun_2.jpg
-  image_wh: 320x442
+  image_wh: 330x456
   description: |
     Protocol for real-time Internet chat and messaging
   extract: |
@@ -32,8 +32,8 @@
   created: '2025-07-16T17:31:23Z'
   title: |
     XMPP
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/XMPP_logo.svg/320px-XMPP_logo.svg.png
-  image_wh: 320x320
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/XMPP_logo.svg/330px-XMPP_logo.svg.png
+  image_wh: 330x330
   description: |
     Communications protocol for message-oriented middleware
   extract: |
