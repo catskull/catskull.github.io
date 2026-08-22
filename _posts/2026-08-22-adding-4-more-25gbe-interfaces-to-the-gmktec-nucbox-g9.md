@@ -5,48 +5,48 @@ date: 2026-08-22 11:33:32 -0600
 layout: post
 ---
 
-TL;DR: I added 4x Intel I226-V 2.5GbE network cards to my NucBox G9. You can do it too. [Download the files and print them yourself.](https://www.printables.com/model/1816330-gmktec-nucbox-g9-4x-nvme-nic)
+TL;DR: I added 4x Intel I226-V 2.5GbE network cards to my NucBox G9. You can do it too. {% include external_link.html href="https://www.printables.com/model/1816330-gmktec-nucbox-g9-4x-nvme-nic" text="Download the files and print them yourself." %}
 
 ## Backstory
 
 A few months ago, [I blogged about using an Intel n150 based mini PC as my home router running OpenWrt](/quantum-fiber-with-openwrt-on-a-gmktec-nucboxg9.html). Since then, I'm happy to report that it has been perfectly reliable[^1].
 
-However, the NucBox G9 [runs notoriously hot](https://www.jeffgeerling.com/blog/2025/almost-perfect-mini-nas-my-mini-rack/) with NVMe drives installed. Even without any hot NVMe drives installed, I'd describe the overall thermal situation as "not great, not terrible". I haven't had any specific issues since OpenWrt is about as light of a load as I could possibly run on it. My unit stays at about 50°C, which is wonderful. What worried me is the 64GB of onboard eMMC storage.
+However, the NucBox G9 {% include external_link.html href="https://www.jeffgeerling.com/blog/2025/almost-perfect-mini-nas-my-mini-rack/" text="runs notoriously hot" %} with NVMe drives installed. Even without any hot NVMe drives installed, I'd describe the overall thermal situation as "not great, not terrible". I haven't had any specific issues since OpenWrt is about as light of a load as I could possibly run on it. My unit stays at about 50°C, which is wonderful. What worried me is the 64GB of onboard eMMC storage.
 
 As far as I understand, eMMC is almost exactly a glorified SD card soldered to the board. And if my experience with SD cards, specifically my experience booting computers off of them, is any indication, it would not be very reliable. Adding to my fear was one user's experience of the eMMC failing after 6 months. Of course I could always boot it off an NVMe or SATA m.2 SSD, or even a USB stick. But the router is the main artery of my entire network and trying to scramble downloading and flashing an OS while my network is down sounds like a horror story I'd like to avoid.
 
-The NucBox is also a victim of it's own success for me too. I really love it and it is perfect for my home router. The issue is that these mini PC manufacturers have an approximately 2-week product lifecycle and the G9 is over a year old at this point. In other words - it's ancient history. There were a handful available on eBay back in May when I first purchased it, but since then the supply has completely dried up. There are replacement models available but thanks to the RAMpocalypse, the prices are outrageous and none of them are an exact drop in replacement for the N150 G9 and it's Intel NICs.
+The NucBox is also a victim of its own success for me too. I really love it and it is perfect for my home router. The issue is that these mini PC manufacturers have an approximately 2-week product lifecycle and the G9 is over a year old at this point. In other words - it's ancient history. There were a handful available on eBay back in May when I first purchased it, but since then the supply has completely dried up. There are replacement models available but thanks to the RAMpocalypse, the prices are outrageous and none of them are an exact drop in replacement for the N150 G9 and it's Intel NICs.
 
 {% include figure.html
 	src="assets/images/posts/adding-4-more-25gbe-interfaces-to-the-gmktec-nucbox-g9/ebay.png"
-	alt="Screenshot of the ebay purchase for the G9"
+	alt="Screenshot of the eBay purchase for the G9"
 	caption="Great price!"
 %}
 
-I decided to try and get ahead of any potential hardware failures and procure a spare G9. I set up an eBay alert and mostly forgot about it. One morning I woke up to an email saying a G9 had been listed for $150 buy it now with free shipping. Even less than the $180 I paid for my original unit! A miracle! Sure, it had been "used", the seller's description said they'd been running it as an NVMe NAS but it just wasn't sustainable, especially now that NVMe drives have also succumbed the the AI apocalypse. For my purposes, it was perfect.
+I decided to try and get ahead of any potential hardware failures and procure a spare G9. I set up an eBay alert and mostly forgot about it. One morning I woke up to an email saying a G9 had been listed for $150 buy it now with free shipping. Even less than the $180 I paid for my original unit! A miracle! Sure, it had been "used", the seller's description said they'd been running it as an NVMe NAS but it just wasn't sustainable, especially now that NVMe drives have also succumbed to the AI apocalypse. For my purposes, it was perfect.
 
 
 ## Adding the NICs
 
 Once I had the replacement unit in hand, the first thing I did was guillotine the horrific [standards violating USB-C power adapter](/quantum-fiber-with-openwrt-on-a-gmktec-nucboxg9.html#:~:text=It%20comes%20with%20a%20USB%2DC%20power%20adapter%20that%20outputs%20a%20constant%2019%20volts%20always.%20That%20is%20a%20huge%20spec%20violation%20and%20would%20very%20likely%20result%20in%20ruining%20whatever%20you%20plug%20it%20into%20that%20isn’t%20the%20NucBoxG9.).
 
-Then, I turned my attention to my dream of adding a few more 2.5GbE NICs to it. Why? As I mentioned previously, redundant ISP connections is something I might possibly do in the future, but if I'm being honest it was mostly just because I thought it would be cool. At $25 a pop with two day shipping, they fell into this extremely dangerous territory where your project becomes a series of impulse purchases and the sunk costs fallacy snowballs with each one. I just thought it would be cool, okay?
+Then, I turned my attention to my dream of adding a few more 2.5GbE NICs to it. Why? As I mentioned previously, redundant ISP connections are something I might possibly do in the future, but if I'm being honest it was mostly just because I thought it would be cool. At $25 a pop with two day shipping, they fell into this extremely dangerous territory where your project becomes a series of impulse purchases and the sunk cost fallacy snowballs with each one. I just thought it would be cool, okay?
 
 {% include figure.html
 	src="assets/images/posts/adding-4-more-25gbe-interfaces-to-the-gmktec-nucbox-g9/adapter.jpg"
-	alt="Amazon product photo of the m.2 intel NIC"
+	alt="Amazon product photo of the m.2 Intel NIC"
 	caption="What a curious bit of kit"
 %}
 
-I bought two m.2 B+M key I226-V adapters and plugged them in, ethernet ports dangling off the back. I fired a fresh copy of Alpine, my Linux of choice, and was pleased to see they "just worked". I did some rudimentary throughput tests between NICs and was pleased to see I was getting more or less the full 2.5Gb throughput.
+I bought two m.2 B+M key I226-V adapters and plugged them in, ethernet ports dangling off the back. I fired up a fresh copy of Alpine, my Linux of choice, and was pleased to see they "just worked". I did some rudimentary throughput tests between NICs and was pleased to see I was getting more or less the full 2.5Gb throughput.
 
 The next step was figuring out some kind of mounting solution. My 3D design skills are about a 0.1/10, so the project stopped there for a few weeks. I left everything on my desk, and several times a day I'd just stare at the gear, fiddle with it in my hands, and just kind of wonder about how it all could work.
 
-The G9 is essentially an aluminum center rail with plastic top and bottom plates. The screws are phillips and fully exposed. Very inviting for my iFixit screwdriver kit. The m.2 slots are on the bottom of the kit and that's the first panel that needs to come off to disassemble the unit. Once I removed the bottom panel, I realized that the geometry was actually fairly simple and some kind of replacement bottom panel wouldn't be insane to design to bolt on just like the OEM bottom panel. The mounting screws for the m.2 drives is integrated into the OEM bottom panel, which would complicate things, but still, it seemed simple. Yet still out of reach to me. The mere thought of downloading Fusion and logging in fills me with dread.
+The G9 is essentially an aluminum center rail with plastic top and bottom plates. The screws are phillips and fully exposed. Very inviting for my iFixit screwdriver kit. The m.2 slots are on the bottom of the kit and that's the first panel that needs to come off to disassemble the unit. Once I removed the bottom panel, I realized that the geometry was actually fairly simple and some kind of replacement bottom panel wouldn't be insane to design to bolt on just like the OEM bottom panel. The mounting screws for the m.2 drives are integrated into the OEM bottom panel, which would complicate things, but still, it seemed simple. Yet still out of reach to me. The mere thought of downloading Fusion and logging in fills me with dread.
 
 ## Claude CAD
 
-Then, one day as I pondered the whole idea some more, I realized surely someone would have designed a bottom shell for it. It's niche, but the fact that it is all but unusable with the stock bottom case and cooling creates quite a bit of motivation for fellow nerds to do something about it. One google search later, I came to [an excellent kit on the Printables site](https://www.printables.com/model/1277978-gmktec-nucbox-g9-modkit) from user "sleeeeeepy". It did exactly what I had envisioned in my head. A full replacement for the bottom shell with variations for some different fan sizes that would blow directly onto the NVMe drives. It was about 90% of what I needed to realize my dream!
+Then, one day as I pondered the whole idea some more, I realized surely someone would have designed a bottom shell for it. It's niche, but the fact that it is all but unusable with the stock bottom case and cooling creates quite a bit of motivation for fellow nerds to do something about it. One google search later, I came to {% include external_link.html href="https://www.printables.com/model/1277978-gmktec-nucbox-g9-modkit" text="an excellent kit on the Printables site" %} from user "sleeeeeepy". It did exactly what I had envisioned in my head. A full replacement for the bottom shell with variations for some different fan sizes that would blow directly onto the NVMe drives. It was about 90% of what I needed to realize my dream!
 
 So close, yet still so far. I still wasn't willing to download Fusion. The print files were distributed as 3MF which is a format I was not familiar with. At work they give me a Claude account so I've gotten pretty good at being stupid enough to let it help me with things. Enough so that I reactivated my personal Claude account. So I turned to Claude to give me an idiot's guide to what a 3MF is. Obviously it's file format that describes 3D models. I was informed it was literally a zip file with some XML inside, like any good file format is. I mean, if there's one thing an LLM is good at it's parsing and creating text files, and at the end of the day XML is just text. So I wondered, could Claude modify the 3D file for me? I had heard not to trust an LLM to do math, and this would be quite a bit of math. I was shocked that it went through it like sliced butter. It burned a lot of tokens as it worked, but it never broke anything. I was measuring things with my digital calipers and feeding dimensions into Claude, working one step at a time through the modifications.
 
@@ -58,11 +58,11 @@ First I added 4 holes for the jacks to sit in. Then I added a mounting rail so I
 	caption="I need some space"
 %}
 
-There was a small issue with clearance for some of the through-hole components, so I had Claude redesign to give more clearance. Another test print and it seemed it it was totally good to go. A few more impulse purchases sent threaded inserts, fans, and two more NICs my direction.
+There was a small issue with clearance for some of the through-hole components, so I had Claude redesign to give more clearance. Another test print and it seemed it was totally good to go. A few more impulse purchases sent threaded inserts, fans, and two more NICs my direction.
 
 {% include figure.html
 	src="assets/images/posts/adding-4-more-25gbe-interfaces-to-the-gmktec-nucbox-g9/clearance fixed.png"
-	alt="clerance issues fixed and front test print with two jacks mounted into the g9 case"
+	alt="clearance issues fixed and front test print with two jacks mounted into the g9 case"
 	caption="We have clearance, Clarence"
 %}
 
@@ -73,7 +73,7 @@ The next day I realized that there probably wasn't enough clearance to actually 
 	alt="PCB mounting rail separated next to the original test front panel with the rail printed in place"
 %}
 
-I also switched from PLA to PETG because I hear that PETG will do better long term in hot-ish environments like a computer. Once I verified the mounting rail looked good, I fired off the big print for the bulk of the enclosure. I think it took about 8 hours and I'm not going to publicly admit how many of those hours I spent just staring at the printer do it's thing. Am I the only one who is mesmerized by watching a 3D printer print? My kids even joined in for some of it, we stared at it together and it was fun.
+I also switched from PLA to PETG because I hear that PETG will do better long term in hot-ish environments like a computer. Once I verified the mounting rail looked good, I fired off the big print for the bulk of the enclosure. I think it took about 8 hours and I'm not going to publicly admit how many of those hours I spent just staring at the printer do its thing. Am I the only one who is mesmerized by watching a 3D printer print? My kids even joined in for some of it, we stared at it together and it was fun.
 
 ## Long term Prusa MK3 review
 
@@ -89,7 +89,7 @@ I installed the threaded inserts and then glued the mounting rail into place. I 
 	caption="Nicely glued!"
 %}
 
-The last tricky step was adapting the Noctua fans to the 4 pin SH1.0 JST connectors the stock fans use. I'm pretty slick with a soldering iron if I do say so myself, but soldering two bare wires together is still hard. I'd way rather solder a wire to a PCB than a wire to another wire. I even slightly tore down a Noctua fan to see if I could desolder the built in wires and solder the new connector directly to the PCB, but that's not possible. In the end, I got it without too much trouble. I even verified the PWM and RPM sensors work. Technically you could get away with only using the 5V and GND pins, the fan would just run at full speed all the time, which for as quiet as the Noctua fans are, wouldn't be a problem. I was just slightly mindful of the fact that running a fan at 100% all the time might reduce it's lifespan from 100 years to only 50.
+The last tricky step was adapting the Noctua fans to the 4 pin SH1.0 JST connectors the stock fans use. I'm pretty slick with a soldering iron if I do say so myself, but soldering two bare wires together is still hard. I'd way rather solder a wire to a PCB than a wire to another wire. I even slightly tore down a Noctua fan to see if I could desolder the built in wires and solder the new connector directly to the PCB, but that's not possible. In the end, I got it without too much trouble. I even verified the PWM and RPM sensors work. Technically you could get away with only using the 5V and GND pins, the fan would just run at full speed all the time, which for as quiet as the Noctua fans are, wouldn't be a problem. I was just slightly mindful of the fact that running a fan at 100% all the time might reduce its lifespan from 100 years to only 50.
 
 {% include figure.html
 	src="assets/images/posts/adding-4-more-25gbe-interfaces-to-the-gmktec-nucbox-g9/fans and jacks mounted.png"
@@ -127,11 +127,11 @@ My goal with the entire project was to have a hot spare ready to go in a moment'
 
 Initially, I had the live router backing up it's config files to my NAS nightly. The plan would be to reflash fresh OpenWrt and then apply the configs to it. That was better than nothing, but still didn't feel like it would be very fast in the case of an emergency such as the router dying in the middle of a work day. And now that I had an actual spare on hand, I could do a live test.
 
-What I decided to do instead was have the live router do a complete backup of the filesystem with `dd`, then `gzip` it and store it on my NAS. Because OpenWrt only uses about 128MB of the disk space, and that 128MB compresses very nicely down to just about 17MB, this was a very reasonable option and also the most bullet proof. I have the script doing daily backups and I store daily backups for the past week, weekly backups for the last months, and monthly backups for the last year. I also have the backup folder rsync'ed to some off site storage as well.
+What I decided to do instead was have the live router do a complete backup of the filesystem with `dd`, then `gzip` it and store it on my NAS. Because OpenWrt only uses about 128MB of the disk space, and that 128MB compresses very nicely down to just about 17MB, this was a very reasonable option and also the most bullet proof. I have the script doing daily backups and I store daily backups for the past week, weekly backups for the last month, and monthly backups for the last year. I also have the backup folder rsync'ed to some off site storage as well.
 
 From there, I installed Alpine onto a thumb drive and set up a script that auto runs on boot that will pull the latest backup from the NAS and flash it to the internal eMMC drive. This whole process takes about 2 minutes from cold boot into Alpine to cold boot into the freshly backed up OpenWrt. The BIOS will boot from the USB drive first, so any time it boots it clones itself to the live router. Then if I need to swap boxes, I just pull the USB drive out and it's ready to go.
 
-There's a small detail I'll skip over in order to make sure the WAN port is always the same physical jack location on the hardware. In Linux, interface name (eth0) is assigned in the order the interface is detected, so they're generally stable on the same system but not necessarily deterministic between OS installs and hardware. There's a small OpenWrt boot script that assigns WAN to one of two MAC addresses (one for each box). The other interfaces are all LAN.
+There's a small detail I'll skip over in order to make sure the WAN port is always the same physical jack location on the hardware. In Linux, interface names (eth0) are assigned in the order the interface is detected, so they're generally stable on the same system but not necessarily deterministic between OS installs and hardware. There's a small OpenWrt boot script that assigns WAN to one of two MAC addresses (one for each box). The other interfaces are all LAN.
 
 
 ## Closing thoughts
@@ -140,7 +140,7 @@ It's been a fun project to work on. For whatever reason, having a rock solid hom
 
 If I did it again, I might consider using the one m.2 slot in the NucBox that is able to take an m.2 SATA SSD as the boot drive and removing the built in m.2 A+E key WiFi card and putting 3x B+M key NICs and one A+E NIC. I'm a little torn there, since the ability to use the NucBox to also broadcast a WiFi network or possibly connect to a mobile hotspot for WAN failover is mildly appealing.
 
-If you want to try this yourself, you can find the files and bill of materials on the [Printables page](https://www.printables.com/model/1816330-gmktec-nucbox-g9-4x-nvme-nic).
+If you want to try this yourself, you can find the files and bill of materials on the {% include external_link.html href="https://www.printables.com/model/1816330-gmktec-nucbox-g9-4x-nvme-nic" text="Printables page" %}.
 
 
 [^1]: Except the one time after an OpenWrt upgrade when the WAN only negotiated 100MbE on reboot and I didn't notice for a week. Restarting the interface solved the issue.
