@@ -31,23 +31,21 @@
 - name: Development
   children:
     - name: SF Mono
-    - name: rv
-      url: https://github.com/spinel-coop/rv/
     - name: GitHub Desktop
       url: https://desktop.github.com/
     - name: Ghostty
       url: https://ghostty.org
     - name: Sublime Text
       url: https://www.sublimetext.com/index2
-    - name: fnm
-      url: https://github.com/Schniz/fnm
     - name: GNU Nano
     - name: htop
-    - name: Trasmit
-      url: https://panic.com/transmit/
     - name: Safari
     - name: fzf
       url: https://github.com/junegunn/fzf
+    - name: mise
+      url: https://mise.jdx.dev
+    - name: Claude Code
+      url: https://claude.com/product/claude-code
 - name: Creative
   children:
     - name: Final Cut Pro
