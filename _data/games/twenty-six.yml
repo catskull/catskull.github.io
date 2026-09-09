@@ -561,7 +561,7 @@
     At its core, 2x is just 2. There are a few nice add-ons like a balance meter for grinds and upscaled graphics. Unfortunately there is motion blur enabled by default which is not good, but it can be disabled. In addition to all the levels of 2, there are a handful of 2x exclusive levels that are not great. Finally, the entire career of THPS 1 can be played, which is nice to have but as I mentioned before, not really worth playing on its own.
 
     So yeah, if you're going to spend time on THPS 2, do yourself a favor and set up an OG Xbox (or even Xemu) and play this version of it. It's the best.
-  date: 8/7/26
+  date: 9/7/26
   wiki: https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2x
 
 - title: Tony Hawk's Pro Skater 2
@@ -573,6 +573,16 @@
   text: Okay... I just had to know if the Xbox version was _really_ definitive. I'd say yes, it is with one small caveat. The menu on the DC version matches the original menu and I think it's slightly superior in some way. Beyond that, the Xbox version is better in every way. I also prefer the Xbox controller slightly to the Dreamcast controller. For some reason I had a little bit more challenge with the DC version, not sure if there are slight mechanics adjustments, or if it really is simply the controller. As fun as it ever was.
   date: 9/7/26
   wiki: https://en.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2
+
+- title: Pokémon FireRed 
+  platform: Game Boy Advance
+  developer: Game Freak
+  publisher: Nintendo
+  year: 2004
+  image: /public/media/posts/games/2026/onix.png
+  text: Sam played FireRed on his Switch, I think it was his first Pokémon game. He was complaining that he had made it to the Elite Four but couldn't beat them and didn't feel like grinding to be able to. I mentioned that it was kind of frustrating that some Pokémon in the game just always sucked no matter what, like Onix. Jared took that as a challenge to do an only Onix run. I took his challenge as a challenge and decided to give it a shot myself. Jared cooked up some script to patch the game with only Onix as a starter. The rival's choice would be consistent though, so I chose what would have been Squirtle to make my rival have Charmander. This game Onix an advantage. I also made heavy use of fast forward and save states. Onix is super weak and can easily be one-shotted by both grass and water type moves. This was most noticeable during the Misty fight and then again during the Elite Four with both Lorelei's Slowbro (surf) and the rival's Eggxecutor (Leech Seed). In fact I initially thought that both the Misty fight and the final rival fight would be impossible. To solve the Misty problem, I used an X Defend and an X Attack during her Staryu which let me survive a single Water Pulse and then I could easily one-shot it. For the Rival, I had to cheat a bit more. My Onix learned Rock Slide which has a chance to cause a flinch. I had to save scum until the Eggxecutor flinched enough times to defeat it. If I were playing without save states, that fight might have actually been impossible, at least not without an ungodly amount of both patience and luck. My Onix was level 89 and I don't think grinding to anything higher would have made a difference. I opted to skip the post-game content. I will say that playing the game with an "I don't even give an eff" attitude was pretty fun. Legendary birds? One-shotted. Master Ball? Thrown away. I actually think this was my first time beating FireRed. I've played Red a lot though, and mostly appreciate the updates.
+  date: 9/9/26
+  wiki: https://en.wikipedia.org/wiki/Pokémon_FireRed_and_LeafGreen
 
 - title: 
   platform: 
