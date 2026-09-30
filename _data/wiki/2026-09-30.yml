@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Camino_(web_browser)
+  created: '2026-09-30T20:40:50Z'
+  title: |
+    Camino (web browser)
+  image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Camino_screenshot.png/330px-Camino_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+  image_wh: 330x244
+  description: |
+    Discontinued open-source web browser
+  extract: |
+    Camino is a discontinued free, open source, GUI-based Web browser based on Mozilla's Gecko layout engine and specifically designed for the OS X operating system. In place of an XUL-based user interface used by most Mozilla-based applications, Camino used Mac-native Cocoa APIs. On May 30, 2013, the Camino Project announced that the browser is no longer being developed.
