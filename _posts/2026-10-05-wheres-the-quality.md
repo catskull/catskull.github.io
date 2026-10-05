@@ -1,0 +1,28 @@
+---
+title: Where's the quality?
+tags: [rant, AI]
+date: 2026-10-05 15:36:39 -0600
+layout: post
+---
+Just over a year ago, I resigned from my position as a staff software engineer and left the industry for about 6 months, during which I substitute taught public schools. It was a great break and much needed after building a startup from 5 to 50 engineers and taking another one through an acquisition.
+
+In February I accepted a software engineering position and I've enjoyed it. However, the company is very much "in" on "AI"[^2], as it seems most every company is these days, so I've been making heavy use of my company provided Claude Code plan. In fact, I rarely even open my text editor anymore. Most of the code I read is in my git client and our git host. I would say I'm roughly the equivalent of a really good quality assurance engineer[^1]. I spend most of my time reviewing Claude's code, reviewing team member's pull requests that were also written in Claude Code, and manually testing mine and my team member's work. I think I _probably_ get more "done" than I did before the AIpocalypse, which is probably a good thing.
+
+However, I still have one lingering question. If the AI tools are truly miraculous, why isn't the quality of software getting better? Is it getting better and I'm just not noticing it? For example, is there a product or service that is fundamentally more functional than it was 5 years ago? Is there a company that is able to leverage AI to create higher quality products? It's clear that we're shipping _more_ software than perhaps we ever have, but it also feels like the overall quality of the shipped code is probably _lower_ than the average quality was before AI.
+
+You would perhaps think that the companies developing and shipping the AI tools would be some of the best examples of what AI coding can really do, but even they seem to not be able to maintain uptimes or ship updates that are free of breaking bugs. Call me jaded, but I think the current version of Windows might be the worst Microsoft has ever shipped. If I'm being completely honest, macOS, iOS, etc. are not far behind. I recently acquired an iPhone 4 running iOS 6 and I was taken aback at how well it runs. Where is the "year of the Linux Desktop" distro at? What are we spending all these tokens on, really? I'm genuinely asking. If you have an example of software that you feel is fundamentally better than what we've had before, please email me or leave a reply to let me know.
+
+For me, the best part of the AI tools is the fun random stuff. Claude is really good at ssh'ing into some linux box and doing some boutique one-off task. For example, one of my hobbies is buying random old routers from the thrift store, cracking them open, hooking up to the UART serial port, and poking around. Claude was really good at getting into u-boot and even compiling some custom code to make the LEDs blink. It was fun! But it was also basically useless beyond the fun.
+
+In response to a reader asking me about "vibe coding", [I pointed out that commodification of code is not new](https://catskull.net/re-opinions-about-vibe-coding.html). Offshoring to the cheapest contractor available has been a thing for at least 30 years, and the age-old adage "you get what you pay for" very much applies. AI tokens are probably still cheaper than the cheapest contractor on Fiverr ever was, and honestly the quality is probably better than the cheap contractor. But that's a pretty low bar to shoot for.
+
+Instead, I think we should shoot for software excellence. I believe in all aspects of life we should strive to be virtuous. Admittedly I am an Eagle Scout so maybe I was just indoctrinated into a false worldview, but I strongly believe that anything good or worthwhile in this world is the result of someone caring, working hard, and doing what is morally right.
+
+As software engineers, we must be filled with empathy for the end users, even when the business is not. We must find ways to deliver quality as well as the speed and feature set demanded by the market. In my opinion, this has always been the literal definition of "engineering". Technicians simply follow instructions. Artists imagine a world where there are no constraints. Engineering is somewhere in the middle. We take real world constraints, demands of the customer and business, and use our ingenuity and creativity to deliver something incredible that we are proud of even when nobody else cares or notices. Something "insanely great" as the great poet used to say.
+
+[I've talked before about the "curse" of being a software developer](https://catskull.net/how-i-compute-2026.html#:~:text=Conclusion-,The%20amount%20of%20software,in%20a%20big%20machine). Perhaps this all is just born out of some existential guilt, knowing I'm responsible for potentially ruining someone's day because of a bug I shipped. As much as possible, I want to write software that delights and improves lives. I don't want to build bad systems that become a kind of prison for the end user, a system they are forced to live in.
+
+In the age of AI, where code has never been cheaper and easier to produce, we should refocus our industry on quality. We should put an end to "move fast and break things" because we can. We can move fast, and ship high quality products that enhance our community. We should strive for excellence in our work.
+
+[^2]: I don't actually believe we're anywhere close to "artificial intelligence", but I'll call LLM tools "AI" just because that's the common vernacular these days.
+[^1]: I never really understood why we call QA folks "engineers" since in my experience most of them just do manual testing.
