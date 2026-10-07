@@ -13,7 +13,7 @@ So nice is in the eye of the beholder? I suppose the golden rule is "Treat other
 For example "Dave I think you are cool." My initial response would be "hahaha why". But how does that person want me to respond? Assuming they're being sincere, I might put a big smile on my face and say "Wow! That's so nice of you to say!"
 
 {% include figure.html
-	src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leonardo_da_Vinci_043-mod.jpg/500px-Leonardo_da_Vinci_043-mod.jpg"
+	src="/assets/images/posts/its-cool-to-be-nice/Leonardo_da_Vinci_043-mod.jpg"
 	alt="A detail of the mona lisa's smile"
 	caption="legendary smile reel pull era"
 	right=1 
@@ -42,7 +42,7 @@ Still feel like this is impossible? Literally just pretend. Cosplay as someone w
 As a young lad, I had a bad case of the rhotacism which is to say I couldn't properly pronounce my "R's". In about second grade the school put me in the speech therapy which was pretty cool because I got to go with the cutest girl in my class and it was just us two with the teacher usually. We just did strange tongue exercises which sounds strange, but within a few months I suddenly gained the ability to talk normally. If I got one thing from my public school experience it was that ability. I was very self-conscious about it. As an aside, my son also suffered and he somehow fixed it on his own. I told him to just do tongue exercises and drink milkshakes with the curly straws and it works itself out on it's own. I know in other cases it can be caused by more neurological issues but I think there must just be something a little funky about my oral structure that causes this genetically.
 
 {% include figure.html
-	src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Descartes_mind_and_body.gif/485px-Descartes_mind_and_body.gif"
+	src="/assets/images/posts/its-cool-to-be-nice/Descartes_mind_and_body.gif"
 	alt="Drawing supposing the function of the pineal gland from 'Treatise of Man' by René Descartes (1596-1650)."
 	caption="The Mind-Body Problem"
 	right=1
@@ -74,7 +74,7 @@ That's all I have for today! I think _you_ can be nice to people and it will mak
 
 I love this painting titled _God Speed_ by Edmund Leighton, 1900.
 
-![God Speed](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Leighton-God_Speed%21.jpg/500px-Leighton-God_Speed%21.jpg)
+![God Speed](/assets/images/posts/its-cool-to-be-nice/Leighton-God_Speed!.jpg)
 
 
 
