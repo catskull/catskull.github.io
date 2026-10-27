@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Segment_display
+  created: '2026-10-27T15:46:18Z'
+  title: |
+    Segment display
+  image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Digital_clock_changing_numbers.jpg/330px-Digital_clock_changing_numbers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+  image_wh: 330x116
+  description: |
+    Electronic display device for displaying digits and some letters
+  extract: |
+    A segment display is a display device comprising several segments, which switch on and off to give the appearance of digits or alphanumeric characters. The segments are usually single LEDs or liquid crystals. Segment displays are often used in digital watches and pocket calculators. Common types include seven-segment displays and alphanumeric fourteen-segment displays and sixteen-segment displays.
