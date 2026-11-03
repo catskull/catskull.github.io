@@ -1,0 +1,10 @@
+- url: https://en.wikipedia.org/wiki/Turing_completeness
+  created: '2026-11-03T00:39:23Z'
+  title: |
+    Turing completeness
+  image_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/OTCA_metapixel.gif/330px-OTCA_metapixel.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+  image_wh: 330x329
+  description: |
+    Ability of a computing system to simulate Turing machines
+  extract: |
+    In computability theory, a system of data-manipulation rules is said to be Turing-complete or computationally universal if it can be used to simulate any Turing machine. This means that this system is able to recognize or decode other data-manipulation rule sets. Turing completeness is used as a way to express the power of such a data-manipulation rule set. Virtually all programming languages today are Turing-complete.
