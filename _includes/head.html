@@ -21,8 +21,12 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="me" href="https://mastodon.social/@dareelcatskull">
   <meta name="fediverse:creator" content="@dareelcatskull@mastodon.social">
-  {% if page.og_image %}
-  <meta property="og:image" content="{{ site.url }}{{ site.image_prefix }}{{ page.og_image | remove_first: "/" }}">
+  {% assign og_slug = page.url | remove_first: "/" | split: "/" | join: "-" %}
+  {% if og_slug == "" %}{% assign og_slug = "index" %}{% endif %}
+  {% assign og_path = "/assets/og/" | append: og_slug | append: ".png" %}
+  {% assign og_file = site.static_files | where: "path", og_path | first %}
+  {% if og_file %}
+  <meta property="og:image" content="{{ site.url }}{{ site.image_prefix }}assets/og/{{ og_slug }}.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   {% endif %}
