@@ -73,5 +73,7 @@ og_image:
       template: _og/recipe.html 
     - path: /
       template: _og/index.html
+    - path: /public/the-100-best-indie-rock-albums-of-all-time
+      template: false
     - collection: playlists
       template: _og/playlist.html
