@@ -615,6 +615,19 @@
   date: 11/11/26
   wiki: https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time_(2026_video_game)
 
+- title: Shadow Complex Remastered
+  platform: macOS
+  developer: Chair Entertainment
+  publisher: Epic Games
+  year: 2009 (2016)
+  image: /public/media/posts/games/2026/shadowcomplex.jpg
+  text: |
+    I was a fan of _Shadow Complex_ way back when it was released on the Xbox Live Arcade. If I remember correctly, I spent a chunk of the 2010 holiday season playing through it on our Xbox 360. I really enjoyed _Cave Story_ and have generally considered myself a metroidvania fan despite not ever actually beating neither _Super Metroid_ nor _Symphony of the Night_. However I really enjoy both Game Boy Advance Metroid games and all three of the Castlevania games (though I think that the DS sequel _Dawn of Sorrow_ is the best of them all). So, in 2009, when the metroidvania genre seemed mostly dead, it was quite a revelation when _Shadow Complex_ came out of nowhere from a developer I'd never heard of. Not only that, but it also nearly perfects the 2.5D design that even to this day I'm not sure any other metroidvania has done quite as well. Because it was exclusive to the Xbox Live Arcade, it then mostly wallowed in obscurity until in 2016 it was suddenly re-released and remastered. I seem to recall playing through it then and was pleased. Unfortunately in the 10 years since then, it's sat more neglected than ever save for the saving grace that is it still being listed on Steam. Specifically the macOS port seems to be stuck in 32bit Intel land. I _think_ it would still work on modern macOS but I just plain don't like using Rosetta. And all the kids these days are doing AI "recomps" so I figured I'd have a go at it. Long story short, I got it running great natively on Apple Silicon complete with a new Metal renderer (upgraded from the original OpenGL). I did have a handful of random crashes but my play through was totally fine. I had a blast with it. Unlike other vanias, I didn't find myself stuck. A handful of the secret upgrades were a bit perplexing but overall it's a fun, simple, straightforward, and easy to pick up game. The story is interesting but mostly forgettable, I guess it's some kind of a tie-in with an Orson Scott Card book or something. I'd highly recommend checking it out even if you've never played a game in the genre.
+
+    [Check out the recomp on Github.](https://github.com/catskull/ShadowComplex-Recomp)
+  date: 11/24/26
+  wiki: https://en.wikipedia.org/wiki/Shadow_Complex
+
 - title: 
   platform: 
   developer: 
