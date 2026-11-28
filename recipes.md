@@ -8,7 +8,8 @@ I absolutely hated cooking until a few years ago. The problem is I'm too lazy to
 
 It's important to document who we are – including what we eat. Here's some recipes I come back to from time to time. Experimentation is encouraged.
 
-{% for recipe in site.recipes %}
+{% assign recipes = site.recipes | sort: "name" %}
+{% for recipe in recipes %}
   <h2>
     <a href="{{ recipe.url }}">
       {{ recipe.name }}
