@@ -6,16 +6,27 @@ title: bookshelf - catskull.net
 
 # bookshelf
 
+A log of books I've read.
+
+{% if site.data.books %}
+{% assign years = site.data.books | sort: "date" | reverse | group_by_exp: "book", "book.date | date: '%Y'" %}
 <section id="bookshelf">
-  <ul>
-    {% for book in site.data.books %}
-      <li class="book-item">
-        <h3 class="book-title">{{ book.title }} {% if book.wiki %}<a href="{{book.wiki}}" target="_blank">↗</a>{% endif %}</h3>
-        <p class="book-author">{{ book.author }} (<time datetime="{{ book.published }}">{{ book.published }}</time>)</p>
-      </li>
-    {% endfor %}
-  </ul>
+{% for year in years %}
+<h2 id="{{ year.name }}">{{ year.name }}</h2>
+{% for book in year.items %}
+{% assign slug = book.title | slugify %}
+<h3 id="{{ slug }}"># <a href="#{{ slug }}">{{ book.title }}</a></h3>
+<p>{{ book.author }} [{{ book.published }}]{% if book.wiki %} | {% include external_link.html href=book.wiki text="wiki" %}{% endif %}</p>
+<p><time datetime="{{ book.date | date: '%Y-%m-%d' }}">{{ book.date | date: '%B %-d %Y' }}</time></p>
+{% if book.text %}
+{{ book.text | markdownify }}
+{% endif %}
+{% endfor %}
+{% endfor %}
 </section>
+{% else %}
+Nothing logged yet.
+{% endif %}
 
 <hr class="final">
 <div style="text-align:center;">
@@ -26,4 +37,4 @@ title: bookshelf - catskull.net
 {% include footer.html %}
 
 <script src="https://catskull.net/public/js/components/replies.js"></script>
-<script src="http://localhost:8000/likes.js?true=false"></script>
+<script src="https://catskull.net/public/js/components/likes.js"></script>
